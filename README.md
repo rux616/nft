@@ -3,7 +3,7 @@ Neocron File Tool: Old, OLD tool I developed way back in the day for de/compress
 
 ## Note
 
-* Tool code is in "Neocron File Tool" directory
+* The tool itself is in "Neocron File Tool" directory
 
 * This repo exists solely for archival purposes
 
