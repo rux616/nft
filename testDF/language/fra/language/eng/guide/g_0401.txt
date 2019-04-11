@@ -1,0 +1,12 @@
+Le système de compétences de Neocron 
+Le système de compétences de Neocron est facile à apprendre. Il comporte cinq attributs et plusieurs compétences correspondantes. Si vous gagnez un niveau dans un attribut, vous recevez 5 points à dépenser dans les compétences qui dépendent de cet attribut. Vous trouverez une description de chaque attribut et compétence dans les pages suivantes.
+
+Intelligence
+Force
+Constitution
+Dextérité
+Pouvoir PSI
+
+Cliquez sur les attributs ci-dessus pour lire la description des compétences correspondantes.
+
+ 

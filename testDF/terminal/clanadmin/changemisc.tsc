@@ -1,0 +1,286 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: clanadmin - changemisc.tsc
+// content:
+// show apartment, owner, accesscode, etc.
+// only leader can see this page and change things
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+// Specials: Scrollbar: X: 557 - 572 Y: 110 - 364 (+2/-2)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_clanadmin.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "DCBCheckClanStats"
+	{
+		OnLoad( TryAccess( "DCBClanAdminAccess", 218, GetEnv("G_CLANID") ) );
+	}
+	
+	DATACONTROLBOX "DCBClanAdminAccess"
+	{
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 200)", "8") );
+		OnAccessError( ChangePage("Page", ".\terminal\clanadmin\message.tsc") );
+	}
+
+	DATACONTROLBOX "DCBGetClanData"
+	{
+		OnLoad( ReceiveDB( "DCBSetClanData", 523, GetEnv("G_CLANID") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetClanData"
+	{
+		SetContent("Short", 0);
+		SetContent("ENV_CLANSHORT", 0);
+		SetContent("Clanname", 1);
+		SetContent("ENV_CLANNAME", 1);
+		SetContent("ENV_LEADERID", 2);
+		SetContent("Description", 3);
+		SetContent("ENV_CLANDESC", 3);
+		SetContent("M.Sympathy", 4);
+		SetContent("ENV_MINSYMP", 4);
+	}
+	
+	DATACONTROLBOX "DCBSetClanLeaderData"
+	{
+		OnLoad( ReceiveDB( "DCBSetClanLeaderData", 148, GetEnv("G_CLANID") ) );
+		SetContent("ENV_LEADERID", 0);
+		SetContent("ENV_LEADERNAME", 1);
+		SetContent("Clanleader", 1);
+	}
+	
+	DATACONTROLBOX "DCBGetApartmentData"
+	{
+		OnLoad( ReceiveDB( "DCBSetApartmentData", 181, GetEnv("CAPPID") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetApartmentData"
+	{
+		SetContent("Apartmentowner", 0);
+		SetContent("Location of Apartment", 1);
+		SetContent("Security Code", 2);
+	}
+	
+	DATACONTROLBOX "DCBChangeClanShortName"
+	{
+		OnAccess( UpdateDB("DCBMessage", 525, GetControlText("Short"),
+		                                      GetEnv("G_CLANID"),
+		                                      GetEnv("G_CHARID") ) );
+		OnAccess( ReceiveDB( "DCBSetClanData", 523, GetEnv("G_CLANID") ) );
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 200)", "8") );
+		OnAccessError( ChangePage("Page", ".\terminal\clanadmin\message.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBChangeClanName"
+	{
+		OnAccess( UpdateDB("DCBMessage", 526, GetControlText("Clanname"),
+		                                      GetEnv("G_CLANID"),
+		                                      GetEnv("G_CHARID") ) );
+		OnAccess( ReceiveDB( "DCBSetClanData", 523, GetEnv("G_CLANID") ) );
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 200)", "8") );
+		OnAccessError( ChangePage("Page", ".\terminal\clanadmin\message.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBChangeApartmentAccessCode"
+	{
+		OnAccess( UpdateDB("DCBMessage", 527, GetControlText("Security Code"),
+		                                      GetEnv("CAPPID"),
+		                                      GetEnv("G_CHARID") ) );
+		OnAccess( ReceiveDB( "DCBSetApartmentData", 181, GetEnv("CAPPID") ) );
+		
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 168)", "0") );
+		OnAccessError( ChangePage("Page", ".\terminal\clanadmin\message.tsc") );
+		
+		// old one	
+		//OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 200)", "8") );
+		//OnAccessError( ChangePage("Page", ".\terminal\clanadmin\message.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBChangeClanMinSympathy"
+	{
+		OnAccess( UpdateDB("DCBMessage", 528, GetControlText("M.Sympathy"),
+		                                      GetEnv("G_CLANID"),
+		                                      GetEnv("G_CHARID") ) );
+		OnAccess( ReceiveDB( "DCBSetClanData", 523, GetEnv("G_CLANID") ) );
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 200)", "8") );
+		OnAccessError( ChangePage("Page", ".\terminal\clanadmin\message.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBChangeClanDescription"
+	{
+		OnAccess( UpdateDB("DCBMessage", 529, GetControlText("Description"),
+		                                      GetEnv("G_CLANID"),
+		                                      GetEnv("G_CHARID") ) );
+		OnAccess( ReceiveDB( "DCBSetClanData", 523, GetEnv("G_CLANID") ) );
+		
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 200)", "8") );
+		OnAccessError( ChangePage("Page", ".\terminal\clanadmin\message.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBMessage"
+	{
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 220)", "0") );
+		OnAccessError( ChangePage("Page", ".\terminal\clanadmin\message.tsc") );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "AFF. Faction"
+	{
+		LayOut(2);
+		Size( 50, 40, 220, 130);
+		Alpha(255);
+		Color( 140, 239, 181);
+		Image( Resource(50, 3) );
+		SubImage( 0, 125, 251, 250);
+		FunctionText("%BITMAP(50, 1, 3)" );
+		
+		OnMouse( ChangePage( "Page", ".\terminal\factioninfo\factioninfo.tsc") );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	DATACONTROLBOX "DCBGetFaction"
+	{
+		OnLoad( SetContent("AFF. Faction", GetEnv("FACTIONID") ) );
+	}
+	
+	TEXTBUTTON "DETAILS"
+	{
+		LayOut(7);
+		Size(162, 134, 212, 141);
+		OnMouse( ChangePage( "Page", ".\terminal\factioninfo\factioninfo.tsc") );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	EDITBOX "Short"
+	{
+		LayOut(1);
+		Size(234, 40, 294, 52);
+		MaxBuffer(16);
+	}
+	
+	TEXTBUTTON "UPD."
+	{
+		LayOut(7);
+		Size(262, 56, 287, 63);
+		OnMouse( TryAccess("DCBChangeClanShortName", 218, GetEnv("G_CLANID") ) );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	EDITBOX "Clanname"
+	{
+		LayOut(2);
+		Size(308, 40, 571, 52);
+		MaxBuffer(64);
+	}
+	
+	TEXTBUTTON "UPDATE"
+	{
+		LayOut(7);
+		Size(518, 56, 563, 63);
+		OnMouse( TryAccess("DCBChangeClanName", 218, GetEnv("G_CLANID") ) );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	EDITBOX "Description"
+	{
+		Layout(2);
+		Size(234, 74, 571, 130); 
+		Params(Multiline);
+		MaxBuffer(256);
+	}
+	
+	TEXTBUTTON "UPDATE"
+	{
+		LayOut(7);
+		Size(518, 134, 563, 141);
+		OnMouse( TryAccess("DCBChangeClanDescription", 218, GetEnv("G_CLANID") ) );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+	
+	TEXT "Clanleader"
+	{
+		LayOut(2);
+		Size(50, 180, 220, 192);
+	}
+	
+	TEXT "Apartmentowner"
+	{
+		LayOut(2);
+		Size(50, 214, 220, 226);
+	}
+
+	EDITBOX "Security Code"
+	{
+		LayOut(2);
+		Size(50, 248, 220, 260);
+		MaxBuffer(32);
+	}
+	
+	TEXTBUTTON "UPDATE"
+	{
+		LayOut(7);
+		Size(162, 264, 212, 271);
+		OnMouse( TryAccess("DCBChangeApartmentAccessCode", 189, GetControlText("Security Code") ) );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	EDITBOX "M.Sympathy"
+	{
+		LayOut(2);
+		Size(50, 282, 220, 296);
+		MaxBuffer(4);
+	}
+	
+	TEXTBUTTON "UPDATE"
+	{
+		LayOut(7);
+		Size(162, 300, 212, 307);
+		OnMouse( TryAccess("DCBChangeClanMinSympathy", 218, GetEnv("G_CLANID") ) );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	TEXT "Location of Apartment"
+	{
+		LayOut(2);
+		Size(234, 180, 571, 192);
+		FunctionText("%TABLERSC(27, 0, 0)");
+	}
+	
+	FRAME "Message"
+	{
+		LayOut(4);
+		Size(234, 214, 555, 408);
+		
+		FRAME "Client2"
+		{
+			Size(-1, -1, -1, -1);
+		
+			TEXT "TXMessage"
+			{
+				Pos(0, 0);
+				Width(320);
+				"3";
+				FunctionText("%TEXTRSC(6, 2570)");
+			}       								
+		
+		} // end client
+		
+	} // end main
+
+	SCROLLBAR "Scrollbar"
+	{
+		Size(557, 216, 571, 406);
+		Target("Message");
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

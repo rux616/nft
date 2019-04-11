@@ -1,0 +1,924 @@
+
+setentry	1000	"NC SUBWAY"	1	" "	16	|	
+
+
+
+setentry	1	"PLAZA SEC-1"	1	|	
+setentry	2	"PLAZA SEC-2"	1	|	
+setentry	101	"PLAZA SEC-3"	1	|	
+setentry	102	"PLAZA SEC-4"	1	|	
+
+setentry	104	"CONCENTER"	14	" "	16	|	
+setentry	105	"CITYADMIN"	14	" "	16	|	
+setentry	107	"DIAMOND RE HQ"	14	" "	16	|	
+setentry	108	"NEXT HQ"	14	" "	16	|	
+setentry	109	"JOBCENTER"	14	" "	16	|	
+
+
+
+setentry	3	"VIAROSSO SEC-1"	1	|	
+setentry	4	"VIAROSSO SEC-2"	1	|	
+setentry	401	"VIAROSSO SEC-3"	1	|	
+setentry	402	"PROTO PHARM LAB"	14	|	
+setentry	403	"NC BANK"	14	" "	16	|	
+setentry	404	"NCPD"	14	" "	16	|	
+
+setentry	405	"TANGENT HQ"	14	" "	16	|	
+setentry	406	"BIOTECH HQ"	14	" "	16	|	
+setentry	407	"PROTO PHARM HQ"	14	" "	16	|	
+
+
+setentry	5	"PEPPER SEC-1"	1	|	
+setentry	6	"PEPPER SEC-2"	1	|	
+setentry	7	"PEPPER SEC-3"	1	|	
+
+setentry	601	"PEPPER MAZE"	15	|	
+setentry	602	"CLUB VERONIQUE"	17	" "	16	|	
+setentry	603	"BUM ASYLUM"	5	|	
+setentry	604	"ABANDONED CRAHN CHURCH"	5	|	
+setentry	605	"PUSSY CLUB"	15	" "	16	|	
+setentry	606	"BLACK DRAGON FACTION OFFICE"	5	|	
+setentry	607	"SECRET PASSAGE"	6	|	
+setentry	608	"NEOFRAG 1"	15	|	
+setentry	609	"SHOOTING RANGE"	15	|	
+setentry	610	"PEPPER PUB"	17	" "	16	|	
+setentry	611	"ABANDONED BLACK DRAGON HQ"	5	|	
+setentry	612	"TWISTER"	17	" "	16	|	
+setentry	613	"ABANDONED TSUNAMI HQ"	5	|	
+setentry	614	"SECRET PASSAGE 2"	6	|	
+setentry	615	"NEOFRAG 2"	15	|	
+
+
+setentry	8	"IND. A. SEC-1"	3	|	
+setentry	801	"IND. A. SEC-2"	3	|	
+
+
+setentry	9	"OUTZONE SEC-1"	8	|	
+setentry	10	"OUTZONE SEC-2"	8	|	
+setentry	11	"OUTZONE SEC-3"	8	|	
+setentry	12	"OUTZONE SEC-4"	8	|	
+setentry	13	"OUTZONE SEC-5"	8	|	
+setentry	20	"OUTZONE SEC-6"	8	|	
+setentry	21	"OUTZONE SEC-7"	8	|	
+setentry	22	"OUTZONE SEC-8"	8	" "	8	|	
+setentry	23	"OUTZONE SEC-9"	8	|	
+setentry	24	"OUTZONE STATION"	3	|	
+
+
+setentry	40	"RECREATION CRYO LAB"	10	|	
+setentry	41	"ABANDONED SUBWAY"	11	|	
+setentry	42	"MAINTENANCE AREA"	10	|	
+setentry	43	"HOVER CAB SYSTEM"	13	|	
+setentry	44	"PLAZA SEC-1"	12	|	
+setentry	45	"PLAZA SEC-2"	13	|	
+setentry	46	"NC TUTORIAL AREA"	13	".\worlds\outzone\lostpart_p1_tut.dat"	|	
+
+
+
+setentry	700	"MINING FACILITY 1"	3	|	
+setentry	701	"MINING FACILITY 2"	3	|	
+setentry	704	"MINING FACILITY 3"	3	|	
+
+
+setentry	500	"TECH HAVEN SEC-1"	3	" "	16	|	
+setentry	502	"TH REACTOR AREA 1"	8	|	
+setentry	503	"TECH HAVEN SEC-2"	3	" "	16	|	
+setentry	504	"TECH HAVEN SEC-3"	3	" "	16	|	
+
+
+setentry	550	"DARKMETAL SEC-1"	16	|	
+setentry	551	"DARKMETAL SEC-2"	16	|	
+
+
+setentry	650	"OLD CANYON"	3	|	
+
+
+
+setentry	750	"MILITARY BASE SEC-1"	16	|	
+setentry	751	"CITYMERCS HQ"	16	|	
+setentry	752	"MILITARY BASE SEC-3"	3	|	
+setentry	753	"MILITARY ENTRANCE"	3	|	
+
+
+setentry	853	"CRYSTAL CAVE 1"	6	|	
+setentry	854	"CRYSTAL CAVE 2"	6	|	
+setentry	855	"CRYSTAL CAVE 3"	6	|	
+
+
+
+setentry	900	"MAINSEWER SEC-1"	6	|	
+setentry	901	"MAINSEWER SEC-3"	6	|	
+setentry	902	"MAINSEWER SEC-5"	6	|	
+setentry	903	"MAINSEWER SEC-7"	6	|	
+
+setentry	904	"MAINSEWER SEC-2"	6	|	
+setentry	905	"MAINSEWER SEC-4"	6	|	
+setentry	906	"MAINSEWER SEC-6"	6	|	
+setentry	907	"MAINSEWER SEC-8"	6	|	
+
+
+
+
+setentry	920	"LVL1 CITYSEWER SEC-1A"	6	" "	1	|	
+setentry	921	"LVL1 CITYSEWER SEC-2A"	6	" "	1	|	
+setentry	922	"LVL1 CITYSEWER SEC-3A"	6	" "	1	|	
+setentry	923	"LVL1 CITYSEWER SEC-4B"	6	".\worlds\citysewer\plazasewer_4d2.dat"	1	|	
+setentry	924	"LVL1 CITYSEWER SEC-2B"	6	" "	1	|	
+setentry	925	"LVL1 CITYSEWER SEC-3B"	6	" "	1	|	
+setentry	926	"LVL1 CITYSEWER SEC-1C"	6	".\worlds\citysewer\plazasewer_1a2.dat"	1	|	
+setentry	927	"LVL1 CITYSEWER SEC-4C"	6	".\worlds\citysewer\plazasewer_4d3.dat"	1	|	
+setentry	928	"LVL1 CITYSEWER SEC-3C"	6	".\worlds\citysewer\plazasewer_3b2.dat"	1	|	
+setentry	929	"LVL1 CITYSEWER SEC-1D"	6	" "	1	|	
+setentry	930	"LVL1 CITYSEWER SEC-2D"	6	".\worlds\citysewer\plazasewer_2b2.dat"	1	|	
+setentry	931	"LVL1 CITYSEWER SEC-3D"	6	".\worlds\citysewer\plazasewer_3a2.dat"	1	|	
+
+
+setentry	940	"CITYSEWER SEC-P/1A"	6	" "	1	|	
+setentry	941	"CITYSEWER SEC-P/2A"	6	" "	1	|	
+setentry	942	"CITYSEWER SEC-P/3A"	6	" "	1	|	
+setentry	943	"CITYSEWER SEC-P/1B"	6	" "	1	|	
+setentry	944	"CITYSEWER SEC-P/2B"	6	" "	1	|	
+setentry	945	"CITYSEWER SEC-P/3B-3A2"	6	".\worlds\citysewer\peppersewer_3a2.dat"	1	|	
+setentry	946	"CITYSEWER SEC-P/1C-1B2"	6	".\worlds\citysewer\peppersewer_1b2.dat"	1	|	
+setentry	947	"CITYSEWER SEC-P/3C-3A3"	6	".\worlds\citysewer\peppersewer_3a3.dat"	1	|	
+
+setentry	950	"CITYSEWER SEC-P/1A-1A1"	6	".\worlds\citysewer\peppersewer_1a1.dat"	1	|	
+setentry	951	"CITYSEWER SEC-P/3B-3A4"	6	".\worlds\citysewer\peppersewer_3a4.dat"	1	|	
+setentry	952	"CITYSEWER SEC-P/3B"	6	" "	1	|	
+setentry	953	"CITYSEWER SEC-P/3C"	6	" "	1	|	
+setentry	954	"CITYSEWER SEC-P/3C-3C1"	6	".\worlds\citysewer\peppersewer_3c1.dat"	1	|	
+setentry	955	"CITYSEWER SEC-P/1C"	6	" "	1	|	
+setentry	956	"CITYSEWER SEC-P/1C-1C1"	6	".\worlds\citysewer\peppersewer_1c1.dat"	1	|	
+setentry	957	"CITYSEWER SEC-P/1C-1C2"	6	".\worlds\citysewer\peppersewer_1c2.dat"	1	|	
+setentry	958	"CITYSEWER SEC-P/1C-1C3"	6	".\worlds\citysewer\peppersewer_1c3.dat"	1	|	
+setentry	959	"CITYSEWER SEC-P/3B-3B1"	6	".\worlds\citysewer\peppersewer_3b1.dat"	1	|	
+setentry	960	"CITYSEWER SEC-P/2B-2B1"	6	".\worlds\citysewer\peppersewer_2b1.dat"	1	|	
+
+
+setentry	970	"LVL1 CITYSEWER SEC-1A"	6	".\worlds\citysewer\plazasewer_1c2.dat"	1	|	
+setentry	971	"LVL1 CITYSEWER SEC-2A"	6	".\worlds\citysewer\plazasewer_2d2.dat"	1	|	
+setentry	972	"LVL1 CITYSEWER SEC-3A"	6	".\worlds\citysewer\plazasewer_3d2.dat"	1	|	
+setentry	973	"LVL1 CITYSEWER SEC-4B"	6	" "	1	|	
+setentry	974	"LVL1 CITYSEWER SEC-2B"	6	".\worlds\citysewer\plazasewer_2d3.dat"	1	|	
+setentry	975	"LVL1 CITYSEWER SEC-3B"	6	".\worlds\citysewer\plazasewer_3c2.dat"	1	|	
+setentry	976	"LVL1 CITYSEWER SEC-1C"	6	" "	1	|	
+setentry	977	"LVL1 CITYSEWER SEC-4C"	6	" "	1	|	
+setentry	978	"LVL1 CITYSEWER SEC-3C"	6	" "	1	|	
+setentry	979	"LVL1 CITYSEWER SEC-1D"	6	".\worlds\citysewer\plazasewer_4b2.dat"	1	|	
+setentry	980	"LVL1 CITYSEWER SEC-2D"	6	" "	1	|	
+setentry	981	"LVL1 CITYSEWER SEC-3D"	6	" "	1	|	
+
+
+
+setentry	999	"MILITARY STORAGE 1"	3	" "	1	|	
+setentry	1001	"MILITARY STORAGE 2"	3	" "	1	|	
+setentry	1002	"MILITARY STORAGE 3"	3	" "	1	|	
+setentry	1003	"MILITARY STORAGE 4"	3	" "	1	|	
+setentry	1004	"MILITARY STORAGE 5"	3	" "	1	|	
+setentry	1005	"MILITARY STORAGE 6"	3	" "	1	|	
+
+
+
+setentry	1006	"ENERGY CORE 1"	5	" "	1	|	
+setentry	1007	"ENERGY CORE 2"	5	" "	1	|	
+setentry	1008	"ENERGY CORE 3"	5	" "	1	|	
+setentry	1009	"ENERGY CORE 4"	5	" "	1	|	
+setentry	1010	"ENERGY CORE 5"	5	" "	1	|	
+setentry	1011	"ENERGY CORE 6"	5	" "	1	|	
+
+
+
+setentry	1012	"CANYON CAVES 1"	6	" "	1	|	
+setentry	1013	"CANYON CAVES 2"	6	" "	1	|	
+setentry	1014	"CANYON CAVES 3"	6	" "	1	|	
+setentry	1015	"CANYON CAVES 4"	6	" "	1	|	
+setentry	1016	"CANYON CAVES 5"	6	" "	1	|	
+setentry	1017	"CANYON CAVES 6"	6	" "	1	|	
+
+
+
+setentry	1018	"SWAMP CAVES 1"	6	" "	1	|	
+setentry	1019	"SWAMP CAVES 2"	6	" "	1	|	
+setentry	1020	"SWAMP CAVES 3"	6	" "	1	|	
+setentry	1021	"SWAMP CAVES 4"	6	" "	1	|	
+setentry	1022	"SWAMP CAVES 5"	6	" "	1	|	
+setentry	1023	"SWAMP CAVES 6"	6	" "	1	|	
+
+
+
+setentry	1024	"WORM TUNNELS 1"	6	" "	1	|	
+setentry	1025	"WORM TUNNELS 2"	6	" "	1	|	
+setentry	1026	"WORM TUNNELS 3"	6	" "	1	|	
+setentry	1027	"WORM TUNNELS 4"	6	" "	1	|	
+setentry	1028	"WORM TUNNELS 5"	6	" "	1	|	
+setentry	1029	"WORM TUNNELS 6"	6	" "	1	|	
+
+
+
+setentry	1030	"DESERT UNDERGROUND CITY 1"	6	" "	1	|	
+setentry	1031	"DESERT UNDERGROUND CITY 1"	6	" "	1	|	
+
+
+
+
+setentry	1032	"DANGEROUS CANYON CAVE"	6	".\worlds\canyon\cavemap1a.dat"	1	|	
+setentry	1033	"DANGEROUS CANYON CAVE"	6	".\worlds\canyon\cavemap2a.dat"	1	|	
+setentry	1034	"DANGEROUS CANYON CAVE"	6	".\worlds\canyon\cavemap3a.dat"	1	|	
+
+
+
+setentry	1035	"CALIDA VILLAGE STORAGE"	3	".\worlds\outzone\storage1a.dat"	1	|	
+setentry	1036	"RED POINT STORAGE"	3	".\worlds\outzone\storage2a.dat"	1	|	
+setentry	1037	"SHERMAN BAY STORAGE"	3	".\worlds\outzone\storage3a.dat"	1	|	
+
+
+
+setentry	1040	"STORAGE HALLS 1"	3	" "	1	|	
+setentry	1041	"STORAGE HALLS 2"	3	" "	1	|	
+setentry	1042	"STORAGE HALLS 3"	3	" "	1	|	
+setentry	1043	"STORAGE HALLS 4"	3	" "	1	|	
+setentry	1044	"STORAGE HALLS 5"	3	" "	1	|	
+setentry	1045	"STORAGE HALLS 6"	3	" "	1	|	
+
+
+setentry	1050	"GRAVE"	6	|	
+
+
+setentry	1060	"Abandoned Cellar Lvl. 4"	3	".\worlds\sewer\sewer_p4_x3.dat"	1	|	
+setentry	1061	"Abandoned Cellar Lvl. 4"	3	".\worlds\sewer\sewer_p4_x31.dat"	1	|	
+setentry	1062	"Abandoned Cellar Lvl. 5"	3	".\worlds\sewer\sewer_p4_x2.dat"	1	|	
+setentry	1063	"Abandoned Cellar Lvl. 5"	3	".\worlds\sewer\sewer_p4_x21.dat"	1	|	
+setentry	1064	"Abandoned Cellar Lvl. 6"	3	".\worlds\sewer\sewer_p4_x1.dat"	1	|	
+setentry	1065	"Abandoned Cellar Lvl. 7"	3	".\worlds\sewer\sewer_p4_x11.dat"	1	|	
+
+
+setentry	1070	"Abandoned Basement Lvl. 1"	3	".\worlds\bop\underground_min_x1.dat"	1	|	
+setentry	1071	"Abandoned Basement Lvl. 1"	3	".\worlds\bop\underground_min_x11.dat"	1	|	
+setentry	1072	"Abandoned Basement Lvl. 2"	3	".\worlds\bop\underground_min_x2.dat"	1	|	
+setentry	1073	"Abandoned Basement Lvl. 2"	3	".\worlds\bop\underground_min_x21.dat"	1	|	
+
+setentry	1075	"Abandoned Rooms Lvl. 3"	3	".\worlds\bop\underground_lab_x1.dat"	1	|	
+setentry	1076	"Abandoned Rooms Lvl. 3"	3	".\worlds\bop\underground_lab_x11.dat"	1	|	
+setentry	1077	"Abandoned Rooms Lvl. 4"	3	".\worlds\bop\underground_lab_x2.dat"	1	|	
+setentry	1078	"Abandoned Rooms Lvl. 4"	3	".\worlds\bop\underground_lab_x21.dat"	1	|	
+
+
+setentry	1100	"TWILIGHT GUARDIAN SECTOR -01-"	3	" "	|	
+setentry	1101	"FALLEN ANGELS SECTOR -03-"	3	" "	|	
+setentry	1102	"BROTHERHOOD OF CRAHN SECTOR -02-"	3	" "	|	
+setentry	1103	"ABANDONED SECTOR -05-"	8	" "	8	|	
+setentry	1104	"ABANDONED SECTOR -04-"	8	" "	8	|	
+setentry	1105	"DOY CITY CENTER -06-"	3	" "	|	
+setentry	1106	"TSUNAMI SECTOR -07-"	3	" "	|	
+setentry	1107	"ABANDONED SECTOR -10-"	8	" "	8	|	
+setentry	1108	"ABANDONED SECTOR -09-"	8	" "	8	|	
+setentry	1109	"BLACK DRAGON SECTOR -08-"	3	" "	|	
+
+setentry	1110	"TWILIGHT GUARDIAN HQ"	16	" "	16	|	
+setentry	1111	"FALLEN ANGELS HQ"	15	" "	16	|	
+setentry	1112	"BROTHERHOOD OF CRAHN HQ"	3	" "	16	|	
+setentry	1116	"TSUNAMI SYNDICATE HQ"	15	" "	16	|	
+setentry	1119	"BLACK DRAGON HQ"	16	" "	16	|	
+
+
+setentry	1300	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen1e1.dat"	1	|	
+setentry	1301	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen2e1.dat"	1	|	
+setentry	1302	"DOY Sewer Lvl. 1"	3	".\worlds\doy\dungeons\sewer\sewer1e1.dat"	1	|	
+setentry	1303	"DOY Storage Lvl. 1"	3	".\worlds\doy\dungeons\storage\storagee1.dat"	1	|	
+
+setentry	1304	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen1e2.dat"	1	|	
+setentry	1305	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen2e2.dat"	1	|	
+setentry	1306	"DOY Sewer Lvl. 1"	3	".\worlds\doy\dungeons\sewer\sewer2e1.dat"	1	|	
+setentry	1307	"DOY Storage Lvl. 1"	3	".\worlds\doy\dungeons\storage\storagee2.dat"	1	|	
+
+setentry	1308	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen1e3.dat"	1	|	
+setentry	1309	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen2e3.dat"	1	|	
+setentry	1310	"DOY Sewer Lvl. 1"	3	".\worlds\doy\dungeons\sewer\sewer1e2.dat"	1	|	
+setentry	1311	"DOY Storage Lvl. 1"	3	".\worlds\doy\dungeons\storage\storagee3.dat"	1	|	
+
+setentry	1312	"DOY Sidestreet Lvl. 4"	3	".\worlds\doy\dungeons\side\gassen1m1.dat"	1	|	
+setentry	1313	"DOY Sewer Lvl. 4"	3	".\worlds\doy\dungeons\sewer\sewer2m1.dat"	1	|	
+setentry	1314	"DOY Bunker Lvl. 4"	3	".\worlds\doy\dungeons\bunker\bunker1m1.dat"	1	|	
+setentry	1315	"DOY Storage Lvl. 4"	3	".\worlds\doy\dungeons\storage\storagem1.dat"	1	|	
+
+setentry	1316	"DOY Bunker Lvl. 8"	3	".\worlds\doy\dungeons\bunker\bunker1h1.dat"	1	|	
+setentry	1317	"DOY Bunker Lvl. 8"	3	".\worlds\doy\dungeons\bunker\bunker2h1.dat"	1	|	
+setentry	1318	"DOY Storage Lvl. 8"	3	".\worlds\doy\dungeons\storage\storageh1.dat"	1	|	
+
+setentry	1319	"DOY Sidestreet Lvl. 4"	3	".\worlds\doy\dungeons\side\gassen2m1.dat"	1	|	
+setentry	1320	"DOY Sewer Lvl. 4"	3	".\worlds\doy\dungeons\sewer\sewer1m1.dat"	1	|	
+setentry	1321	"DOY Bunker Lvl. 4"	3	".\worlds\doy\dungeons\bunker\bunker1m2.dat"	1	|	
+setentry	1322	"DOY Storage Lvl. 4"	3	".\worlds\doy\dungeons\storage\storagem2.dat"	1	|	
+
+setentry	1323	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen1e4.dat"	1	|	
+setentry	1324	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen2e4.dat"	1	|	
+setentry	1325	"DOY Sewer Lvl. 1"	3	".\worlds\doy\dungeons\sewer\sewer2e2.dat"	1	|	
+setentry	1326	"DOY Storage Lvl. 1"	3	".\worlds\doy\dungeons\storage\storagee4.dat"	1	|	
+
+setentry	1327	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen1e5.dat"	1	|	
+setentry	1328	"DOY Sidestreet Lvl. 1"	3	".\worlds\doy\dungeons\side\gassen2e5.dat"	1	|	
+setentry	1329	"DOY Sewer Lvl. 1"	3	".\worlds\doy\dungeons\sewer\sewer2e3.dat"	1	|	
+setentry	1330	"DOY Storage Lvl. 1"	3	".\worlds\doy\dungeons\storage\storagee5.dat"	1	|	
+
+setentry	1331	"DOY Bunker Lvl. 8"	3	".\worlds\doy\dungeons\bunker\bunker1h2.dat"	1	|	
+setentry	1332	"DOY Bunker Lvl. 8"	3	".\worlds\doy\dungeons\bunker\bunker2h2.dat"	1	|	
+setentry	1333	"DOY Storage Lvl. 8"	3	".\worlds\doy\dungeons\storage\storageh2.dat"	1	|	
+
+setentry	1334	"DOY Sidestreet Lvl. 4"	3	".\worlds\doy\dungeons\side\gassen2m2.dat"	1	|	
+setentry	1335	"DOY Sewer Lvl. 4"	3	".\worlds\doy\dungeons\sewer\sewer2m2.dat"	1	|	
+setentry	1336	"DOY Bunker Lvl. 4"	3	".\worlds\doy\dungeons\bunker\bunker2m1.dat"	1	|	
+setentry	1337	"DOY Storage Lvl. 4"	3	".\worlds\doy\dungeons\storage\storagem3.dat"	1	|	
+
+
+setentry	1340	"JUGGERNAUT FACILITY"	8	".\worlds\doy\scenarios\juggernaut.dat"	1	|	
+
+
+setentry	1345	"CERES TEMPLE"	6	" "	1	|	
+
+
+
+setentry	1350	"Water Cleaning Sec 1"	6	".\worlds\doy\dungeons\clearing\clearing1.dat"	1	|	
+setentry	1351	"Water Cleaning Sec 2"	6	".\worlds\doy\dungeons\clearing\clearing2.dat"	1	|	
+setentry	1352	"Water Cleaning Sec 3"	6	".\worlds\doy\dungeons\clearing\clearing3.dat"	1	|	
+setentry	1353	"Water Cleaning Sec 4"	6	".\worlds\doy\dungeons\clearing\clearing4.dat"	1	|	
+setentry	1354	"Water Cleaning Sec5"	6	".\worlds\doy\dungeons\clearing\clearing5.dat"	1	|	
+setentry	1355	"Water Cleaning Sec 6"	6	".\worlds\doy\dungeons\clearing\clearing6.dat"	1	|	
+setentry	1356	"Water Cleaning Sec 7"	6	".\worlds\doy\dungeons\clearing\clearing7.dat"	1	|	
+setentry	1357	"Water Cleaning Sec 8"	6	".\worlds\doy\dungeons\clearing\clearing8.dat"	1	|	
+setentry	1358	"Water Cleaning Sec 9"	6	".\worlds\doy\dungeons\clearing\clearing9.dat"	1	|	
+setentry	1359	"Water Cleaning Sec 10"	6	".\worlds\doy\dungeons\clearing\clearing10.dat"	1	|	
+
+
+setentry	1400	"Ceres BioGenetics Lab Alpha"	8	".\worlds\dungeons\woc\woc_biogenetic01a.dat"	1	|	
+setentry	1401	"Ceres BioGenetics Lab Alpha - Sub Level"	8	".\worlds\dungeons\woc\woc_biogenetic02a.dat"	1	|	
+
+setentry	1402	"Ceres BioGenetics Lab Beta"	8	".\worlds\dungeons\woc\woc_biogenetic01b.dat"	1	|	
+setentry	1403	"Ceres BioGenetics Lab Beta - Sub Level"	8	".\worlds\dungeons\woc\woc_biogenetic02b.dat"	1	|	
+
+setentry	1404	"Ceres BioGenetics Lab Gamma"	8	".\worlds\dungeons\woc\woc_biogenetic01c.dat"	1	|	
+setentry	1405	"Ceres BioGenetics Lab Gamma - Sub Level"	8	".\worlds\dungeons\woc\woc_biogenetic02c.dat"	1	|	
+
+setentry	1406	"Ceres BioGenetics Lab Delta"	8	".\worlds\dungeons\woc\woc_biogenetic01d.dat"	1	|	
+setentry	1407	"Ceres BioGenetics Lab Delta - Sub Level"	8	".\worlds\dungeons\woc\woc_biogenetic02d.dat"	1	|	
+
+setentry	1408	"Ceres BioMechanic Lab Alpha"	8	".\worlds\dungeons\woc\woc_biomechanic01a.dat"	1	|	
+setentry	1409	"Ceres BioMechanic Lab Alpha - Sub Level"	8	".\worlds\dungeons\woc\woc_biomechanic02a.dat"	1	|	
+
+setentry	1410	"Ceres BioMechanic Lab Beta"	8	".\worlds\dungeons\woc\woc_biomechanic01b.dat"	1	|	
+setentry	1411	"Ceres BioMechanic Lab Beta - Sub Level"	8	".\worlds\dungeons\woc\woc_biomechanic02b.dat"	1	|	
+
+setentry	1412	"Ceres BioMechanic Lab Gamma"	8	".\worlds\dungeons\woc\woc_biomechanic01c.dat"	1	|	
+setentry	1413	"Ceres BioMechanic Lab Gamma - Sub Level"	8	".\worlds\dungeons\woc\woc_biomechanic02c.dat"	1	|	
+
+setentry	1414	"Ceres BioMechanic Lab Delta"	8	".\worlds\dungeons\woc\woc_biomechanic01d.dat"	1	|	
+setentry	1415	"Ceres BioMechanic Lab Delta - Sub Level"	8	".\worlds\dungeons\woc\woc_biomechanic02d.dat"	1	|	
+
+
+
+setentry	2006	"CLIFF LINE a - 06"	2	|	
+setentry	2007	"CLIFF LINE a - 07"	2	|	
+setentry	2008	"CLIFF LINE a - 08"	2	|	
+setentry	2009	"CLIFF LINE a - 09"	2	|	
+setentry	2010	"COAST a - 10"	2	|	
+setentry	2011	"COAST a - 11"	2	|	
+
+setentry	2026	"CLIFF LINE b - 06"	2	|	
+setentry	2027	"CLIFF LINE b - 07"	2	|	
+setentry	2028	"GRASSLAND b - 08"	2	|	
+setentry	2029	"GRASSLAND b - 09"	2	|	
+setentry	2030	"GRASSLAND b - 10"	2	|	
+setentry	2031	"COAST b - 11"	2	|	
+//setentry	2032	"COAST b - 12"	2	|	
+
+setentry	2046	"CLIFF LINE c - 06"	2	|	
+setentry	2047	"GRASSLAND c - 07"	2	|	
+setentry	2048	"GRASSLAND c - 08"	2	|	
+setentry	2049	"GRASSLAND c - 09"	2	|	
+setentry	2050	"MOUNTAINS c - 10"	2	|	
+setentry	2051	"GRASSLAND c - 11"	2	|	
+setentry	2052	"COAST c - 12"	2	|	
+
+setentry	2065	"SWAMP d - 05"	2	|	
+setentry	2066	"SWAMP d - 06"	2	|	
+setentry	2067	"MOUNTAINS d - 07"	2	|	
+setentry	2068	"MOUNTAINS d - 08"	2	|	
+setentry	2069	"MOUNTAINS d - 09"	2	|	
+setentry	2070	"GRASSLAND d - 10"	2	|	
+setentry	2071	"MOUNTAINS d - 11"	2	|	
+setentry	2072	"MOUNTAINS d - 12"	2	|	
+setentry	2073	"MOUNTAINS d - 13"	2	|	
+
+setentry	2083	"SWAMP e - 03"	2	|	
+setentry	2085	"SWAMP e - 05"	2	|	
+setentry	2086	"GRASSLAND e - 06"	2	|	
+setentry	2087	"MOUNTAINS e - 07"	2	|	
+setentry	2088	"MOUNTAINS e - 08"	2	|	
+setentry	2089	"MOUNTAINS e - 09"	2	|	
+setentry	2090	"MOUNTAINS e - 10"	2	|	
+setentry	2091	"MOUNTAINS e - 11"	2	|	
+setentry	2092	"CANYONS e - 12"	2	|	
+setentry	2093	"CANYONS e - 13"	2	|	
+
+setentry	2102	"SWAMP f - 02"	2	|	
+setentry	2103	"SWAMP f - 03"	2	|	
+setentry	2104	"SWAMP f - 04"	2	|	
+setentry	2105	"GRASSLAND f - 05"	2	|	
+setentry	2106	"MOUNTAINS f - 06"	2	|	
+setentry	2107	"MOUNTAINS f - 07"	2	|	
+setentry	2108	"STEPPE f - 08"	2	|	
+setentry	2109	"STEPPE f - 09"	2	|	
+setentry	2110	"STEPPE f - 10"	2	|	
+setentry	2111	"CANYONS f - 11"	2	|	
+setentry	2112	"CANYONS f - 12"	2	|	
+setentry	2113	"CANYONS f - 13"	2	|	
+
+setentry	2123	"SWAMP g - 03"	2	|	
+setentry	2124	"SWAMP g - 04"	2	|	
+setentry	2125	"MOUNTAINS g - 05"	2	|	
+setentry	2126	"MOUNTAINS g - 06"	2	|	
+setentry	2127	"MOUNTAINS g - 07"	2	|	
+setentry	2128	"STEPPE g - 08"	2	|	
+setentry	2129	"STEPPE g - 09"	2	|	
+setentry	2130	"STEPPE g - 10"	2	|	
+setentry	2131	"DESERT RACETRACK"	2	" "	8	|	
+setentry	2132	"CANYONS g - 12"	2	|	
+setentry	2133	"CANYONS g - 13"	2	|	
+
+setentry	2143	"SWAMP h - 03"	2	|	
+setentry	2144	"SWAMP h - 04"	2	|	
+setentry	2145	"SWAMP h - 05"	2	|	
+setentry	2146	"SWAMP h - 06"	2	|	
+setentry	2147	"MOUNTAINS h - 07"	2	|	
+setentry	2148	"MOUNTAINS h - 08"	2	|	
+setentry	2149	"STEPPE h - 09"	2	|	
+setentry	2150	"STEPPE h - 10"	2	|	
+setentry	2151	"CANYONS h - 11"	2	|	
+setentry	2152	"STEPPE h - 12"	2	|	
+setentry	2153	"CANYONS h - 13"	2	|	
+setentry	2154	"CANYONS h - 14"	2	|	
+setentry	2155	"CANYONS h - 15"	2	|	
+setentry	2156	"CANYONS h - 16"	2	|	
+
+setentry	2162	"SWAMP i - 02"	2	|	
+setentry	2163	"SWAMP i - 03"	2	|	
+setentry	2164	"SWAMP i - 04"	2	|	
+setentry	2165	"WASTELANDS i - 05"	2	|	
+setentry	2166	"SWAMP i - 06"	2	|	
+setentry	2167	"MOUNTAINS i - 07"	2	|	
+setentry	2168	"MOUNTAINS i - 08"	2	|	
+setentry	2169	"STEPPE i - 09"	2	|	
+setentry	2170	"STEPPE i - 10"	2	|	
+setentry	2171	"STEPPE i - 11"	2	|	
+setentry	2172	"DESERT i - 12"	2	|	
+setentry	2173	"DESERT i - 13"	2	|	
+setentry	2174	"CANYONS i - 14"	2	|	
+setentry	2175	"CANYONS i - 15"	2	|	
+setentry	2176	"CANYONS i - 16"	2	|	
+
+setentry	2181	"WASTELANDS j - 01"	2	|	
+setentry	2182	"WASTELANDS j - 02"	2	|	
+setentry	2183	"SWAMP j - 03"	2	|	
+setentry	2184	"BATTLE DOME"	2	" "	8	|	
+setentry	2185	"WASTELANDS j - 05"	2	|	
+setentry	2186	"WASTELANDS j - 06"	2	|	
+setentry	2187	"MOUNTAINS j - 07"	2	|	
+setentry	2188	"MOUNTAINS j - 08"	2	|	
+setentry	2189	"DESERT j - 09"	2	|	
+setentry	2190	"DESERT j - 10"	2	|	
+setentry	2191	"DESERT j - 11"	2	|	
+setentry	2192	"DESERT j - 12"	2	|	
+setentry	2193	"DESERT j - 13"	2	|	
+setentry	2194	"CANYONS j - 14"	2	|	
+setentry	2195	"CANYONS j - 15"	2	|	
+setentry	2196	"DESERT j - 16"	2	|	
+
+setentry	2201	"WASTELANDS k - 01"	2	|	
+setentry	2202	"WASTELANDS k - 02"	2	|	
+setentry	2203	"WASTELANDS k - 03"	2	|	
+setentry	2204	"WASTELANDS k - 04"	2	|	
+setentry	2205	"WASTELANDS k - 05"	2	|	
+setentry	2206	"WASTELANDS k - 06"	2	|	
+setentry	2207	"WASTELANDS k - 07"	2	|	
+setentry	2209	"DESERT k - 09"	2	|	
+setentry	2210	"DESERT k - 10"	2	|	
+setentry	2211	"DESERT k - 11"	2	|	
+setentry	2212	"DESERT k - 12"	2	|	
+setentry	2213	"DESERT k - 13"	2	|	
+setentry	2214	"DESERT k - 14"	2	|	
+setentry	2215	"DESERT k - 15"	2	|	
+setentry	2216	"DESERT k - 16"	2	|	
+
+//Hacknet	
+setentry	3000	"NC-MAINFRAME"	1	" "	0	|	
+setentry	3001	"NC-FIREWALL"	1	" "	0	|	
+setentry	3002	"NC-FACTION DNS"	1	" "	0	|	
+
+
+
+setentry	51	"AREA 51"	1	" "	8	|	
+
+
+
+
+
+
+
+
+
+
+
+
+setentry	4006	"SIMMONS UNDERGROUND"	2	|	
+setentry	4028	"JERIKO UNDERGROUND"	2	|	
+setentry	4031	"MCPHERSON UNDERGROUND"	2	|	
+setentry	4047	"TYRON UNDERGROUND"	2	|	
+setentry	4049	"KRUPP UNDERGROUND"	2	|	
+setentry	4052	"CERES UNDERGROUND"	2	|	
+setentry	4066	"GRAVIS UNDERGROUND"	2	|	
+setentry	4067	"REDROCK UNDERGROUND"	2	|	
+setentry	4069	"CREST UNDERGROUND"	2	|	
+setentry	4071	"FOSTER UNDERGROUND"	2	|	
+setentry	4073	"GRANT UNDERGROUND"	2	|	
+setentry	4090	"SHIRKAN UNDERGROUND"	2	|	
+setentry	4105	"REGANT UNDERGROUND"	2	|	
+setentry	4111	"DEVEREAUX UNDERGROUND"	2	|	
+setentry	4112	"CYCROW UNDERGROUND"	2	|	
+setentry	4128	"GABANIUM UNDERGROUND"	2	|	
+setentry	4132	"TEZLA UNDERGROUND"	2	|	
+setentry	4143	"JANKINS UNDERGROUND"	2	|	
+setentry	4147	"HAWKINS UNDERGROUND"	2	|	
+setentry	4149	"MALSTROND UNDERGROUND"	2	|	
+setentry	4151	"BLACKHILL UNDERGROUND"	2	|	
+setentry	4153	"NEMESIS UNDERGROUND"	2	|	
+setentry	4155	"SOLIKO UNDERGROUND"	2	|	
+setentry	4156	"EASTGATE UNDERGROUND"	2	|	
+setentry	4164	"SIEGER UNDERGROUND"	2	|	
+setentry	4165	"CHESTER UNDERGROUND"	2	|	
+setentry	4167	"EMMERSON UNDERGROUND"	2	|	
+setentry	4168	"AVENGER UNDERGROUND"	2	|	
+setentry	4171	"TRISTAR UNDERGROUND"	2	|	
+setentry	4175	"CAJUN UNDERGROUND"	2	|	
+setentry	4189	"YUTANO UNDERGROUND"	2	|	
+setentry	4194	"SYNCON UNDERGROUND"	2	|	
+setentry	4204	"ROCKSHORE UNDERGROUND"	2	|	
+setentry	4205	"DRAKKHAN UNDERGROUND"	2	|	
+setentry	4207	"NORTHSTAR UNDERGROUND"	2	|	
+setentry	4212	"TESCOM UNDERGROUND"	2	|	
+
+
+setentry	1086	"A MC5-AREA"	2	".\worlds\area_mc5\h_14x1.dat"	7	|	
+setentry	1084	"A MC5-COMMAND U"	5	" "	21	|	
+setentry	1085	"A MC5-PROCESS U"	5	" "	21	|	
+setentry	1080	"A MC5-ENERGY U"	5	".\worlds\area_mc5\mc_energyx1.dat"	5	|	
+setentry	1081	"A MC5-ENERGY U"	5	".\worlds\area_mc5\mc_energyx2.dat"	5	|	
+setentry	1082	"A MC5-ENERGY U"	5	".\worlds\area_mc5\mc_energyx3.dat"	5	|	
+setentry	1083	"A MC5-ENERGY U"	5	".\worlds\area_mc5\mc_energyx4.dat"	5	|	
+setentry	1087	"A MC5-ENERGY U"	5	".\worlds\area_mc5\mc_energyx5.dat"	5	|	
+setentry	1088	"A MC5-ENERGY U"	5	".\worlds\area_mc5\mc_energyx6.dat"	5	|	
+setentry	1089	"Strange Cave"	5	".\worlds\area_mc5\cavemc.dat"	5	|	
+
+
+
+
+setentry	1093	"H14-COMMAND U"	5	".\worlds\area_mc5\mc_mainy1.dat"	5	|	
+setentry	1094	"H14-PROCESS U"	5	".\worlds\area_mc5\mc_unity1.dat"	5	|	
+setentry	1090	"A MC5-ENERGY U"	5	".\worlds\area_mc5\mc_energyy1.dat"	5	|	
+setentry	1091	"A MC5-ENERGY U"	5	".\worlds\area_mc5\mc_energyy2.dat"	5	|	
+setentry	1092	"A MC5-ENERGY U"	5	".\worlds\area_mc5\mc_energyy3.dat"	5	|	
+
+
+
+setentry	90001	"NEOFRAG 1 DECK 1"	1	|	
+setentry	90002	"NEOFRAG 1 DECK 2"	1	|	
+setentry	90003	"NEOFRAG 1 DECK 3"	1	|	
+setentry	90004	"NEOFRAG 1 DECK 4"	1	|	
+setentry	90005	"NEOFRAG 1 DECK 5"	1	|	
+setentry	90006	"NEOFRAG 1 DECK 6"	1	|	
+setentry	90007	"NEOFRAG 1 DECK 7"	1	|	
+setentry	90008	"NEOFRAG 1 DECK 8"	1	|	
+
+setentry	90009	"NEOFRAG 2 DECK 1"	1	|	
+setentry	90010	"NEOFRAG 2 DECK 2"	1	|	
+setentry	90011	"NEOFRAG 2 DECK 3"	1	|	
+setentry	90012	"NEOFRAG 2 DECK 4"	1	|	
+setentry	90013	"NEOFRAG 2 DECK 5"	1	|	
+setentry	90014	"NEOFRAG 2 DECK 6"	1	|	
+setentry	90015	"NEOFRAG 2 DECK 7"	1	|	
+setentry	90016	"NEOFRAG 2 DECK 8"	1	|	
+
+setentry	1500	"TUNNEL A"	6	".\worlds\doy\tunnels\tunnela.dat"	1	|	
+setentry	1501	"TUNNEL B"	6	".\worlds\doy\tunnels\tunnelb.dat"	1	|	
+setentry	1502	"TUNNEL C"	6	".\worlds\doy\tunnels\tunnelc.dat"	1	|	
+setentry	1503	"TUNNEL D"	6	".\worlds\doy\tunnels\tunneld.dat"	1	|	
+setentry	1504	"TUNNEL E"	6	".\worlds\doy\tunnels\tunnele.dat"	1	|	
+setentry	1505	"TUNNEL F"	6	".\worlds\doy\tunnels\tunnelf.dat"	1	|	
+setentry	1506	"TUNNEL G"	6	".\worlds\doy\tunnels\tunnelg.dat"	1	|	
+setentry	1507	"TUNNEL H"	6	".\worlds\doy\tunnels\tunnelh.dat"	1	|	
+setentry	1508	"TUNNEL I"	6	".\worlds\doy\tunnels\tunneli.dat"	1	|	
+setentry	1509	"TUNNEL J"	6	".\worlds\doy\tunnels\tunnelj.dat"	1	|	
+setentry	1510	"TUNNEL K"	6	".\worlds\doy\tunnels\tunnelk.dat"	1	|	
+setentry	1511	"TUNNEL L"	6	".\worlds\doy\tunnels\tunnell.dat"	1	|	
+setentry	1512	"TUNNEL M"	6	".\worlds\doy\tunnels\tunnelm.dat"	1	|	
+setentry	1513	"TUNNEL N"	6	".\worlds\doy\tunnels\tunneln.dat"	1	|	
+setentry	1514	"TUNNEL O"	6	".\worlds\doy\tunnels\tunnelo.dat"	1	|	
+setentry	1515	"TUNNEL P"	6	".\worlds\doy\tunnels\tunnelp.dat"	1	|	
+setentry	1516	"TUNNEL Q"	6	".\worlds\doy\tunnels\tunnelq.dat"	1	|	
+setentry	1517	"TUNNEL R"	6	".\worlds\doy\tunnels\tunnelr.dat"	1	|	
+setentry	1518	"TUNNEL S"	6	".\worlds\doy\tunnels\tunnels.dat"	1	|	
+setentry	1519	"TUNNEL T"	6	".\worlds\doy\tunnels\tunnelt.dat"	1	|	
+setentry	1520	"TUNNEL U"	6	".\worlds\doy\tunnels\tunnelu.dat"	1	|	
+setentry	1521	"TUNNEL V"	6	".\worlds\doy\tunnels\tunnelv.dat"	1	|	
+setentry	1522	"TUNNEL W"	6	".\worlds\doy\tunnels\tunnelw.dat"	1	|	
+setentry	1523	"TUNNEL X"	6	".\worlds\doy\tunnels\tunnelx.dat"	1	|	
+setentry	1524	"TUNNEL Y"	6	".\worlds\doy\tunnels\tunnely.dat"	1	|	
+setentry	1525	"TUNNEL Z"	6	".\worlds\doy\tunnels\tunnelz.dat"	1	|	
+setentry	1526	"TUNNEL KOS"	6	".\worlds\doy\tunnels\tunnelkos.dat"	1	|	
+
+setentry	1550	"Secret Laboratory"	6	".\worlds\doy\events\callash1.dat"	1	|	
+
+
+
+
+setentry	1600	"Neocron Mainframe"	6	".\worlds\doy\hacknet\factionserver\nc_mainframe.dat"	8	|	
+
+
+setentry	1601	"City Admin Firewall"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_firewall_ca.dat"	8	|	
+setentry	1602	"City Admin Faction DNS"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_faction_dns_ca.dat"	8	|	
+setentry	1603	"City Admin Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_firewall1_hsec_ca.dat"	8	|	
+setentry	1604	"City Admin Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_faction_sec1_ca.dat"	8	|	
+setentry	1605	"City Admin Highest Security"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_faction_highsec2_ca.dat"	8	|	
+setentry	1606	"City Admin infected file storage"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_dungeon1_ca.dat"	8	|	
+setentry	1607	"City Admin infected file storage"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_dungeon2_ca.dat"	8	|	
+setentry	1608	"City Admin infected file storage"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_dungeon3_ca.dat"	8	|	
+setentry	1609	"City Admin Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_firewall2_hsec_ca.dat"	8	|	
+setentry	1610	"City Admin Database"	6	".\worlds\doy\hacknet\factionserver\cityadmin\nc_database_ca.dat"	8	|	
+
+
+setentry	1611	"Protopharm Firewall"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_firewall_pp.dat"	8	|	
+setentry	1612	"Protopharm Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_faction_dns_pp.dat"	8	|	
+setentry	1613	"Protopharm Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_firewall1_hsec_pp.dat"	8	|	
+setentry	1614	"Protopharm Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_faction_sec1_pp.dat"	8	|	
+setentry	1615	"Protopharm Highest Security"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_faction_highsec2_pp.dat"	8	|	
+setentry	1616	"Protopharm infected file storage"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_dungeon1_pp.dat"	8	|	
+setentry	1617	"Protopharm infected file storage"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_dungeon2_pp.dat"	8	|	
+setentry	1618	"Protopharm infected file storage"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_dungeon3_pp.dat"	8	|	
+setentry	1619	"Protopharm Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_firewall2_hsec_pp.dat"	8	|	
+setentry	1620	"Protopharm Database"	6	".\worlds\doy\hacknet\factionserver\Protopharm\nc_database_pp.dat"	8	|	
+
+
+setentry	1621	"Next Firewall"	6	".\worlds\doy\hacknet\factionserver\Next\nc_firewall_nx.dat"	8	|	
+setentry	1622	"Next Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Next\nc_faction_dns_nx.dat"	8	|	
+setentry	1623	"Next Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Next\nc_firewall1_hsec_nx.dat"	8	|	
+setentry	1624	"Next Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Next\nc_faction_sec1_nx.dat"	8	|	
+setentry	1625	"Next Highest Security"	6	".\worlds\doy\hacknet\factionserver\Next\nc_faction_highsec2_nx.dat"	8	|	
+setentry	1626	"Next infected file storage"	6	".\worlds\doy\hacknet\factionserver\Next\nc_dungeon1_nx.dat"	8	|	
+setentry	1627	"Next infected file storage"	6	".\worlds\doy\hacknet\factionserver\Next\nc_dungeon2_nx.dat"	8	|	
+setentry	1628	"Next infected file storage"	6	".\worlds\doy\hacknet\factionserver\Next\nc_dungeon3_nx.dat"	8	|	
+setentry	1629	"Next Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Next\nc_firewall2_hsec_nx.dat"	8	|	
+setentry	1630	"Next Database"	6	".\worlds\doy\hacknet\factionserver\Next\nc_database_nx.dat"	8	|	
+
+
+setentry	1631	"Diamond Firewall"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_firewall_di.dat"	8	|	
+setentry	1632	"Diamond Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_faction_dns_di.dat"	8	|	
+setentry	1633	"Diamond Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_firewall1_hsec_di.dat"	8	|	
+setentry	1634	"Diamond Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_faction_sec1_di.dat"	8	|	
+setentry	1635	"Diamond Highest Security"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_faction_highsec2_di.dat"	8	|	
+setentry	1636	"Diamond infected file storage"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_dungeon1_di.dat"	8	|	
+setentry	1637	"Diamond infected file storage"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_dungeon2_di.dat"	8	|	
+setentry	1638	"Diamond infected file storage"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_dungeon3_di.dat"	8	|	
+setentry	1639	"Diamond Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_firewall2_hsec_di.dat"	8	|	
+setentry	1640	"Diamond Database"	6	".\worlds\doy\hacknet\factionserver\Diamond\nc_database_di.dat"	8	|	
+
+
+setentry	1641	"Tangent Firewall"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_firewall_ta.dat"	8	|	
+setentry	1642	"Tangent Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_faction_dns_ta.dat"	8	|	
+setentry	1643	"Tangent Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_firewall1_hsec_ta.dat"	8	|	
+setentry	1644	"Tangent Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_faction_sec1_ta.dat"	8	|	
+setentry	1645	"Tangent Highest Security"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_faction_highsec2_ta.dat"	8	|	
+setentry	1646	"Tangent infected file storage"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_dungeon1_ta.dat"	8	|	
+setentry	1647	"Tangent infected file storage"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_dungeon2_ta.dat"	8	|	
+setentry	1648	"Tangent infected file storage"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_dungeon3_ta.dat"	8	|	
+setentry	1649	"Tangent Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_firewall2_hsec_ta.dat"	8	|	
+setentry	1650	"Tangent Database"	6	".\worlds\doy\hacknet\factionserver\Tangent\nc_database_ta.dat"	8	|	
+
+
+setentry	1651	"Biotech Firewall"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_firewall_bi.dat"	8	|	
+setentry	1652	"Biotech Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_faction_dns_bi.dat"	8	|	
+setentry	1653	"Biotech Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_firewall1_hsec_bi.dat"	8	|	
+setentry	1654	"Biotech Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_faction_sec1_bi.dat"	8	|	
+setentry	1655	"Biotech Highest Security"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_faction_highsec2_bi.dat"	8	|	
+setentry	1656	"Biotech infected file storage"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_dungeon1_bi.dat"	8	|	
+setentry	1657	"Biotech infected file storage"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_dungeon2_bi.dat"	8	|	
+setentry	1658	"Biotech infected file storage"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_dungeon3_bi.dat"	8	|	
+setentry	1659	"Biotech Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_firewall2_hsec_bi.dat"	8	|	
+setentry	1660	"Biotech Database"	6	".\worlds\doy\hacknet\factionserver\Biotech\nc_database_bi.dat"	8	|	
+
+
+setentry	1670	"Dome of York Mainframe"	6	".\worlds\doy\hacknet\factionserver\doy_mainframe.dat"	8	|	
+
+
+setentry	1701	"Black Dragon Firewall"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_firewall_bd.dat"	8	|	
+setentry	1702	"Black Dragon Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_faction_dns_bd.dat"	8	|	
+setentry	1703	"Black Dragon Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_firewall1_hsec_bd.dat"	8	|	
+setentry	1704	"Black Dragon Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_faction_sec1_bd.dat"	8	|	
+setentry	1705	"Black Dragon Highest Security"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_faction_highsec2_bd.dat"	8	|	
+setentry	1706	"Black Dragon infected file storage"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_dungeon1_bd.dat"	8	|	
+setentry	1707	"Black Dragon infected file storage"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_dungeon2_bd.dat"	8	|	
+setentry	1708	"Black Dragon infected file storage"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_dungeon3_bd.dat"	8	|	
+setentry	1709	"Black Dragon Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_firewall2_hsec_bd.dat"	8	|	
+setentry	1710	"Black Dragon Database"	6	".\worlds\doy\hacknet\factionserver\Blackdragon\doy_database_bd.dat"	8	|	
+
+
+setentry	1711	"Tsunami Syndicate Firewall"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_firewall_ts.dat"	8	|	
+setentry	1712	"Tsunami Syndicate Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_faction_dns_ts.dat"	8	|	
+setentry	1713	"Tsunami Syndicate Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_firewall1_hsec_ts.dat"	8	|	
+setentry	1714	"Tsunami Syndicate Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_faction_sec1_ts.dat"	8	|	
+setentry	1715	"Tsunami Syndicate Highest Security"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_faction_highsec2_ts.dat"	8	|	
+setentry	1716	"Tsunami Syndicate infected file storage"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_dungeon1_ts.dat"	8	|	
+setentry	1717	"Tsunami Syndicate infected file storage"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_dungeon2_ts.dat"	8	|	
+setentry	1718	"Tsunami Syndicate infected file storage"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_dungeon3_ts.dat"	8	|	
+setentry	1719	"Tsunami Syndicate Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_firewall2_hsec_ts.dat"	8	|	
+setentry	1720	"Tsunami Syndicate Database"	6	".\worlds\doy\hacknet\factionserver\Tsunami\doy_database_ts.dat"	8	|	
+
+
+setentry	1721	"Crahn Sect Firewall"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_firewall_cs.dat"	8	|	
+setentry	1722	"Crahn Sect Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_faction_dns_cs.dat"	8	|	
+setentry	1723	"Crahn Sect Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_firewall1_hsec_cs.dat"	8	|	
+setentry	1724	"Crahn Sect Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_faction_sec1_cs.dat"	8	|	
+setentry	1725	"Crahn Sect Highest Security"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_faction_highsec2_cs.dat"	8	|	
+setentry	1726	"Crahn Sect infected file storage"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_dungeon1_cs.dat"	8	|	
+setentry	1727	"Crahn Sect infected file storage"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_dungeon2_cs.dat"	8	|	
+setentry	1728	"Crahn Sect infected file storage"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_dungeon3_cs.dat"	8	|	
+setentry	1729	"Crahn Sect Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_firewall2_hsec_cs.dat"	8	|	
+setentry	1730	"Crahn Sect Database"	6	".\worlds\doy\hacknet\factionserver\Crahn\doy_database_cs.dat"	8	|	
+
+
+setentry	1731	"Twilight Guardian Firewall"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_firewall_tg.dat"	8	|	
+setentry	1732	"Twilight Guardian Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_faction_dns_tg.dat"	8	|	
+setentry	1733	"Twilight Guardian Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_firewall1_hsec_tg.dat"	8	|	
+setentry	1734	"Twilight Guardian Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_faction_sec1_tg.dat"	8	|	
+setentry	1735	"Twilight Guardian Highest Security"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_faction_highsec2_tg.dat"	8	|	
+setentry	1736	"Twilight Guardian infected file storage"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_dungeon1_tg.dat"	8	|	
+setentry	1737	"Twilight Guardian infected file storage"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_dungeon2_tg.dat"	8	|	
+setentry	1738	"Twilight Guardian infected file storage"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_dungeon3_tg.dat"	8	|	
+setentry	1739	"Twilight Guardian Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_firewall2_hsec_tg.dat"	8	|	
+setentry	1740	"Twilight Guardian Database"	6	".\worlds\doy\hacknet\factionserver\Twilightguardian\doy_database_tg.dat"	8	|	
+
+
+setentry	1741	"Fallen Angels Firewall"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_firewall_fa.dat"	8	|	
+setentry	1742	"Fallen Angels Faction DNS"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_faction_dns_fa.dat"	8	|	
+setentry	1743	"Fallen Angels Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_firewall1_hsec_fa.dat"	8	|	
+setentry	1744	"Fallen Angels Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_faction_sec1_fa.dat"	8	|	
+setentry	1745	"Fallen Angels Highest Security"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_faction_highsec2_fa.dat"	8	|	
+setentry	1746	"Fallen Angels infected file storage"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_dungeon1_fa.dat"	8	|	
+setentry	1747	"Fallen Angels infected file storage"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_dungeon2_fa.dat"	8	|	
+setentry	1748	"Fallen Angels infected file storage"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_dungeon3_fa.dat"	8	|	
+setentry	1749	"Fallen Angels Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_firewall2_hsec_fa.dat"	8	|	
+setentry	1750	"Fallen Angels Database"	6	".\worlds\doy\hacknet\factionserver\Fallenangels\doy_database_fa.dat"	8	|	
+
+
+
+
+setentry	1760	"Techhaven Bridge"	6	".\worlds\doy\hacknet\factionserver\techhaven\neu_mainframe.dat"	8	|	
+setentry	1761	"Techhaven Data Storage -broken-"	6	".\worlds\doy\hacknet\factionserver\techhaven\neu_dungeon1_th.dat"	8	|	
+setentry	1762	"Techhaven Data Storage -broken-"	6	".\worlds\doy\hacknet\factionserver\techhaven\neu_dungeon2_th.dat"	8	|	
+setentry	1763	"Techhaven Data Storage -broken-"	6	".\worlds\doy\hacknet\factionserver\techhaven\neu_dungeon3_th.dat"	8	|	
+
+
+setentry	1771	"City Mercs Firewall"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_firewall_cm.dat"	8	|	
+setentry	1772	"City Mercs Faction DNS"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_faction_dns_cm.dat"	8	|	
+setentry	1773	"City Mercs Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_firewall1_hsec_cm.dat"	8	|	
+setentry	1774	"City Mercs Faction Security Center"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_faction_sec1_cm.dat"	8	|	
+setentry	1775	"City Mercs Highest Security"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_faction_highsec2_cm.dat"	8	|	
+setentry	1776	"City Mercs infected file storage"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_dungeon1_cm.dat"	8	|	
+setentry	1777	"City Mercs infected file storage"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_dungeon2_cm.dat"	8	|	
+setentry	1778	"City Mercs infected file storage"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_dungeon3_cm.dat"	8	|	
+setentry	1779	"City Mercs Firewall High Security"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_firewall2_hsec_cm.dat"	8	|	
+setentry	1780	"City Mercs Database"	6	".\worlds\doy\hacknet\factionserver\citymercs\neu_database_cm.dat"	8	|	
+
+
+
+
+setentry	1790	"Uplink at Foster"	6	".\worlds\doy\hacknet\uplinks\NC_uplink_foster.dat"	8	|	
+setentry	1791	"Uplink at Crest"	6	".\worlds\doy\hacknet\uplinks\NC_uplink_crest.dat"	8	|	
+setentry	1792	"Uplink at Gravis"	6	".\worlds\doy\hacknet\uplinks\NC_uplink_gravis.dat"	8	|	
+setentry	1793	"Uplink at Point Red"	6	".\worlds\doy\hacknet\uplinks\NC_uplink_pointred.dat"	8	|	
+setentry	1794	"Uplink at Sieger"	6	".\worlds\doy\hacknet\uplinks\NC_uplink_sieger.dat"	8	|	
+setentry	1795	"Uplink at Northstar"	6	".\worlds\doy\hacknet\uplinks\NC_uplink_northstar.dat"	8	|	
+setentry	1796	"Uplink at Battledome"	6	".\worlds\doy\hacknet\uplinks\NC_uplink_battledome.dat"	8	|	
+setentry	1797	"Uplink at Hawkins"	6	".\worlds\doy\hacknet\uplinks\DOY_uplink_hawkins.dat"	8	|	
+setentry	1798	"Uplink at Tristar"	6	".\worlds\doy\hacknet\uplinks\DOY_uplink_tristar.dat"	8	|	
+setentry	1799	"Uplink at Cajun"	6	".\worlds\doy\hacknet\uplinks\DOY_uplink_Cajun.dat"	8	|	
+setentry	1800	"Uplink at Tescom"	6	".\worlds\doy\hacknet\uplinks\DOY_uplink_Trescom.dat"	8	|	
+setentry	1801	"Uplink at Racetrack"	6	".\worlds\doy\hacknet\uplinks\DOY_uplink_Racetrack.dat"	8	|	
+
+
+setentry	1810	"Outpost at Foster"	6	".\worlds\doy\hacknet\outposts\NC_outpost_foster.dat"	8	|	
+setentry	1811	"Outpost at Ceres"	6	".\worlds\doy\hacknet\outposts\NC_outpost_ceres.dat"	8	|	
+setentry	1812	"Outpost at Grant"	6	".\worlds\doy\hacknet\outposts\NC_outpost_grant.dat"	8	|	
+setentry	1813	"Outpost at Crest"	6	".\worlds\doy\hacknet\outposts\NC_outpost_crest.dat"	8	|	
+setentry	1814	"Outpost at Krupp"	6	".\worlds\doy\hacknet\outposts\NC_outpost_krupp.dat"	8	|	
+setentry	1815	"Outpost at Jeriko"	6	".\worlds\doy\hacknet\outposts\NC_outpost_jeriko.dat"	8	|	
+setentry	1816	"Outpost at Gravis"	6	".\worlds\doy\hacknet\outposts\NC_outpost_gravis.dat"	8	|	
+setentry	1817	"Outpost at Redrock"	6	".\worlds\doy\hacknet\outposts\NC_outpost_redrock.dat"	8	|	
+setentry	1818	"Outpost at Tyron"	6	".\worlds\doy\hacknet\outposts\NC_outpost_tyron.dat"	8	|	
+setentry	1819	"Outpost at Simmons"	6	".\worlds\doy\hacknet\outposts\NC_outpost_simmons.dat"	8	|	
+setentry	1820	"Outpost at Mcpherson"	6	".\worlds\doy\hacknet\outposts\NC_outpost_mcpherson.dat"	8	|	
+setentry	1821	"Outpost at Sieger"	6	".\worlds\doy\hacknet\outposts\NC_outpost_sieger.dat"	8	|	
+setentry	1822	"Outpost at Chester"	6	".\worlds\doy\hacknet\outposts\NC_outpost_chester.dat"	8	|	
+setentry	1823	"Outpost at Regant"	6	".\worlds\doy\hacknet\outposts\NC_outpost_regant.dat"	8	|	
+setentry	1824	"Outpost at Jankins"	6	".\worlds\doy\hacknet\outposts\NC_outpost_jankins.dat"	8	|	
+setentry	1825	"Outpost at Northstar"	6	".\worlds\doy\hacknet\outposts\NC_outpost_northstar.dat"	8	|	
+setentry	1826	"Outpost at Rockshore"	6	".\worlds\doy\hacknet\outposts\NC_outpost_rockshore.dat"	8	|	
+setentry	1827	"Outpost at Drakkhan"	6	".\worlds\doy\hacknet\outposts\NC_outpost_drakkham.dat"	8	|	
+setentry	1828	"Outpost at Hawkins"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_hawkins.dat"	8	|	
+setentry	1829	"Outpost at Gabanium"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_gabanium.dat"	8	|	
+setentry	1830	"Outpost at Malstrond"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_malstrond.dat"	8	|	
+setentry	1831	"Outpost at Emmerson"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_emmerson.dat"	8	|	
+setentry	1832	"Outpost at Tristar"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_tristar.dat"	8	|	
+setentry	1833	"Outpost at Avenger"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_avenger.dat"	8	|	
+setentry	1834	"Outpost at Blackhill"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_blackhill.dat"	8	|	
+setentry	1835	"Outpost at Tezla"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_tezla.dat"	8	|	
+setentry	1836	"Outpost at Devereaux"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_devereaux.dat"	8	|	
+setentry	1837	"Outpost at Shirkan"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_shirkan.dat"	8	|	
+setentry	1838	"Outpost at Cajun"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_cajun.dat"	8	|	
+setentry	1839	"Outpost at Nemesis"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_nemesis.dat"	8	|	
+setentry	1840	"Outpost at Cycrow"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_cycrow.dat"	8	|	
+setentry	1841	"Outpost at Soliko"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_soliko.dat"	8	|	
+setentry	1842	"Outpost at Eastgate"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_eastgate.dat"	8	|	
+setentry	1843	"Outpost at Tescom"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_trescom.dat"	8	|	
+setentry	1844	"Outpost at Syncon"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_syncon.dat"	8	|	
+setentry	1845	"Outpost at Yutano"	6	".\worlds\doy\hacknet\outposts\DOY_outpost_yutano.dat"	8	|	
+
+
+
+setentry	1850	"Travel Firewall N-1"	6	".\worlds\doy\hacknet\travelmaps\NC_wltravel1.dat"	|	
+setentry	1851	"Travel Firewall N-2"	6	".\worlds\doy\hacknet\travelmaps\NC_wltravel2.dat"	|	
+setentry	1852	"Travel Firewall N-3"	6	".\worlds\doy\hacknet\travelmaps\NC_wltravel3.dat"	|	
+setentry	1853	"Travel Firewall N-4"	6	".\worlds\doy\hacknet\travelmaps\NC_wltravel4.dat"	|	
+setentry	1854	"Travel Firewall N-5"	6	".\worlds\doy\hacknet\travelmaps\NC_wltravel5.dat"	|	
+setentry	1855	"Travel Firewall N-6"	6	".\worlds\doy\hacknet\travelmaps\NC_wltravel6.dat"	|	
+setentry	1856	"Travel Firewall N-7"	6	".\worlds\doy\hacknet\travelmaps\NC_wltravel7.dat"	|	
+setentry	1857	"Travel Firewall N-8"	6	".\worlds\doy\hacknet\travelmaps\NC_wltravel8.dat"	|	
+setentry	1858	"Travel Firewall N-9"	6	".\worlds\doy\hacknet\travelmaps\NC_wltravel9.dat"	|	
+setentry	1859	"Travel Firewall D-1"	6	".\worlds\doy\hacknet\travelmaps\DOY_wltravel1.dat"	|	
+setentry	1860	"Travel Firewall D-2"	6	".\worlds\doy\hacknet\travelmaps\DOY_wltravel2.dat"	|	
+setentry	1861	"Travel Firewall D-3"	6	".\worlds\doy\hacknet\travelmaps\DOY_wltravel3.dat"	|	
+setentry	1862	"Travel Firewall D-4"	6	".\worlds\doy\hacknet\travelmaps\DOY_wltravel4.dat"	|	
+setentry	1863	"Travel Firewall D-5"	6	".\worlds\doy\hacknet\travelmaps\DOY_wltravel5.dat"	|	
+setentry	1864	"Travel Firewall D-6"	6	".\worlds\doy\hacknet\travelmaps\DOY_wltravel6.dat"	|	
+setentry	1865	"Travel Firewall D-7"	6	".\worlds\doy\hacknet\travelmaps\DOY_wltravel7.dat"	|	
+setentry	1866	"Travel Firewall D-8"	6	".\worlds\doy\hacknet\travelmaps\DOY_wltravel8.dat"	|	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*	
+
+index	WorldID; muß mit dem Index in worlds.ini übereinstimmen	
+
+Name	"Name des Sektors; für Anzeige im RPOS oben links"	
+
+MusicTheme	"Music Set aus bgmusic.ini"	
+
+alternatives Datfile	"Name der .bsp und .dat Datei wird aus worlds.ini ermittelt; hier kann ein alternatives .dat File angegeben werden."	
+
+
+Worldflags	Flags. Maske. gewünschte Werte addieren	
+
+
+
+
+
+*/	

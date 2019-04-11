@@ -1,0 +1,125 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// gmtool: stockx - overview.tsc
+// access-level 50 (DEV)
+// content:
+// list of companies of the stock market
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "22") );
+		OnLoad( SetEnv("ENV_BACK", ".\terminal\gmtool\stockx\overview.tsc") );
+		
+		OnLoad( SetEnv("ENV_SXFACTIONID", "1") );
+		OnLoad( SetEnv("ENV_SXCOMPANYID", "0") );
+		OnLoad( SetEnv("ENV_SXCURRPRICE", "0") );
+		OnLoad( SetEnv("ENV_SXLASTPRICE", "0") );
+		
+		OnLoad( SetEnv("ENV_SXCHARTMONTHS", "3" ) );
+	}
+	
+	DATACONTROLBOX "DCBGMChecker"
+	{
+		OnLoad( TryAccess("DCBGMLinker", 350, GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBGMLinker"
+	{
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_DEV") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+
+	DATACONTROLBOX "DCBGetCompanies"
+	{
+		OnLoad( ReceiveDB("StockX - Companies", 720, GetEnv("START"), GetEnv("LIMIT") ) );
+	}
+	
+	DATACONTROLBOX "DCBGetAccess"
+	{
+		OnAccess( ChangePage("Page", ".\terminal\gmtool\stockx\newcompany.tsc") );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc") );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN GMTOOL"
+	{
+		LayOut(2);
+		Size(471, 40, 571, 120);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 19, 0, 225, 138);
+		"1";
+		FunctionText("%BITMAP(45, 1, 3)" );
+	}
+
+	FRAME "COMMANDS"
+	{
+		LayOut(2);
+		Size(471, 142, 571, 408);
+		
+		TEXTBUTTON "NEW"
+		{
+			LayOut(5);
+			Size(0, 0, 100, 20);
+			OnMouse( TryAccess("DCBGetAccess", 350, GetEnv("G_CHARID") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	LISTBOX "StockX - Companies"
+	{
+		LayOut(2);
+		Size(50, 40, 447, 408);
+		Settings(0, 1, 1, 1);
+		Background(0);
+		LineHeight(16);
+		ShowLineNumbers(0, 0);
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(6);
+		DataColumn(1, "Company", 2, 172, LEFT);
+		DataColumn(2, "Price",   3,  75, RIGHT);
+		//DataColumn(3, "Last",  4,  45, RIGHT);
+		DataColumn(3, "Trend",   5,  60, RIGHT);
+		DataColumn(4, "VOS",     6,  45, RIGHT);
+		DataColumn(5, "A (%)",   7,  45, RIGHT);
+		DataColumn(6, "ID",      0,   0, LEFT);
+		
+		OnMouse( SetEnv("ENV_SXCOMPANYID", GetControlText("StockX - Companies") ) );
+		OnMouse( ChangePage("Page", ".\terminal\gmtool\stockx\detail.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "prev"
+	{
+		LayOut(6);
+		Size(347, 412, 387, 419);
+		OnMouse( SetEnv("ENV_START", StringCalcSub( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("StockX - Companies", 720, GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "next"
+	{
+		LayOut(7);
+		Size(399, 412, 439, 419);
+		OnMouse( SetEnv("ENV_START", StringCalcAdd( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("StockX - Companies", 720, GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

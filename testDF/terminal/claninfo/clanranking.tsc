@@ -1,0 +1,153 @@
+// claninfo - clanranking.tsc
+// contents:
+// list of clans sorted by a specific column
+// outpostcnt, membercnt, money stored in ENV_RANKCOL
+
+// coords:
+// LT (50, 40)	RB (571, 366) -> usable for simple editboxes
+// LT (48, 400)	RB (574, 420) -> usable for buttons
+
+#include ".\terminal\common\submenu_info.tsc"
+
+// CONTROLS \\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+	
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "11") );
+	}
+	
+	DATACONTROLBOX "DCBOutpostsRanking"
+	{
+		OnLoad( ReceiveDB( "Clan Ranking", 29, GetEnv("ORDERCOL"), GetEnv("START"), GetEnv("LIMIT") ) );
+	}
+
+// CONTENT \\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+
+// CLAN HEAD - used for all claninfo-pages
+
+	BUTTON "AFF. Faction"
+	{
+		LayOut(2);
+		Size(50, 40, 220, 130);
+		Alpha(255);
+		Color( 140, 239, 181);
+		Image( Resource(50, 3) );
+		SubImage( 0, 125, 251, 250);
+		FunctionText("%BITMAP(50, 1, 3)" );
+		
+		OnMouse( ChangePage( "Page", ".\terminal\factioninfo\factioninfo.tsc") );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	DATACONTROLBOX "DCBGetFaction"
+	{
+		OnLoad( SetContent("AFF. Faction", GetEnv("FACTIONID") ) );
+	}
+	
+	TEXTBUTTON "DETAILS"
+	{
+		LayOut(7);
+		Size(162, 134, 212, 141);
+		OnMouse( ChangePage( "Page", ".\terminal\factioninfo\factioninfo.tsc") );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	TEXT "Short"
+	{
+		LayOut(2);
+		Size(234, 40, 294, 52);
+		" ... receiving\n";
+		"CLANSHORT";
+		FunctionText("%ENV");
+	}
+	
+	TEXT "Clanname"
+	{
+		LayOut(2);
+		Size(308, 40, 571, 52);
+		" ... receiving\n";
+		"CLANNAME";
+		FunctionText("%ENV");
+	}
+	
+	FRAME "Description"
+	{
+		LayOut(4);
+		Size(234, 74, 555, 130);
+		
+		FRAME "Client"
+		{
+			Size(-1, -1, -1, -1);
+		
+			TEXT "TXDescription"
+			{
+				Pos(0, 0);
+				Width(321);
+				" ... receiving\n";
+				"CLANDESC";
+				FunctionText("%ENV");
+			}       								
+		
+		} // end client
+		
+	} // end main
+
+	SCROLLBAR "Scrollbar"
+	{
+		Size(557, 76, 571, 118);
+		Target("Description");
+	}
+	
+// END OF CLAN HEAD - go on
+	
+	LISTBOX "Clan Ranking"
+	{
+		LayOut(2);
+		Size(50, 180, 571, 366);
+		Settings(0, 1, 1, 1);
+		Background(0);
+		LineHeight(16);
+		ShowLineNumbers(1, GetEnv("START") );
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(6);
+		DataColumn(1, "Name", 2, 191, LEFT);
+		DataFunctionColumn(2, "Faction", "%FACTIONNAME", 1,  120, LEFT);
+		DataColumn(3, "Money", 3, 60, CENTER);
+		DataColumn(4, "Outposts", 4, 60, CENTER);
+		DataColumn(5, "Members", 5, 60, CENTER);
+		DataColumn(6, "ID", 0, 0, LEFT);
+		OnMouse( SetEnv("ENV_CLANID", GetControlText("Clan Ranking") ) );
+		OnMouse( ChangePage("Page", ".\terminal\claninfo\claninfo.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "PREV"
+	{
+		// listbox clan subleaders
+		LayOut(6);
+		Size(481, 370, 516, 377); // 35
+		OnMouse( SetEnv("ENV_START", StringCalcSub( GetEnv("START"), "11") ) );
+		OnMouse( ReceiveDB( "Clan Ranking", 29, GetEnv("ORDERCOL"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "FF"
+	{
+		// listbox clan subleaders
+		LayOut(7);
+		Size(528, 370, 563, 377); // 35
+		OnMouse( SetEnv("ENV_START", StringCalcAdd( GetEnv("START"), "11") ) );
+		OnMouse( ReceiveDB( "Clan Ranking", 29, GetEnv("ORDERCOL"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+// BUTTONS \\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//	
+
+	TEXTBUTTON "Back"
+	{
+		LayOut(5);
+		Size(474, 400, 574, 420);
+		OnMouse( ChangePage("Page", GetEnv("BACK") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}

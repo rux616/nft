@@ -1,0 +1,33 @@
+BioTech est une corporation étrange. La recherche dans le domaine des implants bio-mécaniques et des nano-augmentations pour les citoyens handicapés est un rôle admirable, mais BioTech ne s’arrête pas là. Selon leur propre vision des choses, ils poursuivent un but double, qu’ils appellent « Evolution personnalisée ». On pourrait dire que, de par les abus qu’offre un domaine de travail tel que celui-ci, la position de BioTech ne peut qu’être une réalité. Le président de la compagnie, Seymour Jordan, n’est en revanche pas de cet avis.
+Les implants de BioTech sont en vente à quiconque peut en payer le prix. Leurs services sont aussi utilisés par les personnes valides pour des raisons allant de la curiosité (« je veux faire des bonds de dix mètres de haut ») à une nécessité évidente (« je veux une armure sous-dermique pour survivre »). La vente d’implants par BioTech a créé une nouvelle classe de citoyens qui se spécialisent dans l’implantation et le retrait d’implants. De tels chirurgiens sont généralement grassement payés pour leurs services.
+Finalement, il faut préciser que l’implant légal CityAdmin est le fruit d’un partenariat avec BioTech. C’est un lien très fort qu’aucune des deux parties n’a intérêt à briser.
+Pour l’instant, ceux qui n’aiment pas l’idée d’ « Evolution personnalisée » n’ont pas d’autre choix que de prendre leur mal en patience et de se faire discrets.
+
+Quartiers généraux   
+Les quartiers généraux de BioTech sont localisés dans le Mémorial Vauxhall, Via Rosso, Secteur Un. On y trouve le centre administratif de BioTech, ainsi que leur laboratoires principaux. Mais le bruit court que BioTech possède d’autres laboratoires satellites disséminés dans la ville.
+Ceux qui choisissent BioTech comme faction possèdent un appartement dans Via Rosso.
+
+Personnalités marquantes   
+Robert Jordan possède BioTech Industries et Tangent Technologies Inc. En 2748, à l’âge de 90 ans, Robert a cédé le contrôle de BioTech à son fils le plus jeune, Seymour Jordan, et celui de Tangent à son aîné, Damion. Robert a déclaré que celui qui parvenait le mieux à gérer son entreprise hériterait du contrôle des deux compagnies. 
+Seymour ne désire pas perdre. Il est prêt à prendre des mesures exceptionnelles pour réduire à néant les efforts de son frère Damion. 
+Le SysAdmin de BioTech, Johanna Hawkes, est très précoce pour son âge (16 ans). Elle a été instruite par le légendaire Chester Cohor (qui est SysAdmin pour Tangent). Sa modestie lui a plusieurs fois sauvé la mise, la fait paraître mystérieuse, et dissimule ses véritables capacités.
+
+Histoire   
+BioTech a été fondée en 2638. Son activité première a toujours été la recherche et le développement dans le domaine de la biomécanique, mais avec les années de nouveaux projets ont été lancés, allant de la fabrication de médicaments au premier véhicule interstellaire, l’Avenger.
+Après le succès du lancement de l’Avenger, les objectifs de BioTech se divisent. Le développement d’implants biomécaniques se poursuit, tandis que de nouveaux laboratoires sont construits pour accueillir la nouvelle division Tangent, créée pour la recherche et le développement d’armement de pointe. 
+La division Tangent est devenue une véritable mine d’or au cours de la révolution de Lioon Reza (2722 – 2742). BioTech, qui soutenait l’arrivée de Reza au pouvoir, n’a eu avec l’administration de la ville que des relations positives depuis cette époque.
+Lors de la scission entre Tangent et BioTech en 2746, BioTech générait un chiffre d’affaires si important dans la création de véhicules interstellaires durant la grande vague de colonisation que cela n’eut qu’un impact mineur sur les revenus de la compagnie.
+Aujourd’hui, la vague de colonisation est achevée, et BioTech est plus ou moins revenue à sa fonction première : la création d’implants biotechnologiques. 
+
+Rumeurs   
+La rumeur circule que la coopération entre BioTech et ProtoPharma n’est pas qu’une alliance financière, mais plutôt une alliance destinée à assurer le développement de la prochaine génération d’implants bio-mécaniques. On pense surtout à une entente entre le président de BioTech Seymour Jordan et la présidente de ProtoPharma, Sandra Fraiser. Il n’y a aucun doute sur le fait que Seymour exploitera cette relation tant qu’il le peut. Il fera tout pour battre son frère Damion, président de Tangent Technologies Inc.
+Une rumeur plus difficile à admettre fait état de liens entre BioTech et le Syndicat Tsunami. La plupart des gens pensent que du trafic sur le marché noir serait une activité trop dangereuse pour une corporation aussi en vue que BioTech.
+Finalement, des groupuscules de conspirateurs accusent régulièrement BioTech d’ajouter des dispositifs de surveillance et de pistage dans leurs produits. La théorie veut que les implants recueillent des informations biologiques (mouvements du corps, ondes cérébrales, drogues), puis transmettent ces informations à une base de donnée de BioTech pour être revendues ensuite à une tierce partie. La théorie conclut en disant que CityAdmin est la troisième partie en question.
+
+Amis & Ennemis   
+Comme cela a déjà été expliqué, BioTech est le partenaire financier de ProtoPharma. Ils collaborent à la mise au point de la prochaine génération d’implants biomécaniques. Les rumeurs d’une relation entre BioTech et Tsunami semblent plus improbables lorsqu’on considère le lien très fort unissant BioTech et CityAdmin. Ce sont les installations de BioTech qui produisent les CopBots patrouillant dans la ville. Il faut également mentionner le fait que BioTech possède, pour assurer sa sécurité, un contrat avec CityMercs.
+Le plus grand adversaire de BioTech est évidemment Tangent Technologies Inc. Les frères ennemis sont engagés dans une course à la performance qui récompensera le gagnant par le contrôle sur les deux compagnies.
+Un autre problème est la répétition d’attaques du Dragon Noir contre les installations de BioTech. Le contrat de CityMercs avec BioTech est dans ces cas-là bien utile.
+Finalement, BioTech entretient des relations très étroites avec CityAdmin. Les Fils de l’Anarchie et les Gardiens du Crépuscule ne constituent qu’une menace mineure pour l’avenir de BioTech.
+ 
+

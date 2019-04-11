@@ -1,0 +1,131 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: missions - rm_missions.tsc
+// content:
+// overview (up to 3 or 5 ??) missions of this faction/difficulty
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+// Specials: Scrollbar: X: 557 - 572 Y: 110 - 364 (+2/-2)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+//#include ".\terminal\common\submenu_mission.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	TEXT "NCN Job System v 1.010"
+	{
+		LayOut(2);
+		Size(50, 40, 571, 52);
+		"Runnermissions: See more details by choosing a mission";
+	}
+
+	TEXT "Selected Faction"
+	{
+		Layout(2);
+		Size(50, 74, 456, 86);
+	}
+	
+	TEXT "Selected level"
+	{
+		Layout(2);
+		Size(470, 74, 571, 86);
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+FRAME "Short description"
+{
+	Size(50, 120, 571, 180);
+	Layout(2);
+
+	LISTBOX "LBMissions"
+	{
+		Size(0, 0, 521, 60);
+		Settings(0, 1, 1, 0);
+		LineHeight(15);
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(1);
+		DataFunctionColumn(1, "Mission", "%MISSIONSHORTDESC", 0, 200, LEFT);
+		DataFunctionColumn(2, "Min Sympathy", "%MISSIONSYMPATHY", 0, 100, CENTER);
+		DataFunctionColumn(3, "Money reward", "%MISSIONREWARD", 0, 100, CENTER);
+		DataFunctionColumn(4, "Mission Pts", "%MISSIONPTS", 0, 100, CENTER);
+
+		SetData("0", "1", "2");
+
+		OnMouse( SetEnv("ENV_MISSIONSEL", GetControlText("LBMissions") )  );
+		OnMouse( SetFunctionContent("MissionDesc", "%MISSIONLONGDESC", GetControlText("LBMissions") ) );
+	}
+}
+
+FRAME "Mission description"
+{
+	Size(50, 202, 555, 366);
+	Layout(4);
+
+	FRAME "Client"
+	{
+		Size(-1, -1, -1, -1);
+
+		TEXT "MissionDesc"
+		{
+			Size(0, 0, 505, 164);
+			"";
+		}
+	}
+}
+
+SCROLLBAR "ScrollBar"
+{
+	Size(557, 206, 572, 364);
+	Target("Mission description");
+}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+
+
+	DATACONTROLBOX "DBControl"
+	{
+		OnLoad( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("MISSIONFACTION")) );
+		OnLoad( SetFunctionContent("Selected level", "%TEXTRSC(6, 3100)", GetEnv("MISSIONDIF")) );
+	}
+	
+	TEXTBUTTON "Accept"
+	{
+		Size(48, 400, 147, 420);
+		Layout(5);
+		OnMouse(
+			ServerMessage("ACM", "DBControl", "0", GetEnv("MISSIONSEL") ),
+			ChangePage("Page", ".\terminal\missions\rm_accept.tsc"),
+			PlaySound(Resource(16, 1))
+		);
+	}
+	
+	TEXTBUTTON "Next"
+	{
+		Size(148, 400, 248, 420);
+		Layout(5);
+		OnMouse(
+			ServerMessage("CSM", "DBControl", "0", GetEnv("MISSIONFACTION"), GetEnv("MISSIONDIF") ),
+			ChangePage("Page", ".\terminal\missions\rm_waiting.tsc"),
+			PlaySound(Resource(16, 1))
+		);
+	}
+	
+	TEXTBUTTON "Back"
+	{
+		Size(473, 400, 573, 420);
+		Layout(5);
+		OnMouse(
+			Message("Page", Document(".\terminal\missions\rm_root.tsc")),
+			PlaySound(Resource(16, 1))
+		);
+	}

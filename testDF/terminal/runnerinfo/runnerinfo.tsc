@@ -1,0 +1,177 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: info - runnerinfo.tsc
+// content: detailed view for a single character
+// notice: update privateinfo if you change this page
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_info.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "DCBGetCharacterInfo"
+	{
+		OnLoad( ReceiveDB( "DCBSetCharacterInfo", 277, GetEnv("PID") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetCharacterInfo"
+	{
+		SetContent( "Name", 1 );
+		SetFunctionContent( "Additional Info", "%CHARINFO", 1 );
+		SetFunctionContent( "Online", "%BOOL", 2 );
+		SetFunctionContent( "Aff. Faction", "%FACTIONNAME", 3 );
+		SetContent( "ENV_RICLANID", 4 );
+		SetContent( "ENV_RICLANLEVEL", 5 );
+		
+		OnData( Condition( StrEqual( GetEnv("RICLANID"), "0"),
+		                   SetContent( "Clan", "" ),
+		                   ReceiveDB( "DCBSetCharacterClanInfo", 279, GetEnv("RICLANID"), GetEnv("RICLANLEVEL") ) ) );
+	}
+	
+	DATACONTROLBOX "DCBSetCharacterClanInfo"
+	{
+		SetContent( "Aff. Clan", 0 );
+		SetContent( "Rank in this Clan", 1 );
+	}
+	
+	DATACONTROLBOX "DCBGetAdditionalInfo"
+	{
+		OnLoad( ReceiveDB( "DCBSetAdditionalInfo", 278, GetEnv("PID") ) );
+	}
+
+	DATACONTROLBOX "DCBSetAdditionalInfo"
+	{
+		SetFunctionContent( "Class", "%CHARCLASS", 0 );
+		SetFunctionContent( "Profession", "%CHARPROFESSION", 0 );
+		SetContent( "Description", 1 );
+		SetContent( "Soullight", 3 );
+	}
+	
+//	DATACONTROLBOX "DCBGetRunnerInfo"
+//	{
+//		SetContent("Name", 0);
+//		SetContent("Additional Character Info", 0);
+//		SetContent("Profession", 1);
+//		SetContent("Description", 2);
+//		SetContent("ENV_DESC", 2);
+//		SetContent("Overall Ranking", 3);
+//		SetFunctionContent("Soullight", "%SOULLIGHT", 4);
+//		SetContent("Money", 5);
+//		SetContent("Runner Kills", 6);
+//		SetContent("Creature Kills", 7);
+//	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	TEXT "Name"
+	{
+		LayOut(2);
+		Size(50, 40, 304, 52);
+	}
+	
+	TEXT "Class"
+	{
+		LayOut(2);
+		Size(50, 74, 230, 86);
+	}
+	
+	TEXT "Online"
+	{
+		LayOut(2);
+		Size(244, 74, 304, 86);
+	}
+	
+	TEXT "Profession"
+	{
+		LayOut(2);
+		Size(50, 108, 304, 120);
+	}
+	
+	TEXT "Additional Info"
+	{
+		Size(50, 142, 304, 222);
+		LayOut(2);
+	}
+	
+	FRAME "Own Description"
+	{
+		Layout(4);
+		Size(50, 244, 288, 366);
+		
+		FRAME "Client"
+		{
+			Size(-1, -1, -1, -1);
+		
+			TEXT "Description"
+			{
+				Pos(0, 0);
+				Width(253);
+				" ... receiving\n";
+			}
+		}
+	}
+	
+	SCROLLBAR "ScrollBar"
+	{
+		Size(290, 246, 304, 364);
+		Target("Own Description");
+	}
+	
+	TEXT "Aff. Faction"
+	{
+		LayOut(2);
+		Size(318, 40, 571, 52);
+	}
+	
+	TEXTBUTTON "DETAILS"
+	{
+		LayOut(7);
+		Size(513, 56, 563, 63); // 50
+		OnMouse( ChangePage( "Page", ".\terminal\factioninfo\factioninfo.tsc") );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	TEXT "Aff. Clan"
+	{
+		LayOut(2);
+		Size(318, 74, 571, 86);
+		"No Membership";
+	}
+	
+	TEXTBUTTON "DETAILS"
+	{
+		LayOut(7);
+		Size(513, 90, 563, 97); // 50
+		OnMouse( SetEnv( "ENV_CLANID", GetEnv("RICLANID") ) );
+		
+		OnMouse( Condition( StrEqual( GetEnv("RICLANID"), "0"),
+		                    SetContent( "Clan", "No Membership" ),
+		                    ChangePage( "Page", ".\terminal\claninfo\claninfo.tsc") ) );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	TEXT "Rank in this Clan"
+	{
+		LayOut(2);
+		Size(318, 108, 571, 120); 
+		"No Membership";
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+	
+	TEXTBUTTON "Back"
+	{
+		LayOut(5);
+		Size(473, 400, 573, 420);
+		OnMouse( ChangePage("Page", ".\terminal\runnerinfo\runnernamesearch.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}

@@ -1,0 +1,75 @@
+Hmm...  Looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -I 'zlib-1.1.4-orig*' zlib-1.1.4-orig/Makefile zlib-1.1.4/Makefile
+|*** zlib-1.1.4-orig/Makefile	Mon Mar 11 14:58:30 2002
+|--- zlib-1.1.4/Makefile	Tue Sep 16 23:58:15 2003
+--------------------------
+Patching file Makefile using Plan A...
+Hunk #1 FAILED at 12.
+Hunk #2 FAILED at 76.
+Hunk #3 FAILED at 98.
+Hunk #4 FAILED at 171.
+4 out of 4 hunks FAILED -- saving rejects to file Makefile.rej
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -I 'zlib-1.1.4-orig*' zlib-1.1.4-orig/contrib/minizip/Makefile zlib-1.1.4/contrib/minizip/Makefile
+|*** zlib-1.1.4-orig/contrib/minizip/Makefile	Tue Mar 17 18:55:16 1998
+|--- zlib-1.1.4/contrib/minizip/Makefile	Sat May  3 12:03:23 2003
+--------------------------
+Patching file contrib/minizip/Makefile using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file contrib/minizip/Makefile.rej
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -I 'zlib-1.1.4-orig*' zlib-1.1.4-orig/contrib/minizip/miniunz.c zlib-1.1.4/contrib/minizip/miniunz.c
+|*** zlib-1.1.4-orig/contrib/minizip/miniunz.c	Thu Mar 19 00:15:00 1998
+|--- zlib-1.1.4/contrib/minizip/miniunz.c	Sat Nov  9 13:44:10 2002
+--------------------------
+Patching file contrib/minizip/miniunz.c using Plan A...
+Hunk #1 succeeded at 1.
+Hunk #2 succeeded at 11.
+Hunk #3 FAILED at 82.
+1 out of 3 hunks FAILED -- saving rejects to file contrib/minizip/miniunz.c.rej
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -I 'zlib-1.1.4-orig*' zlib-1.1.4-orig/contrib/minizip/minizip.c zlib-1.1.4/contrib/minizip/minizip.c
+|*** zlib-1.1.4-orig/contrib/minizip/minizip.c	Thu Mar 19 15:45:48 1998
+|--- zlib-1.1.4/contrib/minizip/minizip.c	Sat Nov  9 13:43:42 2002
+--------------------------
+Patching file contrib/minizip/minizip.c using Plan A...
+Hunk #1 succeeded at 1.
+Hunk #2 succeeded at 13.
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -I 'zlib-1.1.4-orig*' zlib-1.1.4-orig/contrib/minizip/zip.c zlib-1.1.4/contrib/minizip/zip.c
+|*** zlib-1.1.4-orig/contrib/minizip/zip.c	Fri Jun 19 17:55:24 1998
+|--- zlib-1.1.4/contrib/minizip/zip.c	Mon Mar 11 22:07:08 2002
+--------------------------
+Patching file contrib/minizip/zip.c using Plan A...
+Hunk #1 succeeded at 13 with fuzz 1 (offset 3 lines).
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -I 'zlib-1.1.4-orig*' zlib-1.1.4-orig/contrib/untgz/Makefile zlib-1.1.4/contrib/untgz/Makefile
+|*** zlib-1.1.4-orig/contrib/untgz/Makefile	Tue Jan 20 16:30:58 1998
+|--- zlib-1.1.4/contrib/untgz/Makefile	Sat May  3 11:58:02 2003
+--------------------------
+Patching file contrib/untgz/Makefile using Plan A...
+Hunk #1 FAILED at 1.
+1 out of 1 hunk FAILED -- saving rejects to file contrib/untgz/Makefile.rej
+Hmm...  The next patch looks like a new-style context diff to me...
+The text leading up to this was:
+--------------------------
+|diff -cr -x config.log -x config.status -x config.cache -x '*.Po' -x '*.pot' -I 'zlib-1.1.4-orig*' zlib-1.1.4-orig/contrib/untgz/untgz.c zlib-1.1.4/contrib/untgz/untgz.c
+|*** zlib-1.1.4-orig/contrib/untgz/untgz.c	Thu Jul  9 18:46:02 1998
+|--- zlib-1.1.4/contrib/untgz/untgz.c	Sat Nov  9 13:46:48 2002
+--------------------------
+Patching file contrib/untgz/untgz.c using Plan A...
+Hunk #1 succeeded at 9 with fuzz 2 (offset 1 line).
+Hunk #2 succeeded at 30 with fuzz 2 (offset -1 lines).
+done

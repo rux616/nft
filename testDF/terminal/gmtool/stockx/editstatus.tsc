@@ -1,0 +1,232 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// gmtool: stockx - editcompany.tsc
+// access-level 50 (DEV)
+// content:
+// edit status of an existing stockx company
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+
+	}
+	
+	DATACONTROLBOX "DCBGMChecker"
+	{
+		OnLoad( TryAccess("DCBGMLinker", 350, GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBGMLinker"
+	{
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_DEV") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+	
+	DATACONTROLBOX "DCBUpdateStatus"
+	{
+		OnAccess( UpdateDB("", 736, GetEnv("SXSTATUS"),
+					    GetEnv("SXCOMPANYID"),
+					    GetEnv("G_CHARID") ) );
+					    
+		OnAccess( UpdateDB("", 737, GetEnv("SXENABLED"),
+					    GetEnv("SXCOMPANYID"),
+					    GetEnv("G_CHARID") ) );
+					    
+		OnAccess( ChangePage("Page", ".\terminal\gmtool\stockx\detail.tsc") );
+		
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBGetStockxChart"
+	{
+		OnLoad( ReceiveDB("Chart", 770, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_TIMESTAMP"), GetEnv("SXCHARTMONTHS") ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN GMTOOL"
+	{
+		LayOut(2);
+		Size(471, 40, 571, 120);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 19, 0, 225, 138);
+		"1";
+		FunctionText("%BITMAP(45, 1, 3)" );
+	}
+
+	FRAME "COMMANDS"
+	{
+		LayOut(2);
+		Size(471, 142, 571, 408);
+		
+		TEXTBUTTON "UPDATE"
+		{
+			LayOut(5);
+			Size(0, 0, 100, 20);
+			OnMouse( TryAccess("DCBUpdateStatus", 350, GetEnv("G_CHARID") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+	
+		TEXTBUTTON "BACK"
+		{
+			LayOut(5);
+			Size(0, 246, 100, 266);
+			OnMouse( ChangePage("Page", ".\terminal\gmtool\stockx\detail.tsc" ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	// first column: fix company data
+	TEXT "Company"
+	{
+		LayOut(2);
+		Size(50, 40, 200, 52);
+	}
+	
+	TEXT "Faction"
+	{
+		LayOut(2);
+		Size(50, 74, 200, 86);
+	}
+	
+	TEXT "Capital"
+	{
+		LayOut(2);
+		Size(50, 108, 200, 120);
+	}
+	
+	TEXT "Stocks"
+	{
+		LayOut(2);
+		Size(50, 142, 200, 154);
+	}
+	
+	TEXT "Fixed"
+	{
+		LayOut(2);
+		Size(50, 176, 200, 188);
+	}
+	
+	TEXT "Facevalue"
+	{
+		LayOut(2);
+		Size(50, 210, 200, 222);
+	}
+	
+	TEXT "Price"
+	{
+		LayOut(2);
+		Size(50, 244, 200, 256);
+	}
+	
+	TEXT "Trend"
+	{
+		LayOut(2);
+		Size(50, 278, 200, 290);
+	}
+	
+	TEXT "Availability (%)"
+	{
+		LayOut(2);
+		Size(50, 312, 200, 324);
+	}
+	
+	// second column: current company data
+	STOCKXBOX "Chart"
+	{
+		LayOut(2);
+		Size(214, 40, 447, 120);
+		ShowAvailability(1);
+		ShowStatus(1);
+	}
+	
+	TEXTBUTTON "TODAY"
+	{
+		LayOut(6);
+		Size(342, 124, 392, 131); // 50
+		OnMouse( ReceiveDB("Chart", 772, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_DATE"), GetEnv("G_DATE") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "LAST"
+	{
+		LayOut(7);
+		Size(404, 124, 439, 131); // 35
+		OnMouse( ReceiveDB("Chart", 770, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_TIMESTAMP"), GetEnv("SXCHARTMONTHS") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXT "Curr. Status"
+	{
+		LayOut(2);
+		Size(214, 142, 353, 154);
+	}
+	
+	TEXT "Curr. Enabl."
+	{
+		LayOut(2);
+		Size(367, 142, 447, 154);
+	}
+	
+	DATACONTROLBOX "DCBSetCompanyInfo"
+	{
+		OnLoad( SetContent( "Company", GetEnv("SXCOMPANYNAME") );
+		OnLoad( SetFunctionContent( "Faction", "%FACTIONNAME", GetEnv("SXFACTIONID") );
+		OnLoad( SetFunctionContent( "Curr. Status", "%TEXTRSC(4, 505)", GetEnv("SXSTATUS") );
+		OnLoad( SetFunctionContent( "Curr. Enabl.", "%TEXTRSC(4, 502)", GetEnv("SXENABLED") );
+		OnLoad( SetContent( "Capital", GetEnv("SXCAPITAL") );
+		OnLoad( SetContent( "Stocks", GetEnv("SXSTOCKS") );
+		OnLoad( SetContent( "Fixed", GetEnv("SXFIXED") );
+		OnLoad( SetContent( "Facevalue", GetEnv("SXFACEVALUE") );
+		OnLoad( SetContent( "Price", GetEnv("SXPRICE") );
+		OnLoad( SetContent( "Trend", GetEnv("SXTREND") );
+		OnLoad( SetContent( "Availability (%)", GetEnv("SXAVAILABILITY") );
+	}
+	
+	LISTBOX "New Status"
+	{
+		Layout (2);
+		Size (214, 176, 353, 256);
+		Settings(0, 0, 1, 0);
+		LineHeight(16);
+		SelectionColumn(1);
+		//DataColumn(1, "Status", 0, 129, LEFT);
+		DataFunctionColumn(1, "Status", "%TEXTRSC(4, 505)", 0, 170, LEFT);
+	
+		SetData("0", "1", "2", "3");
+	
+		OnMouse( SetEnv("ENV_SXSTATUS", GetControlText("New Status") ) );
+		OnMouse( SetFunctionContent("Curr. Status", "%TEXTRSC(4, 505)", GetEnv("SXSTATUS") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	LISTBOX "New Enabl."
+	{
+		Layout (2);
+		Size (367, 176, 447, 256);
+		Settings(0, 0, 1, 0);
+		LineHeight(16);
+		SelectionColumn(1);
+		DataFunctionColumn(1, "Enabled", "%TEXTRSC(4, 502)", 0, 70, LEFT);
+	
+		SetData("1", "0");
+	
+		OnMouse( SetEnv("ENV_SXENABLED", GetControlText("New Enabl.") ) );
+		OnMouse( SetFunctionContent("Curr. Enabl.", "%TEXTRSC(4, 502)", GetEnv("SXENABLED") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

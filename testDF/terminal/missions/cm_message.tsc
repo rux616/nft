@@ -1,0 +1,52 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: missions - cm_message.tsc
+// content:
+// messages
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+// Specials: Scrollbar: X: 557 - 572 Y: 110 - 364 (+2/-2)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_mission.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	TEXT "Category"
+	{
+		Size(46, 40, 571, 56);
+		TextSize(1);
+		"Clanmissions: Message";
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	TEXT "Message"
+	{
+		Layout(2);
+		Size(50, 112, 571, 152);
+		"MSG";
+		FunctionText("%ENV");
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+TEXTBUTTON "BACK"
+{
+	Size(473, 400, 573, 420);
+	Layout(5);
+	OnMouse( ChangePage("Page", ".\terminal\missions\splash.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}

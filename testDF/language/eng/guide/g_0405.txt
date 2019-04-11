@@ -1,0 +1,27 @@
+This skill governs subskills requiring a certain amount of aptness, ranging from handling different weapon systems and controlling vehicles to using drones.
+
+Pistol Combat 
+The subskill Pistol Combat reflects the ability to handle the small, manageable and mostly cheap pistols in Neocron. The better the pistol, the higher the level of the subskill has to be. By right-clicking the pistol and selecting "Show Info", you can see the level of Pistol Combat required to use that pistol. A higher skill level improves the values of damage, range, firing frequency and aiming.
+
+Rifle Combat 
+Rifles in Neocron excel in the areas of range and often damage. The subskill Rifle Combat reflects the ability to handle rifles. The better the rifle, the higher the level of the subskill has to be. By right-clicking the rifle and selecting "Show Info", you can see the level of Rifle Combat required to use that rifle. A higher skill level improves the values of damage, range, firing frequency and aiming.
+
+Hightech Combat 
+To use a highly technological weapon like the Fusion Cannon or Plasma Rifle, you need an appropriate level in the subskill Hightech Combat. By right-clicking the weapon and selecting "Show Info", you can see the level of Hightech Combat required to use that weapon. This subskill has no effect on the performance values of a weapon.
+
+Vehicle Use 
+This subskill determines the ability of a character to drive the different vehicles in Neocron, ranging from a simple Hoverbike to a heavily armored tank. While a rather low skill level is enough to drive the Hoverbikes, you have to invest quite a lot to be able to drive a tank.
+
+Agility 
+The subskill Agility influences your attack speed with melee weapons as well as running speed and jumping height.
+
+Repair 
+Most items in Neocron can be damaged or degrade through usage. The Repair subskill allows Runners in possession of a Repair Tool to fix damaged items. T be able to successfully repair an item, you need a Repair subskill level at least equal to half the tech level of the item to be repaired. The higher the level of Repair, the faster the repairing process. There will also be more condition repaired in one run and the maximal condition decreases less. Dexterity and Intelligence also affect repairing.
+
+Recycle 
+With the help of a Recycling Tool, this subskill allows to turn of junk of all kinds into ammunition, chemicals or metals. A high subskill level makes the recycling process faster; Dexterity also influences the speed somewhat.
+
+Remote Control 
+The subskill Remote Control is used to control drones. Drones can be used for recon, but also for combat. Like with other weapons, you need a certain level in this subskill to be able to use a drone of a given type or model. By right-clicking the drone and selecting "Show Info", you can see the level of Remote Control required to use that drone. A higher skill level improves the values of damage, range, firing frequency and aiming.
+ 
+

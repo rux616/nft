@@ -1,0 +1,26 @@
+La dextérité touche aux compétences requérant une certaine rapidité, allant du maniement de différentes armes au contrôle de véhicules ou de drones.
+
+Pistolet (Pistol Combat) 
+Cette compétence vous permet de manipuler les armes les plus petites et bon marché de Neocron. Meilleur est le pistolet, meilleure doit être la compétence. En affichant les informations du pistolet, vous pouvez voir le niveau requis pour l’utiliser. Une meilleure compétence accroît les dommages, la portée, la cadence de tir et la visée de l’arme.
+
+Fusil (Rifle Combat) 
+Les fusils dans Neocron sont des armes à grande portée, faisant souvent beaucoup de dégâts. Cette compétence permet d’utiliser tous les fusils. Meilleur est le fusil, meilleure doit être la compétence. En affichant les informations du fusil, vous pouvez voir le niveau requis pour l’utiliser. Une meilleure compétence accroît les dommages, la portée, la cadence de tir et la visée de l’arme.
+
+Combat High Tech (High Tech Combat) 
+Pour utiliser des armes telles que les canons à fusion ou les fusils à plasma, vous devez posséder cette compétence à un niveau suffisant. En affichant les informations de l’arme, vous pouvez voir le niveau requis pour l’utiliser. Une meilleure compétence accroît les dommages, la portée, la cadence de tir et la visée de l’arme.
+
+Piloter Véhicule (Vehicle Use) 
+Cette compétence vous permet de conduire les différents véhicules de Neocron, allant d’une simple Hoverbike au tank lourdement blindé.
+
+Agilité (Agility) 
+Cette compétence influe sur votre vitesse d’attaque avec les armes de mêlée, sur votre vitesse de course et votre hauteur de saut.
+
+Réparation (Repair) 
+La plupart des objets dans Neocron peuvent être endommagés lors de leur utilisation. La compétence Réparation permet aux runners en possession de l’outil approprié de réparer un objet. La compétence Réparation doit être au moins égale à la moitié de l’indice technologique de l’objet à réparer. Plus la compétence est élevée, plus le processus est rapide, plus la réparation est efficace, et moins la condition maximale diminue. La dextérité et l’intelligence affectent aussi la réparation.
+
+Recyclage (Recycle) 
+Avec l’aide de l’appareil de recyclage, vous pouvez transformer les déchets en tous types de munitions. Un haut niveau dans cette compétence permet d’accélérer le processus, et la dextérité influence légèrement la vitesse de traitement.
+
+Contrôle à distance (Remote Control) 
+Cette compétence est utilisée pour contrôler les drones, utilisables pour la reconnaissance, mais aussi pour le combat. Comme pour les armes conventionnelles, il vous faut un certain niveau dans cette compétence pour utiliser chaque drone (à voir dans les propriétés du drone). Une compétence élevée permet l’augmentation des dommages, de la portée, de la cadence de tir et de la visée.
+ 

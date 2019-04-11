@@ -1,0 +1,48 @@
+***************
+*** 1,14 ****
+! CC=cc
+! CFLAGS=-g
+  
+! untgz: untgz.o  ../../libz.a
+! 	$(CC) $(CFLAGS) -o untgz  untgz.o -L../.. -lz
+  
+! untgz.o: untgz.c ../../zlib.h
+! 	$(CC) $(CFLAGS) -c -I../.. untgz.c
+  
+  ../../libz.a:
+  	cd ../..; make
+  
+  clean:
+! 	rm -f untgz untgz.o *~
+--- 1,31 ----
+! CC=gcc
+! CFLAGS=-c -O3 -Wall $(INCS)  \
+! 	-D__GTHREAD_HIDE_WIN32API -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 \
+! 	-D_FILE_OFFSET_BITS=64 \
+! 	-mms-bitfields -fms-extensions \
+! 	-fno-rtti -fno-exceptions -mcpu=i386 -march=i386 -I../..
+! LIBS = -L../.. -lz	-lgw32c
+  
+! # Rule to make compiled resource (Windows)
+! %-rc.o: %.rc
+! 	windres -i $< -o $@
+  
+! %.pic.o: %.c
+! 	$(CC) $(CFLAGS) $< -o $@
+!      
+! %.o: %.c
+! 	$(CC) -static -D__STATIC__ -DZLIB_STATIC $(CFLAGS) $< -o $@
+! 
+! all: untgz untgz-static ../../libz.a ../../libz.dll.a
+! 
+! untgz: untgz.pic.o untgz-rc.o 
+! 	$(CC) -Wl,-s -o $@  $^  $(LIBS)
+! 
+! untgz-static: untgz.o untgz-rc.o 
+! 	$(CC) -Wl,-static -Wl,-s -o $@  $^  $(LIBS)
+  
+  ../../libz.a:
+  	cd ../..; make
+  
+  clean:
+! 	rm -f untgz untgz.o *~ untgz.exe  untgz-static.exe untgz.pic.o untgz-rc.o

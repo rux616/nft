@@ -1,0 +1,22 @@
+"Compressed Neocron 2 Files|pak_*.act;pak_*.bmp;pak_*.bsp;pak_*.dat;pak_*.def;pak_*.fx;pak_*.ini;pak_*.lua;pak_*.tsc;pak_*.txt;pak_*.wav"
+"Compressed Neocron 2 Files|" & modPreferences.CFilePrefix & "*.act;" & modPreferences.CFilePrefix & "*.bmp;" & modPreferences.CFilePrefix & "*.bsp;" & modPreferences.CFilePrefix & "*.dat;" & modPreferences.CFilePrefix & "*.def;" & modPreferences.CFilePrefix & "*.fx;" & modPreferences.CFilePrefix & "*.ini;" & modPreferences.CFilePrefix & "*.lua;" & modPreferences.CFilePrefix & "*.tsc;" & modPreferences.CFilePrefix & "*.txt;" & modPreferences.CFilePrefix & "*.wav"
+"Neocron 2 Files|*.act;*.bmp;*.bsp;*.dat;*.def;*.fx;*.ini;*.lua;*.tsc;*.txt;*.wav"
+
+"Text Files (*.txt)" + Chr$(0) + "*.txt" + Chr$(0) + "All Files (*.*)" + Chr$(0) + "*.*" + Chr$(0)
+"Compressed Neocron 2 Files" & Chr(0) & modPreferences.CFilePrefix & "*.act;" & modPreferences.CFilePrefix & "*.bmp;" & modPreferences.CFilePrefix & "*.bsp;" & modPreferences.CFilePrefix & "*.dat;" & modPreferences.CFilePrefix & "*.def;" & modPreferences.CFilePrefix & "*.fx;" & modPreferences.CFilePrefix & "*.ini;" & modPreferences.CFilePrefix & "*.lua;" & modPreferences.CFilePrefix & "*.tsc;" & modPreferences.CFilePrefix & "*.txt;" & modPreferences.CFilePrefix & "*.wav" & Chr(0)
+"Neocron 2 Files" & Chr(0) & "*.act;*.bmp;*.bsp;*.dat;*.def;*.fx;*.ini;*.lua;*.tsc;*.txt;*.wav" & Chr(0)
+
+
+
+
+.act
+.bmp
+.bsp
+.dat
+.def
+.fx
+.ini
+.lua
+.tsc
+.txt
+.wav

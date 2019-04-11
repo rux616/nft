@@ -1,0 +1,114 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: stockx - depot.tsc
+// content:
+// reset depot specific data
+// show current holded stocks (stockcount > 0)
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv( "ENV_START", "0" ) );
+		OnLoad( SetEnv( "ENV_LIMIT", "22" ) );
+		OnLoad( SetEnv( "ENV_BOOLEAN", "0" ) );
+		OnLoad( SetEnv( "ENV_BACK", ".\terminal\stockx\depot.tsc" ) );
+	}
+
+	DATACONTROLBOX "DCBGetLastQuotations"
+	{
+		OnLoad( ReceiveDB("DepotX - Holded Stocks", 760, GetEnv("G_CHARID"), GetEnv("START"), GetEnv("LIMIT") ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN StockX v 2.000"
+	{
+		LayOut(2);
+		Size( 50, 40, 220, 130);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 0, 0, 255, 127);
+		FunctionText("%BITMAP(8, 1, 3)" );
+	}
+	
+	DATACONTROLBOX "DCBSetCityComOffset"
+	{
+		OnLoad( SetContent("NCN StockX v 2.000", GetEnv("G_GFXOFFSET") ) );
+	}
+	
+	TEXT "Time (NMT)"
+	{
+		LayOut(2);
+		Size(50, 152, 220, 164);
+		"G_TIMESTAMP";
+		FunctionText("%ENV");
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	LISTBOX "DepotX - Holded Stocks"
+	{
+		LayOut(2);
+		Size(244, 40, 571, 408);
+		Settings(0, 1, 1, 1);
+		Background(0);
+		LineHeight(16);
+		ShowLineNumbers(0, 0);
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(5);
+		DataColumn(1, "Company", 1, 162, LEFT);
+		DataColumn(2, "Price",   2,  60, RIGHT);
+		DataColumn(3, "Trend",   3,  60, RIGHT);
+		DataColumn(4, "Count",   4,  45, RIGHT);
+		DataColumn(5, "ID",      0,   0, LEFT);
+		
+		OnMouse( SetEnv("ENV_SXDEPOTID", GetControlText("DepotX - Holded Stocks") ) );
+		OnMouse( ChangePage("Page", ".\terminal\stockx\detailholded.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "REFRESH"
+	{
+		LayOut(6);
+		Size(409, 412, 469, 419);
+		OnMouse( ReceiveDB("DepotX - Holded Stocks", 760, GetEnv("G_CHARID"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "PREV"
+	{
+		LayOut(6);
+		Size(481, 412, 521, 419);
+		OnMouse( SetEnv("ENV_START", StringCalcSub( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("DepotX - Holded Stocks", 760, GetEnv("G_CHARID"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "NEXT"
+	{
+		LayOut(7);
+		Size(533, 412, 563, 419);
+		OnMouse( SetEnv("ENV_START", StringCalcAdd( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("DepotX - Holded Stocks", 760, GetEnv("G_CHARID"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "MAIN"                                                                                                                  
+	{                                                                                                                              
+		LayOut(5);                                                                                                                 
+		Size(48, 400, 222, 420);
+		OnMouse( ChangePage("Page", ".\terminal\stockx\overview.tsc" ) );                                                       
+		OnMouse( PlaySound(Resource(16, 1) ) );                                                                                    
+	}

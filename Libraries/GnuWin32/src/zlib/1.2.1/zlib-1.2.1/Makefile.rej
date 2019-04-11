@@ -1,0 +1,221 @@
+***************
+*** 12,47 ****
+  # To install in $HOME instead of /usr/local, use:
+  #    make install prefix=$HOME
+  
+! CC=cc
+  
+! CFLAGS=-O
+  #CFLAGS=-O -DMAX_WBITS=14 -DMAX_MEM_LEVEL=7
+  #CFLAGS=-g -DDEBUG
+  #CFLAGS=-O3 -Wall -Wwrite-strings -Wpointer-arith -Wconversion \
+  #           -Wstrict-prototypes -Wmissing-prototypes
+  
+! LDFLAGS=-L. -lz
+  LDSHARED=$(CC)
+  CPP=$(CC) -E
+  
+  VER=1.1.4
+! LIBS=libz.a
+! SHAREDLIB=libz.so
+  
+  AR=ar rc
+  RANLIB=ranlib
+  TAR=tar
+  SHELL=/bin/sh
+  
+! prefix = /usr/local
+  exec_prefix = ${prefix}
+  libdir = ${exec_prefix}/lib
+  includedir = ${prefix}/include
+  
+  OBJS = adler32.o compress.o crc32.o gzio.o uncompr.o deflate.o trees.o \
+         zutil.o inflate.o infblock.o inftrees.o infcodes.o infutil.o inffast.o
+  
+! OBJA =
+  # to use the asm code: make OBJA=match.o
+  
+  TEST_OBJS = example.o minigzip.o
+--- 12,65 ----
+  # To install in $HOME instead of /usr/local, use:
+  #    make install prefix=$HOME
+  
+! CC=gcc
+  
+! CFLAGS=-O3 -Wall $(INCS)  \
+! 	-D__GTHREAD_HIDE_WIN32API -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 \
+! 	-D_FILE_OFFSET_BITS=64 \
+! 	-mms-bitfields -fms-extensions \
+! 	-fno-rtti -fno-exceptions -mcpu=i386 -march=i386
+! #CFLAGS=-O
+  #CFLAGS=-O -DMAX_WBITS=14 -DMAX_MEM_LEVEL=7
+  #CFLAGS=-g -DDEBUG
+  #CFLAGS=-O3 -Wall -Wwrite-strings -Wpointer-arith -Wconversion \
+  #           -Wstrict-prototypes -Wmissing-prototypes
+  
+! LDFLAGS=-s
+! #LDFLAGS=-L. -lz
+  LDSHARED=$(CC)
+  CPP=$(CC) -E
+  
+  VER=1.1.4
+! LTVER=1
+! #LIBS=libz.a	-liberty -lc
+! LIBS=$(SHAREDLIB) libz.a 
+! SHAREDLIB=libz.dll.a
+! #SHAREDLIB=libz.so
+  
+  AR=ar rc
+  RANLIB=ranlib
+  TAR=tar
+  SHELL=/bin/sh
+  
+! %.pic.o : CFLAGS += -DZLIB_DLL
+! %.pic.o : %.c
+! 	$(CC) -c $(CFLAGS) -o $@ $<
+! # Rule to make compiled resource (Windows)
+! %-rc.o: %.rc
+! 	windres -i $< -o $@
+! 
+! prefix = c:/progra~1/Zlib
+! #prefix = /usr/local
+  exec_prefix = ${prefix}
+  libdir = ${exec_prefix}/lib
+  includedir = ${prefix}/include
+  
+  OBJS = adler32.o compress.o crc32.o gzio.o uncompr.o deflate.o trees.o \
+         zutil.o inflate.o infblock.o inftrees.o infcodes.o infutil.o inffast.o
++ DLLOBJS = $(OBJS:.o=.pic.o)
+  
+! OBJA = match.o
+  # to use the asm code: make OBJA=match.o
+  
+  TEST_OBJS = example.o minigzip.o
+***************
+*** 58,64 ****
+    contrib/minizip/[CM]*[pe] contrib/minizip/*.[ch] contrib/minizip/*.[td]?? \
+    contrib/delphi*/*.???
+  
+! all: example minigzip
+  
+  test: all
+  	@LD_LIBRARY_PATH=.:$(LD_LIBRARY_PATH) ; export LD_LIBRARY_PATH; \
+--- 76,82 ----
+    contrib/minizip/[CM]*[pe] contrib/minizip/*.[ch] contrib/minizip/*.[td]?? \
+    contrib/delphi*/*.???
+  
+! all: example minigzip example-static minigzip-static
+  
+  test: all
+  	@LD_LIBRARY_PATH=.:$(LD_LIBRARY_PATH) ; export LD_LIBRARY_PATH; \
+***************
+*** 80,111 ****
+  	mv _match.o match.o
+  	rm -f _match.s
+  
+! $(SHAREDLIB).$(VER): $(OBJS)
+! 	$(LDSHARED) -o $@ $(OBJS)
+! 	rm -f $(SHAREDLIB) $(SHAREDLIB).1
+! 	ln -s $@ $(SHAREDLIB)
+! 	ln -s $@ $(SHAREDLIB).1
+  
+! example: example.o $(LIBS)
+! 	$(CC) $(CFLAGS) -o $@ example.o $(LDFLAGS)
+  
+! minigzip: minigzip.o $(LIBS)
+! 	$(CC) $(CFLAGS) -o $@ minigzip.o $(LDFLAGS)
+  
+  install: $(LIBS)
+  	-@if [ ! -d $(includedir)  ]; then mkdir $(includedir); fi
+  	-@if [ ! -d $(libdir) ]; then mkdir $(libdir); fi
+! 	cp zlib.h zconf.h $(includedir)
+  	chmod 644 $(includedir)/zlib.h $(includedir)/zconf.h
+! 	cp $(LIBS) $(libdir)
+  	cd $(libdir); chmod 755 $(LIBS)
+  	-@(cd $(libdir); $(RANLIB) libz.a || true) >/dev/null 2>&1
+  	cd $(libdir); if test -f $(SHAREDLIB).$(VER); then \
+  	  rm -f $(SHAREDLIB) $(SHAREDLIB).1; \
+! 	  ln -s $(SHAREDLIB).$(VER) $(SHAREDLIB); \
+! 	  ln -s $(SHAREDLIB).$(VER) $(SHAREDLIB).1; \
+  	  (ldconfig || true)  >/dev/null 2>&1; \
+  	fi
+  # The ranlib in install is needed on NeXTSTEP which checks file times
+  # ldconfig is for Linux
+  
+--- 98,143 ----
+  	mv _match.o match.o
+  	rm -f _match.s
+  
+! #$(SHAREDLIB).$(VER): $(DLLOBJS)# $(OBJA)
+! $(SHAREDLIB): $(DLLOBJS) #$(OBJA)
+! #	$(LDSHARED) -o $@ $(DLLOBJS) $(OBJA)
+! 	o2dll -l $@ -o zlib$(LTVER).dll $(DLLOBJS)  -lgw32c   #$(OBJA)
+! #	rm -f $(SHAREDLIB) $(SHAREDLIB).1
+! #	mv -f $@ $(SHAREDLIB)
+! #	cp -fp $@ $(SHAREDLIB).1
+! #	ln -s $@ $(SHAREDLIB)
+! #	ln -s $@ $(SHAREDLIB).1
+! 
+! example-static: example.o example-rc.o $(LIBS)
+! 	$(CC) $(CFLAGS) -o $@ example.o  example-rc.o $(LDFLAGS) libz.a -lgw32c
+! 
+! example: example.pic.o example-rc.o $(LIBS)
+! 	$(CC) $(CFLAGS) -o $@ example.pic.o  example-rc.o $(LDFLAGS) libz.dll.a  -lgw32c
+  
+! minigzip-static: minigzip.o minigzip-rc.o $(LIBS)
+! 	$(CC) $(CFLAGS) -o $@ minigzip.o  minigzip-rc.o $(LDFLAGS) libz.a  -lgw32c
+  
+! minigzip: minigzip.pic.o minigzip-rc.o $(LIBS)
+! 	$(CC) $(CFLAGS) -o $@ minigzip.pic.o  minigzip-rc.o $(LDFLAGS) libz.dll.a  -lgw32c
+  
+  install: $(LIBS)
++ 	-@if [ ! -d $(prefix)  ]; then mkdir $(prefix); fi
+  	-@if [ ! -d $(includedir)  ]; then mkdir $(includedir); fi
+  	-@if [ ! -d $(libdir) ]; then mkdir $(libdir); fi
+! 	-@if [ ! -d $(bindir) ]; then mkdir $(bindir); fi
+! 	cp -fp zlib.h zconf.h $(includedir)
+  	chmod 644 $(includedir)/zlib.h $(includedir)/zconf.h
+! 	cp -fp $(LIBS) $(libdir)
+  	cd $(libdir); chmod 755 $(LIBS)
+  	-@(cd $(libdir); $(RANLIB) libz.a || true) >/dev/null 2>&1
+  	cd $(libdir); if test -f $(SHAREDLIB).$(VER); then \
+  	  rm -f $(SHAREDLIB) $(SHAREDLIB).1; \
+! 	  cp -fp $(SHAREDLIB).$(VER) $(SHAREDLIB); \
+! 	  cp -fp $(SHAREDLIB).$(VER) $(SHAREDLIB).1; \
+  	  (ldconfig || true)  >/dev/null 2>&1; \
+  	fi
++ #	  ln -s $(SHAREDLIB).$(VER) $(SHAREDLIB); 
++ #	  ln -s $(SHAREDLIB).$(VER) $(SHAREDLIB).1; 
+  # The ranlib in install is needed on NeXTSTEP which checks file times
+  # ldconfig is for Linux
+  
+***************
+*** 139,151 ****
+  	rm -f test.c ztest*.c contrib/minizip/test.zip
+  	d=zlib-`sed -n '/VERSION "/s/.*"\(.*\)".*/\1/p' < zlib.h`;\
+  	rm -f $$d.tar.gz; \
+! 	if test ! -d ../$$d; then rm -f ../$$d; ln -s `pwd` ../$$d; fi; \
+  	files=""; \
+  	for f in $(DISTFILES); do files="$$files $$d/$$f"; done; \
+  	cd ..; \
+  	GZIP=-9 $(TAR) chofz $$d/$$d.tar.gz $$files; \
+  	if test ! -d $$d; then rm -f $$d; fi
+  	mv Makefile~ Makefile
+  
+  tags:	
+  	etags *.[ch]
+--- 171,184 ----
+  	rm -f test.c ztest*.c contrib/minizip/test.zip
+  	d=zlib-`sed -n '/VERSION "/s/.*"\(.*\)".*/\1/p' < zlib.h`;\
+  	rm -f $$d.tar.gz; \
+! 	if test ! -d ../$$d; then rm -f ../$$d; cp -fp `pwd` ../$$d; fi; \
+  	files=""; \
+  	for f in $(DISTFILES); do files="$$files $$d/$$f"; done; \
+  	cd ..; \
+  	GZIP=-9 $(TAR) chofz $$d/$$d.tar.gz $$files; \
+  	if test ! -d $$d; then rm -f $$d; fi
+  	mv Makefile~ Makefile
++ #	if test ! -d ../$$d; then rm -f ../$$d; ln -s `pwd` ../$$d; fi; 
+  
+  tags:	
+  	etags *.[ch]

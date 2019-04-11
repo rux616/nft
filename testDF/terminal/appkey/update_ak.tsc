@@ -1,0 +1,83 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// apartmentkey: update.tsc
+// content:
+// displays owner, location, old code, new code
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 448 x 224
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetContent("ENV_BACK", ".\terminal\appkey\update_ak.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBApartmentInfo"
+	{
+		OnLoad( ReceiveDB( "DCBApartmentInfo", 181, GetEnv("G_APPID") ) );
+		SetContent("Owner", 0);
+		SetContent("Location of Apartment", 1);
+		SetContent("Curr. Security Code", 2);
+	}
+	
+	DATACONTROLBOX "DCBCheckAccessCode"
+	{
+		OnAccess( UpdateDB("", 182, GetControlText("New Security Code"),
+		                            GetEnv("G_APPID"),
+		                            GetEnv("G_CHARID") ) );
+		OnAccess( SetContent("Curr. Security Code", GetControlText("New Security Code") ) );
+		
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 168)", "0") );
+		OnAccessError( ChangePage("Page", ".\terminal\appkey\message.tsc") );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+//	TEXT "Description"
+//	{
+//		Size(38, 24, 389, 44);
+//		TextSize(1);
+//		"Apartment: Configuration Interface v 1.03";
+//	}
+	
+	TEXT "Location of Apartment"
+	{
+		LayOut(2);
+		Size(40, 67, 389, 79);
+		FunctionText("%TABLERSC(27, 0, 0)");
+	}
+	
+	TEXT "Owner"
+	{
+		LayOut(2);
+		Size(40, 101, 389, 113);
+	}
+	
+	TEXT "Curr. Security Code"
+	{
+		LayOut(2);
+		Size(40, 135, 208, 147);
+	}
+
+	EDITBOX "New Security Code"
+	{
+		LayOut(2);
+		Size(222, 135, 389, 147);
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "SUBMIT"
+	{
+		LayOut(5);
+		Size(154, 184, 274, 204);
+		OnMouse( TryAccess("DCBCheckAccessCode", 189, GetControlText("New Security Code") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	

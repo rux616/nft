@@ -1,0 +1,11 @@
+function DIALOG()
+NODE(0)
+	SAY("Hallo Runner.")
+	ANSWER("Bist du nicht… oh mein Gott, es gibt dich ja wirklich!",1)
+NODE(1)
+	SAY("Verdammt, schon wieder erkannt. Ja, ich bin Rossi - ja, es gibt mich.")
+	ANSWER("Darf ich irgendetwas für dich tun?",2)
+NODE(2)
+	SAY("Da gibt es tatsächlich etwas… ich bin schon seit langem auf der Suche nach einem Hintereingang zum ProtoPharm-Hauptquartier. Weißt du, in welchem Sektor ich mich mal näher umsehen sollte? Die Antwort gibst du bitte beim Gewinnspiel auf www.pcgames.de.")
+	ENDDIALOG()
+end

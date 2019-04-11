@@ -1,0 +1,15 @@
+Der Skill Strength kommt insbesondere im Kampf und beim Transportieren schwerer Lasten zum Tragen.
+
+Melee Combat 
+Der Subskill Melee Combat bestimmt die Nahkampf-Fertigkeiten und den Schaden des Charakters mit Nahkampfwaffen wie Messern und Schwertern. Je höher der Skillwert, desto besser sind die Werte von Schaden und Schlagfrequenz .
+
+Heavy Combat 
+Zum Führen von schweren Waffen wie den Cannons oder Flammenwerfern wird ein je nach Waffe mehr oder weniger hoher Wert in diesem Subskill benötigt. Je höher der Skillwert, desto besser sind die Werte von Schaden, Reichweite, Schussfrequenz und Zielen.
+
+Transport 
+Dieser Subskill bestimmt die Last, die der Charakter insgesamt tragen kann. Der Wert des maximal tragbaren Gewichts wird im Inventory Fenster angezeigt. Ausserdem wird hier die noch verfügbare Tragkraft angezeigt. Je näher das mitgeführte Gewicht der maximalen Tragkraft kommt, desto langsamer und träger wird der Charakter. Stärke hat auch einen Einfluss auf die maximale Tragkraft.
+
+Resist Force 
+Dieser Subskill bestimmt die Widerstandskraft des Charakters gegen Schockwellen, wie sie von Explosionen verursacht werden.
+ 
+

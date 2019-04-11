@@ -1,0 +1,17 @@
+Die Psychic Power ist das Hauptattribut eines jeden PSI Mönches. Ohne sie wäre er nicht in der Lage, seine mächtigen PSI Module einzusetzen. Die PSI Module werden in die Kategorien Passiv und Agressiv einegteilt. Im folgenden werden die Subskills der PSI Power beschrieben.
+
+Passive PSI Use 
+Ein Character mit diesem Subskill kann passive PSI Module benutzen. Zu den einfachsten Modulen gehört zum beispiel das Heal Modul, mit dem es dem Mönch möglich ist, leichte Wunden zu heilen. Mit den passiven PSI Modulen kann der Benutzer die Fähigkeiten anderer Spieler beeinflussen, zum Guten wie auch zum Schlechten. Der Passive PSI Monk ist damit eine gern gesehene Unterstützung in jedem Runnerteam, da er die Teammitglieder schützen und seine Feinde schwächen kann. Diese Fähigkeit beeinflusst die Effizienz von Passiv-PSI Modulen.
+
+Agressive PSI Use 
+Im Gegensatz zum Passive PSI Use ist dieser Subskill einzig zum Führen von Angriffsmodulen geeignet. Vom einfachen Feuerball über Giftangriffe bis hin zu mächtigen Energielanzen ermöglicht dieser Subskill dem PSI Mönch die Benutzung agressiver PSI Module. Diese Fähigkeit beeinflusst die Effizienz von Aggressiv-PSI Modulen.
+
+Mental Steadiness 
+Der PSI Mönch benötigt, um die PSI Module benutzen zu können, den Subskill Mental Steadiness (Geistesschärfe). Jedes PSI Modul benötigt einen mehr oder weniger hohen Wert in diesem Subskill, abhängig von der Stärke und Qualität des Moduls.
+
+PSI Power 
+Der Subskill PSI Power bestimmt die maximal zur Verfügung stehende PSI Energie des Charakters. Jedesmal, wenn der PSI Mönch ein Modul einsetzt, sinkt die Energie und steigt dann langsam wieder an. Der Energieverbrauch richtet sich nach der Stärke des benutzten PSI Moduls.
+
+Resist PSI 
+Resist PSI bestimmt die Widerstandsfähigkeit des Charakters gegenüber Angriffen mit PSI-Schaden.
+ 

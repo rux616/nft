@@ -1,0 +1,134 @@
+// gene replicator location descriptions
+//World ID / Station ID / Hazard level / Description
+
+setentry 1 	-1	-1	2	"APARTMENT"		0	|
+
+//plaza
+setentry 2 	1	100	3	"PLAZA: TYPHERRA MEMORIAL"	08000020	|
+setentry 3 	1	101	3	"PLAZA: TYPHERRA MEMORIAL" 	08000020	|
+setentry 4 	2	101	3	"PLAZA: RONTRADE WALK" 		08000020	|
+setentry 5 	2	100	3	"PLAZA: CENTER" 		08000020	|
+setentry 6 	101	100	3	"PLAZA: NEAR JONES CENTER" 	08000020	|
+setentry 7 	101	101	3	"PLAZA: NEAR JONES CENTER" 	08000020	|
+setentry 8 	102	100	3	"PLAZA: HIGHWATCH ROAD" 	08000020	|
+setentry 9 	102	5	3	"PLAZA: MEDICARE SEC.4" 	08000020	|
+
+//viarosso
+setentry 10 	401	333	3	"VIAROSSO: SECTOR-3" 	08000000	|
+
+//pepper_p3
+setentry 15	7	100	4	"PEPPER PARK: EXIT"		08000050	|
+setentry 16	5	1111	4	"PEPPER PARK: SECTOR-1"		08000050	|
+
+
+//outzone abbey
+setentry 20	23	100	4	"OUTZONE: ABBEY OF CRAHN"	08000090	|
+//lostpart_p1
+setentry 21	10	100	3	"OUTZONE: MUTANT POOL"		08000080	|
+setentry 22	10	101	3	"OUTZONE: STREETWORK"		08000080	|
+//industry p2
+setentry 23	801	100	3	"INDUSTRIAL A.: LAB"		08000080	|
+
+//outzone station 
+setentry 24	24	10	3	"OUTZONE SUBWAY STATION"	08000100	|
+
+//HQs
+setentry 25	108	666	1	"HQ: N.E.X.T."			08000020	|
+setentry 26	107	666	1	"HQ: DIAMOND REAL ESTATE"	08000020	|
+setentry 27	105	666	1	"HQ: CITYADMIN"			08000020	|
+setentry 28	405	666	1	"HQ: TANGENT TECHNOLOGIES"	08000000	|
+setentry 29	406	666	1	"HQ: BIOTECH INC."		08000000	|
+setentry 30	407	666	1	"HQ: PROTO PHARM"		08000000	|
+setentry 31	1112	666	1	"HQ: BROTHERHOOD OF CRAHN"	10001100	|
+setentry 32	1119	666	1	"HQ: BLACK DRAGON CLAN"		10001100	|
+setentry 33	1116	666	1	"HQ: TSUNAMI SYNDICATE"		10001100	|
+setentry 34	751	666	1	"HQ: CITY MERCS"		01001000	|
+setentry 35	1110	666	1	"HQ: TWILIGHT GUARDIAN"		10001100	|
+setentry 36	1111	666	1	"HQ: FALLEN ANGELS"		10001100	|
+
+//DOY
+setentry 40	1100	666	1	"Twilight Guardian District"			10001100	|
+setentry 41	1101	666	1	"Fallen Angels District"			10001100	|
+setentry 42	1105	666	1	"Central Dome of York."			10001100	|
+setentry 43	1106	666	1	"Tsunami Syndicate District"			10001100	|
+setentry 44	1109	666	1	"Black Dragon District"			10001100	|
+setentry 45	1102	666	1	"Brotherhood of Crahn District"			10001100	|
+
+
+//outher city spawner ###########################################################
+
+//canyons
+setentry 50	650	100	4	"OLD CANYON" 		13000500	|
+
+//TECHHAVEN
+setentry 60	503	100	1	"TECHHAVEN: CENTER A" 		07000500	|
+setentry 61	503	101	1	"TECHHAVEN: CENTER B" 		07000600	|
+
+//Military Base
+setentry 70	750	100	4	"MILITARY BASE: CENTER" 	01001000	|
+
+
+//terrainbsp
+setentry 100	2027	2027	3	"Point Red"			07000200	|
+setentry 101	2048	2048	3	"Crest Village"			08000300	|
+setentry 102	2092	2092	5	"Catlock Bay"			12000600	|
+setentry 103	2190	2190	3	"El Farid Village" 		10001100	|
+setentry 104	2215	2215	3	"Escador Oasis" 		15001100	|
+setentry 105	2112	2092	5	"Canyon Reloading Point"     		12000600	|
+
+//outposts
+setentry 120	2066	1111	4	"Gravis Uplink"   		06000400	|
+setentry 121	2069	1111	5	"Crest Uplink"   		09000400	|
+setentry 122	2071	1111	5	"Foster Uplink" 		11000400	|
+setentry 123	2147	1111	4	"Hawkins Uplink"     		07000800	|
+setentry 124	2164	1111	4	"Sieger Uplink"     		04000900	|
+setentry 125	2171	1111	5	"Tristar Uplink"        	11000900	|
+setentry 126	2175	1111	4	"Cajun Uplink"     		15000900	|
+setentry 127	2207	1111	4	"Northstar Uplink"      	07001100	|
+setentry 128	2212	1111	5	"Tescom Uplink"      		12001100	|
+setentry 129	2006	1111	4	"Simmons Factory"     		06000100	|
+setentry 130	2031	1111	4	"MC Pherson Factory"        	11000200	|
+setentry 131	2047	1111	4	"Tyron Factory"  		07000300	|
+setentry 132	2049	1111	4	"Krupp Factory"   		09000300	|
+setentry 133	2132	1111	5	"Tezla Factory"			12000700	|
+setentry 134	2149	1111	5	"Malstrond Factory"        	09000800	|
+setentry 135	2156	1111	4	"Eastgate Factory"     		16000800	|
+setentry 136	2167	1111	4	"Emmerson Factory"     		07000900	|
+setentry 137	2204	1111	4	"Rockshore Factory"       	04001100	|
+setentry 138	2028	1111	4	"Jeriko Fortress"     		08000200	|
+setentry 139	2090	1111	4	"Shirkan Fortress" 		10000500	|
+setentry 140	2105	1111	4	"Regant Fortress"		05000600	|
+setentry 141	2111	1111	4	"Devereaux Fortress"       	11000600	|
+setentry 142	2151	1111	4	"Blackhill Fortress"        	11000800	|
+setentry 143	2205	1111	4	"Drakkhan Fortress"  		05001100	|
+setentry 144	2112	1111	5	"Cycrow Lab"     		12000600	|
+setentry 145	2143	1111	4	"Jankins Lab"       		03000800	|
+setentry 146	2153	1111	4	"Nemesis Lab"  			13000800	|
+setentry 147	2155	1111	5	"Soliko Lab"      		15000800	|
+setentry 148	2165	1111	4	"Chester Lab"    		05000900	|
+setentry 149	2194	1111	5	"Syncon Lab"      		14001000	|
+setentry 150	2052	1111	5	"Ceres Mine"       		12000300	|
+setentry 151	2067	1111	5	"Redrock Mine"        		07000400	|
+setentry 152	2073	1111	5	"Grant Mine" 			13000400	|
+setentry 153	2128	1111	5	"Gabanium Mine" 		08000700	|
+setentry 154	2168	1111	5	"Avenger Mine"  		08000900	|
+setentry 155	2189	1111	4	"Yutano Mine"     		09001000	|
+
+//Free GeneReps
+setentry 156	2184	1111	3	"Battle Dome"     		04001100	|
+setentry 159	2131	1111	3	"Desert Racetrack"     		11000700	|
+
+//dummy eintrag
+setentry 200 	-1	-1	1	"PRIMARY APARTMENT"		0	|
+//AreaMC5
+setentry 220	1086	1111	0	"AREA MC5"   		06000400	|
+
+// hazard levels
+// 0 - unknown
+// 1 - very safe
+// 2 - safe
+// 3 - not critical
+// 4 - critical
+// 5 - dangerous
+// 6 - very dangerous
+// 7 - suicid squad

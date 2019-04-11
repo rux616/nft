@@ -1,0 +1,40 @@
+function DIALOG()
+
+	NODE(0)
+		SAY("Bonjour, que puis-je faire pour vous ?")
+		SAY("Salutations, comment puis-je vous aider ?")
+		SAY("Oui ? Comment puis-je vous aider ?")
+		SAY("Besoin de quelque chose ?")
+		
+		ANSWER("Je viens pour l'extermination de vermine.",1)
+		ANSWER("Sur un terminal j'ai vu qu'il fallait venir ici pour une extermination.",1)
+		ANSWER("Rien du tout. Bye.",3)
+	NODE(1)
+		SAY("Oui... En temps normal ça ne pose pas de problème, mais récemment les %TARGET_NPCNAME(0) nous ont causé pas mal d'ennuis. Nous voulons que vous en éliminiez au moins %TARGET_VALUE(0,1). Vous en trouverez plein partout. Revenez ici pour toucher votre paye.")
+		SAY("Oui, vous avez probablement remarqué une augmentation du nombre de %TARGET_NPCNAME(0). Nous faisons en ce moment des tests pour comprendre pourquoi il y en a tant d'un seul coup. Enfin, pour l'instant on a besoin de vous pour en tuer au moins %TARGET_VALUE(0,1). Nous voulons limiter leur prolifération pendant que nous faisons notre enquête.")
+		SAY("Enfin ! Nous avons un problème. Nos défenses automatisées ne peuvent pas s'en occuper, portée trop faible. C'est pourquoi nous vous demandons de tuer %TARGET_VALUE(0,1) %TARGET_NPCNAME(0). Revenez quand vous avec accompli votre mission.")
+		SETNEXTDIALOGSTATE(2)
+		ENDDIALOG()
+	NODE(2)	
+		ISMISSIONTARGETACCOMPLISHED(0)
+			if (result==0) then
+				SAY("J'aimerais bien discuter, mais on a tous les deux beaucoup à faire, n'est-ce pas ? Au fait... Vous ne devriez pas être en train de tuer quelque chose, vous ?")
+				SAY("Pour cette mission, vous n'auriez rien d'avance. Vous ne serez payé qu'à la fin. Pas la peine de revenir avant.")
+				SAY("Vous n'avez pas encore fini. Revenez quand ce sera bon.")
+				SAY("Vous vous êtes perdu en route ? Ca n'est pas ici que vous trouverez ce que vous cherchez...")
+				ENDDIALOG()
+			else
+				SAY("Bon travail. Voilà votre argent, il devrait y avoir %REWARD_MONEY() crédits. Si vous voulez d'autres missions, pensez à consulter votre terminal.")
+				SAY("Bon travail. Ca devrait les ralentir pour un moment... %REWARD_MONEY() crédits ont été transférés sur votre compte. Bonne chance.")
+				SAY("Excellent. Voici une récompense de %REWARD_MONEY() crédits pour le travail effectué. On a toujours besoin de gens comme vous. Si vous êtes intéressé par ce que nous proposons, pensez à surveiller les terminaux.")
+				ACTIVATEDIALOGTRIGGER(1)
+				ENDDIALOG()
+			end
+	NODE(3)
+		SAY("Au revoir.")
+		SAY("J'ai à faire. Si vous n'avez aucune raison d'être ici, trouvez quelqu'un d'autre pour discuter.")
+		SAY("Revenez quand vous saurez ce que vous voulez. Au revoir.")
+		SAY("Si ça ne vous dérange pas, j'attends quelqu'un pour un job d'extermination. Au revoir.")
+		ENDDIALOG()
+	
+end

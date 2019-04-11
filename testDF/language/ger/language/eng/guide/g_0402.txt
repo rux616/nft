@@ -1,0 +1,27 @@
+Der Skill Intelligence umfasst Subskills für deren Einsatz ein gewisses Mass an Intelligenz erforderlich ist. Die Intelligenz ist von grösster Wichtigkeit für PSI Mönche, Hacker, Constructer und ähnliche Berufe.
+
+Hacking
+Der Hauptskill des Hackers. Sicherheitssysteme, Türen - Mit einem hohen Wert in diesem Subskill stellt das Knacken von Sicherheitsvorichtungen kein Problem mehr dar. Der Hackingwert bestimmt die Anzahl der elektrischen Ladungen die man verbrauchen kann, sowie die Schwierigkeit des Feldes.
+
+Barter 
+Runner mit einem hohen Wert in diesem Subskill können bei den zahlreich vorhandenen NPC Händlern bessere Preise herausschlagen, sowohl beim Kauf als auch beim Verkauf von Waren aller Art. Zusätzlich zu Barter werden die Preise auch von der Intelligenz des Characters bestimmt.
+
+PSI Use 
+Der Subskill PSI Use beschreibt sozusagen das Wissen um die Benutzung der komplizierten Module. Er hat Einflüsse auf die Effizienz (Scaden, Heilwirkung...) von PSI Modulen, sowie einen geringen Einfluss auf die PSI-Energie eines Characters.
+
+Weapon Lore 
+Der Subskill Weapon Lore beschreibt das Allgemeinwissen des Runners um Waffensysteme. Dieser Wert hat Einfluss auf Zielgenauigkeit, Zielgeschwindigkeit, Reichweite und Schaden von Schusswaffen.
+
+Construction 
+Dies ist der grundlegende Skill für Runner, die Gegenstände herstellen möchten. Je mehr Punkte der angehende Konstrukteur in diesen Subskill investiert, desto besser wird die Qualität seiner Produkte (je nach Techlevel). Ausserdem wird das Bauen schneller und die Wahrscheinlichkeit von Fehlschlägen wird geringer. Dexterity und Intelligenz beeinflussen das Bauen auch.
+
+Research 
+Der Researcher untersucht mit diesem Subskill Gegenstände und kann Blueprints von ihnen anfertigen, welche er dann gewinnbringend an Spieler verkaufen kann oder zur eigenen Verwendung behält. Die Schwierigkeit des Researchvorgangs steigt mit dem Techlevel der zu erforschenden Gegenstände. Der Research Subskill und Intelligenz reduzieren die Dauer des Vorganges und die Wahrscheinlichkeit von Fehlschlägen.
+
+Implant 
+In der hochtechnisierten Welt von Neocron sind geübte Implanter unerlässlich. Nur sie besitzen die notwendigen Fertigkeiten, die für den Einbau von Implantaten vonnöten sind. Der Subskill Implant ist hier von grösster Wichtigkeit. Ein hoher Wert in dieser Fähigkeit verschnellert den Vorgang.
+
+Willpower 
+Willpower represäntiert die Willensstärke des Runners. Diese ist besonders für das Steuern von Dronen von grosser Wichtigkeit, da sie die Schaden und Reichweite der ferngesteuerten Dronen bestimmt.
+
+

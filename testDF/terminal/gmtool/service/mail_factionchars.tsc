@@ -1,0 +1,276 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// gmtool: content - service\mail_factionchars.tsc
+// access-level 40 (ISW)
+// content:
+// gm can create mails for all characters of selected faction
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Specials: GM_COMMANDS: X: 471 - 571
+// Specials: GM_COMMANDS: Logo Size(471, 40, 571, 120)
+// Specials: GM_CONTENT: X: 50 - 447 (10 pixels extra space)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_gmservice.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "20") );
+		//OnLoad( SetEnv("ENV_BACK", ".\terminal\gmtool\service\mail_allchars.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBGMChecker"
+	{
+		OnLoad( TryAccess("DCBGMLinker", 340, GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBGMLinker"
+	{
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_040") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+	
+	DATACONTROLBOX "DCBGMMessenger"
+	{
+		OnAccess( ChangePage("Page", ".\terminal\gmtool\service\mail_root.tsc" );
+		
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_040") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN GMTOOL"
+	{
+		LayOut(2);
+		Size(471, 40, 571, 120);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 19, 0, 225, 138);
+		"1";
+		FunctionText("%BITMAP(45, 1, 3)" );
+	}
+
+	FRAME "COMMANDS"
+	{
+		LayOut(2);
+		Size(471, 142, 571, 408);
+		
+		TEXTBUTTON "SUBMIT"
+		{
+			Layout(5);
+			Size(0, 0, 100, 20);
+			OnMouse( UpdateDB("DCBGMMessenger", 428, GetEnv("G_CHARID"), GetEnv("G_TIMESTAMP"), GetControlText("Subject"), GetControlText("Message"), GetEnv("GMFACTIONID") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+		TEXTBUTTON "BACK"
+		{
+			LayOut(5);
+			Size(0, 246, 100, 266);
+			OnMouse( ChangePage("Page", ".\terminal\gmtool\service\mail_root.tsc") );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	FRAME "To"
+	{
+		Layout(2);
+		Size(50, 40, 447, 52);
+		
+		TEXT "Title"
+		{
+			Size(0, 0, 92, 12);
+			"GM-Mail: Chars of";
+		}
+		
+		TEXT "Selected Faction"
+		{
+			Size(92, 0, 447, 12);
+			"No Faction";
+		}
+	}
+	
+	EDITBOX "Subject"
+	{
+		Layout(2);
+		Size(50, 74, 447, 86);
+		MaxBuffer(127);
+	}
+	
+	EDITBOX "Message"
+	{
+		Layout(2);
+		Size(50, 108, 447, 408);
+		Params(Multiline);
+		MaxBuffer(2048);
+	}
+	
+	DATACONTROLBOX "DCBSetSubjectInitString"
+	{
+		OnLoad( SetContent("Title", "GM-Mail: Chars of" ) );
+		OnLoad( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnLoad( SetContent("Subject", "GM Message: " ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "1"
+	{
+		// faction: 
+		LayOut(6);
+		Size(121, 56, 131, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "1" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "2"
+	{
+		// faction: 
+		LayOut(6);
+		Size(143, 56, 153, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "2" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "3"
+	{
+		// faction: 
+		LayOut(6);
+		Size(165, 56, 175, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "3" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "4"
+	{
+		// faction: 
+		LayOut(6);
+		Size(187, 56, 197, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "4" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "5"
+	{
+		// faction: 
+		LayOut(6);
+		Size(209, 56, 219, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "5" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "6"
+	{
+		// faction: 
+		LayOut(6);
+		Size(231, 56, 241, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "6" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "7"
+	{
+		// faction: 
+		LayOut(6);
+		Size(253, 56, 263, 63);
+//		OnMouse( SetEnv("ENV_GMFACTIONID", "7" ) );
+//		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "8"
+	{
+		// faction: 
+		LayOut(6);
+		Size(275, 56, 285, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "8" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "9"
+	{
+		// faction: 
+		LayOut(6);
+		Size(297, 56, 307, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "9" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "10"
+	{
+		// faction: 
+		LayOut(6);
+		Size(319, 56, 329, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "10" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "11"
+	{
+		// faction: 
+		LayOut(6);
+		Size(341, 56, 351, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "11" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "12"
+	{
+		// faction: 
+		LayOut(6);
+		Size(363, 56, 373, 63);
+//		OnMouse( SetEnv("ENV_GMFACTIONID", "12" ) );
+//		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "13"
+	{
+		// faction: 
+		LayOut(6);
+		Size(385, 56, 395, 63);
+//		OnMouse( SetEnv("ENV_GMFACTIONID", "13" ) );
+//		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "14"
+	{
+		// faction: 
+		LayOut(6);
+		Size(407, 56, 417, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "14" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "15"
+	{
+		// faction:
+		LayOut(7);
+		Size(429, 56, 439, 63);
+		OnMouse( SetEnv("ENV_GMFACTIONID", "15" ) );
+		OnMouse( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("GMFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}

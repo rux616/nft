@@ -1,0 +1,24 @@
+Constitution ist für alle Runner gleichermassen wichtig. Die Subskills betreffen vor allem die Gesundheit und Widerstandskraft des Charakters.
+
+Athletics 
+Dieser Subskill beeinflusst die Laufgeschwindigkeit und die Sprunghöhe des Runners, sowie den Staminaverbrauch.
+
+Body Health 
+Der Subskill Body Health bestimmt die Anzahl von Lebenspunkten, über die der Charakter verfügt. Sinkt seine Gesundheit auf Null, so stirbt er und muss sich an einem Gene Replikator wiederbeleben lassen, was seine allgemeine Leistungsfähigkeit eine Weile herabsetzt (Synaptic Impairment). Ausserdem beeinflusst Constitution die Anzahl von Lebenspunkten.
+
+Endurance 
+Die Gesamtzahl von Ausdauerpunkten des Charakters leitet sich von diesem Subskill ab. Ein Runner mit einem hohen Wert in Endurance ist in der Lage über längere Strecken zu rennen. Sinkt seine Ausdauer auf 5 und darunter, so ist er nicht mehr in der Lage zu rennen und kann sich nurnoch langsam fortbewegen. Sobald die Ausdauer wieder auf 20 und darüber ansteigt, kann er wieder rennen. Ausserdem beeinflusst Constitution die Anzahl von Ausdauerpunkten.
+
+Resist Fire 
+Der Subskill Resist Fire bestimmt die Widerstandskraft des Charakters gegen Feuerschäden.
+
+Resist Energy 
+Der Subskill Resist Energy bestimmt die Widerstandskraft des Charakters gegen Energieschäden.
+
+Resist X-Ray 
+Der Subskill Resist X-Ray bestimmt die Widerstandskraft des Charakters gegen Strahlungsschäden.
+
+Resist Poison 
+Der Subskill Resist Poison bestimmt die Widerstandskraft des Charakters gegen Gift.
+ 
+

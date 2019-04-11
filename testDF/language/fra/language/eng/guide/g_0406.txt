@@ -1,0 +1,17 @@
+Le Pouvoir PSI est l’attribut principal des Moines PSI. Sans cela, ils seraient incapables d’utiliser leurs modules PSI. Les modules PSI sont séparés en deux catégories : agressifs et passifs.
+
+Pouvoirs PSI passifs (Passive PSI Use) 
+Un personnage qui développe cette compétence peut utiliser des modules PSI passifs. Un des modules les plus basiques est le module de soins, qui permet aux runners de guérir leurs blessures. Avec les modules passifs, les runners peuvent affecter les compétences des autres runners, à la fois en positif et en négatif. Un moine PSI passif est très apprécié dans les groupes, car il peut protéger son groupe tout en affaiblissant ses ennemis. Cette compétence influence l’efficacité des modules PSI passifs.
+
+Pouvoirs PSI agressifs (Aggressive PSI Use) 
+Au contraire des pouvoirs PSI passifs, cette compétence ne sert que pour les modules d’attaque. Ils vont des simples boules de feu aux attaques empoisonnées en passant par les puissantes lances énergétiques. Cette compétence permet d’utiliser les modules d’attaque PSI, et influence leur efficacité.
+
+Equilibre mental (Mental Steadiness) 
+Pour pouvoir utiliser un module PSI, il faut un certain niveau de stabilité mentale. Chaque module nécessite un certain niveau dans cette compétence, selon la puissance du module.
+
+Pouvoir PSI (PSI Power) 
+Cette compétence détermine la quantité maximale d’énergie PSI que possède le personnage. L’utilisation de modules nécessite une certaine quantité d’énergie PSI, basée sur la force du module. L’énergie PSI se regagne avec le temps. La quantité d’énergie récupérée en un certain temps dépend de la quantité maximale d’énergie.
+
+Résistance PSI (Resist PSI) 
+Cette compétence permet au personnage de développer sa résistance aux attaques PSI.
+ 

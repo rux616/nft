@@ -1,0 +1,80 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: runnerinfo - privatedescription.tsc
+// content: runner can edit his own description
+// 
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_info.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		//OnLoad( SetEnv("ENV_BACK", ".\terminal\runnerinfo\priatedescription.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBGetRunnerInfo"
+	{
+		OnLoad( ReceiveDB( "DCBGetRunnerInfo", 93, GetEnv("G_CHARID") ) );
+
+		SetContent("Name", 0);
+		SetContent("Description", 2);
+	}
+	
+	DATACONTROLBOX "DCBAccessControl"
+	{
+		OnAccess( ChangePage("Page", ".\terminal\runnerinfo\privateinfo.tsc") );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	TEXT "Name"
+	{
+		LayOut(2);
+		Size(50, 40, 304, 52);
+	}
+	
+	EDITBOX "Description"
+	{
+		LayOut(2);
+		Size(50, 108, 304, 230);
+		Params(Multiline);
+		MaxBuffer(255);
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "Submit"
+	{
+		Size(48, 400, 148, 420);
+		LayOut(5);
+		OnMouse( UpdateDB("DCBAccessControl", 94, GetControlText("Description"), GetEnv("G_CHARID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "BACK"
+	{
+		Size(473, 400, 573, 420);
+		LayOut(5);
+		OnMouse( ChangePage("Page", ".\terminal\runnerinfo\privateinfo.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+
+
+
+
+
+
+
+

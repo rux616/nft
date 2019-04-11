@@ -1,0 +1,1633 @@
+
+
+
+
+setentry 1	"DOOR"	2	0	0	0	0	|	
+setentry 2	"WOODEN DOOR"	2	0	0	0	0	|	
+setentry 3	"TECH DOOR"	2	0	0	0	0	|	
+setentry 4	"BIG DOOR"	2	0	0	0	0	|	
+setentry 5	"LIFT DOOR"	2	0	0	0	0	|	
+setentry 6	"SHUTTERS"	2	0	0	0	0	|	
+setentry 7	"WALL"	320	0	0	0	0	|	
+setentry 8	"ROCK"	2	0	0	0	0	|	
+setentry 9	"AIRLOCK"	2	0	0	0	0	|	
+
+
+
+
+setentry 10	"CHAIR"	10	0	0	0	0	|	
+setentry 11	"WOODEN CHAIR"	10	0	0	0	0	|	
+setentry 12	"BENCH"	10	0	0	0	0	|	
+setentry 13	"TABLE"	1	0	0	0	0	|	
+
+setentry 14	"RECREATION UNIT"	2	17	0	0	0	|	
+
+
+setentry 15	"20 NC ENTRANCE FEE\nACCESS IF"	2	23	20	0	0	|	
+setentry 16	"50 NC ENTRANCE FEE\nACCESS IF"	2	23	50	0	0	|	
+setentry 17	"100 NC ENTRANCE FEE\nACCESS IF"	2	23	100	0	0	|	
+setentry 18	"150 NC ENTRANCE FEE\nACCESS IF"	2	23	150	0	0	|	
+setentry 19	"200 NC ENTRANCE FEE\nACCESS IF"	2	23	200	0	0	|	
+setentry 20	"500 NC ENTRANCE FEE\nACCESS IF"	2	23	500	0	0	|	
+setentry 21	"GENE REPLICATOR"	18	6	0	0	0	|	
+setentry 22	"GOGUARDIAN"	2	7	0	0	0	|	
+setentry 23	"VENTURE WARP"	66	31	0	0	0	|	
+setentry 24	"DOOR ACCESS IF"	2	12	400	0	0	|	
+
+
+setentry 25	"APARTMENT ACCESS CODE IF"	2	10	0	0	0	|	
+setentry 26	"ACCESS / COMMUNICATOR IF"	2	11	1	0	0	|	
+
+
+setentry 27	"Underground exit"	2	29	0	0	0	|	
+
+
+setentry 28	"OLD GOGUARDIAN"	2	27	0	0	0	|	
+
+
+setentry 29	"Venture Warp"	0	21	10	0	0	|	
+
+setentry 30	"APARTMENT ACCESS CODE IF\nPlaza / Mainstreet / Enter A"	66	9	200	0	0	|	
+setentry 31	"APARTMENT ACCESS CODE IF\nPlaza / Nexus Tower / Enter A"	66	9	201	0	0	|	
+setentry 32	"APARTMENT ACCESS CODE IF\nPlaza / Nexus Tower / Enter B"	66	9	202	0	0	|	
+setentry 33	"APARTMENT ACCESS CODE IF\nPlaza / Enter Comfy Enter Cubicle / Enter A"	66	9	203	0	0	|	
+setentry 34	"APARTMENT ACCESS CODE IF\nPlaza / Enter Comfy Enter Cubicle / Enter B"	66	9	204	0	0	|	
+setentry 35	"APARTMENT ACCESS CODE IF\nPlaza / Sky Enter Center / Enter A"	66	9	205	0	0	|	
+setentry 36	"APARTMENT ACCESS CODE IF\nPlaza / Skywalk / Enter A"	66	9	206	0	0	|	
+setentry 37	"APARTMENT ACCESS CODE IF\nPlaza / Skywalk / Enter B"	66	9	207	0	0	|	
+setentry 38	"APARTMENT ACCESS CODE IF\nPlaza / Sidestreet / Enter A"	66	9	208	0	0	|	
+setentry 39	"APARTMENT ACCESS CODE IF\nPlaza / Sidestreet / Enter B"	66	9	209	0	0	|	
+setentry 40	"APARTMENT ACCESS CODE IF\nPlaza / Sidestreet / Enter C"	66	9	210	0	0	|	
+setentry 41	"APARTMENT ACCESS CODE IF\nPlaza / Daton Hale Apartment Complex / Enter A"	66	9	211	0	0	|	
+setentry 42	"APARTMENT ACCESS CODE IF\nPlaza / Daton Hale Apartment Complex / Enter B"	66	9	212	0	0	|	
+setentry 43	"APARTMENT ACCESS CODE IF\nPlaza / Daton Hale Apartment Complex / Enter C"	66	9	213	0	0	|	
+
+
+setentry 44	"APARTMENT ACCESS CODE IF\nViarosso / Takeda Exclusive Housing / Enter A"	66	9	240	0	0	|	
+setentry 45	"APARTMENT ACCESS CODE IF\nViarosso / Takeda Exclusive Housing / Enter B"	66	9	241	0	0	|	
+setentry 46	"APARTMENT ACCESS CODE IF\nViarosso / Takeda Exclusive Housing / Enter C"	66	9	242	0	0	|	
+setentry 47	"APARTMENT ACCESS CODE IF\nViarosso / Takeda Exclusive Housing / Enter D"	66	9	243	0	0	|	
+setentry 48	"APARTMENT ACCESS CODE IF\nViarosso / Verizon Arcade / Enter A"	66	9	244	0	0	|	
+setentry 49	"APARTMENT ACCESS CODE IF\nViarosso / Verizon Arcade / Enter B"	66	9	245	0	0	|	
+setentry 50	"APARTMENT ACCESS CODE IF\nViarosso / Verizon Arcade / Enter C"	66	9	246	0	0	|	
+setentry 51	"APARTMENT ACCESS CODE IF\nViarosso / Verizon Arcade / Enter D"	66	9	247	0	0	|	
+setentry 52	"APARTMENT ACCESS CODE IF\nViarosso / Verizon Arcade / Enter E"	66	9	248	0	0	|	
+setentry 53	"APARTMENT ACCESS CODE IF\nViarosso / Verizon Arcade / Enter F"	66	9	249	0	0	|	
+setentry 54	"APARTMENT ACCESS CODE IF\nViarosso / Alamo Living / Enter A"	66	9	250	0	0	|	
+setentry 55	"APARTMENT ACCESS CODE IF\nViarosso / Alamo Living / Enter B"	66	9	251	0	0	|	
+setentry 56	"APARTMENT ACCESS CODE IF\nViarosso / Alamo Living / Enter C"	66	9	252	0	0	|	
+setentry 57	"APARTMENT ACCESS CODE IF\nViarosso / Blue Plex Center / Enter A"	66	9	253	0	0	|	
+setentry 58	"APARTMENT ACCESS CODE IF\nViarosso / Blue Plex Center / Enter B"	66	9	254	0	0	|	
+setentry 59	"APARTMENT ACCESS CODE IF\nViarosso / Blue Plex Center / Enter C"	66	9	255	0	0	|	
+
+
+setentry 60	"APARTMENT ACCESS CODE IF TECHTOWN 1A"	66	9	700	0	0	|	
+setentry 61	"APARTMENT ACCESS CODE IF TECHTOWN 1B"	66	9	701	0	0	|	
+setentry 62	"APARTMENT ACCESS CODE IF TECHTOWN 1C"	66	9	702	0	0	|	
+setentry 63	"APARTMENT ACCESS CODE IF TECHTOWN 2A"	66	9	703	0	0	|	
+setentry 64	"APARTMENT ACCESS CODE IF TECHTOWN 2B"	66	9	704	0	0	|	
+setentry 65	"APARTMENT ACCESS CODE IF TECHTOWN 2C"	66	9	705	0	0	|	
+setentry 66	"APARTMENT ACCESS CODE IF TECHTOWN 3A"	66	9	706	0	0	|	
+setentry 67	"APARTMENT ACCESS CODE IF TECHTOWN 3B"	66	9	707	0	0	|	
+setentry 68	"APARTMENT ACCESS CODE IF TECHTOWN 3C"	66	9	708	0	0	|	
+setentry 69	"APARTMENT ACCESS CODE IF TECHTOWN 4A"	66	9	709	0	0	|	
+setentry 70	"APARTMENT ACCESS CODE IF TECHTOWN 4B"	66	9	710	0	0	|	
+setentry 71	"APARTMENT ACCESS CODE IF TECHTOWN 4C"	66	9	711	0	0	|	
+
+
+setentry 72	"APARTMENT ACCESS CODE IF  MILITARY BARRACKS 1"	66	9	712	0	0	|	
+setentry 73	"APARTMENT ACCESS CODE IF  MILITARY BARRACKS 2"	66	9	713	0	0	|	
+setentry 74	"APARTMENT ACCESS CODE IF  MILITARY BARRACKS 3"	66	9	714	0	0	|	
+setentry 75	"APARTMENT ACCESS CODE IF  MILITARY BARRACKS 4"	66	9	715	0	0	|	
+
+
+setentry 77	"APARTMENT ACCESS CODE IF\nPlaza / Daton Hale Enter Apartment Enter Complex"	66	24	213	0	0	|	
+
+setentry 78	"VEHICLE DEPOT INTERFACE"	66	28	0	0	0	|	
+
+
+
+
+setentry 80	"ACCESS CODE INTERFACE - VLS"	18	13	400	15	0	|	
+setentry 81	"ACCESS CODE INTERFACE - LS"	18	13	400	30	0	|	
+setentry 82	"ACCESS CODE INTERFACE - NS"	18	13	400	45	0	|	
+setentry 83	"ACCESS CODE INTERFACE - HS"	18	13	400	60	0	|	
+setentry 84	"ACCESS CODE INTERFACE - VHS"	18	13	400	75	0	|	
+setentry 85	"ACCESS CODE INTERFACE - SHS"	18	13	400	90	0	|	
+
+
+setentry 87	"HOLOMATCH\nEXIT"	2	15	0	1	1	|	
+setentry 88	"HOLOMATCH\nWEAPON REFRESH"	2	16	0	2	2	|	
+setentry 89	"HOLOMATCH\nHEAL"	2	17	0	3	3	|	
+
+
+
+
+
+setentry 90	"CITYCOM STATION"	2	2	131	0	0	|	
+
+setentry 91	"CITYCOM STATION"	2	2	130	0	0	|	
+
+setentry 92	"CITYCOM STATION"	2	2	129	0	0	|	
+
+setentry 93	"CITYCOM STATION"	2	2	128	0	0	|	
+
+setentry 94	"CITYCOM STATION"	2	2	132	0	0	|	
+
+
+setentry 95	"CITYCOM STATION"	2	2	3	0	0	|	
+
+setentry 96	"CITYCOM STATION"	2	2	0	0	0	|	
+
+setentry 97	"CITYCOM STATION"	2	2	2	0	0	|	
+
+setentry 98	"HOMETERM"	2	2	1	0	0	|	
+
+setentry 99	"OUTFITTER"	2	3	1	0	0	|	
+
+setentry 100	"CITYCOM STATION"	2	2	19	0	0	|	
+
+
+
+setentry 101	"SECURE CABINET"	82	1	1	15	0	|	
+setentry 102	"SECURE CABINET"	82	1	2	30	0	|	
+setentry 103	"SECURE CABINET"	82	1	3	45	0	|	
+setentry 104	"SECURE CABINET"	82	1	4	55	0	|	
+setentry 105	"SAFE"	82	1	5	65	0	|	
+setentry 106	"HIGH SECURITY SAFE"	82	1	5	75	0	|	
+
+
+setentry 107	"WIRELESS R.N. NETLINK"	2	2	20	0	0	|	
+
+setentry 108	"WIRELESS R.N. STATION"	2	2	21	0	0	|	
+
+setentry 109	"Hackterm Security Level One"	2	2	25	0	0	|	
+setentry 110	"Hackterm Security Level Two"	2	2	26	0	0	|	
+setentry 111	"Hackterm Security Level Three"	2	2	27	0	0	|	
+
+setentry 112	"ghost"	260	0	0	0	0	|	
+setentry 113	"chair with bounding box"	74	0	0	0	0	|	
+setentry 114	"fire with bounding box"	320	30	1	0	0	|	
+setentry 115	"fire"	260	30	1	0	0	|	
+setentry 116	"smoke"	260	30	2	0	0	|	
+setentry 117	"steam"	260	30	3	0	0	|	
+setentry 118	"sparkles"	260	30	4	0	0	|	
+
+setentry 119	"OLD BAG"	66	1	4	0	0	|	
+
+setentry 120	"TRASHCAN"	66	1	465	0	0	|	
+
+setentry 121	"TRASHCAN"	66	1	463	0	0	|	
+
+setentry 125	"OLD BAG"	66	1	465	0	0	|	
+
+setentry 126	"MUTANT COOKING POT"	66	1	464	0	0	|	
+
+setentry 127	"ROTTEN BOX"	66	1	465	0	0	|	
+
+setentry 128	"RUSTY BOX"	66	1	465	0	0	|	
+
+setentry 129	"WORM HILL"	66	1	465	0	0	|	
+
+setentry 130	"BUNCH OF BONES"	82	1	404	0	0	|	
+
+setentry 131	"BUNCH OF BONES"	82	1	453	0	0	|	
+
+setentry 132	"PILE OF STONES"	66	1	465	0	0	|	
+
+setentry 133	"STEEL BOX"	66	1	465	0	0	|	
+
+
+
+setentry 134	"OLD BAG"	66	1	62	0	0	|	
+
+setentry 135	"OLD BAG"	66	1	63	0	0	|	
+
+setentry 136	"DEAD TECHNICIAN"	66	1	64	0	0	|	
+
+setentry 137	"CORPSE"	2	1	64	0	0	|	
+
+setentry 138	"SYNCROTRON"	1	0	0	0	0	|	
+
+
+
+setentry 139	"Abandoned Rooms Lvl.3 ENTRANCE "	66	20	722	0	0	|	
+setentry 140	"Abandoned Rooms Lvl.3 EXIT "	66	20	723	0	0	|	
+setentry 141	"Abandoned Rooms Lvl.3 ENTRANCE "	66	20	724	0	0	|	
+setentry 142	"Abandoned Rooms Lvl.3 EXIT "	66	20	725	0	0	|	
+setentry 143	"Abandoned Rooms Lvl.4 ENTRANCE "	66	20	726	0	0	|	
+setentry 144	"Abandoned Rooms Lvl.4 EXIT "	66	20	727	0	0	|	
+setentry 145	"Abandoned Rooms Lvl.4 ENTRANCE "	66	20	728	0	0	|	
+setentry 146	"Abandoned Rooms Lvl.4 EXIT "	66	20	729	0	0	|	
+
+
+
+
+setentry 150	"CABINET"	18	1	1	0	0	|	
+setentry 151	"CABINET"	18	1	2	0	0	|	
+setentry 152	"CABINET"	18	1	3	0	0	|	
+setentry 153	"CABINET"	18	1	4	0	0	|	
+setentry 154	"CABINET"	18	1	5	0	0	|	
+
+
+
+
+setentry 160	"A_06 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 161	"B_08 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 162	"B_11 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 163	"C_07 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 164	"C_09 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 165	"C_12 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 166	"D_06 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 167	"D_07 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 168	"D_09 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 169	"D_11 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 170	"D_13 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 171	"E_10 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 172	"F_05 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 173	"F_11 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 174	"F_12 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 175	"G_08 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 176	"G_12 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 177	"H_03 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 178	"H_07 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 179	"H_09 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 180	"H_11 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 181	"H_13 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 182	"H_15 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 183	"H_16 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 184	"I_04 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 185	"I_05 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 186	"I_07 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 187	"I_08 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 188	"I_11 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 189	"I_15 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 190	"J_09 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 191	"J_14 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 192	"K_04 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 193	"K_05 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 194	"K_07 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+setentry 195	"K_12 ENERGY PRODUCTION UNIT\nCONTOL CENTER"	18	26	5	75	0	|	
+
+
+
+
+setentry 201	"Centropolis Square"	1	0	0	0	0	|	
+setentry 202	"Chronicle Tower"	1	0	0	0	0	|	
+setentry 203	"Chronos Pillars"	1	0	0	0	0	|	
+setentry 204	"Comfy Cubicle"	1	0	0	0	0	|	
+setentry 205	"Craven Underpass"	1	0	0	0	0	|	
+setentry 206	"Cutter Pillars"	1	0	0	0	0	|	
+setentry 207	"Daton Hale Apartment Complex"	1	0	0	0	0	|	
+setentry 208	"Duo Tower"	1	0	0	0	0	|	
+setentry 209	"Highwatch Road"	1	0	0	0	0	|	
+setentry 210	"Jones Center"	1	0	0	0	0	|	
+setentry 211	"Malanstro Underpass"	1	0	0	0	0	|	
+setentry 212	"McGee Building"	1	0	0	0	0	|	
+setentry 213	"Merden Avenue"	1	0	0	0	0	|	
+setentry 214	"Nexustower"	1	0	0	0	0	|	
+setentry 215	"Rontrade Walk"	1	0	0	0	0	|	
+setentry 216	"Typherra Memorial"	1	0	0	0	0	|	
+setentry 217	"Warner Passage"	1	0	0	0	0	|	
+setentry 218	"Xenon Mall"	1	0	0	0	0	|	
+
+
+
+setentry 219	"Abandoned Cellar Lvl. 4 ENTRANCE"	66	20	730	0	0	|	
+setentry 220	"Abandoned Cellar Lvl. 4 EXIT"	66	20	731	0	0	|	
+setentry 221	"Abandoned Cellar Lvl. 4 ENTRANCE"	66	20	732	0	0	|	
+setentry 222	"Abandoned Cellar Lvl. 4 EXIT"	66	20	733	0	0	|	
+setentry 223	"Abandoned Cellar Lvl. 5 ENTRANCE"	66	20	734	0	0	|	
+setentry 224	"Abandoned Cellar Lvl. 5 EXIT"	66	20	735	0	0	|	
+setentry 225	"Abandoned Cellar Lvl. 5 ENTRANCE"	66	20	736	0	0	|	
+setentry 226	"Abandoned Cellar Lvl. 5 EXIT"	66	20	737	0	0	|	
+setentry 227	"Abandoned Cellar Lvl. 6 ENTRANCE"	66	20	738	0	0	|	
+setentry 228	"Abandoned Cellar Lvl. 6 EXIT"	66	20	739	0	0	|	
+setentry 229	"Abandoned Cellar Lvl. 6 ENTRANCE"	66	20	740	0	0	|	
+setentry 230	"Abandoned Cellar Lvl. 6 EXIT"	66	20	741	0	0	|	
+setentry 231	"Abandoned Basement Lvl. 1 ENTRANCE"	66	20	742	0	0	|	
+setentry 232	"Abandoned Basement Lvl. 1 EXIT"	66	20	743	0	0	|	
+setentry 233	"Abandoned Basement Lvl. 1 ENTRANCE"	66	20	744	0	0	|	
+setentry 234	"Abandoned Basement Lvl. 1 EXIT"	66	20	745	0	0	|	
+setentry 235	"Abandoned Basement Lvl. 2 ENTRANCE"	66	20	746	0	0	|	
+setentry 236	"Abandoned Basement Lvl. 2 EXIT"	66	20	747	0	0	|	
+setentry 237	"Abandoned Basement Lvl. 2 ENTRANCE"	66	20	748	0	0	|	
+setentry 238	"Abandoned Basement Lvl. 2 EXIT"	66	20	749	0	0	|	
+
+
+
+
+setentry 239	"Alamo Livings"	1	0	0	0	0	|	
+setentry 240	"Blue Plex Center "	1	0	0	0	0	|	
+setentry 241	"Moonshine Residence"	1	0	0	0	0	|	
+setentry 242	"Nomstrom Building"	1	0	0	0	0	|	
+setentry 243	"Silverwalk Avenue"	1	0	0	0	0	|	
+setentry 244	"Stratos Center"	1	0	0	0	0	|	
+setentry 245	"Takeda Exclusive Housing"	1	0	0	0	0	|	
+setentry 246	"Upper Shore Walk"	1	0	0	0	0	|	
+setentry 247	"Vauxhall Memorial"	1	0	0	0	0	|	
+setentry 248	"Verizon Arcade"	1	0	0	0	0	|	
+
+
+setentry 269	"Parker Street"	1	0	0	0	0	|	
+setentry 270	"Domicile de Paris"	1	0	0	0	0	|	
+setentry 271	"Jackson Drive"	1	0	0	0	0	|	
+setentry 272	"LeMarquis Center"	1	0	0	0	0	|	
+setentry 273	"Medicron Tower"	1	0	0	0	0	|	
+setentry 274	"Monroe Avenue"	1	0	0	0	0	|	
+setentry 275	"Starion Center"	1	0	0	0	0	|	
+setentry 276	"Store Crypt"	1	0	0	0	0	|	
+setentry 277	"The Verve Lounge"	1	0	0	0	0	|	
+setentry 278	"Trancium Block"	1	0	0	0	0	|	
+setentry 279	"Wendol Block"	1	0	0	0	0	|	
+setentry 280	"Zephron Court "	1	0	0	0	0	|	
+setentry 299	"EXCALIBUR ;)"	1	0	0	0	0	|	
+
+
+
+setentry 302	"SEWER LVL 1"	66	18	52	0	0	|	
+setentry 303	"SEWER EXIT"	66	18	53	0	0	|	
+setentry 304	"SEWER LVL 1"	66	18	54	0	0	|	
+setentry 305	"SEWER EXIT"	66	18	55	0	0	|	
+setentry 306	"SEWER LVL 1"	66	18	56	0	0	|	
+setentry 307	"SEWER EXIT"	66	18	57	0	0	|	
+
+
+setentry 310	"SEWER LVL 1"	66	18	60	0	0	|	
+setentry 311	"SEWER EXIT"	66	18	61	0	0	|	
+setentry 312	"SEWER LVL 1"	66	18	62	0	0	|	
+setentry 313	"SEWER EXIT"	66	18	63	0	0	|	
+setentry 314	"SEWER LVL 1"	66	18	64	0	0	|	
+setentry 315	"SEWER EXIT"	66	18	65	0	0	|	
+
+
+setentry 320	"SEWER LVL 1"	66	18	70	0	0	|	
+setentry 321	"SEWER EXIT"	66	18	71	0	0	|	
+
+
+setentry 330	"SEWER LVL 1"	66	18	80	0	0	|	
+setentry 331	"SEWER EXIT"	66	18	81	0	0	|	
+
+
+setentry 340	"SEWER LVL 1"	66	18	90	0	0	|	
+setentry 341	"SEWER EXIT"	66	18	91	0	0	|	
+setentry 342	"SEWER LVL 1"	66	18	92	0	0	|	
+setentry 343	"SEWER EXIT"	66	18	93	0	0	|	
+
+
+setentry 350	"SEWER LVL 1"	66	18	100	0	0	|	
+setentry 351	"SEWER EXIT"	66	18	101	0	0	|	
+setentry 352	"SEWER LVL 1"	66	18	102	0	0	|	
+setentry 353	"SEWER EXIT"	66	18	103	0	0	|	
+
+
+setentry 360	"SEWER LVL 3"	66	18	110	0	0	|	
+setentry 361	"SEWER EXIT"	66	18	111	0	0	|	
+setentry 362	"SEWER LVL 5"	66	18	112	0	0	|	
+setentry 363	"SEWER EXIT"	66	18	113	0	0	|	
+setentry 364	"SEWER LVL 3"	66	18	114	0	0	|	
+setentry 365	"SEWER EXIT"	66	18	115	0	0	|	
+setentry 366	"SEWER LVL 3"	66	18	116	0	0	|	
+setentry 367	"SEWER EXIT"	66	18	117	0	0	|	
+
+
+setentry 370	"SEWER LVL 5"	66	18	120	0	0	|	
+setentry 371	"SEWER EXIT"	66	18	121	0	0	|	
+setentry 372	"SEWER LVL 4"	66	18	122	0	0	|	
+setentry 373	"SEWER EXIT"	66	18	123	0	0	|	
+
+
+setentry 380	"SEWER LVL 4"	66	18	130	0	0	|	
+setentry 381	"SEWER EXIT"	66	18	131	0	0	|	
+setentry 382	"SEWER LVL 4"	66	18	132	0	0	|	
+setentry 383	"SEWER EXIT"	66	18	133	0	0	|	
+
+
+setentry 385	"Grave Entrance"	66	20	198	0	0	|	
+setentry 386	"Grave Exit"	66	20	199	0	0	|	
+
+
+
+setentry 390	"no0"	0	21	0	0	0	|	
+setentry 391	"no1"	0	21	1	0	0	|	
+setentry 392	"no2"	0	21	2	0	0	|	
+setentry 393	"no3"	0	21	3	0	0	|	
+setentry 394	"no4"	0	21	4	0	0	|	
+setentry 395	"no5"	0	21	5	0	0	|	
+setentry 396	"no6"	0	21	6	0	0	|	
+setentry 397	"no7"	0	21	7	0	0	|	
+setentry 398	"no8"	0	21	8	0	0	|	
+setentry 399	"no9"	0	21	9	0	0	|	
+
+
+setentry 400	"STORAGE ENTRANCE LVL 1"	66	20	150	0	0	|	
+setentry 401	"STORAGE EXIT"	66	20	151	0	0	|	
+setentry 402	"STORAGE ENTRANCE LVL 2"	66	20	152	0	0	|	
+setentry 403	"STORAGE EXIT"	66	20	153	0	0	|	
+setentry 404	"STORAGE ENTRANCE LVL 3"	66	20	154	0	0	|	
+setentry 405	"STORAGE EXIT"	66	20	155	0	0	|	
+setentry 406	"STORAGE ENTRANCE LVL 2"	66	20	156	0	0	|	
+setentry 407	"STORAGE EXIT"	66	20	157	0	0	|	
+setentry 408	"STORAGE ENTRANCE LVL 3"	66	20	158	0	0	|	
+setentry 409	"STORAGE EXIT"	66	20	159	0	0	|	
+setentry 410	"STORAGE ENTRANCE LVL 1"	66	20	160	0	0	|	
+setentry 411	"STORAGE EXIT"	66	20	161	0	0	|	
+
+
+setentry 412	"Calida Village Storage Entrance"	66	20	140	0	0	|	
+setentry 413	"Calida Village Storage Exit"	66	20	141	0	0	|	
+setentry 414	"Point Red Storage Entrance"	66	20	142	0	0	|	
+setentry 415	"Point Red Storage Exit"	66	20	143	0	0	|	
+setentry 416	"Sherman Bay Storage Entrance"	66	20	144	0	0	|	
+setentry 417	"Sherman Bay Storage Exit"	66	20	145	0	0	|	
+
+
+
+setentry 420	"CAVE ENTRANCE LVL 1"	66	20	170	0	0	|	
+setentry 421	"CAVE EXIT"	66	20	171	0	0	|	
+setentry 422	"CAVE ENTRANCE LVL 2"	66	20	172	0	0	|	
+setentry 423	"CAVE EXIT"	66	20	173	0	0	|	
+setentry 424	"CAVE ENTRANCE LVL 3"	66	20	174	0	0	|	
+setentry 425	"CAVE EXIT"	66	20	175	0	0	|	
+setentry 426	"CAVE ENTRANCE LVL 3"	66	20	176	0	0	|	
+setentry 427	"CAVE EXIT"	66	20	177	0	0	|	
+setentry 428	"CAVE ENTRANCE LVL 1"	66	20	178	0	0	|	
+setentry 429	"CAVE EXIT"	66	20	179	0	0	|	
+setentry 430	"CAVE ENTRANCE LVL 2"	66	20	180	0	0	|	
+setentry 431	"CAVE EXIT"	66	20	181	0	0	|	
+
+
+setentry 432	"Outdoor Cave 1 Entrance"	66	20	134	0	0	|	
+setentry 433	"Outdoor Cave 1 Exit"	66	20	135	0	0	|	
+setentry 434	"Outdoor Cave 2 Entrance"	66	20	136	0	0	|	
+setentry 435	"Outdoor Cave 2 Exit"	66	20	137	0	0	|	
+setentry 436	"Outdoor Cave 3 Entrance"	66	20	138	0	0	|	
+setentry 437	"Outdoor Cave 3 Exit"	66	20	139	0	0	|	
+
+
+
+setentry 440	"ENERGY CORE ENTRANCE LVL 1"	66	20	182	0	0	|	
+setentry 441	"ENERGY CORE EXIT"	66	20	183	0	0	|	
+setentry 442	"ENERGY CORE ENTRANCE LVL 2"	66	20	184	0	0	|	
+setentry 443	"ENERGY CORE EXIT"	66	20	185	0	0	|	
+setentry 444	"ENERGY CORE ENTRANCE LVL 3"	66	20	186	0	0	|	
+setentry 445	"ENERGY CORE EXIT"	66	20	187	0	0	|	
+setentry 446	"ENERGY CORE ENTRANCE LVL 3"	66	20	188	0	0	|	
+setentry 447	"ENERGY CORE EXIT"	66	20	189	0	0	|	
+setentry 448	"ENERGY CORE ENTRANCE LVL 1"	66	20	190	0	0	|	
+setentry 449	"ENERGY CORE EXIT"	66	20	191	0	0	|	
+setentry 450	"ENERGY CORE ENTRANCE LVL 2"	66	20	192	0	0	|	
+setentry 451	"ENERGY CORE EXIT"	66	20	193	0	0	|	
+
+setentry 460	"SWAMPCAVE ENTRANCE"	66	20	300	0	0	|	
+setentry 461	"SWAMPCAVE EXIT"	66	20	301	0	0	|	
+setentry 462	"SWAMPCAVE ENTRANCE"	66	20	302	0	0	|	
+setentry 463	"SWAMPCAVE EXIT"	66	20	303	0	0	|	
+setentry 464	"SWAMPCAVE ENTRANCE"	66	20	304	0	0	|	
+setentry 465	"SWAMPCAVE EXIT"	66	20	305	0	0	|	
+setentry 466	"SWAMPCAVE ENTRANCE"	66	20	306	0	0	|	
+setentry 467	"SWAMPCAVE EXIT"	66	20	307	0	0	|	
+setentry 468	"SWAMPCAVE ENTRANCE"	66	20	308	0	0	|	
+setentry 469	"SWAMPCAVE EXIT"	66	20	309	0	0	|	
+setentry 470	"SWAMPCAVE ENTRANCE"	66	20	310	0	0	|	
+setentry 471	"SWAMPCAVE EXIT"	66	20	311	0	0	|	
+
+setentry 480	"WORM TUNNELS ENTRANCE"	66	20	312	0	0	|	
+setentry 481	"WORM TUNNELS EXIT"	66	20	313	0	0	|	
+setentry 482	"WORM TUNNELS ENTRANCE"	66	20	314	0	0	|	
+setentry 483	"WORM TUNNELS EXIT"	66	20	315	0	0	|	
+setentry 484	"WORM TUNNELS ENTRANCE"	66	20	316	0	0	|	
+setentry 485	"WORM TUNNELS EXIT"	66	20	317	0	0	|	
+setentry 486	"WORM TUNNELS ENTRANCE"	66	20	318	0	0	|	
+setentry 487	"WORM TUNNELS EXIT"	66	20	319	0	0	|	
+setentry 488	"WORM TUNNELS ENTRANCE"	66	20	320	0	0	|	
+setentry 489	"WORM TUNNELS EXIT"	66	20	321	0	0	|	
+setentry 490	"WORM TUNNELS ENTRANCE"	66	20	322	0	0	|	
+setentry 491	"WORM TUNNELS EXIT"	66	20	323	0	0	|	
+setentry 492	"SECURED ACCESS"	82	1	5	100	0	|	
+setentry 493	"SECURED ACCESS"	82	1	5	130	0	|	
+setentry 494	"SECURED ACCESS"	82	1	5	160	0	|	
+setentry 495	"SECURED ACCESS"	82	1	5	190	0	|	
+setentry 496	"SECURED ACCESS"	82	1	5	220	0	|	
+setentry 497	"SECURED ACCESS"	82	1	5	250	0	|	
+
+setentry 500	"solantium"	16	5	250	0	0	|	
+setentry 510	"TRUNK"	16	5	1002	0	0	|	
+setentry 511	"rock"	16	5	1012	0	0	|	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setentry 515	"solantium"	16	5	269	0	0	|	
+setentry 516	"meritium"	16	5	270	0	0	|	
+setentry 517	"arillium"	16	5	271	0	0	|	
+setentry 518	"metal d"	16	5	272	0	0	|	
+
+
+setentry 520	"tiberal"	16	5	269	0	0	|	
+setentry 521	"tripantol"	16	5	270	0	0	|	
+setentry 522	"strastin"	16	5	271	0	0	|	
+setentry 523	"trisol"	16	5	272	0	0	|	
+setentry 524	"adiclovin"	16	5	273	0	0	|	
+setentry 525	"gamonin"	16	5	274	0	0	|	
+setentry 526	"ligustin"	16	5	275	0	0	|	
+setentry 527	"nukleonin"	16	5	276	0	0	|	
+setentry 528	"silicin"	16	5	277	0	0	|	
+setentry 529	"TRUNK fucoxanthin"	16	5	278	0	0	|	
+setentry 530	"protoxylem"	16	5	279	0	0	|	
+setentry 531	"metaxylem"	16	5	280	0	0	|	
+setentry 532	"xlenium"	16	5	281	0	0	|	
+setentry 533	"silitum"	16	5	283	0	0	|	
+
+
+setentry 540	"HOLOMATCH\nENTRANCE"	2	14	350	0	0	|	
+setentry 541	"HOLOMATCH\nENTRANCE"	2	14	351	0	0	|	
+setentry 542	"HOLOMATCH\nENTRANCE"	2	14	352	0	0	|	
+setentry 543	"HOLOMATCH\nENTRANCE"	2	14	353	0	0	|	
+setentry 544	"HOLOMATCH\nENTRANCE"	2	14	354	0	0	|	
+setentry 545	"HOLOMATCH\nENTRANCE"	2	14	355	0	0	|	
+setentry 546	"HOLOMATCH\nENTRANCE"	2	14	356	0	0	|	
+setentry 547	"HOLOMATCH\nENTRANCE"	2	14	357	0	0	|	
+
+setentry 550	"HOLOMATCH\nENTRANCE"	2	14	360	0	0	|	
+setentry 551	"HOLOMATCH\nENTRANCE"	2	14	361	0	0	|	
+setentry 552	"HOLOMATCH\nENTRANCE"	2	14	362	0	0	|	
+setentry 553	"HOLOMATCH\nENTRANCE"	2	14	363	0	0	|	
+setentry 554	"HOLOMATCH\nENTRANCE"	2	14	364	0	0	|	
+setentry 555	"HOLOMATCH\nENTRANCE"	2	14	365	0	0	|	
+setentry 556	"HOLOMATCH\nENTRANCE"	2	14	366	0	0	|	
+setentry 557	"HOLOMATCH\nENTRANCE"	2	14	367	0	0	|	
+
+
+setentry 560	"SEWER LVL 2 1A"	66	20	20	0	0	|	
+setentry 561	"SEWER LVL 1 3D"	66	20	21	0	0	|	
+setentry 562	"SEWER LVL 2 2A"	66	20	22	0	0	|	
+setentry 563	"SEWER LVL 1 2D"	66	20	23	0	0	|	
+setentry 564	"SEWER LVL 2 3A"	66	20	24	0	0	|	
+setentry 565	"SEWER LVL 1 3C"	66	20	25	0	0	|	
+setentry 566	"SEWER LVL 2 2B"	66	20	26	0	0	|	
+setentry 567	"SEWER LVL 1 4C"	66	20	27	0	0	|	
+setentry 568	"SEWER LVL 2 3B"	66	20	28	0	0	|	
+setentry 569	"SEWER LVL 1 1C"	66	20	29	0	0	|	
+setentry 570	"SEWER LVL 2 4D"	66	20	30	0	0	|	
+setentry 571	"SEWER LVL 1 4B"	66	20	31	0	0	|	
+setentry 572	"SEWER LVL 2 4D2"	66	20	32	0	0	|	
+setentry 573	"SEWER LVL 1 4B2"	66	20	33	0	0	|	
+setentry 574	"SEWER LVL 2 1A2"	66	20	34	0	0	|	
+setentry 575	"SEWER LVL 1 3C2"	66	20	35	0	0	|	
+setentry 576	"SEWER LVL 2 4D3"	66	20	36	0	0	|	
+setentry 577	"SEWER LVL 1 2D3"	66	20	37	0	0	|	
+setentry 578	"SEWER LVL 2 3B2"	66	20	38	0	0	|	
+setentry 579	"SEWER LVL 1 3D2"	66	20	39	0	0	|	
+setentry 580	"SEWER LVL 2 2B2"	66	20	40	0	0	|	
+setentry 581	"SEWER LVL 1 2D2"	66	20	41	0	0	|	
+setentry 582	"SEWER LVL 2 3A2"	66	20	42	0	0	|	
+setentry 583	"SEWER LVL 1 1C2"	66	20	43	0	0	|	
+
+
+setentry 600	"STORAGE LVL 6"	66	20	324	0	0	|	
+setentry 601	"STORAGE EXIT"	66	20	325	0	0	|	
+setentry 602	"STORAGE LVL 7"	66	20	326	0	0	|	
+setentry 603	"STORAGE EXIT"	66	20	327	0	0	|	
+setentry 604	"STORAGE LVL 6"	66	20	328	0	0	|	
+setentry 605	"STORAGE EXIT"	66	20	329	0	0	|	
+setentry 606	"STORAGE LVL 8"	66	20	330	0	0	|	
+setentry 607	"STORAGE EXIT"	66	20	331	0	0	|	
+setentry 608	"STORAGE LVL 8"	66	20	332	0	0	|	
+setentry 609	"STORAGE EXIT"	66	20	333	0	0	|	
+setentry 610	"STORAGE LVL 7"	66	20	334	0	0	|	
+setentry 611	"STORAGE EXIT"	66	20	335	0	0	|	
+
+
+setentry 615	"PEPPER SEWER DOWNSTAIRS 1A"	66	20	1	0	0	|	
+setentry 616	"PEPPER SEWER DOWNSTAIRS 3B"	66	20	2	0	0	|	
+setentry 617	"PEPPER SEWER UPSTAIRS 3B"	66	20	3	0	0	|	
+setentry 618	"PEPPER SEWER UPSTAIRS 2A"	66	20	4	0	0	|	
+setentry 619	"PEPPER SEWER DOWNSTAIRS 1A1"	66	20	5	0	0	|	
+setentry 620	"PEPPER SEWER UPSTAIRS 3C"	66	20	6	0	0	|	
+setentry 621	"PEPPER SEWER DOWNSTAIRS 3A"	66	20	7	0	0	|	
+setentry 622	"PEPPER SEWER UPSTAIRS 1C"	66	20	8	0	0	|	
+setentry 623	"PEPPER SEWER DOWNSTAIRS 1B"	66	20	9	0	0	|	
+setentry 624	"PEPPER SEWER DOWNSTAIRS 3C1"	66	20	10	0	0	|	
+setentry 625	"PEPPER SEWER UPSTAIRS 3C1"	66	20	11	0	0	|	
+setentry 626	"PEPPER SEWER UPSTAIRS 2B"	66	20	12	0	0	|	
+setentry 627	"PEPPER SEWER DOWNSTAIRS 3A2"	66	20	13	0	0	|	
+setentry 628	"PEPPER SEWER UPSTAIRS 1C1"	66	20	14	0	0	|	
+setentry 629	"PEPPER SEWER DOWNSTAIRS 3A4"	66	20	15	0	0	|	
+setentry 630	"PEPPER SEWER UPSTAIRS 1C2"	66	20	16	0	0	|	
+setentry 631	"PEPPER SEWER DOWNSTAIRS 1B2"	66	20	17	0	0	|	
+setentry 632	"PEPPER SEWER UPSTAIRS 3B1"	66	20	18	0	0	|	
+setentry 633	"PEPPER SEWER DOWNSTAIRS 3A3"	66	20	45	0	0	|	
+setentry 634	"PEPPER SEWER DOWNSTAIRS 1C3"	66	20	46	0	0	|	
+setentry 635	"PEPPER SEWER UPSTAIRS 1C3"	66	20	47	0	0	|	
+setentry 636	"PEPPER SEWER UPSTAIRS 2B1"	66	20	48	0	0	|	
+
+
+setentry 637	"Desert City Underground entrance"	66	20	194	0	0	|	
+setentry 638	"Desert City Underground exit"	66	20	195	0	0	|	
+setentry 639	"Underground Dungeon entrance"	66	20	196	0	0	|	
+setentry 640	"Underground Dungeon exit"	66	20	197	0	0	|	
+
+
+
+
+
+setentry 650	"APARTMENT ACCESS CODE IF\nPepper Park / Zephron Court / Enter A"	66	9	280	0	0	|	
+setentry 651	"APARTMENT ACCESS CODE IF\nPepper Park / Zephron Court / Enter B"	66	9	281	0	0	|	
+setentry 652	"APARTMENT ACCESS CODE IF\nPepper Park / Zephron Court / Enter C"	66	9	282	0	0	|	
+setentry 653	"APARTMENT ACCESS CODE IF\nPepper Park / Zephron Court / Enter D"	66	9	283	0	0	|	
+setentry 654	"APARTMENT ACCESS CODE IF\nPepper Park / Pussy Club"	66	9	284	0	0	|	
+setentry 655	"APARTMENT ACCESS CODE IF\nPepper Park / Black Dragon"	66	9	285	0	0	|	
+setentry 656	"APARTMENT ACCESS CODE IF\nPepper Park / Wendol Block / Enter A"	66	9	286	0	0	|	
+setentry 657	"APARTMENT ACCESS CODE IF\nPepper Park / Wendol Block / Enter B"	66	9	287	0	0	|	
+
+
+setentry 669	"APARTMENT ACCESS CODE IF\nOutzone Sec1\nEnter A"	66	9	260	0	0	|	
+setentry 670	"APARTMENT ACCESS CODE IF\nOutzone Sec1\nEnter B"	66	9	261	0	0	|	
+setentry 671	"APARTMENT ACCESS CODE IF\nOutzone Sec1\nEnter C"	66	9	262	0	0	|	
+
+setentry 672	"APARTMENT ACCESS CODE IF  Outzone 3"	66	9	295	0	0	|	
+setentry 673	"APARTMENT ACCESS CODE IF  Outzone 4"	66	9	296	0	0	|	
+setentry 674	"APARTMENT ACCESS CODE IF  Outzone 5"	66	9	297	0	0	|	
+
+
+setentry 675	"APARTMENT ACCESS CODE IF CANYON 1"	66	9	716	0	0	|	
+setentry 676	"APARTMENT ACCESS CODE IF CANYON 2"	66	9	717	0	0	|	
+setentry 677	"APARTMENT ACCESS CODE IF CANYON 3"	66	9	718	0	0	|	
+setentry 678	"APARTMENT ACCESS CODE IF CANYON 4"	66	9	719	0	0	|	
+setentry 679	"APARTMENT ACCESS CODE IF CANYON 5"	66	9	720	0	0	|	
+setentry 680	"APARTMENT ACCESS CODE IF CANYON 6"	66	9	721	0	0	|	
+
+
+
+setentry 681	"Area MC5\nCommand Unit"	66	20	370	0	0	|	
+setentry 682	"Area MC5\nProcessing Unit"	66	20	371	0	0	|	
+setentry 683	"Area MC5\nExit"	66	20	372	0	0	|	
+setentry 684	"Area MC5\nCommand Unit"	66	20	373	0	0	|	
+
+setentry 685	"Area MC5\nExit"	66	20	374	0	0	|	
+setentry 686	"Area MC5\nEnergy Production Unit"	66	20	375	0	0	|	
+setentry 687	"Area MC5\nExit"	66	20	376	0	0	|	
+setentry 688	"Area MC5\nEnergy Production Unit"	66	20	377	0	0	|	
+setentry 689	"Area MC5\nExit"	66	20	378	0	0	|	
+setentry 690	"Area MC5\nEnergy Production Unit"	66	20	379	0	0	|	
+setentry 691	"Area MC5\nExit"	66	20	380	0	0	|	
+setentry 692	"Area MC5\nEnergy Production Unit"	66	20	381	0	0	|	
+setentry 693	"Area MC5\nExit"	66	20	382	0	0	|	
+setentry 694	"Area MC5\nEnergy Production Unit"	66	20	383	0	0	|	
+setentry 695	"Area MC5\nExit"	66	20	384	0	0	|	
+setentry 696	"Area MC5\nEnergy Production Unit"	66	20	385	0	0	|	
+setentry 697	"Strange Cave Exit"	66	20	386	0	0	|	
+setentry 698	"Strange Cave"	66	20	387	0	0	|	
+
+
+
+
+setentry 710	"H14 Unit to Main"	66	20	390	0	0	|	
+setentry 711	"H14 Main to Unit"	66	20	391	0	0	|	
+setentry 712	"H14 Main to Terrain"	66	20	392	0	0	|	
+setentry 713	"H14 Terrain to Main"	66	20	393	0	0	|	
+
+setentry 714	"H14 Energy 1 to Terrain"	66	20	394	0	0	|	
+setentry 715	"H14 Terrain to Energy 1"	66	20	395	0	0	|	
+setentry 716	"H14 Energy 2 to Terrain"	66	20	396	0	0	|	
+setentry 717	"H14 Terrain to Energy 2"	66	20	397	0	0	|	
+setentry 718	"H14 Energy 3 to Terrain"	66	20	398	0	0	|	
+setentry 719	"H14 Terrain to Energy 3"	66	20	399	0	0	|	
+
+
+
+
+
+
+setentry 700	"Supply Box"	82	1	400	25	0	|	
+setentry 701	"Supply Box"	82	1	401	25	0	|	
+setentry 702	"Supply Box"	82	1	402	25	0	|	
+setentry 703	"Supply Box"	82	1	403	50	0	|	
+setentry 704	"Supply Box"	82	1	404	50	0	|	
+setentry 705	"Supply Box"	82	1	405	50	0	|	
+setentry 706	"Supply Box"	82	1	406	75	0	|	
+setentry 707	"Supply Box"	82	1	407	75	0	|	
+setentry 708	"Supply Box"	82	1	408	75	0	|	
+setentry 709	"Supply Box"	82	1	409	75	0	|	
+
+setentry 720	"Supply Box"	82	1	420	8	0	|	
+setentry 721	"Supply Box"	82	1	421	8	0	|	
+setentry 722	"Supply Box"	82	1	422	8	0	|	
+setentry 723	"Supply Box"	82	1	423	8	0	|	
+setentry 724	"Supply Box"	82	1	424	8	0	|	
+setentry 725	"Supply Box"	82	1	425	8	0	|	
+setentry 726	"Supply Box"	82	1	426	8	0	|	
+setentry 727	"Supply Box"	82	1	427	8	0	|	
+setentry 728	"Supply Box"	82	1	428	8	0	|	
+setentry 729	"Supply Box"	82	1	429	8	0	|	
+
+setentry 740	"Supply Box"	82	1	450	25	0	|	
+setentry 741	"Supply Box"	82	1	451	25	0	|	
+setentry 742	"Supply Box"	82	1	452	25	0	|	
+setentry 743	"Supply Box"	82	1	453	25	0	|	
+setentry 744	"Supply Box"	82	1	454	25	0	|	
+setentry 745	"Supply Box"	82	1	455	25	0	|	
+setentry 746	"Supply Box"	82	1	456	40	0	|	
+setentry 747	"Supply Box"	82	1	457	40	0	|	
+setentry 748	"Supply Box"	82	1	458	40	0	|	
+setentry 749	"Supply Box"	82	1	459	40	0	|	
+setentry 750	"Supply Box"	82	1	460	30	0	|	
+setentry 751	"Supply Box"	82	1	461	40	0	|	
+setentry 752	"Supply Box"	82	1	462	40	0	|	
+setentry 753	"Supply Box"	82	1	463	20	0	|	
+
+setentry 760	"Supply Box"	82	1	480	25	0	|	
+setentry 761	"Supply Box"	82	1	481	50	0	|	
+setentry 762	"Supply Box"	82	1	482	50	0	|	
+setentry 763	"Supply Box"	82	1	483	50	0	|	
+setentry 764	"Supply Box"	82	1	484	75	0	|	
+setentry 765	"Supply Box"	82	1	485	75	0	|	
+setentry 766	"Supply Box"	82	1	486	75	0	|	
+setentry 767	"Supply Box"	82	1	487	75	0	|	
+setentry 768	"Supply Box"	82	1	488	75	0	|	
+setentry 769	"Supply Box"	82	1	489	75	0	|	
+setentry 770	"Supply Box"	82	1	490	75	0	|	
+
+setentry 780	"Supply Box"	82	1	510	25	0	|	
+setentry 781	"Supply Box"	82	1	511	50	0	|	
+setentry 782	"Supply Box"	82	1	512	50	0	|	
+setentry 783	"Supply Box"	82	1	513	50	0	|	
+setentry 784	"Supply Box"	82	1	514	50	0	|	
+setentry 785	"Supply Box"	82	1	515	50	0	|	
+setentry 786	"Supply Box"	82	1	516	50	0	|	
+
+setentry 791	"Special Box"	82	1	509	0	0	|	
+
+setentry 850	"Underground entrance A_06"	66	20	750	0	0	|	
+setentry 851	"Underground entrance B_08"	66	20	751	0	0	|	
+setentry 852	"Underground entrance B_11"	66	20	752	0	0	|	
+setentry 853	"Underground entrance C_07"	66	20	753	0	0	|	
+setentry 854	"Underground entrance C_09"	66	20	754	0	0	|	
+setentry 855	"Underground entrance C_12"	66	20	755	0	0	|	
+setentry 856	"Underground entrance D_06"	66	20	756	0	0	|	
+setentry 857	"Underground entrance D_07"	66	20	757	0	0	|	
+setentry 858	"Underground entrance D_09"	66	20	758	0	0	|	
+setentry 859	"Underground entrance D_11"	66	20	759	0	0	|	
+setentry 860	"Underground entrance D_13"	66	20	760	0	0	|	
+setentry 861	"Underground entrance E_10"	66	20	761	0	0	|	
+setentry 862	"Underground entrance F_05"	66	20	762	0	0	|	
+setentry 863	"Underground entrance F_11"	66	20	763	0	0	|	
+setentry 864	"Underground entrance F_12"	66	20	764	0	0	|	
+setentry 865	"Underground entrance G_08"	66	20	765	0	0	|	
+setentry 866	"Underground entrance G_12"	66	20	766	0	0	|	
+setentry 867	"Underground entrance H_03"	66	20	767	0	0	|	
+setentry 868	"Underground entrance H_07"	66	20	768	0	0	|	
+setentry 869	"Underground entrance H_09"	66	20	769	0	0	|	
+setentry 870	"Underground entrance H_11"	66	20	770	0	0	|	
+setentry 871	"Underground entrance H_13"	66	20	771	0	0	|	
+setentry 872	"Underground entrance H_15"	66	20	772	0	0	|	
+setentry 873	"Underground entrance H_16"	66	20	773	0	0	|	
+setentry 874	"Underground entrance I_04"	66	20	774	0	0	|	
+setentry 875	"Underground entrance I_05"	66	20	775	0	0	|	
+setentry 876	"Underground entrance I_07"	66	20	776	0	0	|	
+setentry 877	"Underground entrance I_08"	66	20	777	0	0	|	
+setentry 878	"Underground entrance I_11"	66	20	778	0	0	|	
+setentry 879	"Underground entrance I_15"	66	20	779	0	0	|	
+setentry 880	"Underground entrance J_09"	66	20	780	0	0	|	
+setentry 881	"Underground entrance J_14"	66	20	781	0	0	|	
+setentry 882	"Underground entrance K_04"	66	20	782	0	0	|	
+setentry 883	"Underground entrance K_05"	66	20	783	0	0	|	
+setentry 884	"Underground entrance K_07"	66	20	784	0	0	|	
+setentry 885	"Underground entrance K_12"	66	20	785	0	0	|	
+
+
+
+setentry 790	"Burning Barrel"	128	1	0	0	0	|	
+setentry 800	"Explosive Barrel"	64	25	0	0	0	|	
+
+
+
+setentry 900	"VEHICLE DEPOT INTERFACE"	66	28	0	0	0	|	
+
+
+setentry 920	"storage box"	66	1	1090	0	0	|	
+
+
+setentry 990	"Ambush Square - Sec. 09"	1	0	0	0	0	|	
+setentry 991	"Bargain Towers - Sec. 10"	1	0	0	0	0	|	
+setentry 992	"Broken Bridge Bazaar - Sec. 03"	1	0	0	0	0	|	
+setentry 993	"Casa Nostre - Sec. 08"	1	0	0	0	0	|	
+setentry 994	"Circle Of The Divine World - Sec. 02"	1	0	0	0	0	|	
+setentry 995	"Crossroad Palace - Sec. 06"	1	0	0	0	0	|	
+setentry 996	"Guardian Gate - Sec. 01"	1	0	0	0	0	|	
+setentry 997	"Junky's Heaven - Sec. 08"	1	0	0	0	0	|	
+setentry 998	"Sin City - Sec. 07"	1	0	0	0	0	|	
+
+
+
+setentry 1000	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4500	0	0	|	
+setentry 1001	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4501	0	0	|	
+setentry 1002	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4502	0	0	|	
+setentry 1003	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4503	0	0	|	
+setentry 1004	"DOY Sewer Lvl. 1 ENTRANCE"	66	20	4504	0	0	|	
+setentry 1005	"DOY Sewer Lvl. 1 EXIT"	66	20	4505	0	0	|	
+setentry 1006	"DOY Storage Lvl. 1 ENTRANCE"	66	20	4506	0	0	|	
+setentry 1007	"DOY Storage Lvl. 1 EXIT"	66	20	4507	0	0	|	
+
+
+setentry 1008	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4508	0	0	|	
+setentry 1009	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4509	0	0	|	
+setentry 1010	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4510	0	0	|	
+setentry 1011	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4511	0	0	|	
+setentry 1012	"DOY Sewer Lvl. 1 ENTRANCE"	66	20	4512	0	0	|	
+setentry 1013	"DOY Sewer Lvl. 1 EXIT"	66	20	4513	0	0	|	
+setentry 1014	"DOY Storage Lvl. 1 ENTRANCE"	66	20	4514	0	0	|	
+setentry 1015	"DOY Storage Lvl. 1 EXIT"	66	20	4515	0	0	|	
+
+
+setentry 1016	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4516	0	0	|	
+setentry 1017	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4517	0	0	|	
+setentry 1018	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4518	0	0	|	
+setentry 1019	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4519	0	0	|	
+setentry 1020	"DOY Sewer Lvl. 1 ENTRANCE"	66	20	4520	0	0	|	
+setentry 1021	"DOY Sewer Lvl. 1 EXIT"	66	20	4521	0	0	|	
+setentry 1022	"DOY Storage Lvl. 1 ENTRANCE"	66	20	4522	0	0	|	
+setentry 1023	"DOY Storage Lvl. 1 EXIT"	66	20	4523	0	0	|	
+
+
+setentry 1024	"DOY Sidestreet Lvl. 4 ENTRANCE"	66	20	4524	0	0	|	
+setentry 1025	"DOY Sidestreet Lvl. 4 EXIT"	66	20	4525	0	0	|	
+setentry 1026	"DOY Sewer Lvl. 4 ENTRANCE"	66	20	4526	0	0	|	
+setentry 1027	"DOY Sewer Lvl. 4 EXIT"	66	20	4527	0	0	|	
+setentry 1028	"DOY Bunker Lvl. 4 ENTRANCE"	66	20	4528	0	0	|	
+setentry 1029	"DOY Bunker Lvl. 4 EXIT"	66	20	4529	0	0	|	
+setentry 1030	"DOY Storage Lvl. 4 ENTRANCE"	66	20	4530	0	0	|	
+setentry 1031	"DOY Storage Lvl. 4 EXIT"	66	20	4531	0	0	|	
+
+
+setentry 1032	"DOY Bunker Lvl. 8 ENTRANCE"	66	20	4532	0	0	|	
+setentry 1033	"DOY Bunker Lvl. 8 EXIT"	66	20	4533	0	0	|	
+setentry 1034	"DOY Bunker Lvl. 8 ENTRANCE"	66	20	4534	0	0	|	
+setentry 1035	"DOY Bunker Lvl. 8 EXIT"	66	20	4535	0	0	|	
+setentry 1036	"DOY Storage Lvl. 8 ENTRANCE"	66	20	4536	0	0	|	
+setentry 1037	"DOY Storage Lvl. 8 EXIT"	66	20	4537	0	0	|	
+
+
+setentry 1038	"DOY Sidestreet Lvl. 4 ENTRANCE"	66	20	4538	0	0	|	
+setentry 1039	"DOY Sidestreet Lvl. 4 EXIT"	66	20	4539	0	0	|	
+setentry 1040	"DOY Sewer Lvl. 4 ENTRANCE"	66	20	4540	0	0	|	
+setentry 1041	"DOY Sewer Lvl. 4 EXIT"	66	20	4541	0	0	|	
+setentry 1042	"DOY Bunker Lvl. 4 ENTRANCE"	66	20	4542	0	0	|	
+setentry 1043	"DOY Bunker Lvl. 4 EXIT"	66	20	4543	0	0	|	
+setentry 1044	"DOY Storage Lvl. 4 ENTRANCE"	66	20	4544	0	0	|	
+setentry 1045	"DOY Storage Lvl. 4 EXIT"	66	20	4545	0	0	|	
+
+
+setentry 1046	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4546	0	0	|	
+setentry 1047	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4547	0	0	|	
+setentry 1048	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4548	0	0	|	
+setentry 1049	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4549	0	0	|	
+setentry 1050	"DOY Sewer Lvl. 1 ENTRANCE"	66	20	4550	0	0	|	
+setentry 1051	"DOY Sewer Lvl. 1 EXIT"	66	20	4551	0	0	|	
+setentry 1052	"DOY Storage Lvl. 1 ENTRANCE"	66	20	4552	0	0	|	
+setentry 1053	"DOY Storage Lvl. 1 EXIT"	66	20	4553	0	0	|	
+
+
+setentry 1054	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4554	0	0	|	
+setentry 1055	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4555	0	0	|	
+setentry 1056	"DOY Sidestreet Lvl. 1 ENTRANCE"	66	20	4556	0	0	|	
+setentry 1057	"DOY Sidestreet Lvl. 1 EXIT"	66	20	4557	0	0	|	
+setentry 1058	"DOY Sewer Lvl. 1 ENTRANCE"	66	20	4558	0	0	|	
+setentry 1059	"DOY Sewer Lvl. 1 EXIT"	66	20	4559	0	0	|	
+setentry 1060	"DOY Storage Lvl. 1 ENTRANCE"	66	20	4560	0	0	|	
+setentry 1061	"DOY Storage Lvl. 1 EXIT"	66	20	4561	0	0	|	
+
+
+setentry 1062	"DOY Bunker Lvl. 8 ENTRANCE"	66	20	4562	0	0	|	
+setentry 1063	"DOY Bunker Lvl. 8 EXIT"	66	20	4563	0	0	|	
+setentry 1064	"DOY Bunker Lvl. 8 ENTRANCE"	66	20	4564	0	0	|	
+setentry 1065	"DOY Bunker Lvl. 8 EXIT"	66	20	4565	0	0	|	
+setentry 1066	"DOY Storage Lvl. 8 ENTRANCE"	66	20	4566	0	0	|	
+setentry 1067	"DOY Storage Lvl. 8 EXIT"	66	20	4567	0	0	|	
+
+
+setentry 1068	"DOY Sidestreet Lvl. 4 ENTRANCE"	66	20	4568	0	0	|	
+setentry 1069	"DOY Sidestreet Lvl. 4 EXIT"	66	20	4569	0	0	|	
+setentry 1070	"DOY Sewer Lvl. 4 ENTRANCE"	66	20	4570	0	0	|	
+setentry 1071	"DOY Sewer Lvl. 4 EXIT"	66	20	4571	0	0	|	
+setentry 1072	"DOY Bunker Lvl. 4 ENTRANCE"	66	20	4572	0	0	|	
+setentry 1073	"DOY Bunker Lvl. 4 EXIT"	66	20	4573	0	0	|	
+setentry 1074	"DOY Storage Lvl. 4 ENTRANCE"	66	20	4574	0	0	|	
+setentry 1075	"DOY Storage Lvl. 4 EXIT"	66	20	4575	0	0	|	
+
+
+setentry 1076	"Juggernaut Facility Entrance"	66	20	4700	0	0	|	
+setentry 1077	"Juggernaut Facility Exit"	66	20	4701	0	0	|	
+setentry 1078	"Corpse of Dr. Kaytlin Morrison"	2	1	1500	0	0	|	
+
+
+
+setentry 1080	"DoY / Sector 01 / Complex 1"	66	9	214	0	0	|	
+setentry 1081	"DoY / Sector 01 / Complex 2"	66	9	215	0	0	|	
+setentry 1082	"DoY / Sector 01 / Complex 3 / Enter a"	66	9	216	0	0	|	
+setentry 1083	"DoY / Sector 01 / Complex 3 / Enter b"	66	9	217	0	0	|	
+setentry 1084	"DoY / Sector 02 / Complex 1 / Enter a"	66	9	218	0	0	|	
+setentry 1085	"DoY / Sector 02 / Complex 1 / Enter b"	66	9	219	0	0	|	
+setentry 1086	"DoY / Sector 03 / Complex 1"	66	9	220	0	0	|	
+setentry 1087	"DoY / Sector 06 / Complex 1 / Enter a"	66	9	221	0	0	|	
+setentry 1088	"DoY / Sector 06 / Complex 1 / Enter b"	66	9	222	0	0	|	
+setentry 1089	"DoY / Sector 06 / Complex 2"	66	9	223	0	0	|	
+setentry 1090	"DoY / Sector 07 / Complex 1 / Enter a"	66	9	224	0	0	|	
+setentry 1091	"DoY / Sector 07 / Complex 1 / Enter b"	66	9	225	0	0	|	
+setentry 1092	"DoY / Sector 07 / Complex 2 / Enter a"	66	9	226	0	0	|	
+setentry 1093	"DoY / Sector 07 / Complex 2 / Enter b"	66	9	227	0	0	|	
+setentry 1094	"DoY / Sector 07 / Complex 2 / Enter c"	66	9	228	0	0	|	
+setentry 1095	"DoY / Sector 08 / Complex 1"	66	9	229	0	0	|	
+setentry 1096	"DoY / Sector 10 / Complex 1 / Enter a"	66	9	230	0	0	|	
+setentry 1097	"DoY / Sector 10 / Complex 1 / Enter b"	66	9	231	0	0	|	
+
+
+setentry 1098	"Gaya Mine 3 Entrance"	66	20	4580	0	0	|	
+setentry 1099	"Gaya Mine 3 Exit"	66	20	4581	0	0	|	
+
+
+setentry 1100	"Ceres BioGenetics Lab Alpha Entrance"	66	20	4740	0	0	|	
+setentry 1101	"Ceres BioGenetics Lab Alpha Exit"	66	20	4741	0	0	|	
+setentry 1102	"Ceres BioGenetics Lab Alpha - Sub Level Entrance"	66	20	4742	0	0	|	
+setentry 1103	"Ceres BioGenetics Lab Alpha - Sub Level Exit"	66	20	4743	0	0	|	
+
+setentry 1104	"Ceres BioGenetics Lab Beta Entrance"	66	20	4744	0	0	|	
+setentry 1105	"Ceres BioGenetics Lab Beta Exit"	66	20	4745	0	0	|	
+setentry 1106	"Ceres BioGenetics Lab Beta - Sub Level Entrance"	66	20	4746	0	0	|	
+setentry 1107	"Ceres BioGenetics Lab Beta - Sub Level Exit"	66	20	4747	0	0	|	
+
+setentry 1108	"Ceres BioGenetics Lab Gamma Entrance"	66	20	4748	0	0	|	
+setentry 1109	"Ceres BioGenetics Lab Gamma Exit"	66	20	4749	0	0	|	
+setentry 1110	"Ceres BioGenetics Lab Gamma - Sub Level Entrance"	66	20	4750	0	0	|	
+setentry 1111	"Ceres BioGenetics Lab Gamma - Sub Level Exit"	66	20	4751	0	0	|	
+
+setentry 1112	"Ceres BioGenetics Lab Delta Entrance"	66	20	4752	0	0	|	
+setentry 1113	"Ceres BioGenetics Lab Delta Exit"	66	20	4753	0	0	|	
+setentry 1114	"Ceres BioGenetics Lab Delta - Sub Level Entrance"	66	20	4754	0	0	|	
+setentry 1115	"Ceres BioGenetics Lab Delta - Sub Level Exit"	66	20	4755	0	0	|	
+
+setentry 1116	"Ceres BioMechanic Lab Alpha Entrance"	66	20	4756	0	0	|	
+setentry 1117	"Ceres BioMechanic Lab Alpha Exit"	66	20	4757	0	0	|	
+setentry 1118	"Ceres BioMechanic Lab Alpha - Sub Level Entrance"	66	20	4758	0	0	|	
+setentry 1119	"Ceres BioMechanic Lab Alpha - Sub Level Exit"	66	20	4759	0	0	|	
+
+setentry 1120	"Ceres BioMechanic Lab Beta Entrance"	66	20	4760	0	0	|	
+setentry 1121	"Ceres BioMechanic Lab Beta Exit"	66	20	4761	0	0	|	
+setentry 1122	"Ceres BioMechanic Lab Beta - Sub Level Entrance"	66	20	4762	0	0	|	
+setentry 1123	"Ceres BioMechanic Lab Beta - Sub Level Exit"	66	20	4763	0	0	|	
+
+setentry 1124	"Ceres BioMechanic Lab Gamma Entrance"	66	20	4764	0	0	|	
+setentry 1125	"Ceres BioMechanic Lab Gamma Exit"	66	20	4765	0	0	|	
+setentry 1126	"Ceres BioMechanic Lab Gamma - Sub Level Entrance"	66	20	4766	0	0	|	
+setentry 1127	"Ceres BioMechanic Lab Gamma - Sub Level Exit"	66	20	4767	0	0	|	
+
+setentry 1128	"Ceres BioMechanic Lab Delta Entrance"	66	20	4768	0	0	|	
+setentry 1129	"Ceres BioMechanic Lab Delta Exit"	66	20	4769	0	0	|	
+setentry 1130	"Ceres BioMechanic Lab Delta - Sub Level Entrance"	66	20	4770	0	0	|	
+setentry 1131	"Ceres BioMechanic Lab Delta - Sub Level Exit"	66	20	4771	0	0	|	
+
+
+
+setentry 1200	"F08 to Tunnel A"	66	20	4600	0	0	|	
+setentry 1201	"G08 to Tunnel A"	66	20	4601	0	0	|	
+setentry 1202	"Tunnel A to F08"	66	20	4602	0	0	|	
+setentry 1203	"Tunnel A to G08"	66	20	4603	0	0	|	
+setentry 1204	"Tunnel A to C"	66	20	4604	0	0	|	
+setentry 1205	"Tunnel C to A"	66	20	4605	0	0	|	
+setentry 1206	"Tunnel C to B"	66	20	4606	0	0	|	
+setentry 1207	"Tunnel B to C"	66	20	4607	0	0	|	
+setentry 1208	"F09 to Tunnel B"	66	20	4608	0	0	|	
+setentry 1209	"F10 to Tunnel B"	66	20	4609	0	0	|	
+setentry 1210	"Tunnel B to F09"	66	20	4610	0	0	|	
+setentry 1211	"Tunnel B to F10"	66	20	4611	0	0	|	
+setentry 1212	"Tunnel C to E"	66	20	4612	0	0	|	
+setentry 1213	"Tunnel E to C"	66	20	4613	0	0	|	
+setentry 1214	"Tunnel E to F"	66	20	4614	0	0	|	
+setentry 1215	"Tunnel F to E"	66	20	4615	0	0	|	
+setentry 1216	"Tunnel F to G"	66	20	4616	0	0	|	
+setentry 1217	"Tunnel G to F"	66	20	4617	0	0	|	
+setentry 1218	"Tunnel G to H"	66	20	4618	0	0	|	
+setentry 1219	"Tunnel H to G"	66	20	4619	0	0	|	
+setentry 1220	"Tunnel H to I"	66	20	4620	0	0	|	
+setentry 1221	"Tunnel I to H"	66	20	4621	0	0	|	
+setentry 1222	"Tunnel I to J"	66	20	4622	0	0	|	
+setentry 1223	"Tunnel J to I"	66	20	4623	0	0	|	
+setentry 1224	"Tunnel J to K"	66	20	4624	0	0	|	
+setentry 1225	"Tunnel K to J"	66	20	4625	0	0	|	
+setentry 1226	"Tunnel K to I09"	66	20	4626	0	0	|	
+setentry 1227	"I09 to Tunnel K"	66	20	4627	0	0	|	
+setentry 1228	"Tunnel K to D"	66	20	4628	0	0	|	
+setentry 1229	"Tunnel D to K"	66	20	4629	0	0	|	
+setentry 1230	"Tunnel D to E"	66	20	4630	0	0	|	
+setentry 1231	"Tunnel E to D"	66	20	4631	0	0	|	
+setentry 1232	"Tunnel I to L"	66	20	4632	0	0	|	
+setentry 1233	"Tunnel L to I"	66	20	4633	0	0	|	
+setentry 1234	"Tunnel L to M"	66	20	4634	0	0	|	
+setentry 1235	"Tunnel M to L"	66	20	4635	0	0	|	
+setentry 1236	"Tunnel M to I12"	66	20	4636	0	0	|	
+setentry 1237	"I12 to Tunnel M"	66	20	4637	0	0	|	
+setentry 1238	"Tunnel M to I13"	66	20	4638	0	0	|	
+setentry 1239	"I13 to Tunnel M"	66	20	4639	0	0	|	
+setentry 1240	"Tunnel M to N"	66	20	4640	0	0	|	
+setentry 1241	"Tunnel N to M"	66	20	4641	0	0	|	
+setentry 1242	"Tunnel N to O"	66	20	4642	0	0	|	
+setentry 1243	"Tunnel O to N"	66	20	4643	0	0	|	
+setentry 1244	"Tunnel O to P"	66	20	4644	0	0	|	
+setentry 1245	"Tunnel P to O"	66	20	4645	0	0	|	
+setentry 1246	"Tunnel P to Q"	66	20	4646	0	0	|	
+setentry 1247	"Tunnel Q to P"	66	20	4647	0	0	|	
+setentry 1248	"Tunnel Q to R"	66	20	4648	0	0	|	
+setentry 1249	"Tunnel R to Q"	66	20	4649	0	0	|	
+setentry 1250	"Tunnel R to S"	66	20	4650	0	0	|	
+setentry 1251	"Tunnel S to R"	66	20	4651	0	0	|	
+setentry 1252	"J13 to Tunnel S"	66	20	4652	0	0	|	
+setentry 1253	"Tunnel S to J13"	66	20	4653	0	0	|	
+setentry 1254	"Tunnel S to T"	66	20	4654	0	0	|	
+setentry 1255	"Tunnel T to S"	66	20	4655	0	0	|	
+setentry 1256	"Tunnel T to V"	66	20	4656	0	0	|	
+setentry 1257	"Tunnel V to T"	66	20	4657	0	0	|	
+setentry 1258	"Tunnel T to U"	66	20	4658	0	0	|	
+setentry 1259	"Tunnel U to T"	66	20	4659	0	0	|	
+setentry 1260	"Tunnel U to L"	66	20	4660	0	0	|	
+setentry 1261	"Tunnel L to U"	66	20	4661	0	0	|	
+setentry 1262	"Tunnel P to X"	66	20	4662	0	0	|	
+setentry 1263	"Tunnel X to P"	66	20	4663	0	0	|	
+setentry 1264	"Tunnel X to Y"	66	20	4664	0	0	|	
+setentry 1265	"Tunnel Y to X"	66	20	4665	0	0	|	
+setentry 1266	"Tunnel Y to W"	66	20	4666	0	0	|	
+setentry 1267	"Tunnel W to Y"	66	20	4667	0	0	|	
+setentry 1268	"Tunnel W to R"	66	20	4668	0	0	|	
+setentry 1269	"Tunnel R to W"	66	20	4669	0	0	|	
+setentry 1270	"Tunnel Y to Z"	66	20	4670	0	0	|	
+setentry 1271	"Tunnel Z to Y"	66	20	4671	0	0	|	
+setentry 1272	"Tunnel Y to KOS"	66	20	4672	0	0	|	
+setentry 1273	"Tunnel KOS to Y"	66	20	4673	0	0	|	
+setentry 1274	"Tunnel KOS to K16"	66	20	4674	0	0	|	
+setentry 1275	"K16 to Tunnel KOS"	66	20	4675	0	0	|	
+setentry 1276	"Tunnel Z to J16"	66	20	4676	0	0	|	
+setentry 1277	"J16 to Tunnel Z"	66	20	4677	0	0	|	
+setentry 1278	"Tunnel V to K11"	66	20	4678	0	0	|	
+setentry 1279	"K11 to Tunnel V"	66	20	4679	0	0	|	
+
+
+setentry 1290	"to secret Laboratory"	66	20	4698	0	0	|	
+setentry 1291	"to Terrain"	66	20	4699	0	0	|	
+
+
+setentry 1295	"to Ceres Temple"	66	20	4685	0	0	|	
+setentry 1296	"to Swamp"	66	20	4686	0	0	|	
+
+
+setentry 1299	"Neocron Mainframe to City Admin"	66	20	4799	0	0	|	
+setentry 1300	"Neocron Mainframe to Protopharm"	66	20	4800	0	0	|	
+setentry 1301	"Neocron Mainframe to NEXT"	66	20	4801	0	0	|	
+setentry 1302	"Neocron Mainframe to Diamond"	66	20	4802	0	0	|	
+setentry 1303	"Neocron Mainframe to Tangent"	66	20	4803	0	0	|	
+setentry 1304	"Neocron Mainframe to Biotech"	66	20	4804	0	0	|	
+setentry 1305	"Neocron Mainframe to Outer Network"	66	20	4805	0	0	|	
+setentry 1306	"Dome of York Mainframe to Black Dragon"	66	20	4806	0	0	|	
+setentry 1307	"Dome of York Mainframe to Tsunami Syndicate"	66	20	4807	0	0	|	
+setentry 1308	"Dome of York Mainframe to Crahn Sect"	66	20	4808	0	0	|	
+setentry 1309	"Dome of York Mainframe to Twilight Guardian"	66	20	4809	0	0	|	
+setentry 1310	"Dome of York Mainframe to Fallen Angels"	66	20	4810	0	0	|	
+setentry 1311	"Dome of York Mainframe to Outer Network"	66	20	4811	0	0	|	
+setentry 1312	"City Admin Firewall to Mainframe"	66	20	4812	0	0	|	
+setentry 1313	"City Admin Firewall to DNS"	66	20	4813	0	0	|	
+setentry 1314	"City Admin DNS to Firewall"	66	20	4814	0	0	|	
+setentry 1315	"City Admin DNS to Infected Storage 1"	66	20	4815	0	0	|	
+setentry 1316	"City Admin Infected Storage 1 to DNS"	66	20	4816	0	0	|	
+setentry 1317	"City Admin DNS to Infected Storage 2"	66	20	4817	0	0	|	
+setentry 1318	"City Admin Infected Storage 2 to DNS"	66	20	4818	0	0	|	
+setentry 1319	"City Admin DNS to Infected Storage 3"	66	20	4819	0	0	|	
+setentry 1320	"City Admin Infected Storage 3 to DNS"	66	20	4820	0	0	|	
+setentry 1321	"City Admin DNS to Database"	66	20	4821	0	0	|	
+setentry 1322	"City Admin Database to DNS"	66	20	4822	0	0	|	
+setentry 1323	"City Admin DNS to Faction HQ ---LOGOUT---"	66	20	4823	0	0	|	
+setentry 1324	"City Admin DNS to Firewall High Security 1"	66	20	4824	0	0	|	
+setentry 1325	"City Admin Firewall High Security 1 to DNS"	66	20	4825	0	0	|	
+setentry 1326	"City Admin Firewall High Security 1 to Faction Security Center"	66	20	4826	0	0	|	
+setentry 1327	"City Admin Faction Security Center to Firewall High Security 1"	66	20	4827	0	0	|	
+setentry 1328	"City Admin Faction Security Center to Firewall High Security 2"	66	20	4828	0	0	|	
+setentry 1329	"City Admin Firewall High Security 2 to Faction Security Center"	66	20	4829	0	0	|	
+setentry 1330	"City Admin Firewall High Security 2 to Faction Highest Security"	66	20	4830	0	0	|	
+setentry 1331	"City Admin Faction Highest Security to Firewall High Security 2"	66	20	4831	0	0	|	
+setentry 1332	"Protopharm Firewall to Mainframe"	66	20	4832	0	0	|	
+setentry 1333	"Protopharm Firewall to DNS"	66	20	4833	0	0	|	
+setentry 1334	"Protopharm DNS to Firewall"	66	20	4834	0	0	|	
+setentry 1335	"Protopharm DNS to Infected Storage 1"	66	20	4835	0	0	|	
+setentry 1336	"Protopharm Infected Storage 1 to DNS"	66	20	4836	0	0	|	
+setentry 1337	"Protopharm DNS to Infected Storage 2"	66	20	4837	0	0	|	
+setentry 1338	"Protopharm Infected Storage 2 to DNS"	66	20	4838	0	0	|	
+setentry 1339	"Protopharm DNS to Infected Storage 3"	66	20	4839	0	0	|	
+setentry 1340	"Protopharm Infected Storage 3 to DNS"	66	20	4840	0	0	|	
+setentry 1341	"Protopharm DNS to Database"	66	20	4841	0	0	|	
+setentry 1342	"Protopharm Database to DNS"	66	20	4842	0	0	|	
+setentry 1343	"Protopharm DNS to Faction HQ ---LOGOUT---"	66	20	4843	0	0	|	
+setentry 1344	"Protopharm DNS to Firewall High Security 1"	66	20	4844	0	0	|	
+setentry 1345	"Protopharm Firewall High Security 1 to DNS"	66	20	4845	0	0	|	
+setentry 1346	"Protopharm Firewall High Security 1 to Faction Security Center"	66	20	4846	0	0	|	
+setentry 1347	"Protopharm Faction Security Center to Firewall High Security 1"	66	20	4847	0	0	|	
+setentry 1348	"Protopharm Faction Security Center to Firewall High Security 2"	66	20	4848	0	0	|	
+setentry 1349	"Protopharm Firewall High Security 2 to Faction Security Center"	66	20	4849	0	0	|	
+setentry 1350	"Protopharm Firewall High Security 2 to Faction Highest Security"	66	20	4850	0	0	|	
+setentry 1351	"Protopharm Faction Highest Security to Firewall High Security 2"	66	20	4851	0	0	|	
+setentry 1352	"NEXT Firewall to Mainframe"	66	20	4852	0	0	|	
+setentry 1353	"NEXT Firewall to DNS"	66	20	4853	0	0	|	
+setentry 1354	"NEXT DNS to Firewall"	66	20	4854	0	0	|	
+setentry 1355	"NEXT DNS to Infected Storage 1"	66	20	4855	0	0	|	
+setentry 1356	"NEXT Infected Storage 1 to DNS"	66	20	4856	0	0	|	
+setentry 1357	"NEXT DNS to Infected Storage 2"	66	20	4857	0	0	|	
+setentry 1358	"NEXT Infected Storage 2 to DNS"	66	20	4858	0	0	|	
+setentry 1359	"NEXT DNS to Infected Storage 3"	66	20	4859	0	0	|	
+setentry 1360	"NEXT Infected Storage 3 to DNS"	66	20	4860	0	0	|	
+setentry 1361	"NEXT DNS to Database"	66	20	4861	0	0	|	
+setentry 1362	"NEXT Database to DNS"	66	20	4862	0	0	|	
+setentry 1363	"NEXT DNS to Faction HQ ---LOGOUT---"	66	20	4863	0	0	|	
+setentry 1364	"NEXT DNS to Firewall High Security 1"	66	20	4864	0	0	|	
+setentry 1365	"NEXT Firewall High Security 1 to DNS"	66	20	4865	0	0	|	
+setentry 1366	"NEXT Firewall High Security 1 to Faction Security Center"	66	20	4866	0	0	|	
+setentry 1367	"NEXT Faction Security Center to Firewall High Security 1"	66	20	4867	0	0	|	
+setentry 1368	"NEXT Faction Security Center to Firewall High Security 2"	66	20	4868	0	0	|	
+setentry 1369	"NEXT Firewall High Security 2 to Faction Security Center"	66	20	4869	0	0	|	
+setentry 1370	"NEXT Firewall High Security 2 to Faction Highest Security"	66	20	4870	0	0	|	
+setentry 1371	"NEXT Faction Highest Security to Firewall High Security 2"	66	20	4871	0	0	|	
+setentry 1372	"Diamond Firewall to Mainframe"	66	20	4872	0	0	|	
+setentry 1373	"Diamond Firewall to DNS"	66	20	4873	0	0	|	
+setentry 1374	"Diamond DNS to Firewall"	66	20	4874	0	0	|	
+setentry 1375	"Diamond DNS to Infected Storage 1"	66	20	4875	0	0	|	
+setentry 1376	"Diamond Infected Storage 1 to DNS"	66	20	4876	0	0	|	
+setentry 1377	"Diamond DNS to Infected Storage 2"	66	20	4877	0	0	|	
+setentry 1378	"Diamond Infected Storage 2 to DNS"	66	20	4878	0	0	|	
+setentry 1379	"Diamond DNS to Infected Storage 3"	66	20	4879	0	0	|	
+setentry 1380	"Diamond Infected Storage 3 to DNS"	66	20	4880	0	0	|	
+setentry 1381	"Diamond DNS to Database"	66	20	4881	0	0	|	
+setentry 1382	"Diamond Database to DNS"	66	20	4882	0	0	|	
+setentry 1383	"Diamond DNS to Faction HQ ---LOGOUT---"	66	20	4883	0	0	|	
+setentry 1384	"Diamond DNS to Firewall High Security 1"	66	20	4884	0	0	|	
+setentry 1385	"Diamond Firewall High Security 1 to DNS"	66	20	4885	0	0	|	
+setentry 1386	"Diamond Firewall High Security 1 to Faction Security Center"	66	20	4886	0	0	|	
+setentry 1387	"Diamond Faction Security Center to Firewall High Security 1"	66	20	4887	0	0	|	
+setentry 1388	"Diamond Faction Security Center to Firewall High Security 2"	66	20	4888	0	0	|	
+setentry 1389	"Diamond Firewall High Security 2 to Faction Security Center"	66	20	4889	0	0	|	
+setentry 1390	"Diamond Firewall High Security 2 to Faction Highest Security"	66	20	4890	0	0	|	
+setentry 1391	"Diamond Faction Highest Security to Firewall High Security 2"	66	20	4891	0	0	|	
+setentry 1392	"Tangent Firewall to Mainframe"	66	20	4892	0	0	|	
+setentry 1393	"Tangent Firewall to DNS"	66	20	4893	0	0	|	
+setentry 1394	"Tangent DNS to Firewall"	66	20	4894	0	0	|	
+setentry 1395	"Tangent DNS to Infected Storage 1"	66	20	4895	0	0	|	
+setentry 1396	"Tangent Infected Storage 1 to DNS"	66	20	4896	0	0	|	
+setentry 1397	"Tangent DNS to Infected Storage 2"	66	20	4897	0	0	|	
+setentry 1398	"Tangent Infected Storage 2 to DNS"	66	20	4898	0	0	|	
+setentry 1399	"Tangent DNS to Infected Storage 3"	66	20	4899	0	0	|	
+setentry 1400	"Tangent Infected Storage 3 to DNS"	66	20	4900	0	0	|	
+setentry 1401	"Tangent DNS to Database"	66	20	4901	0	0	|	
+setentry 1402	"Tangent Database to DNS"	66	20	4902	0	0	|	
+setentry 1403	"Tangent DNS to Faction HQ ---LOGOUT---"	66	20	4903	0	0	|	
+setentry 1404	"Tangent DNS to Firewall High Security 1"	66	20	4904	0	0	|	
+setentry 1405	"Tangent Firewall High Security 1 to DNS"	66	20	4905	0	0	|	
+setentry 1406	"Tangent Firewall High Security 1 to Faction Security Center"	66	20	4906	0	0	|	
+setentry 1407	"Tangent Faction Security Center to Firewall High Security 1"	66	20	4907	0	0	|	
+setentry 1408	"Tangent Faction Security Center to Firewall High Security 2"	66	20	4908	0	0	|	
+setentry 1409	"Tangent Firewall High Security 2 to Faction Security Center"	66	20	4909	0	0	|	
+setentry 1410	"Tangent Firewall High Security 2 to Faction Highest Security"	66	20	4910	0	0	|	
+setentry 1411	"Tangent Faction Highest Security to Firewall High Security 2"	66	20	4911	0	0	|	
+setentry 1412	"Biotech Firewall to Mainframe"	66	20	4912	0	0	|	
+setentry 1413	"Biotech Firewall to DNS"	66	20	4913	0	0	|	
+setentry 1414	"Biotech DNS to Firewall"	66	20	4914	0	0	|	
+setentry 1415	"Biotech DNS to Infected Storage 1"	66	20	4915	0	0	|	
+setentry 1416	"Biotech Infected Storage 1 to DNS"	66	20	4916	0	0	|	
+setentry 1417	"Biotech DNS to Infected Storage 2"	66	20	4917	0	0	|	
+setentry 1418	"Biotech Infected Storage 2 to DNS"	66	20	4918	0	0	|	
+setentry 1419	"Biotech DNS to Infected Storage 3"	66	20	4919	0	0	|	
+setentry 1420	"Biotech Infected Storage 3 to DNS"	66	20	4920	0	0	|	
+setentry 1421	"Biotech DNS to Database"	66	20	4921	0	0	|	
+setentry 1422	"Biotech Database to DNS"	66	20	4922	0	0	|	
+setentry 1423	"Biotech DNS to Faction HQ ---LOGOUT---"	66	20	4923	0	0	|	
+setentry 1424	"Biotech DNS to Firewall High Security 1"	66	20	4924	0	0	|	
+setentry 1425	"Biotech Firewall High Security 1 to DNS"	66	20	4925	0	0	|	
+setentry 1426	"Biotech Firewall High Security 1 to Faction Security Center"	66	20	4926	0	0	|	
+setentry 1427	"Biotech Faction Security Center to Firewall High Security 1"	66	20	4927	0	0	|	
+setentry 1428	"Biotech Faction Security Center to Firewall High Security 2"	66	20	4928	0	0	|	
+setentry 1429	"Biotech Firewall High Security 2 to Faction Security Center"	66	20	4929	0	0	|	
+setentry 1430	"Biotech Firewall High Security 2 to Faction Highest Security"	66	20	4930	0	0	|	
+setentry 1431	"Biotech Faction Highest Security to Firewall High Security 2"	66	20	4931	0	0	|	
+setentry 1432	"Black Dragon Firewall to Mainframe"	66	20	4932	0	0	|	
+setentry 1433	"Black Dragon Firewall to DNS"	66	20	4933	0	0	|	
+setentry 1434	"Black Dragon DNS to Firewall"	66	20	4934	0	0	|	
+setentry 1435	"Black Dragon DNS to Infected Storage 1"	66	20	4935	0	0	|	
+setentry 1436	"Black Dragon Infected Storage 1 to DNS"	66	20	4936	0	0	|	
+setentry 1437	"Black Dragon DNS to Infected Storage 2"	66	20	4937	0	0	|	
+setentry 1438	"Black Dragon Infected Storage 2 to DNS"	66	20	4938	0	0	|	
+setentry 1439	"Black Dragon DNS to Infected Storage 3"	66	20	4939	0	0	|	
+setentry 1440	"Black Dragon Infected Storage 3 to DNS"	66	20	4940	0	0	|	
+setentry 1441	"Black Dragon DNS to Database"	66	20	4941	0	0	|	
+setentry 1442	"Black Dragon Database to DNS"	66	20	4942	0	0	|	
+setentry 1443	"Black Dragon DNS to Faction HQ ---LOGOUT---"	66	20	4943	0	0	|	
+setentry 1444	"Black Dragon DNS to Firewall High Security 1"	66	20	4944	0	0	|	
+setentry 1445	"Black Dragon Firewall High Security 1 to DNS"	66	20	4945	0	0	|	
+setentry 1446	"Black Dragon Firewall High Security 1 to Faction Security Center"	66	20	4946	0	0	|	
+setentry 1447	"Black Dragon Faction Security Center to Firewall High Security 1"	66	20	4947	0	0	|	
+setentry 1448	"Black Dragon Faction Security Center to Firewall High Security 2"	66	20	4948	0	0	|	
+setentry 1449	"Black Dragon Firewall High Security 2 to Faction Security Center"	66	20	4949	0	0	|	
+setentry 1450	"Black Dragon Firewall High Security 2 to Faction Highest Security"	66	20	4950	0	0	|	
+setentry 1451	"Black Dragon Faction Highest Security to Firewall High Security 2"	66	20	4951	0	0	|	
+setentry 1452	"Tsunami Firewall to Mainframe"	66	20	4952	0	0	|	
+setentry 1453	"Tsunami Firewall to DNS"	66	20	4953	0	0	|	
+setentry 1454	"Tsunami DNS to Firewall"	66	20	4954	0	0	|	
+setentry 1455	"Tsunami DNS to Infected Storage 1"	66	20	4955	0	0	|	
+setentry 1456	"Tsunami Infected Storage 1 to DNS"	66	20	4956	0	0	|	
+setentry 1457	"Tsunami DNS to Infected Storage 2"	66	20	4957	0	0	|	
+setentry 1458	"Tsunami Infected Storage 2 to DNS"	66	20	4958	0	0	|	
+setentry 1459	"Tsunami DNS to Infected Storage 3"	66	20	4959	0	0	|	
+setentry 1460	"Tsunami Infected Storage 3 to DNS"	66	20	4960	0	0	|	
+setentry 1461	"Tsunami DNS to Database"	66	20	4961	0	0	|	
+setentry 1462	"Tsunami Database to DNS"	66	20	4962	0	0	|	
+setentry 1463	"Tsunami DNS to Faction HQ ---LOGOUT---"	66	20	4963	0	0	|	
+setentry 1464	"Tsunami DNS to Firewall High Security 1"	66	20	4964	0	0	|	
+setentry 1465	"Tsunami Firewall High Security 1 to DNS"	66	20	4965	0	0	|	
+setentry 1466	"Tsunami Firewall High Security 1 to Faction Security Center"	66	20	4966	0	0	|	
+setentry 1467	"Tsunami Faction Security Center to Firewall High Security 1"	66	20	4967	0	0	|	
+setentry 1468	"Tsunami Faction Security Center to Firewall High Security 2"	66	20	4968	0	0	|	
+setentry 1469	"Tsunami Firewall High Security 2 to Faction Security Center"	66	20	4969	0	0	|	
+setentry 1470	"Tsunami Firewall High Security 2 to Faction Highest Security"	66	20	4970	0	0	|	
+setentry 1471	"Tsunami Faction Highest Security to Firewall High Security 2"	66	20	4971	0	0	|	
+setentry 1472	"Crahn Firewall to Mainframe"	66	20	4972	0	0	|	
+setentry 1473	"Crahn Firewall to DNS"	66	20	4973	0	0	|	
+setentry 1474	"Crahn DNS to Firewall"	66	20	4974	0	0	|	
+setentry 1475	"Crahn DNS to Infected Storage 1"	66	20	4975	0	0	|	
+setentry 1476	"Crahn Infected Storage 1 to DNS"	66	20	4976	0	0	|	
+setentry 1477	"Crahn DNS to Infected Storage 2"	66	20	4977	0	0	|	
+setentry 1478	"Crahn Infected Storage 2 to DNS"	66	20	4978	0	0	|	
+setentry 1479	"Crahn DNS to Infected Storage 3"	66	20	4979	0	0	|	
+setentry 1480	"Crahn Infected Storage 3 to DNS"	66	20	4980	0	0	|	
+setentry 1481	"Crahn DNS to Database"	66	20	4981	0	0	|	
+setentry 1482	"Crahn Database to DNS"	66	20	4982	0	0	|	
+setentry 1483	"Crahn DNS to Faction HQ ---LOGOUT---"	66	20	4983	0	0	|	
+setentry 1484	"Crahn DNS to Firewall High Security 1"	66	20	4984	0	0	|	
+setentry 1485	"Crahn Firewall High Security 1 to DNS"	66	20	4985	0	0	|	
+setentry 1486	"Crahn Firewall High Security 1 to Faction Security Center"	66	20	4986	0	0	|	
+setentry 1487	"Crahn Faction Security Center to Firewall High Security 1"	66	20	4987	0	0	|	
+setentry 1488	"Crahn Faction Security Center to Firewall High Security 2"	66	20	4988	0	0	|	
+setentry 1489	"Crahn Firewall High Security 2 to Faction Security Center"	66	20	4989	0	0	|	
+setentry 1490	"Crahn Firewall High Security 2 to Faction Highest Security"	66	20	4990	0	0	|	
+setentry 1491	"Crahn Faction Highest Security to Firewall High Security 2"	66	20	4991	0	0	|	
+setentry 1492	"Twilight Guardian Firewall to Mainframe"	66	20	4992	0	0	|	
+setentry 1493	"Twilight Guardian Firewall to DNS"	66	20	4993	0	0	|	
+setentry 1494	"Twilight Guardian DNS to Firewall"	66	20	4994	0	0	|	
+setentry 1495	"Twilight Guardian DNS to Infected Storage 1"	66	20	4995	0	0	|	
+setentry 1496	"Twilight Guardian Infected Storage 1 to DNS"	66	20	4996	0	0	|	
+setentry 1497	"Twilight Guardian DNS to Infected Storage 2"	66	20	4997	0	0	|	
+setentry 1498	"Twilight Guardian Infected Storage 2 to DNS"	66	20	4998	0	0	|	
+setentry 1499	"Twilight Guardian DNS to Infected Storage 3"	66	20	4999	0	0	|	
+setentry 1500	"Twilight Guardian Infected Storage 3 to DNS"	66	20	5000	0	0	|	
+setentry 1501	"Twilight Guardian DNS to Database"	66	20	5001	0	0	|	
+setentry 1502	"Twilight Guardian Database to DNS"	66	20	5002	0	0	|	
+setentry 1503	"Twilight Guardian DNS to Faction HQ ---LOGOUT---"	66	20	5003	0	0	|	
+setentry 1504	"Twilight Guardian DNS to Firewall High Security 1"	66	20	5004	0	0	|	
+setentry 1505	"Twilight Guardian Firewall High Security 1 to DNS"	66	20	5005	0	0	|	
+setentry 1506	"Twilight Guardian Firewall High Security 1 to Faction Security Center"	66	20	5006	0	0	|	
+setentry 1507	"Twilight Guardian Faction Security Center to Firewall High Security 1"	66	20	5007	0	0	|	
+setentry 1508	"Twilight Guardian Faction Security Center to Firewall High Security 2"	66	20	5008	0	0	|	
+setentry 1509	"Twilight Guardian Firewall High Security 2 to Faction Security Center"	66	20	5009	0	0	|	
+setentry 1510	"Twilight Guardian Firewall High Security 2 to Faction Highest Security"	66	20	5010	0	0	|	
+setentry 1511	"Twilight Guardian Faction Highest Security to Firewall High Security 2"	66	20	5011	0	0	|	
+setentry 1512	"Fallen Angels Firewall to Mainframe"	66	20	5012	0	0	|	
+setentry 1513	"Fallen Angels Firewall to DNS"	66	20	5013	0	0	|	
+setentry 1514	"Fallen Angels DNS to Firewall"	66	20	5014	0	0	|	
+setentry 1515	"Fallen Angels DNS to Infected Storage 1"	66	20	5015	0	0	|	
+setentry 1516	"Fallen Angels Infected Storage 1 to DNS"	66	20	5016	0	0	|	
+setentry 1517	"Fallen Angels DNS to Infected Storage 2"	66	20	5017	0	0	|	
+setentry 1518	"Fallen Angels Infected Storage 2 to DNS"	66	20	5018	0	0	|	
+setentry 1519	"Fallen Angels DNS to Infected Storage 3"	66	20	5019	0	0	|	
+setentry 1520	"Fallen Angels Infected Storage 3 to DNS"	66	20	5020	0	0	|	
+setentry 1521	"Fallen Angels DNS to Database"	66	20	5021	0	0	|	
+setentry 1522	"Fallen Angels Database to DNS"	66	20	5022	0	0	|	
+setentry 1523	"Fallen Angels DNS to Faction HQ ---LOGOUT---"	66	20	5023	0	0	|	
+setentry 1524	"Fallen Angels DNS to Firewall High Security 1"	66	20	5024	0	0	|	
+setentry 1525	"Fallen Angels Firewall High Security 1 to DNS"	66	20	5025	0	0	|	
+setentry 1526	"Fallen Angels Firewall High Security 1 to Faction Security Center"	66	20	5026	0	0	|	
+setentry 1527	"Fallen Angels Faction Security Center to Firewall High Security 1"	66	20	5027	0	0	|	
+setentry 1528	"Fallen Angels Faction Security Center to Firewall High Security 2"	66	20	5028	0	0	|	
+setentry 1529	"Fallen Angels Firewall High Security 2 to Faction Security Center"	66	20	5029	0	0	|	
+setentry 1530	"Fallen Angels Firewall High Security 2 to Faction Highest Security"	66	20	5030	0	0	|	
+setentry 1531	"Fallen Angels Faction Highest Security to Firewall High Security 2"	66	20	5031	0	0	|	
+setentry 1532	"Techhaven Bridge to DOY Travel 6"	66	20	5032	0	0	|	
+setentry 1533	"DOY Travel 6 to Techhaven Bridge"	66	20	5033	0	0	|	
+setentry 1534	"Techhaven Bridge to NC Travel 9"	66	20	5034	0	0	|	
+setentry 1535	"NC Travel 9 to Techhaven Bridge"	66	20	5035	0	0	|	
+setentry 1536	"Techhaven Bridge to Damaged Data storage 1"	66	20	5036	0	0	|	
+setentry 1537	"Damaged Data storage 1 to Techhaven Bridge"	66	20	5037	0	0	|	
+setentry 1538	"Techhaven Bridge to Damaged Data storage 2"	66	20	5038	0	0	|	
+setentry 1539	"Damaged Data storage 2 to Techhaven Bridge"	66	20	5039	0	0	|	
+setentry 1540	"Techhaven Bridge to Damaged Data storage 3"	66	20	5040	0	0	|	
+setentry 1541	"Damaged Data storage 3 to Techhaven Bridge"	66	20	5041	0	0	|	
+setentry 1542	"NC Travel 8 to City Mercs DNS"	66	20	5042	0	0	|	
+setentry 1543	"City Mercs DNS to DOY Travel 8"	66	20	5043	0	0	|	
+setentry 1544	"DOY Travel 8 to City Mercs DNS"	66	20	5044	0	0	|	
+setentry 1545	"City Mercs DNS to NC Travel 8"	66	20	5045	0	0	|	
+setentry 1546	"City Mercs DNS to Infected Storage 1"	66	20	5046	0	0	|	
+setentry 1547	"City Mercs Infected Storage 1 to DNS"	66	20	5047	0	0	|	
+setentry 1548	"City Mercs DNS to Infected Storage 2"	66	20	5048	0	0	|	
+setentry 1549	"City Mercs Infected Storage 2 to DNS"	66	20	5049	0	0	|	
+setentry 1550	"City Mercs DNS to Infected Storage 3"	66	20	5050	0	0	|	
+setentry 1551	"City Mercs Infected Storage 3 to DNS"	66	20	5051	0	0	|	
+setentry 1552	"City Mercs DNS to Database"	66	20	5052	0	0	|	
+setentry 1553	"City Mercs Database to DNS"	66	20	5053	0	0	|	
+setentry 1554	"City Mercs DNS to Faction HQ ---LOGOUT---"	66	20	5054	0	0	|	
+setentry 1555	"City Mercs DNS to Firewall High Security 1"	66	20	5055	0	0	|	
+setentry 1556	"City Mercs Firewall High Security 1 to DNS"	66	20	5056	0	0	|	
+setentry 1557	"City Mercs Firewall High Security 1 to Faction Security Center"	66	20	5057	0	0	|	
+setentry 1558	"City Mercs Faction Security Center to Firewall High Security 1"	66	20	5058	0	0	|	
+setentry 1559	"City Mercs Faction Security Center to Firewall High Security 2"	66	20	5059	0	0	|	
+setentry 1560	"City Mercs Firewall High Security 2 to Faction Security Center"	66	20	5060	0	0	|	
+setentry 1561	"City Mercs Firewall High Security 2 to Faction Highest Security"	66	20	5061	0	0	|	
+setentry 1562	"City Mercs Faction Highest Security to Firewall High Security 2"	66	20	5062	0	0	|	
+setentry 1563	"NC Travel 1 to Neocron Mainframe"	66	20	5063	0	0	|	
+setentry 1564	"NC Travel 1 to Foster Uplink"	66	20	5064	0	0	|	
+setentry 1565	"Foster Uplink to NC Travel 1"	66	20	5065	0	0	|	
+setentry 1566	"Foster Uplink to Foster Outpost"	66	20	5066	0	0	|	
+setentry 1567	"Foster Outpost to Foster Uplink"	66	20	5067	0	0	|	
+setentry 1568	"Foster Uplink to Ceres Outpost"	66	20	5068	0	0	|	
+setentry 1569	"Ceres Outpost to Foster Uplink"	66	20	5069	0	0	|	
+setentry 1570	"Foster Uplink to Grant Outpost"	66	20	5070	0	0	|	
+setentry 1571	"Grant Outpost to Foster Uplink"	66	20	5071	0	0	|	
+setentry 1572	"Foster Uplink to NC Travel 2"	66	20	5072	0	0	|	
+setentry 1573	"NC Travel 2 to Foster Uplink"	66	20	5073	0	0	|	
+setentry 1574	"NC Travel 2 to Crest Uplink"	66	20	5074	0	0	|	
+setentry 1575	"Crest Uplink to NC Travel 2"	66	20	5075	0	0	|	
+setentry 1576	"Crest Uplink to Crest Outpost"	66	20	5076	0	0	|	
+setentry 1577	"Crest Outpost to Crest Uplink"	66	20	5077	0	0	|	
+setentry 1578	"Crest Uplink to Krupp Outpost"	66	20	5078	0	0	|	
+setentry 1579	"Krupp Outpost to Crest Uplink"	66	20	5079	0	0	|	
+setentry 1580	"Crest Uplink to Mcpherson Outpost"	66	20	5080	0	0	|	
+setentry 1581	"Mcpherson Outpost to Crest Uplink"	66	20	5081	0	0	|	
+setentry 1582	"Crest Uplink to Jeriko Outpost"	66	20	5082	0	0	|	
+setentry 1583	"Jeriko Outpost to Crest Uplink"	66	20	5083	0	0	|	
+setentry 1584	"Crest Uplink to NC Travel 3"	66	20	5084	0	0	|	
+setentry 1585	"NC Travel 3 to Crest Uplink"	66	20	5085	0	0	|	
+setentry 1586	"NC Travel 3 to Point Red Bridgelink"	66	20	5086	0	0	|	
+setentry 1587	"Point Red Bridgelink to NC Travel 3"	66	20	5087	0	0	|	
+setentry 1588	"Point Red Bridgelink to NC Travel 4"	66	20	5088	0	0	|	
+setentry 1589	"NC Travel 4 to Point Red Bridgelink"	66	20	5089	0	0	|	
+setentry 1590	"NC Travel 4 to Gravis Uplink"	66	20	5090	0	0	|	
+setentry 1591	"Gravis Uplink to NC Travel 4"	66	20	5091	0	0	|	
+setentry 1592	"Gravis Uplink to Gravis Outpost"	66	20	5092	0	0	|	
+setentry 1593	"Gravis Outpost to Gravis Uplink"	66	20	5093	0	0	|	
+setentry 1594	"Gravis Uplink to Tyron Outpost"	66	20	5094	0	0	|	
+setentry 1595	"Tyron Outpost to Gravis Uplink"	66	20	5095	0	0	|	
+setentry 1596	"Gravis Uplink to Redrock Outpost"	66	20	5096	0	0	|	
+setentry 1597	"Redrock Outpost to Gravis Uplink"	66	20	5097	0	0	|	
+setentry 1598	"Gravis Uplink to Simmons Outpost"	66	20	5098	0	0	|	
+setentry 1599	"Simmons Outpost to Gravis Uplink"	66	20	5099	0	0	|	
+setentry 1600	"Gravis Uplink to NC Travel 5"	66	20	5100	0	0	|	
+setentry 1601	"NC Travel 5 to Gravis Uplink"	66	20	5101	0	0	|	
+setentry 1602	"NC Travel 5 to Sieger Uplink"	66	20	5102	0	0	|	
+setentry 1603	"Sieger Uplink to NC Travel 5"	66	20	5103	0	0	|	
+setentry 1604	"Sieger Uplink to Sieger Outpost"	66	20	5104	0	0	|	
+setentry 1605	"Sieger Outpost to Sieger Uplink"	66	20	5105	0	0	|	
+setentry 1606	"Sieger Uplink to Regant Outpost"	66	20	5106	0	0	|	
+setentry 1607	"Regant Outpost to Sieger Uplink"	66	20	5107	0	0	|	
+setentry 1608	"Sieger Uplink to Chester Outpost"	66	20	5108	0	0	|	
+setentry 1609	"Chester Outpost to Sieger Uplink"	66	20	5109	0	0	|	
+setentry 1610	"Sieger Uplink to Jankins Outpost"	66	20	5110	0	0	|	
+setentry 1611	"Jankins Outpost to Sieger Uplink"	66	20	5111	0	0	|	
+setentry 1612	"Sieger Uplink to Northstar Uplink"	66	20	5112	0	0	|	
+setentry 1613	"Northstar Uplink to Sieger Uplink"	66	20	5113	0	0	|	
+setentry 1614	"Northstar Uplink to Northstar Outpost"	66	20	5114	0	0	|	
+setentry 1615	"Northstar Outpost to Northstar Uplink"	66	20	5115	0	0	|	
+setentry 1616	"Northstar Uplink to Rockshore Outpost"	66	20	5116	0	0	|	
+setentry 1617	"Rockshore Outpost to Northstar Uplink"	66	20	5117	0	0	|	
+setentry 1618	"Northstar Uplink to Drakkham Outpost"	66	20	5118	0	0	|	
+setentry 1619	"Drakkham Outpost to Northstar Uplink"	66	20	5119	0	0	|	
+setentry 1620	"Northstar Uplink to NC Travel 6"	66	20	5120	0	0	|	
+setentry 1621	"NC Travel 6 Northstar Uplink"	66	20	5121	0	0	|	
+setentry 1622	"Northstar Uplink to NC Travel 7"	66	20	5122	0	0	|	
+setentry 1623	"NC Travel 7 to Northstar Uplink"	66	20	5123	0	0	|	
+setentry 1624	"NC Travel 6 to Battledome Bridgelink"	66	20	5124	0	0	|	
+setentry 1625	"Battledome Bridgelink to NC Travel 6"	66	20	5125	0	0	|	
+setentry 1626	"Battledome Bridgelink to NC Travel 9"	66	20	5126	0	0	|	
+setentry 1627	"NC Travel 9 to Battledome Bridgelink"	66	20	5127	0	0	|	
+setentry 1628	"NC Travel 7 to NC Travel 8"	66	20	5128	0	0	|	
+setentry 1629	"NC Travel 8 to NC Travel 7"	66	20	5129	0	0	|	
+setentry 1630	"DOY Travel 8 to DOY Travel 7"	66	20	5130	0	0	|	
+setentry 1631	"DOY Travel 7 to DOY Travel 8"	66	20	5131	0	0	|	
+setentry 1632	"DOY Travel 7 to Hawkins Uplink"	66	20	5132	0	0	|	
+setentry 1633	"Hawkins Uplink to DOY Travel 7"	66	20	5133	0	0	|	
+setentry 1634	"Hawkins Uplink to Hawkins Outpost"	66	20	5134	0	0	|	
+setentry 1635	"Hawkins Outpost to Hawkins Uplink"	66	20	5135	0	0	|	
+setentry 1636	"Hawkins Uplink to Emmerson Outpost"	66	20	5136	0	0	|	
+setentry 1637	"Emmerson Outpost to Hawkins Uplink"	66	20	5137	0	0	|	
+setentry 1638	"Hawkins Uplink to Gabanium Outpost"	66	20	5138	0	0	|	
+setentry 1639	"Gabanium Outpost to Hawkins Uplink"	66	20	5139	0	0	|	
+setentry 1640	"Hawkins Uplink to Malstrond Outpost"	66	20	5140	0	0	|	
+setentry 1641	"Malstrond Outpost to Hawkins Uplink"	66	20	5141	0	0	|	
+setentry 1642	"Hawkins Uplink to Deveraux Outpost"	66	20	5142	0	0	|	
+setentry 1643	"Deveraux Outpost to Hawkins Uplink"	66	20	5143	0	0	|	
+setentry 1644	"Hawkins Uplink to DOY Travel 4"	66	20	5144	0	0	|	
+setentry 1645	"DOY Travel 4 to Hawkins Uplink"	66	20	5145	0	0	|	
+setentry 1646	"Hawkins Uplink to DOY Travel 5"	66	20	5146	0	0	|	
+setentry 1647	"DOY Travel 5 to Hawkins Uplink"	66	20	5147	0	0	|	
+setentry 1648	"DOY Travel 5 to Racetrack Bridgelink"	66	20	5148	0	0	|	
+setentry 1649	"Racetrack Bridgelink to DOY Travel 5"	66	20	5149	0	0	|	
+setentry 1650	"Racetrack Bridgelink to DOY Travel 6"	66	20	5150	0	0	|	
+setentry 1651	"DOY Travel 6 to Racetrack Bridgelink"	66	20	5151	0	0	|	
+setentry 1652	"Tristar Uplink to DOY Travel 4"	66	20	5152	0	0	|	
+setentry 1653	"DOY Travel 4 to Tristar Uplink"	66	20	5153	0	0	|	
+setentry 1654	"Tristar Uplink to Tristar Outpost"	66	20	5154	0	0	|	
+setentry 1655	"Tristar Outpost to Tristar Uplink"	66	20	5155	0	0	|	
+setentry 1656	"Tristar Uplink to Avenger Outpost"	66	20	5156	0	0	|	
+setentry 1657	"Avenger Outpost to Tristar Uplink"	66	20	5157	0	0	|	
+setentry 1658	"Tristar Uplink to Shirkan Outpost"	66	20	5158	0	0	|	
+setentry 1659	"Shirkan Outpost to Tristar Uplink"	66	20	5159	0	0	|	
+setentry 1660	"Tristar Uplink to Blackhill Outpost"	66	20	5160	0	0	|	
+setentry 1661	"Blackhill Outpost to Tristar Uplink"	66	20	5161	0	0	|	
+setentry 1662	"Tristar Uplink to Tezla Outpost"	66	20	5162	0	0	|	
+setentry 1663	"Tezla Outpost to Tristar Uplink"	66	20	5163	0	0	|	
+setentry 1664	"Tristar Uplink to DOY Travel 3"	66	20	5164	0	0	|	
+setentry 1665	"DOY Travel 3 to Tristar Uplink"	66	20	5165	0	0	|	
+setentry 1666	"DOY Travel 3 to Cajun Uplink"	66	20	5166	0	0	|	
+setentry 1667	"Cajun Uplink to DOY Travel 3"	66	20	5167	0	0	|	
+setentry 1668	"Cajun Uplink to Cajun Outpost"	66	20	5168	0	0	|	
+setentry 1669	"Cajun Outpost to Cajun Uplink"	66	20	5169	0	0	|	
+setentry 1670	"Cajun Uplink to Eastgate Outpost"	66	20	5170	0	0	|	
+setentry 1671	"Eastgate Outpost to Cajun Uplink"	66	20	5171	0	0	|	
+setentry 1672	"Cajun Uplink to Soliko Outpost"	66	20	5172	0	0	|	
+setentry 1673	"Soliko Outpost to Cajun Uplink"	66	20	5173	0	0	|	
+setentry 1674	"Cajun Uplink to Cycrow Outpost"	66	20	5174	0	0	|	
+setentry 1675	"Cycrow Outpost to Cajun Uplink"	66	20	5175	0	0	|	
+setentry 1676	"Cajun Uplink to Nemesis Outpost"	66	20	5176	0	0	|	
+setentry 1677	"Nemesis Outpost to Cajun Uplink"	66	20	5177	0	0	|	
+setentry 1678	"Cajun Uplink to DOY Travel 2"	66	20	5178	0	0	|	
+setentry 1679	"DOY Travel 2 to Cajun Uplink"	66	20	5179	0	0	|	
+setentry 1680	"DOY Travel 2 to Tescom Uplink"	66	20	5180	0	0	|	
+setentry 1681	"Tescom Uplink to DOY Travel 2"	66	20	5181	0	0	|	
+setentry 1682	"Tescom Uplink to Tescom Outpost"	66	20	5182	0	0	|	
+setentry 1683	"Tescom Outpost to Tescom Uplink"	66	20	5183	0	0	|	
+setentry 1684	"Tescom Uplink to Syncon Outpost"	66	20	5184	0	0	|	
+setentry 1685	"Syncon Outpost to Tescom Uplink"	66	20	5185	0	0	|	
+setentry 1686	"Tescom Uplink to Yutano Outpost"	66	20	5186	0	0	|	
+setentry 1687	"Yutano Outpost to Tescom Uplink"	66	20	5187	0	0	|	
+setentry 1688	"Tescom Uplink to DOY Travel 1"	66	20	5188	0	0	|	
+setentry 1689	"DOY Travel 1 to Tescom Uplink"	66	20	5189	0	0	|	
+setentry 1690	"DOY Travel 1 to Dome of York Mainframe"	66	20	5190	0	0	|	
+setentry 1691	"---LOGOUT--- at Foster Uplink"	66	20	5191	0	0	|	
+setentry 1692	"---LOGOUT--- at Ceres Mine"	66	20	5192	0	0	|	
+setentry 1693	"---LOGOUT--- at Grant Mine"	66	20	5193	0	0	|	
+setentry 1694	"---LOGOUT--- at Crest Uplink"	66	20	5194	0	0	|	
+setentry 1695	"---LOGOUT--- at Krupp Outpost"	66	20	5195	0	0	|	
+setentry 1696	"---LOGOUT--- at Jeriko Fortress"	66	20	5196	0	0	|	
+setentry 1697	"---LOGOUT--- at Gravis Uplink"	66	20	5197	0	0	|	
+setentry 1698	"---LOGOUT--- at Redrock Mine"	66	20	5198	0	0	|	
+setentry 1699	"---LOGOUT--- at Tyron Factory"	66	20	5199	0	0	|	
+setentry 1700	"---LOGOUT--- at Simmons Factory"	66	20	5200	0	0	|	
+setentry 1701	"---LOGOUT--- at Mcpherson Factory"	66	20	5201	0	0	|	
+setentry 1702	"---LOGOUT--- at Sieger Uplink"	66	20	5202	0	0	|	
+setentry 1703	"---LOGOUT--- at Chester Lab"	66	20	5203	0	0	|	
+setentry 1704	"---LOGOUT--- at Regant Fortress"	66	20	5204	0	0	|	
+setentry 1705	"---LOGOUT--- at Jankins Lab"	66	20	5205	0	0	|	
+setentry 1706	"---LOGOUT--- at Northstar Uplink"	66	20	5206	0	0	|	
+setentry 1707	"---LOGOUT--- at Rockshore Factory"	66	20	5207	0	0	|	
+setentry 1708	"---LOGOUT--- at Drakkhan Fortress"	66	20	5208	0	0	|	
+setentry 1709	"---LOGOUT--- at Hawkins Uplink"	66	20	5209	0	0	|	
+setentry 1710	"---LOGOUT--- at Gabanium Mine"	66	20	5210	0	0	|	
+setentry 1711	"---LOGOUT--- at Malstrond Factory"	66	20	5211	0	0	|	
+setentry 1712	"---LOGOUT--- at Emmerson Factory"	66	20	5212	0	0	|	
+setentry 1713	"---LOGOUT--- at Tristar Uplink"	66	20	5213	0	0	|	
+setentry 1714	"---LOGOUT--- at Avenger Mine"	66	20	5214	0	0	|	
+setentry 1715	"---LOGOUT--- at Blackhill Fortress"	66	20	5215	0	0	|	
+setentry 1716	"---LOGOUT--- at Tezla Factory"	66	20	5216	0	0	|	
+setentry 1717	"---LOGOUT--- at Devereaux Fortress"	66	20	5217	0	0	|	
+setentry 1718	"---LOGOUT--- at Shirkan Fortress"	66	20	5218	0	0	|	
+setentry 1719	"---LOGOUT--- at Cajun Uplink"	66	20	5219	0	0	|	
+setentry 1720	"---LOGOUT--- at Nemesis Lab"	66	20	5220	0	0	|	
+setentry 1721	"---LOGOUT--- at Cycrow Lab"	66	20	5221	0	0	|	
+setentry 1722	"---LOGOUT--- at Soliko Lab"	66	20	5222	0	0	|	
+setentry 1723	"---LOGOUT--- at Eastgate Factory"	66	20	5223	0	0	|	
+setentry 1724	"---LOGOUT--- at Tescom Uplink"	66	20	5224	0	0	|	
+setentry 1725	"---LOGOUT--- at Syncon Lab"	66	20	5225	0	0	|	
+setentry 1726	"---LOGOUT--- at Yutano Mine"	66	20	5226	0	0	|	
+setentry 1727	"---LOGOUT--- at Battledome"	66	20	5227	0	0	|	
+setentry 1728	"---LOGOUT--- at Racetrack"	66	20	5228	0	0	|	
+setentry 1729	"---LOGOUT--- at Point Red"	66	20	5229	0	0	|	
+
+
+
+setentry 1800	"Water cleaning ENTRANCE"	66	20	4720	0	0	|	
+setentry 1801	"Water cleaning EXIT"	66	20	4721	0	0	|	
+
+setentry 1802	"Water Cleaning ENTRANCE"	66	20	4722	0	0	|	
+setentry 1803	"Water cleaning EXIT"	66	20	4723	0	0	|	
+
+setentry 1804	"Water cleaning ENTRANCE"	66	20	4724	0	0	|	
+setentry 1805	"Water cleaning EXIT"	66	20	4725	0	0	|	
+
+setentry 1806	"Water cleaning ENTRANCE"	66	20	4726	0	0	|	
+setentry 1807	"Water cleaning EXIT"	66	20	4727	0	0	|	
+
+setentry 1808	"Water cleaning ENTRANCE"	66	20	4728	0	0	|	
+setentry 1809	"Water cleaning EXIT"	66	20	4729	0	0	|	
+
+setentry 1810	"Water cleaning ENTRANCE"	66	20	4730	0	0	|	
+setentry 1811	"Water cleaning EXIT"	66	20	4731	0	0	|	
+
+setentry 1812	"Water cleaning ENTRANCE"	66	20	4732	0	0	|	
+setentry 1813	"Water cleaning EXIT"	66	20	4733	0	0	|	
+
+setentry 1814	"Water cleaning ENTRANCE"	66	20	4734	0	0	|	
+setentry 1815	"Water cleaning EXIT"	66	20	4735	0	0	|	
+
+setentry 1816	"Water cleaning ENTRANCE"	66	20	4736	0	0	|	
+setentry 1817	"Water cleaning EXIT"	66	20	4737	0	0	|	
+
+setentry 1818	"Water cleaning ENTRANCE"	66	20	4738	0	0	|	
+setentry 1819	"Water cleaning EXIT"	66	20	4739	0	0	|	
+
+
+setentry 1850	"HH4x4 Chaincraft V.1"	66	32	17	0	0	|	
+setentry 1851	"Rhino4x4 Chaincraft V.2"	66	32	17	0	0	|	
+
+
+/*	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

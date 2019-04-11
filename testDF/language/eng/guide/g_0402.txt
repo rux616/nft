@@ -1,0 +1,27 @@
+The skill Intelligence governs the skills requiring a certain amount of brainpower. Intelligence is of great importance for PSI Monks, Hackers, Constructors and similar professions.
+
+Hacking 
+The main skill of the Hacker. Security systems, doors - with a high level in this subskill, disabling security systems is no problem. The level of Hacking determines the number of charges you can use while hacking, as well as the difficulty of the system.
+
+Barter 
+Runners with this subskill get better prices from the many NPC vendors in Neocron. This affects both selling and buying items of all kinds. Intelligence also affects the prices somewhat.
+
+PSI Use 
+This subskill describes how well you can use all kinds of PSI modules. It influences the efficiency (damage, healing...) of PSI modules and has a small influence on the amount of a character's PSI energy.
+
+Weapon Lore 
+The subskill Weapon Lore determines how well a character can use the potential of his weapons. It affects precision, aiming speed, range and damage of ranged weapons.
+
+Construction 
+This is the fundamental skill for Runners wanting to produce items. The higher the level of this subskill, the better the quality of the produced items (depending on the tech level of the item). A higher skill level also speeds up the construction process and reduces the odds of a failure. Dexterity and Intelligence also affect building items.
+
+Research 
+Through this subskill, the Researcher analyzes items and creates blueprints. He can then sell the blueprints of these items to players or keep them for his own usage. The difficulty of the research process depends on the tech level of the item to be researched. A higher level in the subskill and Intelligence reduce the duration of the process and the chance of failure.
+
+Implant 
+Skilled Implanters are valuable in Neocron. Only they possess the skills required to correctly insert implants into the human body. A high level in this subskill speeds up the implantation process.
+
+Willpower 
+Willpower is important for Droners, as it influences damage and range of the drones.
+ 
+

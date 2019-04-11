@@ -1,0 +1,233 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// stockx - trading.tsc
+// content:
+// runner is able to purchase/dispose (see SXACTION 1/0) stocks
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		//OnLoad( SetEnv("ENV_BACK", ".\terminal\stockx\trading.tsc") );
+		
+		// reset: stockx transaction values
+		OnLoad( SetEnv( "ENV_SXTRADECOUNT", "0" ) );
+		OnLoad( SetEnv( "ENV_SXTRADECOUNTUPD", "0" ) );
+		OnLoad( SetEnv( "ENV_SXTRADEAMOUNT", "0" ) );
+		OnLoad( SetEnv( "ENV_SXDEPOTCOUNTUPD", "0" ) );
+		OnLoad( SetEnv( "ENV_SXDEPOTAMOUNTUPD", "0" ) );
+		OnLoad( SetEnv( "ENV_SXMONEYUPD", "0" ) );
+		OnLoad( SetEnv( "ENV_SXTRADEFEE", "0" ) );
+		OnLoad( SetEnv( "ENV_SXTRADEFEEVALUE", "0.025" ) );
+		OnLoad( SetEnv( "ENV_SXCOUNTREMAINUPD", "0" ) );
+		
+		OnLoad( SetEnv( "ENV_SXTRADABLE", "0" ) );
+	}
+	
+	DATACONTROLBOX "DCBGetDepotInfo"
+	{
+		OnLoad( ReceiveDB("DCBSetDepotInfo", 754, GetEnv("SXCOMPANYID"), GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetDepotInfo"
+	{
+		SetContent( "ENV_SXDEPOTID", 0 );
+		SetContent( "ENV_SXDEPOTCOUNT", 1 );
+		SetContent( "Stocks", 1 );
+		SetContent( "ENV_SXCOUNTTODAY", 2 );
+	}
+	
+	DATACONTROLBOX "DCBGetDetailedStockInfo"
+	{
+		OnLoad( ReceiveDB("DCBSetDetailedStockInfo", 755, GetEnv("SXCOMPANYID") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetDetailedStockInfo"
+	{
+		SetContent( "Price (Rounded)", 0 );
+		SetContent( "ENV_SXPRICEROUNDED", 0 );
+		SetContent( "ENV_SXAVAILABLE", 1 );
+		SetContent( "ENV_SXTRADEABLE", 2 );
+	}
+
+	DATACONTROLBOX "DCBValueChecker"
+	{
+		OnAccess( ChangePage("Page", ".\terminal\stockx\update.tsc" ) );
+
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 510)", GetEnv("SXACTION") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\stockx\message.tsc" ) );
+	}
+	
+	DATACONTROLBOX "DCBGetStockxChart"
+	{
+		OnLoad( ReceiveDB("StockX Chartscreen", 772, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_DATE"), GetEnv("G_DATE") ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN StockX v 2.000"
+	{
+		LayOut(2);
+		Size( 50, 40, 220, 130);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 0, 0, 255, 127);
+		FunctionText("%BITMAP(8, 1, 3)" );
+	}
+	
+	DATACONTROLBOX "DCBSetCityComOffset"
+	{
+		OnLoad( SetContent("NCN StockX v 2.000", GetEnv("G_GFXOFFSET") ) );
+	}
+	
+	TEXT "Company"
+	{
+		LayOut(2);
+		Size(50, 152, 220, 164);
+	}
+	
+	TEXT "Price"
+	{
+		LayOut(2);
+		Size(50, 186, 220, 198);
+	}
+	
+	TEXT "Lastprice"
+	{
+		LayOut(2);
+		Size(50, 220, 220, 232);
+	}
+	
+	TEXT "Trend"
+	{
+		LayOut(2);
+		Size(50, 254, 220, 266);
+	}
+	
+	DATACONTROLBOX "DCBSetHeaderInfo"
+	{
+		OnLoad( SetContent( "Company", GetEnv("SXCOMPANYNAME") ) );
+		OnLoad( SetContent( "Price", GetEnv("SXPRICE") ) );
+		OnLoad( SetContent( "Lastprice", GetEnv("SXLASTPRICE") ) );
+		OnLoad( SetContent( "Trend", GetEnv("SXTREND") ) );
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	STOCKXBOX "StockX Chartscreen"
+	{
+		LayOut(2);
+		Size(244, 40, 571, 130);
+		ShowAvailability(0);
+		ShowStatus(0);
+	}
+	
+	TEXTBUTTON "TODAY"
+	{
+		LayOut(6);
+		Size(471, 134, 516, 141);
+		OnMouse( ReceiveDB("StockX Chartscreen", 772, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_DATE"), GetEnv("G_DATE") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "LAST"
+	{
+		LayOut(7);
+		Size(528, 134, 563, 141);
+		OnMouse( ReceiveDB("StockX Chartscreen", 770, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_TIMESTAMP"), GetEnv("SXCHARTMONTHS") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXT "Stock X - Action"
+	{
+		LayOut(2);
+		Size(244, 152, 571, 164);
+	}
+	
+	TEXT "Stocks"
+	{
+		LayOut(2);
+		Size(244, 186, 344, 198);
+	}
+	
+	TEXT "Amount"
+	{
+		LayOut(2);
+		Size(244, 220, 344, 232);
+	}
+	
+	TEXT "Credits"
+	{
+		LayOut(2);
+		Size( 471, 186, 571, 198);
+	}
+
+	TEXT "Price (Rounded)"
+	{
+		LayOut(2);
+		Size(471, 220, 571, 232);
+	}
+	
+	TEXT "Rem. Contingent"
+	{
+		LayOut(2);
+		Size(471, 254, 571, 266);
+	}
+	
+	EDITBOX "Trading Value"
+	{
+		LayOut(2);
+		Size(471, 288, 571, 300);
+		MaxBuffer(3);
+	}
+	
+	DATACONTROLBOX "DCBSetActualStockValues"
+	{
+		OnLoad( SetFunctionContent( "Stock X - Action", "%TEXTRSC(4, 500)", GetEnv("SXACTION") ) );
+		OnLoad( SetContent( "Amount", GetEnv("SXDEPOTAMOUNT") ) );
+		OnLoad( SetContent( "Credits", GetEnv("SXMONEY") ) );
+		OnLoad( SetContent( "Rem. Contingent", GetEnv("SXCOUNTREMAIN") ) );
+		OnLoad( SetContent( "Trading Value", "0" ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "VERIFICATION"                                                                                                                  
+	{                                                                                                                              
+		LayOut(5);                                                                                                                 
+		Size(469, 322, 573, 342);
+		OnMouse( SetEnv("ENV_SXTRADECOUNT", GetControlText("Trading Value") ) );
+		OnMouse( SetEnv("ENV_SXTRADECOUNTUPD", StringCalcAdd( GetControlText("Trading Value"), GetEnv("SXCOUNTTODAY") ) ) );
+		OnMouse( SetEnv("ENV_SXTRADEFEE", StringCalcMult( StringCalcMult( GetEnv("SXPRICEROUNDED"), GetControlText("Trading Value") ), GetEnv("SXTRADEFEEVALUE") ) ) );
+		OnMouse( SetEnv("ENV_SXTRADEAMOUNT", StringCalcMult( GetEnv("SXPRICEROUNDED"), GetControlText("Trading Value") ) ) );
+		OnMouse( SetEnv("ENV_SXCOUNTREMAINUPD", StringCalcSub( GetEnv("SXCOUNTREMAIN"), GetControlText("Trading Value") ) ) );
+		
+		OnMouse( Condition( StrEqual( GetEnv("SXACTION"), "1"),
+				    SetContent( "ENV_SXDEPOTAMOUNTUPD", StringCalcAdd( GetEnv("SXDEPOTAMOUNT"), GetEnv("SXTRADEAMOUNT") ) ),
+				    SetContent( "ENV_SXDEPOTAMOUNTUPD", StringCalcSub( GetEnv("SXDEPOTAMOUNT"), GetEnv("SXTRADEAMOUNT") ) ) ) );
+				    
+		OnMouse( SetEnv("ENV_SXTRADEAMOUNT", StringCalcAdd( GetEnv("SXTRADEAMOUNT"), GetEnv("SXTRADEFEE") ) ) );
+		
+		OnMouse( Condition( StrEqual( GetEnv("SXACTION"), "1"),
+				    TryAccess( "DCBValueChecker", 741, GetEnv("G_CHARID"), GetEnv("SXTRADECOUNTUPD"), GetEnv("SXAVAILABLE"), GetEnv("SXTRADECOUNT"), GetEnv("SXMONEY"), GetEnv("SXTRADEAMOUNT"), GetEnv("SXTRADEABLE") ),
+				    TryAccess( "DCBValueChecker", 742, GetEnv("G_CHARID"), GetEnv("SXTRADECOUNTUPD"), GetEnv("SXDEPOTCOUNT"), GetEnv("SXTRADECOUNT"), GetEnv("SXTRADEABLE") ) ) );
+		
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "BACK"                                                                                                                  
+	{                                                                                                                              
+		LayOut(5);                                                                                                                 
+		Size(469, 400, 573, 420);
+		OnMouse( ChangePage("Page", GetEnv("BACK") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );                                                                                    
+	}

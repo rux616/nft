@@ -1,0 +1,138 @@
+// gmtool - common\gm_menu.tsc
+// contents:
+// menu for gamemasters
+
+// coords:
+// LT (0, 0)	RB (640, 32) -> usable for main menu
+	
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		// messages
+		OnLoad( SetEnv("ENV_MSG_DEV", "Access denied: You are not a Developer (DEV) - OLD.") );
+		OnLoad( SetEnv("ENV_MSG_SUV", "Access denied: You are not a Supervisor (SUV) - OLD.") );
+		OnLoad( SetEnv("ENV_MSG_FAO", "Access denied: You are not a Faction Official (FAO) - OLD.") );
+		OnLoad( SetEnv("ENV_MSG_EGM", "Access denied: You are not an Event Game Maser (EGM) - OLD.") );
+		OnLoad( SetEnv("ENV_MSG_SGM", "Access denied: You are not a Support Game Maser (SGM) - OLD.") );
+		OnLoad( SetEnv("ENV_MSG_TGM", "Access denied: You are not a Trial Game Maser (TGM) - OLD.") );
+		OnLoad( SetEnv("ENV_MSG_VIP", "You need to have a press- or a vip-account to view this area - OLD.") );
+		
+		// messages
+		OnLoad( SetEnv("ENV_MSG_050", "Access denied: You do not have Developer access rights.") );
+		OnLoad( SetEnv("ENV_MSG_040", "Access denied: You do not have ISW access rights.") );
+		OnLoad( SetEnv("ENV_MSG_030", "Access denied: You do not have E&CT access rights.") );
+		OnLoad( SetEnv("ENV_MSG_020", "Access denied: You do not have ISS access rights.") );
+		OnLoad( SetEnv("ENV_MSG_015", "Access denied: You do not have sufficient rights to access this area.") );
+		OnLoad( SetEnv("ENV_MSG_000", "Access denied: You do not have sufficient rights to access this area.") );
+		OnLoad( SetEnv("ENV_MSG_GMA", "Access denied: You do not have sufficient rights to access this area.") );
+		
+		// init basics
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "10") );
+		OnLoad( SetEnv("ENV_CHAPTER", "1" ) );
+		OnLoad( SetEnv("ENV_PART", "1" ) );
+		OnLoad( SetEnv("ENV_PAGE", "1") );
+		OnLoad( SetEnv("ENV_PID", GetEnv("G_CHARID") ) );
+		OnLoad( SetEnv("ENV_CLANID", GetEnv("G_CLANID") ) );
+		OnLoad( SetEnv("ENV_FACTIONID", GetEnv("G_FACTIONID") ) );
+		OnLoad( SetEnv("ENV_LANGUAGE", GetEnv("G_LANG") ) );
+		OnLoad( SetEnv("ENV_LANG", GetEnv("G_LANG") ) );
+		OnLoad( SetEnv("ENV_SEARCHSTR", "") );
+		
+		// init service/forum
+		OnLoad( SetEnv("ENV_TRAD", "1") );
+		OnLoad( SetEnv("ENV_RUNN", "2") );
+		OnLoad( SetEnv("ENV_TALK", "3") );
+	}
+	
+	TEXTBUTTON "WARP"
+	{
+		Layout(8);
+		// 50
+		Size(21, 18, 71, 27);
+		OnMouse( Message("Page", Document(".\terminal\gmtool\warp_root.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "SUPPORT"
+	{
+		Layout(8);
+		// 60
+		Size(71, 18, 131, 27);
+		OnMouse( Message("Page", Document(".\terminal\gmtool\support_root.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "CREATE"
+	{
+		Layout(8);
+		// 50
+		Size(131, 18, 181, 27);
+		OnMouse( Message("Page", Document(".\terminal\gmtool\create_root.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "CONTENT"
+	{
+		Layout(8);
+		// 60
+		Size(181, 18, 241, 27);
+		OnMouse( Message("Page", Document(".\terminal\gmtool\service\mail_root.tsc")));
+		OnMouse( PlaySound(Resource(16, 1)));
+	}
+	
+	TEXTBUTTON "STOCKX"
+	{
+		Layout(8);
+		// 60
+		Size(241, 18, 291, 27);
+		//OnMouse( Message("Page", Document(".\terminal\gmtool\stockx_root.tsc") ) );
+		OnMouse( Message("Page", Document(".\terminal\gmtool\stockx\overview.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "BUGREPORT"
+	{
+		Layout(8);
+		// 75
+		Size(291, 18, 366, 27);
+		OnMouse( Message("Page", Document(".\terminal\gmtool\bugs_root.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "MISSIONS"
+	{
+		Layout(8);
+		// 70
+		Size(366, 18, 426, 27);
+		OnMouse( Message("Page", Document(".\terminal\gmtool\miss_root.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "INFO"
+	{
+		Layout(8);
+		// 40
+		Size(426, 18, 466, 27);
+		OnMouse( Message("Page", Document(".\terminal\gmtool\info\gamemaster.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "HELP"
+	{
+		Layout(8);
+		// 40
+		Size(466, 18, 506, 27);
+		OnMouse( Message("Page", Document(".\terminal\gmtool\help_root.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "CITYCOM"
+	{
+		Layout(9);
+		// 70
+		Size(506, 18, 566, 27);
+		OnMouse( Message("Page", Document(".\terminal\citycom\setup.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	// logo is setted in gmtool\gmcheck.tsc

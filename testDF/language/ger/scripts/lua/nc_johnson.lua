@@ -1,0 +1,11 @@
+function DIALOG()
+NODE(0)
+	SAY("Oh, was verschlägt denn einen jungen Runner wie dich in diese düstere Gegend?")
+	ANSWER("Verdammt gute Frage. Mir ist zu Ohren gekommen, dass du einen Job zu vergeben hast?",1)
+NODE(1)
+	SAY("Das stimmt. Pass auf: Ich würde gern mal wieder ins Cityadmin-Hauptquartier. Ein Kumpel von mir arbeitet dort und ich will ihn besuchen. Allerdings dürfen mich die Wachen nicht sehen Würdest du für mich nach Plaza-1 gehen und im Hauptquartier nachschauen, wie viele Wachen (nicht Storm-Bots) im Erdgeschoss stehen?")
+	ANSWER("In Ordnung, ich mach's",2)
+NODE(2)
+	SAY("Klasse, du bist scheinbar doch nicht so übel, wie du aussiehst. Die Antwort gibst du bitte beim Gewinnspiel auf www.pcgames.de.")
+	ENDDIALOG()
+end

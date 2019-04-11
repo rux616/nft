@@ -1,0 +1,11 @@
+function DIALOG()
+NODE(0)
+	SAY("Hallo! Mir wurde gesagt, Sie hätten eine Frage?")
+	ANSWER("Hallo, Runner. Ja, in der Tat. Ich habe Mist gebaut und werde nun nicht mehr in die Basis gelassen - ich kann froh sein, dass die Wachen nicht auf mich schießen, wenn ich nur hier draußen rumstehe. ",1)
+NODE(1)
+	SAY("Wie auch immer - wenn du die Basis betrittst, stehen direkt links vom Eingang zwei Zivilberater. Würdest du bitte für mich reingehen und schauen, welchen Klassen diese Berater angehören?")
+	ANSWER("Alles klar.",2)
+NODE(2)
+	SAY("Die Antwort gibst du bitte beim Gewinnspiel auf www.pcgames.de.")
+	ENDDIALOG()
+end

@@ -1,0 +1,36 @@
+TEXTBUTTON "First steps"
+{
+	Size(32, 8, 127, 20);
+	Layout(10);
+	OnMouse( SetEnv("ENV_CHAPTER", "1") );
+	OnMouse( ChangePage("Page", ".\terminal\guide\guide.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}
+
+TEXTBUTTON "History"
+{
+	Size(137, 8, 197, 20);
+	Layout(11);
+	OnMouse( SetEnv("ENV_CHAPTER", "2") );
+	OnMouse( ChangePage("Page", ".\terminal\guide\guide.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}
+
+TEXTBUTTON "Factions"
+{
+	Size(207, 8, 277, 20);
+	Layout(11);
+	OnMouse( SetEnv("ENV_CHAPTER", "3") );
+	OnMouse( ChangePage("Page", ".\terminal\guide\guide.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}
+
+TEXTBUTTON "Skillguide"
+{
+	Size(287, 8, 362, 20);
+	Layout(11);
+	OnMouse( SetEnv("ENV_CHAPTER", "4") );
+	OnMouse( ChangePage("Page", ".\terminal\guide\guide.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}
+

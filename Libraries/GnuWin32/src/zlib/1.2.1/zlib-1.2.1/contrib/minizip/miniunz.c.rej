@@ -1,0 +1,17 @@
+***************
+*** 79,85 ****
+  {
+      int ret=0;
+  #ifdef WIN32
+! 	ret = mkdir(dirname);
+  #else
+  #ifdef unix
+  	ret = mkdir (dirname,0775);
+--- 82,88 ----
+  {
+      int ret=0;
+  #ifdef WIN32
+! 	ret = _mkdir(dirname);
+  #else
+  #ifdef unix
+  	ret = mkdir (dirname,0775);

@@ -1,0 +1,26 @@
+Dieser Skill umfasst Subskills, bei deren Anwendung ein gewisses Mass an Geschick notwendig ist. Vom Umgang mit verschiedenen Waffensystemen über das Führen von Fahrzeugen bis hin zum Steuern von Dronen deckt der Skill Dexterity diesen Bereich ab.
+
+Pistol Combat 
+Klein, handlich und in den meisten Fällen auch günstig sind die Pistolen in Neocron. Der Subskill Pistol Combat gibt die Fähigkeit des Charakters im Umgang mit diesen Waffen an. Je höher der Subskill ist, desto bessere Pistolen kann der Charakter benutzen. Ein Rechtsklick auf die Pistole und die Auswahl von 'Show Info' zeigt den benötigten Pistol Combat Wert zur Benutzung der Waffe an. Je höher der Skillwert, desto besser sind die Werte von Schaden, Reichweite, Schussfrequenz und Zielen.
+
+Rifle Combat 
+Gewehre zeichnen sich in Neocron durch ihre hohe Reichweite und den Pistolen meist überlegenen Schaden aus. Der Subskill Rifle Combat gibt die Fähigkeit des Benutzers im Umgang mit Gewehren an. Ein Rechtsklick auf das Gewehr und die Auswahl von 'Show Info' zeigt den benötigten Rifle Combat Wert zur Benutzung der Waffe an. Je höher der Skillwert, desto besser sind die Werte von Schaden, Reichweite, Schussfrequenz und Zielen.
+
+Hightech Combat 
+Zum Führen von hochtechnisierten Waffen wie der Fusion Cannon oder der Plasma Rifle ist ein entsprechend hoher Wert im Subskill Hightech Combat notwendig. Ein Rechtsklick auf die Waffe und die Auswahl von 'Show Info' zeigt den Wert in Hightech Combat an, der zur Benutzung der Waffe notwendig ist. Diser Subskill hat keinen Einfluss auf die Werte einer Waffe.
+
+Vehicle Use 
+Dieser Subskill bestimmt die Fähigkeit des Charakters, die verschiedenen Fahrzeuge Neocrons zu führen, vom Hoverbike bis hin zum Kampfpanzer. Während zur Benutzung eines Hoverbikes noch ein relativ geringer Wert in Vehicle Use ausreicht, so ist zum Führen eines Tanks ein höherer Wert vonnöten.
+
+Agility 
+Der Subskill Agility bestimmt die Angriffsgeschwindigkeit des Charakters im Nahkampf und spielt ebenfalls eine Rolle bei der Berechnung der Laufgeschwindigkeit und Sprunghöhe des Runners.
+
+Repair 
+Die Gebrauchsgegenstände, Waffen und Rüstungen in Neocron können beschädigt werden oder nutzen sich mit durch Gebrauch ab. Der Subskill Repair macht es in Verbindung mit dem Repair Tool möglich, die beschädigten Gegenstände wieder auf Vordermann zu bringen. Um einen Gegenstand erfolgreich reparieren zu können benötigt man im Subskill Repair mindestens halb so viele Punkte wie der Gegenstand an Tech Level besitzt. Je höher der Repair Subskill, desto schneller geht das Reparieren, es wird mehr repariert und es wird weniger Maximalzustand verloren. Ausser dem Repair Subskill haben auch Dexterity und Intelligenz geringe Einflüsse auf das Reparieren.
+
+Recycle 
+In Verbindung mit einem Recycle Tool ermöglicht dieser Subskill die Wiederverwertung von Müll aller Art, um daraus Munition, Chemikalien und Metalle herzustellen. Je höher der Recycle Subskill, desto schneller geht das Recyclen, ausserdem spielt Dexterity eine geringe Rolle.
+
+Remote Control 
+Der Subskill Remote Control kommt bei der Benutzung von ferngesteuerten Dronen zum Einsatz. Dronen können zu Aufklärungszwecken, aber auch im Kampf eingesetzt werden. Je nach Art und Qualität der Drone ist ein entsprechender Wert in diesem Subskill nötig um sie steuern zu können. Diesen Wert kann man sich mit einem Rechtsklick auf die Drone und 'Show Info' anzeigen lassen. Je höher der Skillwert, desto besser sind die Werte von Schaden, Reichweite, Schussfrequenz und Zielen.
+ 

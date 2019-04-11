@@ -1,0 +1,148 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: stockx - overview.tsc
+// content:
+// reset all stockx values
+// listbox of all stockx companies
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		// set money of runner
+		// -> changed to common/cc_menu.tsc: updated once per session
+		
+		OnLoad( SetEnv( "ENV_START", "0" ) );
+		OnLoad( SetEnv( "ENV_LIMIT", "22" ) );
+		OnLoad( SetEnv( "ENV_BOOLEAN", "0" ) );
+		OnLoad( SetEnv( "ENV_BACK", ".\terminal\stockx\overview.tsc" ) );
+		
+		// reset: stockx company values
+		OnLoad( SetEnv( "ENV_SXFACTIONID", "0" ) );
+		OnLoad( SetEnv( "ENV_SXCOMPANYID", "0" ) );
+		OnLoad( SetEnv( "ENV_SXCOMPANYNAME", "No Company" ) );
+		OnLoad( SetEnv( "ENV_SXPRICE", "0" ) );
+		OnLoad( SetEnv( "ENV_SXLASTPRICE", "0" ) );
+		OnLoad( SetEnv( "ENV_SXPRICEROUNDED", "0" ) );
+		OnLoad( SetEnv( "ENV_SXTREND", "0" ) );
+		OnLoad( SetEnv( "ENV_SXAVAILABLE", "0" ) );
+		
+		// reset: stockx depot values
+		OnLoad( SetEnv( "ENV_SXDEPOTID", "0" ) );
+		OnLoad( SetEnv( "ENV_SXDEPOTCOUNT", "0" ) );
+		OnLoad( SetEnv( "ENV_SXDEPOTAMOUNT", "0" ) );
+		OnLoad( SetEnv( "ENV_SXCOUNTTODAY", "0" ) );
+		OnLoad( SetEnv( "ENV_SXCOUNTREMAIN", "500" ) );
+		
+		// reset: stockx action value
+		OnLoad( SetEnv( "ENV_SXACTION", "1" ) );
+		
+		// reset: stockx chart values
+		OnLoad( SetEnv("ENV_SXCHARTMONTHS", "3" ) );
+	}
+
+	DATACONTROLBOX "DCBGetLastQuotations"
+	{
+		OnLoad( ReceiveDB("StockX - Last Quotations", 750, GetEnv("START"), GetEnv("LIMIT") ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN StockX v 2.000"
+	{
+		LayOut(2);
+		Size( 50, 40, 220, 130);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 0, 0, 255, 127);
+		FunctionText("%BITMAP(8, 1, 3)" );
+	}
+	
+	DATACONTROLBOX "DCBSetCityComOffset"
+	{
+		OnLoad( SetContent("NCN StockX v 2.000", GetEnv("G_GFXOFFSET") ) );
+	}
+	
+	TEXT "Time (NMT)"
+	{
+		LayOut(2);
+		Size(50, 152, 220, 164);
+		"G_TIMESTAMP";
+		FunctionText("%ENV");
+	}
+	
+//	TEXT "Date (NMT)"
+//	{
+//		LayOut(2);
+//		Size(50, 186, 220, 198);
+//		"G_DATE";
+//		FunctionText("%ENV");
+//	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	LISTBOX "StockX - Last Quotations"
+	{
+		LayOut(2);
+		Size(244, 40, 571, 408);
+		Settings(0, 1, 1, 1);
+		Background(0);
+		LineHeight(16);
+		ShowLineNumbers(0, 0);
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(5);
+		DataColumn(1, "Company", 1, 162, LEFT);
+		DataColumn(2, "Price",   3,  60, RIGHT);
+		DataColumn(3, "Trend",   5,  60, RIGHT);
+		DataColumn(4, "Volume",  6,  45, RIGHT);
+		DataColumn(5, "ID",      0,   0, LEFT);
+		
+		OnMouse( SetEnv("ENV_SXCOMPANYID", GetControlText("StockX - Last Quotations") ) );
+		OnMouse( ChangePage("Page", ".\terminal\stockx\depotchecker.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "REFRESH"
+	{
+		LayOut(6);
+		Size(409, 412, 469, 419);
+		OnMouse( ReceiveDB("StockX - Last Quotations", 750, GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "PREV"
+	{
+		LayOut(6);
+		Size(481, 412, 521, 419);
+		OnMouse( SetEnv("ENV_START", StringCalcSub( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("StockX - Last Quotations", 750, GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "NEXT"
+	{
+		LayOut(7);
+		Size(533, 412, 563, 419);
+		OnMouse( SetEnv("ENV_START", StringCalcAdd( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("StockX - Last Quotations", 750, GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "DEPOT"                                                                                                                  
+	{                                                                                                                              
+		LayOut(5);                                                                                                                 
+		Size(48, 400, 222, 420);
+		OnMouse( ChangePage("Page", ".\terminal\stockx\depot.tsc" ) );                                                       
+		OnMouse( PlaySound(Resource(16, 1) ) );                                                                                    
+	}

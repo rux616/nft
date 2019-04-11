@@ -1,0 +1,190 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: runnerinfo - privateownership.tsc
+// content:
+// 
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+// Specials: Scrollbar: X: 557 - 572 Y: 110 - 364 (+2/-2)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_info.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "6") );
+		
+		OnLoad( SetEnv("ENV_START2", "0") );
+		OnLoad( SetEnv("ENV_LIMIT2", "6") );
+		//OnLoad( SetEnv("ENV_BACK", ".\terminal\runnerinfo\priateownership.tsc") );
+	}
+
+	DATACONTROLBOX "DCBGetCharacterInfo"
+	{
+		OnLoad( SetEnv( "ENV_PID", GetEnv("G_CHARID") ) );
+		OnLoad( ReceiveDB( "DCBSetCharacterInfo", 285, GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetCharacterInfo"
+	{
+		SetContent( "Name", 1 );
+	}
+	
+	DATACONTROLBOX "DCBGetRunnerApartments"
+	{
+		OnLoad( ReceiveDB( "Apartments", 540, GetEnv("G_CHARID"), GetEnv("START"), GetEnv("LIMIT") ) );
+	}
+	
+	DATACONTROLBOX "DCBGetRunnerApartmentInfo"
+	{
+		SetContent("Security Code", 3);
+	}
+	
+	DATACONTROLBOX "DCBGetRunnerVehicles"
+	{
+		OnLoad( ReceiveDB( "Vehicles", 541, GetEnv("G_CHARID"), GetEnv("START2"), GetEnv("LIMIT2") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetVehicleStatus"
+	{
+		SetFunctionContent("Vehicle", "%TABLERSC(41, 1, 0)", 1);
+		SetFunctionContent("World", "%WORLDNAME", 2);
+		SetFunctionContent("Status", "%TEXTRSC(6, 3150)", 3);
+		SetFunctionContent("Condition", "%TEXTRSCSCALE(6, 3160, 2)", 4);
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	TEXT "Name"
+	{
+		LayOut(2);
+		Size(50, 40, 304, 52);
+	}
+	
+	LISTBOX "Apartments"
+	{
+		LayOut(2);
+		Size(50, 74, 304, 230);
+		Settings(0, 1, 1, 1);
+		Background(0);
+		LineHeight(16);
+		ShowLineNumbers(0, 0);
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(2);
+		DataFunctionColumn(1, "Location", "%TABLERSC(27, 0, 0)", 2, 257, LEFT);
+		DataColumn(2, "ID", 0, 0, LEFT);
+
+		OnMouse( SetEnv("ENV_APPID", GetControlText("Apartments") ) );
+		OnMouse( ReceiveDB( "DCBGetRunnerApartmentInfo", 373, GetEnv("APPID"), GetEnv("PID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "PREV"
+	{
+		LayOut(6);
+		Size(214, 234, 249, 241); // 35
+		OnMouse( SetEnv("ENV_START", StringCalcSub( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB( "Apartments", 540, GetEnv("G_CHARID"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "NEXT"
+	{
+		LayOut(7);
+		Size(261, 234, 296, 241); // 35
+		OnMouse( SetEnv("ENV_START", StringCalcAdd( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB( "Apartments", 540, GetEnv("G_CHARID"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXT "Security Code"
+	{
+		Size(50, 252, 304, 264);
+		LayOut(2);
+		" ... receiving\n";
+	}
+	
+	LISTBOX "Vehicles"
+	{
+		LayOut(2);
+		Size(318, 74, 571, 230);
+		Settings(0, 1, 1, 1);
+		Background(0);
+		LineHeight(16);
+		ShowLineNumbers(0, 0);
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(2);
+		DataFunctionColumn(1, "Vehicle", "%TABLERSC(41, 1, 0)", 1, 198, LEFT);
+		DataColumn(2, "ID", 0, 0, LEFT);
+		
+		OnMouse( SetEnv("ENV_VECID", GetControlText("Vehicles") ) );
+		OnMouse( ReceiveDB( "DCBSetVehicleStatus", 542, GetEnv("G_CHARID"), GetEnv("VECID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );	
+	}
+	
+	TEXTBUTTON "PREV"
+	{
+		LayOut(6);
+		Size(481, 234, 516, 241); // 35
+		OnMouse( SetEnv("ENV_START2", StringCalcSub( GetEnv("START2"), GetEnv("LIMIT2") ) ) );
+		OnMouse( ReceiveDB( "Vehicles", 541, GetEnv("G_CHARID"), GetEnv("START2"), GetEnv("LIMIT2") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "NEXT"
+	{
+		LayOut(7);
+		Size(528, 234, 563, 241); // 35
+		OnMouse( SetEnv("ENV_START2", StringCalcAdd( GetEnv("START2"), GetEnv("LIMIT2") ) ) );
+		OnMouse( ReceiveDB( "Vehicles", 541, GetEnv("G_CHARID"), GetEnv("START2"), GetEnv("LIMIT2") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXT "Vehicle"
+	{
+		Size(318, 252, 571, 264);
+		LayOut(2);
+		" ... receiving\n";
+	}
+	
+	TEXT "Status"
+	{
+		Size(318, 286, 571, 298);
+		LayOut(2);
+		" ... receiving\n";
+	}
+	
+	TEXT "Condition"
+	{
+		Size(318, 320, 571, 332);
+		LayOut(2);
+		" ... receiving\n";
+	}
+	
+	TEXT "World"
+	{
+		Size(318, 354, 571, 366);
+		LayOut(2);
+		" ... receiving\n";
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "BACK"
+	{
+		Size(473, 400, 573, 420);
+		LayOut(5);
+		OnMouse( ChangePage("Page", ".\terminal\runnerinfo\privateinfo.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}

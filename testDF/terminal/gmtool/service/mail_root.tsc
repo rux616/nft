@@ -1,0 +1,75 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// gmtool: content - service\mail_root.tsc
+// access-level 40 (ISW)
+// content:
+// gm can create mails for all characters of specific filters
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Specials: GM_COMMANDS: X: 471 - 571
+// Specials: GM_COMMANDS: Logo Size(471, 40, 571, 120)
+// Specials: GM_CONTENT: X: 50 - 447 (10 pixels extra space)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_gmservice.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "20") );
+		OnLoad( SetEnv("ENV_BACK", ".\terminal\gmtool\service\mail_root.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBGMChecker"
+	{
+		OnLoad( TryAccess("DCBGMLinker", 340, GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBGMLinker"
+	{
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_040") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN GMTOOL"
+	{
+		LayOut(2);
+		Size(471, 40, 571, 120);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 19, 0, 225, 138);
+		"1";
+		FunctionText("%BITMAP(45, 1, 3)" );
+	}
+
+	FRAME "COMMANDS"
+	{
+		LayOut(2);
+		Size(471, 142, 571, 408);
+		
+		TEXTBUTTON "ALL"
+		{
+			Layout(5);
+			Size(0, 0, 100, 20);
+			OnMouse( ChangePage("Page", ".\terminal\gmtool\service\mail_allchars.tsc" ) );
+		}
+		
+		TEXTBUTTON "FACTION"
+		{
+			Layout(5);
+			Size(0, 20, 100, 40);
+			OnMouse( ChangePage("Page", ".\terminal\gmtool\service\mail_factionchars.tsc" ) );
+		}
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,2918 @@
+
+
+//standard NPC's	
+
+//security officer	
+setentry	0	-103	0	3	0	1	300	-1	46	"NCPD"	150	0	0	0	0	0	120	"WCOP"	" "	250	0	0	" "	1	|	
+setentry	1	-103	0	3	0	1	300	-1	46	"NCPD"	150	0	0	0	0	0	120	"WCOP"	" "	250	0	0	" "	1	|	
+setentry	2	-103	0	3	0	1	300	-1	46	"NCPD"	150	0	0	0	0	0	120	"WCOP"	" "	250	0	0	" "	1	|	
+setentry	3	-104	0	3	0	1	300	-1	46	"NCPD"	150	0	0	0	0	0	120	"WCOP"	" "	250	0	0	" "	1	|	
+setentry	4	-105	0	3	0	1	300	-1	46	"NCPD"	150	0	0	0	0	0	120	"WCOP"	" "	300	0	0	" "	1	|	
+
+//standart employee	
+setentry	5	11	0	1	0	1	100	-1	1	" "	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	6	12	0	1	0	1	100	-1	1	" "	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	7	13	0	1	0	1	100	-1	1	" "	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+//standart NPC's	
+setentry	8	-109	0	1	0	7	200	-1	27	" "	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+//MEDIC	
+setentry	9	-110	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+//barkeeper	
+setentry	10	-111	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+//WHORES	
+setentry	11	-120	0	1	1	7	100	-1	1	"WHORE"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+setentry	12	-121	0	1	1	7	100	-1	1	"HOOKER0"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+setentry	13	-122	0	1	1	7	100	-1	1	"WHORE"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+setentry	14	-123	0	1	1	7	100	-1	1	"HOOKER0"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+setentry	15	-124	0	1	1	7	100	-1	1	"WHORE"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+setentry	16	-125	0	1	1	7	100	-1	1	"HOOKER0"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+setentry	17	-126	0	1	1	7	100	-1	1	"WHORE"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+//FAT MAMA	
+setentry	18	-127	0	1	1	7	100	-1	1	"HOOKER0"	100	0	0	0	0	0	20	"WSK"	" "	200	0	0	" "	1	|	
+
+setentry	19	-116	0	1	0	7	100	-1	1	"S_TRAMP"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+
+//City Factions	
+
+
+//cityadmin	
+setentry	20	-130	0	4	1	1	200	-1	1	"S_CITYADMIN"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	21	-131	0	4	0	1	200	-1	1	"DUMMY_MISC"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	22	-132	0	4	0	1	200	-1	1	"EpicCityAdmin"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	22	-132	0	4	0	1	200	-1	1	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	23	-133	0	4	0	1	300	-1	46	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	24	-134	0	4	0	1	200	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//ConCenter	
+setentry	25	-135	0	4	1	1	100	-1	0	"S_CONCENTER"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	26	-136	0	4	1	1	100	-1	0	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	27	-137	0	4	1	1	100	-1	0	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//JobCenter	
+setentry	30	-140	0	4	1	1	100	-1	0	"S_JOBCENTER"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	31	-141	0	4	0	1	100	-1	0	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	32	-142	0	4	0	1	100	-1	0	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//Diamond R. Estate	
+setentry	34	-134	0	4	0	2	200	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	35	-260	0	4	1	2	200	-1	1	"S_DIAMOND"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	36	-261	0	4	0	2	200	-1	1	"DUMMY_MISC"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	37	-262	0	4	0	2	200	-1	1	"EpicDiamond"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	37	-262	0	4	0	2	200	-1	1	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	38	-263	0	4	0	2	300	-1	188	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	39	-264	0	4	0	2	200	-1	1	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//N.E.X.T.	
+setentry	40	-255	0	4	1	3	200	-1	1	"S_NEXT"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	41	-256	0	4	0	3	200	-1	1	"DUMMY_MISC"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	42	-257	0	4	0	3	200	-1	1	"EpicNEXT"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	42	-257	0	4	0	3	200	-1	1	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	43	-258	0	4	0	3	300	-1	188	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	44	-259	0	4	0	3	200	-1	1	"DUMMY_ANG"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	45	-134	0	4	0	3	200	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//ProtoPharma	
+setentry	50	-240	0	4	1	6	200	-1	1	"S_PHARMA"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	51	-241	0	4	0	6	200	-1	1	"DUMMY_MISC"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	52	-242	0	4	0	6	200	-1	1	"EpicProtoPharm"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	52	-242	0	4	0	6	200	-1	1	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	53	-243	0	4	0	6	300	-1	188	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	54	-244	0	4	0	6	200	-1	1	"DUMMY_ANG"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	55	-134	0	4	0	6	200	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//plaza shopkeeper	
+setentry	60	-106	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	61	-107	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	62	-108	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	63	-107	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	64	-108	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//subwaykeeper	
+setentry	70	-100	0	4	0	3	200	-1	10	"SUBWAY_PLAZA"	100	0	0	0	0	0	80	"WSK"	" "	250	0	0	" "	1	|	
+setentry	71	-100	0	4	0	3	200	-1	10	"SUBWAY_VIAROSSO"	100	0	0	0	0	0	80	"WSK"	" "	250	0	0	" "	1	|	
+setentry	72	-100	0	4	0	3	200	-1	10	"SUBWAY_PPARK"	100	0	0	0	0	0	80	"WSK"	" "	250	0	0	" "	1	|	
+
+//Beggar	
+setentry	80	-116	0	1	0	7	100	-1	1014	"LUNATIC0"	100	0	0	0	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+setentry	81	-116	0	1	0	7	100	-1	1014	"LUNATIC1"	100	0	0	0	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+setentry	82	-116	0	1	0	7	100	-1	1014	"LUNATIC2"	100	0	0	0	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+setentry	83	-116	0	1	0	7	100	-1	1014	"BEGGAR0"	100	0	0	0	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+setentry	84	-116	0	1	0	7	100	-1	1014	"BEGGAR1"	100	0	0	0	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+
+//Junkdealer	
+setentry	85	-118	0	3	0	7	100	-1	1014	"JUNKDEALER"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	513	|	
+
+
+
+// Viarosso Factions	
+
+//Bank	
+setentry	90	-155	0	4	1	1	100	-1	1	"STOCKX_HQ"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	91	-156	0	4	0	1	100	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	92	-157	0	4	0	1	100	-1	1	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	93	-158	0	4	0	1	100	-1	1	"DUMMY_JOB"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//NCPD	
+setentry	100	-165	0	4	0	1	100	-1	192	"NCPD"	100	0	0	0	0	0	80	"WSK"	" "	100	0	0	" "	1	|	
+setentry	101	-166	0	4	0	1	100	-1	46	"NCPD"	100	0	0	0	0	0	100	"WSK"	" "	100	0	0	" "	1	|	
+setentry	102	-167	0	4	0	1	100	-1	192	"NEWBIE"	100	0	0	0	0	0	80	"WSK"	" "	100	0	0	" "	1	|	
+
+//Tangent Technologies	
+setentry	104	-134	0	4	0	4	200	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	105	-245	0	4	1	4	200	-1	1	"S_TANGENT"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	106	-246	0	4	0	4	200	-1	1	"DUMMY_MISC"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	107	-247	0	4	0	4	200	-1	1	"EpicTangent"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	107	-247	0	4	0	4	200	-1	1	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	108	-248	0	4	0	4	300	-1	188	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	109	-249	0	4	0	4	200	-1	1	"DUMMY_ANG"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+//BIOTEC	
+setentry	110	-250	0	4	1	5	200	-1	0	"S_BIOTEC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	111	-251	0	4	0	5	200	-1	0	"DUMMY_MISC"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	112	-252	0	4	0	5	200	-1	0	"EpicBioTech"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	112	-252	0	4	0	5	200	-1	0	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	113	-253	0	4	0	5	300	-1	188	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	114	-254	0	4	0	5	200	-1	1	"DUMMY_ANG"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+setentry	115	-134	0	4	0	5	200	-1	0	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//Pepper Park Factions	
+
+//Tsunami Synidcate	
+setentry	117	-189	0	4	0	8	200	-1	3	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	118	-168	0	3	0	8	300	-1	162	"VERONIQUEBOUNCER"	150	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+setentry	119	-169	0	3	0	8	300	-1	162	"STRIPCLUBBOUNCER"	150	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+setentry	120	-170	0	4	0	8	300	-1	162	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	121	-171	0	4	0	8	200	-1	9	"TSUNAMI"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+setentry	122	-172	0	4	0	8	200	-1	3	"EpicTsunami"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	122	-172	0	4	0	8	200	-1	3	"NEWBIE"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+setentry	123	-173	0	4	0	8	200	-1	3	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	124	-174	0	4	0	8	200	-1	3	"DUMMY_ANG"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	125	-175	0	4	0	8	200	-1	3	" "	100	0	0	1	0	0	70	"WSK"	" "	100	0	0	" "	1	|	
+setentry	126	-177	0	3	0	8	200	-1	3	"PPEPCLUBENTRANCE"	100	0	0	0	0	0	32	"WSK"	" "	100	0	0	" "	1	|	
+setentry	127	-176	0	3	0	8	200	-1	162	"HOLOMATCH"	100	0	0	0	0	0	32	"WSK"	" "	100	0	0	" "	1	|	
+setentry	128	-178	0	3	0	8	200	-1	3	"MAZE"	100	0	0	0	0	0	32	"WSK"	" "	100	0	0	" "	1	|	
+setentry	129	-179	0	3	0	8	300	-1	162	"PPEPCLUBENTRANCE"	150	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+//Black Dragon	
+setentry	130	-180	0	4	0	9	300	-1	162	"BLACKDRAGON_THUG"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	131	-181	0	4	0	9	300	-1	9	"BLACKDRAGON_CONTACT"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+setentry	132	-182	0	4	0	9	200	-1	3	"EpicBlackDragon"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	132	-182	0	4	0	9	200	-1	3	"NEWBIE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	133	-183	0	4	0	9	200	-1	3	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	134	-184	0	4	0	9	200	-1	3	"DUMMY_MIS"	100	0	0	2	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	135	-185	0	3	0	9	200	-1	3	"SHOOTINGRANGE"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	136	-185	0	3	0	9	200	-1	3	"EpicFallenAngel"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	137	-186	0	4	0	9	200	-1	3	"BlackDragonrew"	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//Brotherhood Of Crahn	
+setentry	140	-200	0	4	0	10	200	-1	137	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	141	-201	0	4	0	10	200	-1	137	"CRAHNPREACHER"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	142	-202	0	4	0	10	200	-1	137	"EpicCrahn"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	142	-202	0	4	0	10	200	-1	137	"NEWBIE"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	143	-203	0	4	1	10	200	-1	137	"DUMMY_ANG"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+setentry	144	-204	0	4	1	10	300	-1	2023	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	145	-205	0	4	1	10	300	-1	2023	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+
+
+//Outzone	
+
+
+//Street Hawker	
+
+//Nomad Trader	
+setentry	147	-222	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	148	-223	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+
+//Fatmale	
+setentry	150	-225	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	151	-226	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	152	-227	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//Anarchy Breed Look	
+setentry	153	-228	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	18	"WSK"	" "	100	0	0	" "	1	|	
+setentry	154	-229	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	18	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+setentry	162	-204	0	4	1	10	100	-1	102	" "	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	163	-204	0	4	1	10	100	-1	102	" "	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	164	-204	0	4	1	10	100	-1	102	" "	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	165	-204	0	4	1	10	100	-1	102	" "	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	166	-204	0	4	1	10	100	-1	102	" "	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	167	-204	0	4	1	10	100	-1	102	" "	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	168	-204	0	4	1	10	100	-1	102	" "	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	169	-204	0	4	1	10	100	-1	102	" "	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	170	-204	0	4	1	10	100	-1	102	" "	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+
+//Fallen Angles	
+setentry	175	-230	0	4	0	14	200	-1	3	"FALLENANGEL"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	176	-231	0	4	0	14	200	-1	3	"FALLENANGEL1"	100	0	0	2	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	177	-232	0	4	0	14	200	-1	3	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	178	-233	0	4	0	14	200	-1	3	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	179	-234	0	4	0	14	200	-1	3	"EpicFallenAngel"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	179	-234	0	4	0	14	200	-1	3	"NEWBIE"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+//WSSBOT	
+setentry	180	-236	0	3	0	14	200	-1	0	" "	400	0	4	0	0.75	0	100	"WSSBOT"	" "	100	0	0	" "	1	|	
+setentry	181	-237	0	3	0	14	200	-1	0	" "	480	0	4	0	1	0	120	"WSSBOT"	" "	100	0	0	" "	1	|	
+//SENTRYFRACT	
+setentry	182	-238	0	3	1	14	100	-1	0	" "	200	0	3	0	1	0	120	"SENTRYFRACT2"	" "	4000	0	0	" "	1	|	
+//SENTRYFRACT2	
+setentry	183	-239	0	3	1	14	100	-1	0	" "	200	0	3	0	1	0	120	"SENTRYFRACT2"	" "	4000	0	0	" "	1	|	
+
+//CITY MERCS	
+setentry	190	-265	0	4	0	11	200	-1	25	"S_CITYMERCS_1"	100	0	0	2	0	0	70	"WSK"	" "	100	0	0	" "	1	|	
+setentry	191	-266	0	4	0	11	300	-1	191	"S_CITYMERCS_0"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	192	-267	0	4	0	11	200	-1	25	"EpicCityMerc"	100	0	0	0	0	0	70	"WSK"	" "	100	0	0	" "	1	|	
+setentry	193	-268	0	4	0	11	200	-1	25	" "	100	0	0	1	0	0	70	"WSK"	" "	100	0	0	" "	1	|	
+setentry	194	-269	0	4	1	11	200	-1	176	" "	100	0	3	0	1	0	110	"WSK"	" "	1000	0	0	" "	1	|	
+
+//TwighlightGuardian	
+setentry	200	-270	0	4	0	15	200	-1	33	"EpicTwilightGuardian"	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	200	-270	0	4	0	15	200	-1	33	" "	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+setentry	201	-271	0	4	0	15	300	-1	180	"DUMMY_SEC"	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	202	-272	0	4	0	15	200	-1	33	"NEWBIE"	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+setentry	203	-273	0	4	0	15	200	-1	33	" "	100	0	0	1	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+setentry	204	-274	0	4	1	19	200	-1	33	" "	100	0	3	0	1	0	60	"WSK"	" "	1000	0	0	" "	1	|	
+setentry	205	-275	0	4	0	15	200	-1	205	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+
+//Anarchy Breed	
+setentry	210	-280	0	4	0	13	200	-1	25	" "	100	0	0	0	0	0	60	"WBADGUY"	" "	100	0	0	" "	1	|	
+setentry	211	-281	0	4	0	13	200	-1	27	" "	100	0	0	0	0	0	60	"WBADGUY"	" "	100	0	0	" "	1	|	
+//Illegal Drugs Dealer	
+setentry	215	-276	0	3	0	7	200	-1	177	"DRUGDEALER"	300	0	0	1	0	0	50	"WSK"	" "	100	0	0	" "	1	|	
+//Monk PA Trader	
+setentry	216	-277	0	3	0	7	200	-1	2023	"MONKPATRADER"	300	0	0	1	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+//Spy PA Trader	
+setentry	217	-278	0	3	1	7	200	-1	1202	"SPYPATRADER"	300	0	0	1	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+//PE PA Trader	
+setentry	218	-279	0	3	0	7	200	-1	165	"PEPATRADER"	300	0	0	1	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+
+
+//start Helper	
+
+
+//setentry	220	-285	0	3	0	1	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	221	-286	0	3	0	2	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	222	-287	0	3	0	3	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	223	-288	0	3	0	4	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	224	-289	0	3	0	5	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	225	-290	0	3	0	6	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	226	-291	0	3	0	7	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	227	-292	0	3	0	8	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	228	-293	0	3	0	9	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	229	-294	0	3	0	10	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	230	-295	0	3	0	11	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	231	-296	0	3	0	12	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	232	-297	0	3	0	13	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	233	-298	0	3	0	14	100	-1	0	"IMO_START"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+//setentry	234	-299	0	3	0	15	100	-1	0	"NEWBIE"	100	0	0	0	0	0	0	"APPSELLER"	" "	100	0	0	" "	1	|	
+
+
+//AREA MC5	
+
+
+setentry	220	-470	0	3	0	1	100	-1	27	"MC5_COMMAND"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	221	-471	0	3	0	1	100	-1	27	"MC5_TECHCHIEF"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	222	-472	0	3	0	1	100	-1	27	"MC5_TECHASSI"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	223	-473	0	3	0	1	100	-1	27	"MC5_ADMIN"	100	0	0	1	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	224	-474	0	3	0	1	100	-1	48	"MC5_SEC"	200	0	0	0	0	0	120	"WDK"	" "	100	0	0	" "	1	|	
+
+setentry	225	-480	0	3	0	5	100	-1	27	"BNC_LEADER"	200	0	0	0	0	0	30	"WDK"	" "	100	0	0	" "	1	|	
+setentry	226	-481	0	3	0	5	100	-1	27	"BNC_TECHNICIAN"	200	0	0	0	0	0	30	"WDK"	" "	100	0	0	" "	1	|	
+setentry	227	-482	0	3	0	5	100	-1	27	"BNC_STAFF"	200	0	0	1	0	0	30	"WDK"	" "	100	0	0	" "	1	|	
+
+
+
+setentry	230	-470	0	3	0	18	150	230	48	" "	150	1082	0	0	0	0	120	"MC5A"	" "	100	0	0	" "	1	|	
+setentry	231	-471	0	3	0	18	100	-1	27	"MC5_ANG"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	232	-472	0	3	0	18	100	-1	27	"MC5_ANG"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	233	-473	0	3	0	18	100	-1	27	"MC5_ANG"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	234	-474	0	3	0	18	120	234	48	" "	130	1072	0	0	0	0	120	"MC5A"	" "	100	0	0	" "	1	|	
+
+setentry	240	-475	0	3	0	1	100	-1	48	"MC5_SECCHIEF"	200	0	0	0	0	0	120	"WDK"	" "	100	0	0	" "	1	|	
+setentry	241	-490	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	242	-491	0	3	0	18	100	242	205	"MC5_VICTIM1"	150	1020	0	0	1	0	25	"WDK"	" "	100	0	0	" "	1	|	
+setentry	243	-492	0	3	0	18	100	243	205	"MC5_VICTIM2"	150	1020	0	0	1	0	25	"WDK"	" "	100	0	0	" "	1	|	
+setentry	244	-493	0	3	1	17	100	244	1017	" "	80	1081	0	0	1	0	15	"WDK"	" "	250	0	0	" "	1	|	
+
+setentry	245	-495	0	3	0	1	100	-1	27	"MC5_AD_PE"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	246	-496	0	3	0	1	100	-1	27	"MC5_AD_SPY"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	247	-497	0	3	0	1	100	-1	27	"MC5_AD_TANK"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+setentry	248	-498	0	3	0	1	100	-1	27	"MC5_AD_PSI"	100	0	0	0	0	0	80	"WDK"	" "	100	0	0	" "	1	|	
+
+
+
+//Shopkeeper old	
+
+
+//Archer&Wess	
+// simple Weapons	
+setentry	250	-20	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	251	-21	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	252	-22	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+//good Weapons	
+setentry	253	-23	0	3	0	7	100	-1	27	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	254	-24	0	3	0	7	100	-1	27	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	255	-25	0	3	0	7	100	-1	27	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//HAT Weapons	
+setentry	256	-26	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+setentry	257	-27	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+setentry	258	-28	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+//Expl Weapons	
+setentry	259	-29	0	3	0	7	100	-1	1013	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	260	-30	0	3	0	7	100	-1	1013	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	261	-31	0	3	0	7	100	-1	1013	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+//Cryton's Tech Tools Infoman	
+//Viarosso	
+setentry	262	-32	0	3	0	7	100	-1	1017	"CRYTON"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//Plaza	
+setentry	263	-33	0	3	0	7	100	-1	1017	"CRYTON"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//PepperPark	
+setentry	264	-34	0	3	0	7	100	-1	1017	"CRYTON"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//techhaven	
+setentry	265	-35	0	3	0	7	100	-1	1017	"CRYTON"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//militarybase	
+setentry	266	-36	0	3	0	7	100	-1	1017	"CRYTON"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//TwilightG.	
+setentry	267	-37	0	3	0	7	100	-1	1017	"CRYTON"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//Cryton's Tech Tools	
+setentry	270	-40	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	271	-41	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	272	-42	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	273	-43	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	274	-44	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	275	-45	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//ASG	
+setentry	276	-46	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+//Yakarama	
+setentry	277	-58	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	278	-59	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+//StockX	
+setentry	279	-49	0	3	0	7	100	-1	87	"STOCKX"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+//Tylors Biochem	
+setentry	280	-50	0	3	0	7	100	-1	87	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	281	-51	0	3	0	7	100	-1	87	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+//Yakarama equipment	
+setentry	282	-57	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+//Venture Warp	
+setentry	284	-54	0	3	0	7	100	-1	27	"VENTUREWARP"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+//Medicare Center	
+setentry	285	-55	0	3	0	7	100	-1	76	" "	100	0	0	1	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+setentry	286	-56	0	3	0	7	100	-1	76	" "	100	0	0	1	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+
+//Garriots Diner	
+setentry	290	-60	0	3	0	7	100	-1	27	" "	100	0	0	1	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+
+//Chez SyPher	
+setentry	295	-65	0	3	0	7	100	-1	27	" "	100	0	0	1	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+//Yo's PawnShop	
+setentry	300	-70	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+setentry	301	-71	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+setentry	302	-72	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+setentry	303	-73	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+setentry	304	-74	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+setentry	305	-75	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+setentry	306	-76	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+setentry	307	-77	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+
+//Street Hwaker	
+setentry	310	-80	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	311	-81	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	312	-82	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	313	-83	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	314	-84	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	315	-85	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	316	-86	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+// Nomad trader	
+setentry	320	-90	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	321	-91	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	322	-92	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	323	-93	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	324	-94	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	325	-95	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	326	-96	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	327	-97	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	329	-329	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+
+
+
+//Beggar BUMP1	
+setentry	330	-112	0	1	0	7	100	-1	1	"LUNATIC0"	100	0	0	0	0	0	5	" "	" "	100	0	0	" "	1	|	
+setentry	331	-113	0	1	0	7	100	-1	1	"LUNATIC1"	100	0	0	0	0	0	5	" "	" "	100	0	0	" "	1	|	
+setentry	332	-114	0	1	0	7	100	-1	1	"LUNATIC2"	100	0	0	0	0	0	5	" "	" "	100	0	0	" "	1	|	
+setentry	333	-115	0	1	0	7	100	-1	1	"BEGGAR0"	100	0	0	0	0	0	5	" "	" "	100	0	0	" "	1	|	
+setentry	334	-116	0	1	0	7	100	-1	1	"BEGGAR1"	100	0	0	0	0	0	5	" "	" "	100	0	0	" "	1	|	
+setentry	335	-112	0	4	0	7	100	-1	25	"LUNATIC1"	100	0	0	0	0	0	5	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+//Mutanten WLDK	
+setentry	340	-501	0	3	1	7	100	-1	1014	"MUTANT1"	100	0	0	0	0	0	30	"MUTANTB"	" "	100	0	0	" "	1	|	
+setentry	341	-511	0	3	0	7	100	-1	1014	"MUTANT2"	100	0	0	0	1.1	0	30	"MUTANTB"	" "	100	0	0	" "	1	|	
+
+//WHORES	
+setentry	350	-120	0	1	1	7	100	-1	1	"HOOKER_CLASSY"	100	0	0	0	0	0	8	" "	" "	200	0	0	" "	1	|	
+setentry	351	-121	0	1	1	7	100	-1	1	"HOOKER"	100	0	0	0	0	0	8	" "	" "	200	0	0	" "	1	|	
+setentry	352	-122	0	1	1	7	100	-1	1	"HOOKER_CLASSY"	100	0	0	0	0	0	8	" "	" "	200	0	0	" "	1	|	
+setentry	353	-123	0	1	1	7	100	-1	1	"HOOKER"	100	0	0	0	0	0	8	" "	" "	200	0	0	" "	1	|	
+setentry	354	-124	0	1	1	7	100	-1	1	"HOOKER_NASTY1"	100	0	0	0	0	0	8	" "	" "	200	0	0	" "	1	|	
+setentry	355	-125	0	1	1	7	100	-1	1	"HOOKER_CLASSY"	100	0	0	0	0	0	8	" "	" "	200	0	0	" "	1	|	
+setentry	356	-126	0	1	1	7	100	-1	1	"WHORE"	100	0	0	0	0	0	8	" "	" "	200	0	0	" "	1	|	
+//FAT MAMA	
+setentry	357	-127	0	1	1	7	100	-1	1	"HOOKER_NASTY1"	100	0	0	0	0	0	5	" "	" "	200	0	0	" "	1	|	
+
+//Pubvisitors	
+setentry	360	-300	0	1	0	7	100	-1	25	"CLUE_CITYSEWERS"	100	0	0	0	0	0	20	"WBADGUY"	" "	100	0	0	" "	1	|	
+setentry	361	-301	0	1	0	7	100	-1	25	"CLUE_TSUNAMI"	100	0	0	0	0	0	20	"WBADGUY"	" "	100	0	0	" "	1	|	
+setentry	362	-303	0	1	0	7	100	-1	25	"GENERALHINTS1"	100	0	0	0	0	0	20	"WBADGUY"	" "	100	0	0	" "	1	|	
+setentry	363	-304	0	1	0	7	100	-1	25	"GENERALHINTS2"	100	0	0	0	0	0	20	"WBADGUY"	" "	100	0	0	" "	1	|	
+setentry	364	-302	0	1	0	7	100	-1	25	"DRUNK_ANGRY"	100	0	0	0	0	0	20	"WBADGUY"	" "	100	0	0	" "	1	|	
+setentry	365	-300	0	1	0	7	100	-1	25	"DRUNK_SILLY"	100	0	0	0	0	0	20	"WBADGUY"	" "	100	0	0	" "	1	|	
+setentry	366	-301	0	1	0	7	100	-1	25	"BARTALK_GANGS"	100	0	0	0	0	0	20	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+//private dancer	
+
+setentry	375	-120	0	1	1	7	100	-1	1	" "	100	0	0	0	0	0	10	"DANCER"	" "	200	0	0	" "	1	|	
+setentry	376	-122	0	1	1	7	100	-1	1	" "	100	0	0	0	0	0	10	"DANCER"	" "	200	0	0	" "	1	|	
+setentry	377	-124	0	1	1	7	100	-1	1	" "	100	0	0	0	0	0	10	"DANCER"	" "	200	0	0	" "	1	|	
+setentry	378	-126	0	1	1	7	100	-1	1	" "	100	0	0	0	0	0	10	"DANCER"	" "	200	0	0	" "	1	|	
+//setentry	379	-314	0	1	0	7	100	-1	1	" "	100	0	0	0	0	0	10	"DANCER"	" "	200	0	0	" "	1	|	
+
+
+//tutorial	
+
+
+setentry	380	-204	0	4	1	10	100	-1	102	"TUT_PSIMONK"	100	0	0	0	0	0	0	" "	" "	100	0	0	" "	1	|	
+setentry	381	-105	0	3	0	1	100	-1	16	"TUT_BOT"	100	0	0	0	0	0	0	" "	" "	300	0	0	" "	1	|	
+
+//>Storydummies	
+
+
+
+setentry	385	0	0	1	0	7	100	-1	192	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	386	1	0	1	1	7	100	-1	192	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	387	2	0	1	0	7	100	-1	165	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	388	3	0	1	1	7	100	-1	165	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	389	4	0	1	0	7	100	-1	188	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	390	5	0	1	1	7	100	-1	188	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	391	6	0	1	0	7	100	-1	2023	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	392	7	0	1	1	7	100	-1	2023	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	393	26	0	1	0	7	100	-1	176	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	394	27	0	1	1	7	100	-1	176	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+setentry	395	11	0	1	1	7	100	-1	178	" "	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+
+
+
+
+
+//monsters	
+
+
+//Dogs black WDOG	
+
+setentry	397	-1340	0	3	1	19	100	397	0	" "	100	1010	1	0	0.3	0	6	"WDOG"	" "	30	|	
+
+setentry	398	-1341	0	3	1	19	100	398	0	" "	100	1010	1	0	0.4	0	7	"WDOG"	" "	30	|	
+
+setentry	399	-1342	0	3	1	19	100	399	0	" "	100	1010	1	0	0.4	0	8	"WDOG"	" "	40	|	
+
+
+//Dogs WDOG	
+
+setentry	400	-1000	0	3	1	19	100	400	0	" "	100	1010	1	0	0.3	0	9	"WDOG"	" "	30	|	
+
+setentry	401	-1001	0	3	1	19	100	401	0	" "	100	1010	1	0	0.4	0	10	"WDOG"	" "	30	|	
+
+setentry	402	-1002	0	3	1	19	100	402	0	" "	100	1010	1	0	0.4	0	11	"WDOG"	" "	40	|	
+
+//Mutant Dogs  CYDOG	
+
+setentry	403	-1003	0	3	1	19	100	403	0	" "	100	1030	1	0	0.3	0	12	"CYDOG"	" "	30	0	0	" "	32	|	
+
+setentry	404	-1004	0	3	1	19	100	404	0	" "	100	1030	1	0	0.4	0	13	"CYDOG"	" "	40	0	0	" "	32	|	
+
+//Wulf WULF	
+
+setentry	405	-1005	0	3	1	19	100	405	0	" "	100	1010	1	0	0.4	0	21	"WOLF"	" "	40	|	
+
+setentry	406	-1006	0	3	1	19	100	406	0	" "	100	1010	1	0	0.5	0	24	"WOLF"	" "	60	|	
+
+setentry	407	-1007	0	3	1	19	100	407	0	" "	100	1011	1	0	0.5	0	29	"WOLF"	" "	80	|	
+
+//scorpion small SSCORP	
+
+setentry	410	-1010	0	3	1	18	100	410	0	" "	100	1000	1	0	1	0	2	"SSCORP"	" "	1	0	0	" "	128	|	
+
+setentry	411	-1011	0	3	1	18	100	411	0	" "	100	1000	1	0	1.5	0	3	"SSCORP"	" "	1	0	0	" "	128	|	
+
+setentry	412	-1009	0	3	1	18	100	412	0	" "	100	1000	1	0	2	0	4	"SSCORPA"	" "	1	0	0	" "	128	|	
+
+//Roach small ROACH	
+
+setentry	415	-1015	0	3	1	18	100	415	0	" "	100	1000	1	0	0.2	0	1	"ROACH"	" "	1	0	0	" "	128	|	
+
+setentry	416	-1016	0	3	1	18	100	416	0	" "	100	1000	1	0	0.25	0	2	"ROACH"	" "	1	0	0	" "	128	|	
+
+//Roach black ROACHBLACK	
+
+setentry	417	-1017	0	3	1	18	100	417	0	" "	100	1000	2	0	0.2	0	3	"ROACHBLACK"	" "	1	0	0	" "	128	|	
+
+setentry	418	-1018	0	3	1	18	100	418	0	" "	100	1000	2	0	0.3	0	4	"ROACHBLACK"	" "	1	0	0	" "	128	|	
+
+//scorpion big WSCORPION	
+
+
+setentry	420	-1012	0	3	1	18	100	420	0	" "	100	1000	1	0	0.4	0	37	"WSCORPION"	" "	250	0	0	" "	128	|	
+
+setentry	421	-1014	0	3	1	18	100	421	0	" "	100	1001	1	0	0.75	0	38	"WSCORPION"	" "	250	0	0	" "	128	|	
+
+setentry	422	-1013	0	3	1	18	100	422	0	" "	100	1001	1	0	1	0	39	"WSCORPION"	" "	250	0	0	" "	128	|	
+
+//cavespider big CAVESPIDER	
+
+
+setentry	425	-1049	0	3	1	18	100	425	0	" "	100	1000	1	0	0.5	0	31	"CAVESPIDER"	" "	250	0	0	" "	64	|	
+
+setentry	426	-1050	0	3	1	18	100	426	0	" "	100	1000	1	0	0.75	0	32	"CAVESPIDER"	" "	250	0	0	" "	64	|	
+
+setentry	427	-1051	0	3	1	18	100	427	0	" "	100	1001	1	0	1	0	33	"CAVESPIDER"	" "	250	0	0	" "	64	|	
+
+//hairy spider small SSPIDER	
+
+setentry	430	-1043	0	3	1	18	100	430	0	" "	100	1000	1	0	1	0	1	"SSPIDER"	" "	1	0	0	" "	64	|	
+
+setentry	431	-1044	0	3	1	18	100	431	0	" "	100	1000	1	0	1.5	0	2	"SSPIDER"	" "	1	0	0	" "	64	|	
+
+setentry	432	-1045	0	3	1	18	100	432	0	" "	100	1000	1	0	2	0	3	"SSPIDERA"	" "	1	0	0	" "	64	|	
+
+//spider small SSPIDER	
+
+setentry	440	-1021	0	3	1	18	100	440	0	" "	100	1000	1	0	1	0	1	"SSPIDER"	" "	1	0	0	" "	64	|	
+
+setentry	441	-1022	0	3	1	18	100	441	0	" "	100	1000	1	0	1.5	0	2	"SSPIDER"	" "	1	0	0	" "	64	|	
+
+setentry	442	-1023	0	3	1	18	100	442	0	" "	100	1000	1	0	2	0	3	"SSPIDERA"	" "	1	0	0	" "	64	|	
+
+//cavespider small SSPIDER	
+
+setentry	443	-1055	0	3	1	18	100	443	0	" "	100	1000	1	0	1	0	2	"SSPIDER"	" "	1	0	0	" "	64	|	
+
+setentry	444	-1056	0	3	1	18	100	444	0	" "	100	1000	1	0	1.5	0	3	"SSPIDER"	" "	1	0	0	" "	64	|	
+
+setentry	445	-1057	0	3	1	18	100	445	0	" "	100	1000	1	0	2	0	4	"SSPIDERA"	" "	1	0	0	" "	64	|	
+
+//poisonspider small SSPIDER	
+
+setentry	446	-1046	0	3	1	18	100	446	0	" "	100	1000	1	0	1	0	3	"SSPIDER"	" "	1	0	0	" "	64	|	
+
+setentry	447	-1047	0	3	1	18	100	447	0	" "	100	1000	1	0	1.5	0	4	"SSPIDER"	" "	1	0	0	" "	64	|	
+
+setentry	448	-1048	0	3	1	18	100	448	0	" "	100	1000	1	0	2	0	5	"SSPIDERA"	" "	1	0	0	" "	64	|	
+
+//spider big WSPIDER	
+
+
+setentry	450	-1024	0	3	1	18	100	450	0	" "	100	1000	1	0	0.5	0	25	"WSPIDER"	" "	250	0	0	" "	64	|	
+
+setentry	451	-1019	0	3	1	18	100	451	0	" "	100	1000	1	0	0.75	0	26	"WSPIDER"	" "	250	0	0	" "	64	|	
+
+setentry	452	-1025	0	3	1	18	100	452	0	" "	100	1000	1	0	1	0	27	"WSPIDER"	" "	250	0	0	" "	64	|	
+
+//brown spider big BROWNSPIDER	
+
+
+setentry	453	-1026	0	3	1	18	100	453	0	" "	100	1000	1	0	0.5	0	28	"BROWNSPIDER"	" "	250	0	0	" "	64	|	
+
+setentry	454	-1032	0	3	1	18	100	454	0	" "	100	1000	1	0	0.75	0	29	"BROWNSPIDER"	" "	250	0	0	" "	64	|	
+
+setentry	455	-1027	0	3	1	18	100	455	0	" "	100	1001	1	0	1	0	30	"BROWNSPIDER"	" "	250	0	0	" "	64	|	
+
+//poison spider big POINSONSPIDER	
+
+
+setentry	456	-1028	0	3	1	18	100	456	0	" "	100	1000	1	0	0.5	0	34	"POISONSPIDER"	" "	250	0	0	" "	64	|	
+
+setentry	457	-1033	0	3	1	18	100	457	0	" "	100	1000	1	0	0.75	0	35	"POISONSPIDER"	" "	250	0	0	" "	64	|	
+
+setentry	458	-1029	0	3	1	18	100	458	0	" "	100	1001	1	0	1	0	36	"POISONSPIDER"	" "	250	0	0	" "	64	|	
+
+//bat WBAT	
+setentry	460	-1030	0	3	1	19	100	460	0	" "	100	1010	2	0	1	0	3	"WBAT"	" "	1	|	
+setentry	461	-1031	0	3	1	19	100	461	0	" "	100	1010	2	0	2	0	4	"WBATA"	" "	1	|	
+
+//flys1 blue DESERTSWARM_SA	
+setentry	462	-1037	0	3	1	19	100	462	0	" "	100	1000	2	0	0.5	0	3	"DSRTSWARM_SA"	" "	1	|	
+// andere flys 1 blue bei 469	
+//flys2 blue DESERTSWARM_B	
+setentry	463	-1038	0	3	1	19	100	463	0	" "	100	1000	2	0	0.5	0	5	"DSRTSWARM_B"	" "	1	|	
+setentry	464	-1039	0	3	1	19	100	464	0	" "	100	1000	2	0	0.8	0	6	"DSRTSWARM_B"	" "	1	|	
+
+//flys1 DESERTSWARM	
+setentry	465	-1035	0	3	1	19	100	465	0	" "	100	1000	2	0	0.5	0	1	"DSRTSWARM_S"	" "	1	|	
+setentry	466	-1052	0	3	1	19	100	466	0	" "	100	1000	2	0	0.8	0	2	"DSRTSWARM_S"	" "	1	|	
+
+//flys2 DESERTSWARM	
+setentry	467	-1036	0	3	1	19	100	467	0	" "	100	1000	2	0	0.5	0	7	"DSRTSWARM_B"	" "	1	|	
+setentry	468	-1053	0	3	1	19	100	468	0	" "	100	1000	2	0	0.8	0	8	"DSRTSWARM_B"	" "	1	|	
+
+//flys1 blue DESERTSWARM	
+setentry	469	-1037	0	3	1	19	100	469	0	" "	100	1000	2	0	0.8	0	4	"DSRTSWARM_SA"	" "	1	|	
+
+//poisonous plant small PLANT	
+setentry	470	-1040	0	3	1	19	100	470	0	" "	100	1040	3	0	0.5	0	8	"PLANT_S"	" "	10000	0	0	" "	64	|	
+
+
+setentry	479	-1086	0	3	1	19	100	479	0	" "	100	1040	3	0	0.7	0	10	"PLANT_S"	" "	10000	0	0	" "	64	|	
+
+
+setentry	480	-1041	0	3	1	19	100	480	0	" "	100	1040	3	0	0.7	0	14	"PLANT"	" "	10000	0	0	" "	64	|	
+
+setentry	481	-1087	0	3	1	19	100	481	0	" "	100	1040	3	0	1	0	16	"PLANT"	" "	10000	0	0	" "	64	|	
+
+setentry	482	-1042	0	3	1	19	100	482	0	" "	100	1040	3	0	1.4	0	18	"PLANT"	" "	10000	0	0	" "	64	|	
+
+
+setentry	490	-1088	0	3	1	19	100	490	0	" "	100	1040	3	0	2	0	20	"PLANT"	" "	10000	0	0	" "	64	|	
+
+//cavecreaper CCREAP	
+
+setentry 	495	-560	0	3	1	19	100	495	0	" "	100	1000	1	0	3.0	0	6	"CCRAEP"	" "	5	0	0	" "	128	|	
+
+setentry	496	-561	0	3	1	19	100	496	0	" "	100	1000	1	0	3.5	0	8	"CCRAEP"	" "	8	0	0	" "	128	|	
+
+setentry	497	-562	0	3	1	19	100	497	0	" "	100	1000	1	0	4	0	10	"CCRAEP"	" "	15	0	0	" "	128	|	
+
+//cavecreapergreen CCREAPGRN	
+
+setentry 	500	-570	0	3	1	19	100	500	0	" "	100	1000	1	0	3.0	0	6	"CCREAPGRN"	" "	5	0	0	" "	128	|	
+
+setentry	501	-571	0	3	1	19	100	501	0	" "	100	1000	1	0	3.5	0	8	"CCREAPGRN"	" "	8	0	0	" "	128	|	
+
+setentry	502	-572	0	3	1	19	100	502	0	" "	100	1000	1	0	4	0	10	"CCREAPGRN"	" "	15	0	0	" "	128	|	
+
+//cavecreapercrab CCREAPCRB	
+
+setentry 	505	-580	0	3	1	19	100	505	0	" "	100	1000	1	0	3.0	0	10	"CCREAPCRB"	" "	5	0	0	" "	128	|	
+
+setentry	506	-581	0	3	1	19	100	506	0	" "	100	1000	1	0	3.5	0	12	"CCREAPCRB"	" "	8	0	0	" "	128	|	
+
+setentry	507	-582	0	3	1	19	100	507	0	" "	100	1000	1	0	4	0	14	"CCREAPCRB"	" "	15	0	0	" "	128	|	
+
+//small cavecreaper S_CCREAP	
+
+setentry	510	-590	0	3	1	18	100	510	0	" "	100	1000	1	0	1	0	1	"S_CCREAP"	" "	1	0	0	" "	128	|	
+
+setentry	511	-591	0	3	1	18	100	511	0	" "	100	1000	1	0	1.3	0	2	"S_CCREAP"	" "	1	0	0	" "	128	|	
+
+setentry	512	-592	0	3	1	18	100	512	0	" "	100	1000	1	0	1.6	0	3	"S_CCREAPA"	" "	1	0	0	" "	128	|	
+
+//small cavecreapergreen S_CCREAPGRN	
+
+setentry	513	-600	0	3	1	18	100	513	0	" "	100	1000	1	0	1	0	1	"S_CCREAPGRN"	" "	1	0	0	" "	128	|	
+
+setentry	514	-601	0	3	1	18	100	514	0	" "	100	1000	1	0	1.3	0	2	"S_CCREAPGRN"	" "	1	0	0	" "	128	|	
+
+setentry	515	-602	0	3	1	18	100	515	0	" "	100	1000	1	0	1.6	0	3	"S_CCREAPGRNA"	" "	1	0	0	" "	128	|	
+
+//small cavecreapercrab S_CCREAPCRB	
+
+setentry	516	-610	0	3	1	18	100	516	0	" "	100	1000	1	0	1	0	1	"S_CCREAPCRB"	" "	1	0	0	" "	128	|	
+
+setentry	517	-611	0	3	1	18	100	517	0	" "	100	1000	1	0	1.3	0	2	"S_CCREAPCRB"	" "	1	0	0	" "	128	|	
+
+setentry	518	-612	0	3	1	18	100	518	0	" "	100	1000	1	0	1.6	0	3	"S_CCREAPCRBA"	" "	1	0	0	" "	128	|	
+
+//lizard  green  LIZARD	
+
+setentry	520	-1060	0	3	1	19	100	520	0	" "	100	1010	1	0	0.2	0	12	"LIZARD_GREEN"	" "	30	0	0	" "	64	|	
+
+setentry	521	-1061	0	3	1	19	100	521	0	" "	100	1010	1	0	0.3	0	14	"LIZARD_GREEN"	" "	40	0	0	" "	64	|	
+
+setentry	522	-1062	0	3	1	19	100	522	0	" "	100	1010	1	0	0.4	0	16	"LIZARD_GREEN"	" "	50	0	0	" "	64	|	
+
+setentry	523	-1063	0	3	1	19	100	523	0	" "	100	1010	1	0	0.1	0	10	"LIZARD_GREEN"	" "	30	0	0	" "	64	|	
+
+//lizard  brown LIZARD	
+
+setentry	525	-1065	0	3	1	19	100	525	0	" "	100	1010	1	0	0.4	0	16	"LIZARD"	" "	30	0	0	" "	64	|	
+
+setentry	526	-1066	0	3	1	19	100	526	0	" "	100	1010	1	0	0.3	0	14	"LIZARD"	" "	40	0	0	" "	64	|	
+
+setentry	527	-1067	0	3	1	19	100	527	0	" "	100	1010	1	0	0.2	0	12	"LIZARD"	" "	50	0	0	" "	64	|	
+
+//reptile DRAGON	
+
+
+setentry	530	-1070	0	3	1	19	100	530	0	" "	100	1011	1	0	1	0	46	"DRAGON"	" "	600	0	0	" "	64	|	
+
+setentry	531	-1071	0	3	1	19	100	531	0	" "	100	1011	1	0	1.5	0	48	"DRAGON"	" "	800	0	0	" "	64	|	
+
+//horny desert beast HORNY	
+
+setentry	532	-1072	0	3	1	19	100	532	0	" "	100	1010	1	0	1	0	40	"HORNY"	" "	600	|	
+
+setentry	533	-1073	0	3	1	19	100	533	0	" "	100	1011	1	0	1.5	0	42	"HORNY"	" "	800	|	
+
+//Mutants	
+//Mutant 01 MUTANTB (messermutantin. riflemutnantin. nailgunmutantin)	
+setentry	600	-500	0	3	1	17	100	600	30	" "	100	1020	0	0	0	0	10	"MUTANTB"	" "	100	|	
+setentry	601	-501	0	3	1	17	100	601	1015	" "	100	1020	0	0	0	0	15	"MUTANTB"	" "	100	|	
+setentry	602	-502	0	3	0	17	100	602	83	" "	100	1020	0	0	1.1	0	12	"MUTANTB"	" "	100	|	
+
+//Mutant 02 MUTANTB (nailgunmutant. riflemutant. flamermutant)	
+setentry	605	-510	0	3	0	17	100	605	26	" "	100	1020	0	0	1.1	0	17	"MUTANTB"	" "	100	|	
+setentry	606	-511	0	3	0	17	100	606	1014	" "	100	1020	0	0	1.1	0	20	"MUTANTB"	" "	100	|	
+setentry	607	-512	0	3	0	17	100	607	1013	" "	100	1020	0	0	1.1	0	22	"MUTANTB"	" "	100	|	
+
+//Mutant 03 MGMUT	
+setentry	610	-520	0	3	0	17	100	610	25	" "	100	1020	0	0	1.1	0	25	"MGMUT"	" "	200	|	
+setentry	611	-521	0	3	0	17	100	611	25	" "	100	1020	0	0	1.4	0	27	"MGMUT"	" "	200	|	
+
+//Mutant 04 PSISPIDER	
+setentry	615	-530	0	3	0	17	100	615	2009	" "	100	1020	1	0	1.8	0	30	"PSISPIDER"	" "	300	|	
+setentry	616	-531	0	3	0	17	100	616	2010	" "	100	1021	1	0	2.2	0	32	"PSISPIDER"	" "	400	|	
+
+//Mutant 05 BIGMUT	
+setentry	620	-540	0	3	0	17	100	620	29	" "	100	1021	0	0	1.4	0	35	"BIGMUT"	" "	600	|	
+setentry	621	-541	0	3	0	17	100	621	29	" "	100	1021	0	0	1.8	0	37	"BIGMUT"	" "	500	|	
+
+//Mutant 06 PSIMUT	
+setentry	625	-550	0	3	0	17	100	625	102	" "	100	1020	0	0	0	0	15	"WBADGUY"	" "	80	|	
+setentry	626	-551	0	3	0	17	100	626	2009	" "	100	1020	0	0	0.9	0	17	"WBADGUY"	" "	80	|	
+
+//AMOK Cop	
+setentry	630	-1235	0	3	0	17	100	630	25	" "	100	1021	0	0	1.1	0	45	"WBADGUY"	" "	1000	0	0	" "	2	|	
+setentry	631	-1236	0	3	0	17	100	631	25	" "	100	1021	0	0	1.4	0	47	"WBADGUY"	" "	1000	0	0	" "	2	|	
+
+
+//Mutant flying (Klopsie) FLYMUT	
+setentry	640	-1160	0	3	0	17	100	640	0	" "	100	1021	1	0	0.4	0	50	"FLYMUT"	" "	250	|	
+
+//Security Bot small durchgeknallt SMECH1	
+
+setentry	645	-1078	0	3	1	17	100	645	0	" "	100	1030	4	0	0.5	0	35	"SMECH1"	" "	250	0	0	" "	32	|	
+
+setentry	646	-1079	0	3	1	17	100	646	0	" "	100	1030	4	0	0.75	0	37	"SMECH2"	" "	300	0	0	" "	32	|	
+
+//Tech Haven Security Bots	
+
+setentry	670	-236	0	3	1	17	100	670	0	" "	100	1030	4	0	0.5	0	40	"SMECH1"	" "	250	0	0	" "	32	|	
+
+setentry	671	-237	0	3	1	17	100	671	0	" "	100	1030	4	0	0.75	0	42	"SMECH2"	" "	300	0	0	" "	32	|	
+
+//Cyberhound Brown	
+
+setentry	672	-1182	0	3	1	17	100	672	0	" "	100	1030	1	0	1	0	10	"DOGBOT"	" "	250	0	0	" "	32	|	
+
+
+setentry	673	-1183	0	3	1	17	100	673	0	" "	100	1030	1	0	0.8	0	8	"DOGBOT"	" "	250	0	0	" "	32	|	
+
+//Cyberguards	
+
+setentry	675	-1170	0	3	1	17	100	675	1017	" "	100	1030	0	0	1.1	0	25	"WBADGUY"	" "	250	0	0	" "	34	|	
+
+setentry	676	-1175	0	3	1	17	100	676	1016	" "	100	1031	0	0	1.1	0	27	"WBADGUY"	" "	300	0	0	" "	34	|	
+
+
+setentry	677	-1171	0	3	1	17	100	677	26	" "	100	1030	0	0	1.1	0	10	"WBADGUY"	" "	250	0	0	" "	34	|	
+setentry	678	-1176	0	3	1	17	100	678	34	" "	100	1030	0	0	1.1	0	12	"WBADGUY"	" "	300	0	0	" "	34	|	
+
+
+
+
+
+//Spiderbots	
+
+setentry	682	-1075	0	3	1	17	100	682	0	" "	100	1031	4	0	0.8	0	45	"SMECH1"	" "	300	0	0	" "	32	|	
+
+setentry	680	-1076	0	3	1	17	100	680	0	" "	100	1031	4	0	1.6	0	47	"SMECH2"	" "	500	0	0	" "	32	|	
+
+setentry	681	-1077	0	3	1	17	100	681	0	" "	100	1031	4	0	2.4	0	50	"SMECH2"	" "	600	0	0	" "	32	|	
+
+//Cyberwatchdog blue	
+
+setentry	690	-1180	0	3	1	17	100	690	0	" "	100	1030	1	0	1	0	10	"DOGBOT"	" "	250	0	0	" "	32	|	
+
+
+setentry	691	-1181	0	3	1	17	100	691	0	" "	100	1030	1	0	0.8	0	8	"DOGBOT"	" "	250	0	0	" "	32	|	
+
+//sentry guns	
+//ground (hidden) SENTRYWEAPON	
+setentry	700	-238	0	3	1	19	100	-1	0	" "	100	1030	3	0	1	0	40	"SENTRYWEAPON"	" "	1000	0	0	" "	32	|	
+//ceiling SENTRYWEAPON2	
+setentry	701	-239	0	3	1	19	100	-1	0	" "	100	1031	3	0	1	0	42	"SENTRYWEAPON2"	" "	1000	0	0	" "	32	|	
+
+//Creepers	
+
+setentry 	702	-1220	0	3	1	19	100	702	0	" "	100	1000	1	0	1.5	0	4	"INSECTMUT_2"	" "	5	0	0	" "	128	|	
+
+setentry	703	-1221	0	3	1	19	100	703	0	" "	100	1000	1	0	1.6	0	5	"INSECTMUT_2"	" "	8	0	0	" "	128	|	
+
+//Gnawers	
+
+setentry 	704	-1225	0	3	1	19	100	704	0	" "	100	1000	1	0	1.5	0	2	"INSECTMUT_1"	" "	5	0	0	" "	128	|	
+
+setentry	705	-1226	0	3	1	19	100	705	0	" "	100	1000	1	0	1.6	0	3	"INSECTMUT_1"	" "	8	0	0	" "	128	|	
+
+//Cruncher	
+
+setentry 	706	-1230	0	3	1	19	100	706	0	" "	100	1000	1	0	1.5	0	6	"INSECTMUT_3"	" "	5	0	0	" "	128	|	
+
+setentry	707	-1231	0	3	1	19	100	707	0	" "	100	1000	1	0	1.6	0	7	"INSECTMUT_3"	" "	8	0	0	" "	128	|	
+
+//Dragon flys	
+
+setentry	708	-1080	0	3	1	19	100	708	0	" "	100	1000	2	0	0.2	0	5	"DFLY"	" "	5	0	0	" "	128	|	
+
+setentry	709	-1081	0	3	1	19	100	709	0	" "	100	1000	2	0	0.3	0	20	"DFLY"	" "	5	0	0	" "	128	|	
+
+setentry	710	-1083	0	3	1	19	100	710	0	" "	100	1000	2	0	0.7	0	25	"DFLY"	" "	30	0	0	" "	128	|	
+
+setentry	711	-1084	0	3	1	19	100	711	0	" "	100	1000	2	0	1	0	30	"BIGDFLY"	" "	40	0	0	" "	128	|	
+
+setentry	712	-1082	0	3	1	19	100	712	0	" "	100	1000	2	0	2	0	35	"BIGDFLY"	" "	50	0	0	" "	128	|	
+
+//mutant rat black WBIGRAT	
+
+setentry 	715	-985	0	3	1	19	100	715	0	" "	100	1010	1	0	1.5	0	6	"WBIGRAT"	" "	5	|	
+
+setentry	716	-986	0	3	1	19	100	716	0	" "	100	1010	1	0	2.5	0	8	"WBIGRAT"	" "	8	|	
+
+setentry	717	-987	0	3	1	19	100	717	0	" "	100	1010	1	0	3.5	0	10	"WBIGRAT"	" "	15	|	
+
+//Vulture VULTURE	
+
+setentry	720	-1085	0	3	1	19	20	720	0	" "	20	1010	2	0	1	0	1	"VULTURE"	" "	40	|	
+
+//mutant rat brown WABIGRAT	
+
+setentry 	721	-990	0	3	1	19	100	721	0	" "	100	1010	1	0	1.5	0	6	"WBIGRAT"	" "	5	|	
+
+setentry	722	-991	0	3	1	19	100	722	0	" "	100	1010	1	0	2.5	0	8	"WBIGRAT"	" "	8	|	
+
+setentry	723	-992	0	3	1	19	100	723	0	" "	100	1010	1	0	3.5	0	10	"WBIGRAT"	" "	15	|	
+
+//mutant rat deseased WBIGRAT	
+
+setentry 	725	-995	0	3	1	19	100	725	0	" "	100	1010	1	0	1.5	0	10	"WABIGRAT"	" "	5	|	
+
+setentry	726	-996	0	3	1	19	100	726	0	" "	100	1010	1	0	2.5	0	12	"WABIGRAT"	" "	8	|	
+
+setentry	727	-997	0	3	1	19	100	727	0	" "	100	1010	1	0	3.5	0	14	"WABIGRAT"	" "	15	|	
+
+//Warbot	
+
+setentry	730	-1090	0	3	1	17	100	730	0	" "	100	1032	1	0	1.5	0	80	"BROBOT"	" "	1000	0	0	" "	34	|	
+
+setentry	731	-1091	0	3	1	17	100	731	0	" "	100	1032	1	0	2	0	85	"BROBOT"	" "	1000	0	0	" "	34	|	
+
+
+//snakes small desert SNAKE	
+
+setentry	735	-1095	0	3	1	18	100	735	0	" "	100	1010	1	0	0.4	0	4	"SNAKE_SMALL"	" "	20	0	0	" "	64	|	
+
+setentry	736	-1096	0	3	1	18	100	736	0	" "	100	1010	1	0	0.7	0	6	"SNAKE_NORMAL"	" "	30	0	0	" "	64	|	
+
+setentry	737	-1097	0	3	1	18	100	737	0	" "	100	1010	1	0	0.9	0	8	"SNAKE_BIG"	" "	40	0	0	" "	64	|	
+
+//snakes small swamp SNAKE	
+
+setentry	740	-1100	0	3	1	18	100	740	0	" "	100	1010	1	0	0.6	0	5	"SNAKE_SMALL"	" "	20	0	0	" "	64	|	
+
+setentry	741	-1101	0	3	1	18	100	741	0	" "	100	1010	1	0	0.8	0	7	"SNAKE_NORMAL"	" "	30	0	0	" "	64	|	
+
+setentry	742	-1102	0	3	1	18	100	742	0	" "	100	1010	1	0	1	0	9	"SNAKE_BIG"	" "	40	0	0	" "	64	|	
+
+setentry	743	-1103	0	3	1	18	100	743	0	" "	100	1010	1	0	0.3	0	2	"SNAKE_SMALL"	" "	20	0	0	" "	64	|	
+
+//camel mutant CAMELMUTANT	
+
+setentry	746	-1105	0	3	1	18	100	746	0	" "	100	1010	1	0	1.5	0	6	"CAMELMUTANT"	" "	1000	|	
+
+setentry	747	-1106	0	3	1	18	100	747	0	" "	100	1010	1	0	2	0	9	"CAMELMUTANT"	" "	1000	|	
+
+//flying snail SNAIL	
+
+setentry	755	-1110	0	3	1	18	100	755	0	" "	100	1010	1	0	1	0	8	"SNAIL"	" "	5	0	0	" "	64	|	
+
+setentry	756	-1111	0	3	1	18	100	756	0	" "	100	1010	1	0	1.5	0	10	"SNAIL"	" "	8	0	0	" "	64	|	
+
+setentry	757	-1112	0	3	1	18	100	757	0	" "	100	1010	1	0	2	0	12	"SNAIL"	" "	13	0	0	" "	64	|	
+
+//flying snail big SNAIL_BIG	
+
+setentry	758	-1113	0	3	1	18	100	758	0	" "	100	1010	1	0	1	0	14	"SNAIL_BIG"	" "	5	0	0	" "	64	|	
+
+setentry	759	-1114	0	3	1	18	100	759	0	" "	100	1010	1	0	1.5	0	16	"SNAIL_BIG"	" "	8	0	0	" "	64	|	
+
+setentry	760	-1115	0	3	1	18	100	760	0	" "	100	1010	1	0	2	0	18	"SNAIL_BIG"	" "	13	0	0	" "	64	|	
+
+//tentacle mutant TENTACLEMUTANT	
+
+setentry	761	-1120	0	3	1	18	100	761	0	" "	100	1010	1	0	1	0	45	"TENTACLEMUTANT"	" "	5000	0	0	" "	64	|	
+
+setentry	762	-1121	0	3	1	18	100	762	0	" "	100	1011	1	0	2	0	47	"TENTACLEMUTANT"	" "	5000	0	0	" "	64	|	
+
+//tentacle TENTACLE	
+
+setentry	765	-1124	0	3	1	18	100	765	0	" "	100	1010	1	0	1	0	8	"TENTACLE"	" "	1000	0	0	" "	64	|	
+
+setentry	766	-1125	0	3	1	18	100	766	0	" "	100	1010	1	0	1.5	0	10	"TENTACLE"	" "	1000	0	0	" "	64	|	
+
+setentry	767	-1126	0	3	1	18	100	767	0	" "	100	1010	1	0	2	0	12	"TENTACLE"	" "	1000	0	0	" "	64	|	
+
+//swampthing 	
+
+setentry	771	-1107	0	3	1	18	100	771	0	" "	100	1010	1	0	1	0	5	"SWAMPTHING"	" "	5000	|	
+
+setentry	772	-1108	0	3	1	18	100	772	0	" "	100	1010	1	0	1.3	0	8	"SWAMPTHING"	" "	5000	|	
+
+//swamprider	
+setentry	773	-1109	0	3	1	18	100	773	0	" "	100	1011	1	0	1.3	0	32	"SWAMPRIDER"	" "	5000	|	
+
+//longlegmutant LONGLEGMUTANT	
+
+setentry	776	-1130	0	3	1	18	100	776	0	" "	100	1001	1	0	0.5	0	66	"LONGLEGMUTANT"	" "	500	0	0	" "	128	|	
+
+setentry	777	-1131	0	3	1	18	100	777	0	" "	100	1001	1	0	0.9	0	70	"LONGLEGMUTANT"	" "	800	0	0	" "	128	|	
+
+//Reapers	
+
+setentry	780	-1135	0	3	1	18	100	780	0	" "	100	1011	1	0	0.5	0	73	"LONGLEGCRAB"	" "	500	0	0	" "	128	|	
+
+setentry	781	-1136	0	3	1	18	100	781	0	" "	100	1012	1	0	0.9	0	76	"LONGLEGCRAB"	" "	800	0	0	" "	128	|	
+
+//Batmutant (Raptor)	
+
+setentry	785	-1145	0	3	1	18	100	785	0	" "	100	1011	2	0	1	0	60	"FLYBATMUT"	" "	250	0	0	" "	128	|	
+
+setentry	786	-1146	0	3	1	18	100	786	0	" "	100	1011	2	0	1.5	0	63	"FLYBATMUT"	" "	300	0	0	" "	128	|	
+
+//Batmutant Ground BATMUT	
+
+setentry	790	-1150	0	3	1	18	100	790	0	" "	100	1011	1	0	1	0	66	"BATMUT"	" "	250	0	0	" "	128	|	
+
+setentry	791	-1151	0	3	1	18	100	791	0	" "	100	1012	1	0	1.5	0	70	"BATMUT"	" "	300	0	0	" "	128	|	
+
+//Mechturtle	
+
+setentry	800	-1190	0	3	1	18	100	800	0	" "	100	1030	1	0	0.2	0	1	"MBOT"	" "	5	0	0	" "	32	|	
+
+setentry	805	-1195	0	3	1	18	100	805	0	" "	100	1030	1	0	0.3	0	5	"MBOT_BIG"	" "	5	0	0	" "	32	|	
+
+setentry	810	-1200	0	3	1	18	100	810	0	" "	100	1030	1	0	0.4	0	10	"MBOT_MED"	" "	5	0	0	" "	32	|	
+
+//Mechshell (blue)	
+
+setentry	820	-1205	0	3	1	18	100	820	0	" "	100	1030	1	0	0.2	0	1	"MBOT"	" "	5	0	0	" "	32	|	
+
+setentry	825	-1210	0	3	1	18	100	825	0	" "	100	1030	1	0	0.3	0	5	"MBOT_BIG"	" "	5	0	0	" "	32	|	
+
+setentry	830	-1215	0	3	1	18	100	830	0	" "	100	1030	1	0	0.4	0	10	"MBOT_MED"	" "	5	0	0	" "	32	|	
+
+//Mbot fly blue small (Cyberbeetle)	
+setentry	835	-1216	0	3	1	18	100	835	0	" "	100	1030	2	0	0.6	0	10	"MBOTFLY"	" "	5	0	0	" "	32	|	
+setentry	836	-1219	0	3	1	18	100	836	0	" "	100	1030	2	0	0.3	0	15	"MBOTFLY"	" "	5	0	0	" "	32	|	
+
+//Mbot swarm small DRONE	
+setentry	837	-1217	0	3	1	18	100	837	0	" "	100	1030	2	0	0.3	0	15	"MBOTSWARM"	" "	5	0	0	" "	32	|	
+setentry	838	-1218	0	3	1	18	100	838	0	" "	100	1030	2	0	0.3	0	20	"MBOTSWARM"	" "	5	0	0	" "	32	|	
+
+//Hovereye	
+
+setentry	840	-1252	0	3	1	18	100	840	0	" "	100	1031	2	0	1	0	83	"HOVEREYE"	" "	2000	0	0	" "	34	|	
+
+setentry	844	-1256	0	3	1	18	100	844	0	" "	100	1032	2	0	1.2	0	86	"HOVEREYE"	" "	2000	0	0	" "	34	|	
+
+setentry	848	-1273	0	3	1	18	100	848	0	" "	100	1032	2	0	1.5	0	90	"HOVEREYE"	" "	2000	0	0	" "	34	|	
+
+//Hoverstation	
+
+setentry	850	-1253	0	3	1	18	100	850	0	" "	100	1032	2	0	1	0	93	"HOVERSTATION"	" "	2000	0	0	" "	34	|	
+
+setentry	854	-1257	0	3	1	18	100	854	0	" "	100	1032	2	0	1.2	0	96	"HOVERSTATION"	" "	2000	0	0	" "	34	|	
+
+setentry	858	-1254	0	3	1	18	100	858	0	" "	100	1032	2	0	1.5	0	100	"HOVERSTATION"	" "	2000	0	0	" "	34	|	
+
+//Hoverbot	
+
+setentry	860	-1250	0	3	1	18	100	860	0	" "	100	1032	2	0	1	0	103	"HOVERBOT"	" "	2000	0	0	" "	34	|	
+
+setentry	864	-1254	0	3	1	18	100	864	0	" "	100	1032	2	0	1.2	0	106	"HOVERBOT"	" "	2000	0	0	" "	34	|	
+
+setentry	868	-1271	0	3	1	18	100	868	0	" "	100	1032	2	0	1.5	0	110	"HOVERBOT"	" "	2000	0	0	" "	34	|	
+
+//Hoverbomber	
+
+setentry	870	-1251	0	3	1	18	100	870	0	" "	100	1032	2	0	1	0	113	"HOVERBOMBER"	" "	2000	0	0	" "	34	|	
+
+setentry	874	-1255	0	3	1	18	100	874	0	" "	100	1032	2	0	1.2	0	116	"HOVERBOMBER"	" "	2000	0	0	" "	34	|	
+
+setentry	878	-1272	0	3	1	18	100	878	0	" "	100	1032	2	0	1.5	0	120	"HOVERBOMBER"	" "	2000	0	0	" "	34	|	
+
+
+//dronen	
+
+setentry	885	-1240	0	3	1	19	100	-1	0	" "	100	0	2	0	1	0	27	"LASERDRONE"	" "	1	0	0	" "	32	|	
+
+setentry	886	-1241	0	3	1	19	100	-1	0	" "	100	0	2	0	1	0	11	"FLIESA"	" "	1	0	0	" "	32	|	
+
+setentry	887	-1242	0	3	1	19	100	-1	0	" "	100	0	2	0	1	0	6	"FLIESA"	" "	1	0	0	" "	32	|	
+
+setentry	888	-1243	0	3	1	19	100	-1	0	" "	100	0	2	0	1	0	11	"GATLINDRONE"	" "	1	0	0	" "	32	|	
+
+setentry	889	-1244	0	3	1	19	100	-1	0	" "	100	0	2	0	1	0	6	"FLIESA"	" "	1	0	0	" "	32	|	
+
+
+
+
+//Security Turrets	
+
+setentry	900	-400	0	3	1	0	500	900	0	" "	140	0	3	3	0.6	0	35	"BOP_SENTRYGUN"	"120 0.25"	100000	0	0	" "	32	|	
+
+setentry	901	-401	0	3	1	0	500	901	0	" "	140	0	3	3	0.7	0	40	"BOP_SENTRYGUN"	"120 0.2"	100000	0	0	" "	32	|	
+
+setentry	902	-402	0	3	1	0	500	902	0	" "	140	0	3	3	0.9	0	45	"BOP_SENTRYGUN"	"120 0.2"	100000	0	0	" "	32	|	
+
+
+setentry	910	-410	0	3	1	0	500	910	0	" "	130	0	3	3	0.8	0	50	"BOP_SENTRYGUN"	"121 1"	100000	0	0	" "	32	|	
+
+setentry	911	-411	0	3	1	0	500	911	0	" "	130	0	3	3	0.9	0	60	"BOP_SENTRYGUN"	"121 0.8"	100000	0	0	" "	32	|	
+
+setentry	912	-412	0	3	1	0	500	912	0	" "	130	0	3	3	1.0	0	70	"BOP_SENTRYGUN"	"121 0.6"	100000	0	0	" "	32	|	
+
+
+setentry	920	-420	0	3	1	0	500	920	0	" "	120	0	3	3	0.8	0	75	"BOP_SENTRYGUN"	"122 0.4"	100000	0	0	" "	32	|	
+
+setentry	921	-421	0	3	1	0	500	921	0	" "	120	0	3	3	1.0	0	85	"BOP_SENTRYGUN"	"122 0.35"	100000	0	0	" "	32	|	
+
+setentry	922	-422	0	3	1	0	500	922	0	" "	120	0	3	3	1.2	0	90	"BOP_SENTRYGUN"	"122 0.3"	100000	0	0	" "	32	|	
+
+
+setentry	923	-440	0	3	1	0	500	923	0	" "	100	0	3	3	0.9	0	90	"BOP_SENTRYGUN"	"120 0.15"	100000	0	0	" "	32	|	
+
+setentry	924	-441	0	3	1	0	500	924	0	" "	100	0	3	3	1.0	0	95	"BOP_SENTRYGUN"	"120 0.1"	100000	0	0	" "	32	|	
+
+setentry	925	-442	0	3	1	0	500	925	0	" "	100	0	3	3	1.2	0	100	"BOP_SENTRYGUN"	"120 0.075"	100000	0	0	" "	32	|	
+
+
+setentry	930	-445	0	3	1	0	500	930	0	" "	140	0	3	3	1.2	0	70	"BOP_SENTRYARI"	"118 2.5"	100000	0	0	" "	32	|	
+setentry	931	-446	0	3	1	0	500	931	0	" "	140	0	3	3	1.4	0	90	"BOP_SENTRYARI"	"118 2.5"	100000	0	0	" "	32	|	
+setentry	932	-447	0	3	1	0	500	932	0	" "	140	0	3	3	1.6	0	110	"BOP_SENTRYARI"	"118 2.5"	100000	0	0	" "	32	|	
+
+setentry	935	-449	0	3	1	0	500	935	0	" "	200	0	3	3	0.4	0	60	" "	" "	100000	0	0	" "	48	|	
+
+
+
+//DEMO DO NOT SPAWN	
+
+
+
+
+//setentry	1000	-10	0	4	1	1	100	1000	171	"DEMO_STORM_SUB"	100	0	0	0	0	0	100	" "	" "	100	|	
+
+//setentry	1001	-11	0	4	1	1	100	1000	183	"DEMO_STORM_SUB"	100	0	0	0	0	0	100	" "	" "	100	|	
+
+//setentry	1002	-11	0	4	1	1	100	1000	183	"DEMO_STORM_PATROL"	100	0	0	0	0	0	100	" "	" "	100	|	
+
+//setentry	1003	-10	0	4	1	1	100	1000	183	"DEMO_STORM_SEC2"	100	0	0	0	0	0	100	" "	" "	100	|	
+
+//setentry	1004	-11	0	4	1	1	100	1000	183	"DEMO_STORM_SUB"	100	0	0	0	0	0	100	" "	" "	100	|	
+
+
+//setentry	1005	-12	0	4	1	15	1500	1	87	" "	100	0	0	0	0	0	80	" "	" "	100	|	
+//setentry	1006	-13	0	4	1	15	1500	1	86	" "	100	0	0	0	0	0	70	" "	" "	100	|	
+
+
+//setentry	1007	-14	0	4	0	1	60	999	66	"DEMO_TEC"	60	61	0	0	0	0	0	" "	" "	100	|	
+
+
+//setentry	1008	-15	0	3	0	1	100	1000	0	"DEMO_MEDIC"	100	0	0	0	0	0	0	" "	" "	100	|	
+
+
+
+
+//setentry	1010	-70	0	3	0	7	100	1000	0	"DEMO_SK_YO"	100	0	0	1	0	0	0	" "	" "	100	|	
+
+//setentry	1011	-26	0	3	0	7	100	1000	0	"DEMO_SK_AW"	100	0	0	1	0	0	0	" "	" "	100	|	
+//setentry	1012	-27	0	3	0	7	100	1000	0	"DEMO_SK_NORM"	100	0	0	1	0	0	0	" "	" "	100	|	
+//setentry	1013	-28	0	3	0	7	100	1000	0	"DEMO_SK_NORM"	100	0	0	1	0	0	0	" "	" "	100	|	
+
+//setentry	1014	-40	0	3	0	7	100	1000	0	"DEMO_SK_NORM"	100	0	0	1	0	0	0	" "	" "	100	|	
+//setentry	1015	-41	0	3	0	7	100	1000	0	"DEMO_SK_NORM"	100	0	0	1	0	0	0	" "	" "	100	|	
+//setentry	1016	-42	0	3	0	7	100	1000	0	"DEMO_SK_NORM"	100	0	0	1	0	0	0	" "	" "	100	|	
+//setentry	1017	-43	0	3	0	7	100	1000	0	"DEMO_SK_NORM"	100	0	0	1	0	0	0	" "	" "	100	|	
+//setentry	1018	-44	0	3	0	7	100	1000	0	"DEMO_SK_NORM"	100	0	0	1	0	0	0	" "	" "	100	|	
+//setentry	1019	-45	0	3	0	7	100	1000	0	"DEMO_SK_NORM"	100	0	0	1	0	0	0	" "	" "	100	|	
+
+
+//setentry	1021	-1030	0	3	1	19	20	-1	0	" "	20	0	2	0	2	35	1	"WBATA"	" "	1	|	
+
+
+//setentry	1022	-1001	0	3	1	19	60	-1	0	" "	60	210	1	0	0.3	40	13	"WDOG"	" "	30	|	
+
+
+//setentry	1023	-996	0	3	1	19	50	-1	0	" "	50	210	1	0	2.5	45	20	"WBIGRAT"	" "	8	|	
+
+
+//setentry	1024	-501	0	3	1	17	90	1024	81	" "	90	252	0	0	0	85	23	"MUTANTB"	" "	100	|	
+
+
+//setentry	1025	-511	0	3	0	17	110	1025	64	" "	110	252	0	0	1.1	110	23	"MUTANTB"	" "	100	|	
+
+
+setentry	1050	-103	0	3	0	1	100	1000	10	"NCPD"	800	0	0	0	0	0	0	" "	" "	250	|	
+//DEMO OVER	
+
+//cyborg	
+
+setentry	1200	-1260	0	3	1	18	100	-1	0	" "	100	0	1	0	1	0	45	"CYBORG"	" "	5	0	0	" "	34	|	
+
+setentry	1201	-1261	0	3	1	18	100	-1	0	" "	100	0	1	0	1.2	0	47	"CYBORG"	" "	5	0	0	" "	34	|	
+
+setentry	1202	-1262	0	3	1	18	100	-1	0	" "	100	0	1	0	1.5	0	50	"CYBORG"	" "	5	0	0	" "	34	|	
+
+//bigbat	
+
+setentry	1205	-1265	0	3	1	18	100	1205	0	" "	100	1010	2	0	4	0	15	"BIGBAT"	" "	5	|	
+
+setentry	1206	-1266	0	3	1	18	100	1206	0	" "	100	1010	2	0	6	0	17	"BIGBAT"	" "	5	|	
+
+setentry	1207	-1267	0	3	1	18	100	1207	0	" "	100	1010	2	0	8	0	20	"BIGBAT"	" "	5	|	
+
+
+//deseased bigbat	
+
+setentry	1208	-1268	0	3	1	18	100	1208	0	" "	100	1010	2	0	4	0	23	"BIGBAT"	" "	5	|	
+
+setentry	1209	-1269	0	3	1	18	100	1209	0	" "	100	1010	2	0	6	0	25	"BIGBAT"	" "	5	|	
+
+setentry	1210	-1270	0	3	1	18	100	1210	0	" "	100	1011	2	0	8	0	27	"BIGBAT"	" "	5	|	
+
+//reaperspider	
+
+setentry	1215	-1280	0	3	1	18	100	1215	0	" "	100	1001	1	0	0.7	0	40	"REAPERSPIDER"	" "	5	0	0	" "	128	|	
+
+setentry	1216	-1281	0	3	1	18	100	1216	0	" "	100	1001	1	0	1	0	42	"REAPERSPIDER"	" "	5	0	0	" "	128	|	
+
+setentry	1217	-1282	0	3	1	18	100	1217	0	" "	100	1001	1	0	1.3	0	44	"REAPERSPIDER"	" "	5	0	0	" "	128	|	
+
+//spidercocoon	
+
+setentry	1220	-1285	0	3	1	18	100	1220	0	" "	100	1000	1	0	0.4	0	30	"SPIDERCOCOON"	" "	5	0	0	" "	64	|	
+
+setentry	1221	-1286	0	3	1	18	100	1221	0	" "	100	1001	1	0	0.5	0	33	"SPIDERCOCOON"	" "	5	0	0	" "	64	|	
+
+setentry	1222	-1287	0	3	1	18	100	1222	0	" "	100	1002	1	0	0.6	0	36	"SPIDERCOCOON"	" "	5	0	0	" "	64	|	
+
+// sandworm small	
+
+setentry	1223	-1288	0	3	1	18	100	1223	0	" "	100	1011	1	0	0.6	0	63	"SANDWORMS"	" "	5	0	0	" "	128	|	
+
+setentry	1224	-1289	0	3	1	18	100	1224	0	" "	100	1011	1	0	0.7	0	66	"SANDWORMS"	" "	5	0	0	" "	128	|	
+
+setentry	1225	-1290	0	3	1	18	100	1225	0	" "	100	1012	1	0	0.8	0	70	"SANDWORMS"	" "	5	0	0	" "	128	|	
+
+// sandworm big	
+
+setentry	1226	-1291	0	3	1	18	100	1226	0	" "	100	1011	1	0	0.6	0	83	"SANDWORMBG"	" "	5	0	0	" "	128	|	
+
+setentry	1227	-1292	0	3	1	18	100	1227	0	" "	100	1012	1	0	0.7	0	86	"SANDWORMBG"	" "	5	0	0	" "	128	|	
+
+setentry	1228	-1293	0	3	1	18	100	1228	0	" "	100	1012	1	0	0.8	0	90	"SANDWORMBG"	" "	5	0	0	" "	128	|	
+
+//spidernest	
+
+setentry	1231	-1294	0	3	1	18	100	1231	0	" "	100	1000	1	0	0.4	0	30	"SPIDERNEST"	" "	5	0	0	" "	64	|	
+
+setentry	1232	-1295	0	3	1	18	100	1232	0	" "	100	1000	1	0	0.5	0	33	"SPIDERNEST"	" "	5	0	0	" "	64	|	
+
+setentry	1233	-1296	0	3	1	18	100	1233	0	" "	100	1001	1	0	0.6	0	36	"SPIDERNEST"	" "	5	0	0	" "	64	|	
+
+//Wulf WULF brown	
+
+setentry	1235	-970	0	3	1	19	100	1235	0	" "	100	1010	1	0	0.4	0	14	"WOLF"	" "	40	|	
+
+setentry	1236	-971	0	3	1	19	100	1236	0	" "	100	1010	1	0	0.5	0	15	"WOLF"	" "	60	|	
+
+setentry	1237	-972	0	3	1	19	100	1237	0	" "	100	1010	1	0	0.5	0	16	"WOLF"	" "	80	|	
+
+//poisonsnake SNAKE	
+
+setentry	1240	-1310	0	3	1	18	100	1240	0	" "	100	1010	1	0	0.4	0	4	"SNAKE_SMALL"	" "	20	0	0	" "	64	|	
+
+setentry	1241	-1311	0	3	1	18	100	1241	0	" "	100	1010	1	0	0.7	0	6	"SNAKE_NORMAL"	" "	30	0	0	" "	64	|	
+
+setentry	1242	-1312	0	3	1	18	100	1242	0	" "	100	1010	1	0	0.9	0	8	"SNAKE_BIG"	" "	40	0	0	" "	64	|	
+
+//viper SNAKE	
+
+setentry	1245	-1313	0	3	1	18	100	1245	0	" "	100	1010	1	0	0.4	0	8	"SNAKE_SMALL"	" "	20	0	0	" "	64	|	
+
+setentry	1246	-1314	0	3	1	18	100	1246	0	" "	100	1010	1	0	0.7	0	10	"SNAKE_NORMAL"	" "	30	0	0	" "	64	|	
+
+setentry	1247	-1315	0	3	1	18	100	1247	0	" "	100	1010	1	0	0.9	0	12	"SNAKE_BIG"	" "	40	0	0	" "	64	|	
+
+//swampmage	
+
+setentry	1255	-1320	0	3	1	18	100	1255	0	" "	100	1010	1	0	1.3	0	13	"SWAMPMAGE"	" "	20	|	
+
+setentry	1256	-1321	0	3	1	18	100	1256	0	" "	100	1010	1	0	1.6	0	16	"SWAMPMAGEM"	" "	30	|	
+
+//swampthing 2	
+
+setentry	1260	-1325	0	3	1	18	100	1260	0	" "	100	1010	1	0	1	0	30	"SWAMPTHING"	" "	20	|	
+
+setentry	1261	-1326	0	3	1	18	100	1261	0	" "	100	1011	1	0	1.2	0	32	"SWAMPTHING"	" "	30	|	
+
+//swampwarrior	
+
+setentry	1262	-1330	0	3	1	18	100	1262	0	" "	100	1010	1	0	1	0	35	"SWAMPWARRIOR"	" "	20	|	
+
+setentry	1263	-1331	0	3	1	18	100	1263	0	" "	100	1011	1	0	1.2	0	37	"SWAMPWARRIOR"	" "	30	|	
+
+//gatlin turret	
+setentry	1270	-440	0	3	1	0	100	-1	0	" "	100	0	3	3	0.8	0	25	"SENTRYWEAPON_GAT"	" "	10000	0	0	" "	32	|	
+
+//prison guard (shooting all above 5sl) PRISONGUARD	
+setentry	1280	-180	0	3	0	20	200	-1	464	"BLACKDRAGON_THUG"	100	0	0	0	0	0	120	"PRISONGUARD"	" "	250	0	0	" "	1	|	
+
+
+//player gespawnte Gegener	
+
+
+setentry	1480	-1550	0	3	1	18	100	-1	0	" "	140	0	2	4	0.5	190	4	"ENERGY_1"	" "	100	0	0	" "	256	|	
+setentry	1481	-1550	0	3	1	18	105	-1	0	" "	130	0	2	4	0.6	190	8	"ENERGY_1"	" "	100	0	0	" "	256	|	
+setentry	1482	-1550	0	3	1	18	110	-1	0	" "	120	0	2	4	0.7	190	16	"ENERGY_1"	" "	100	0	0	" "	256	|	
+setentry	1483	-1550	0	3	1	18	115	-1	0	" "	110	0	2	4	0.8	190	24	"ENERGY_1"	" "	100	0	0	" "	256	|	
+setentry	1484	-1550	0	3	1	18	120	-1	0	" "	105	0	2	4	0.9	190	35	"ENERGY_1"	" "	100	0	0	" "	256	|	
+setentry	1485	-1550	0	3	1	18	125	-1	0	" "	110	0	2	4	1	190	45	"ENERGY_1"	" "	100	0	0	" "	256	|	
+setentry	1486	-1550	0	3	1	18	130	-1	0	" "	115	0	2	4	1.1	190	60	"ENERGY_1"	" "	100	0	0	" "	256	|	
+setentry	1487	-1550	0	3	1	18	135	-1	0	" "	120	0	2	4	1.2	190	75	"ENERGY_1"	" "	100	0	0	" "	256	|	
+setentry	1488	-1550	0	3	1	18	140	-1	0	" "	125	0	2	4	1.3	190	88	"ENERGY_1"	" "	100	0	0	" "	256	|	
+setentry	1489	-1550	0	3	1	18	145	-1	0	" "	130	0	2	4	1.5	190	93	"ENERGY_1"	" "	100	0	0	" "	256	|	
+
+
+
+//Missionsrelevante Spezialgegner	
+
+
+
+//Desert Ctiy Scorpiondungeon	
+
+
+
+
+setentry	1500	-1500	0	3	1	18	100	1500	0	" "	100	627	1	0	1	0	40	"SCORPIONS"	" "	1	0	0	" "	128	|	
+
+setentry	1501	-1501	0	3	1	18	100	1501	0	" "	100	627	1	0	1.5	0	50	"SCORPIONS"	" "	1	0	0	" "	128	|	
+
+// Desert Ctiy Scorpiondungeon	
+
+
+
+setentry	1502	-1502	0	3	1	18	100	1502	0	" "	100	626	1	0	0.2	0	80	"SCORPIONM"	" "	250	0	0	" "	128	|	
+
+setentry	1503	-1503	0	3	1	18	100	1503	0	" "	100	626	1	0	0.4	0	95	"SCORPIONX"	" "	250	0	0	" "	128	|	
+
+setentry	1504	-1504	0	3	1	18	100	1504	0	" "	100	625	1	0	0.7	0	120	"SCORPIONXL"	" "	250	0	0	" "	128	|	
+
+// Swampcave	
+
+setentry	1510	-1510	0	3	1	18	100	1510	0	" "	120	602	1	0	1.2	0	70	"CAVESNAIL"	" "	250	0	0	" "	64	|	
+setentry	1511	-1511	0	3	1	18	100	1511	0	" "	120	602	1	0	1.4	0	80	"CAVESNAIL"	" "	250	0	0	" "	64	|	
+
+setentry	1512	-1512	0	3	1	18	100	1512	0	" "	150	601	2	0	6	0	90	"CAVEVAMP"	" "	250	0	0	" "	64	|	
+setentry	1513	-1513	0	3	1	18	100	1513	0	" "	150	601	2	0	8	0	100	"CAVEVAMP"	" "	250	0	0	" "	64	|	
+
+setentry	1514	-1514	0	3	1	18	100	1514	0	" "	200	600	1	0	1.4	0	120	"CAVEMAGE"	" "	250	0	0	" "	64	|	
+
+// DragonflyCave	
+//Dragon flys	
+
+setentry	1517	-1517	0	3	1	19	150	1517	0	" "	200	550	2	0	0.2	0	127	"DFLY"	" "	5	0	0	" "	128	|	
+
+// Crystal Caves	
+
+setentry	1520	-1520	0	3	1	18	100	1520	0	" "	100	607	2	0	1.2	0	70	"CAVEBAT"	" "	250	0	0	|	
+setentry	1521	-1521	0	3	1	18	100	1521	0	" "	100	607	2	0	1.4	0	80	"CAVEBAT"	" "	250	0	0	|	
+
+setentry	1522	-1522	0	3	1	18	100	1522	0	" "	100	606	2	0	1.2	0	90	"CAVEVAMP2"	" "	250	0	0	|	
+setentry	1523	-1523	0	3	1	18	100	1523	0	" "	100	606	2	0	1.4	0	100	"CAVEVAMP2"	" "	250	0	0	|	
+
+setentry	1524	-1524	0	3	1	18	100	1524	0	" "	200	605	1	0	1.3	0	120	"BATMUTANT"	" "	250	0	0	|	
+
+// Gaya Mines	
+
+setentry	1530	-1530	0	3	1	18	100	1530	71	" "	100	612	0	0	1	0	70	"WBADGUY"	" "	250	0	0	" "	259	|	
+setentry	1531	-1531	0	3	1	18	100	1531	71	" "	100	612	0	0	1.2	0	80	"WBADGUY"	" "	250	0	0	" "	259	|	
+
+setentry	1532	-1532	0	3	1	18	100	1532	72	" "	100	611	0	0	1	0	90	"WBADGUY"	" "	250	0	0	" "	259	|	
+setentry	1533	-1533	0	3	1	18	100	1533	72	" "	100	611	0	0	1.2	0	100	"WBADGUY"	" "	250	0	0	" "	259	|	
+
+setentry	1534	-1534	0	3	1	18	100	1534	92	" "	200	610	0	0	1.2	0	120	"WBADGUY"	" "	250	0	0	" "	259	|	
+
+// Egypt Caves	
+
+setentry	1540	-1540	0	3	1	18	100	1540	0	" "	100	617	1	0	1.2	0	70	"RATTLESNAKES"	" "	250	0	0	" "	64	|	
+setentry	1541	-1541	0	3	1	18	100	1541	0	" "	100	617	1	0	1.4	0	80	"RATTLESNAKEB"	" "	250	0	0	" "	64	|	
+
+setentry	1542	-1542	0	3	1	18	100	1542	0	" "	100	616	1	0	1.2	0	90	"YELLOWSNAKES"	" "	250	0	0	" "	64	|	
+setentry	1543	-1543	0	3	1	18	100	1543	0	" "	100	616	1	0	1.4	0	100	"YELLOWSNAKEB"	" "	250	0	0	" "	64	|	
+
+setentry	1544	-1544	0	3	1	18	100	1544	0	" "	200	615	1	0	1.4	0	120	"VIPER"	" "	250	0	0	" "	64	|	
+
+// Wormholes	
+
+setentry	1550	-1550	0	3	1	18	100	1550	0	" "	70	622	2	0	1	0	70	"ENERGY_1"	" "	250	0	0	" "	256	|	
+setentry	1551	-1551	0	3	1	18	100	1551	0	" "	70	622	2	0	1.2	0	80	"ENERGY_1"	" "	250	0	0	" "	256	|	
+
+setentry	1552	-1552	0	3	1	18	100	1552	0	" "	80	621	2	0	1	0	90	"ENERGY_2"	" "	250	0	0	" "	256	|	
+setentry	1553	-1553	0	3	1	18	100	1553	0	" "	80	621	2	0	1.2	0	100	"ENERGY_3"	" "	250	0	0	" "	256	|	
+
+setentry	1554	-1554	0	3	1	18	100	1554	0	" "	180	620	2	0	1.5	0	120	"ENERGY_4"	" "	250	0	0	" "	256	|	
+
+// Storage	
+
+setentry	1560	-1560	0	3	1	18	100	1560	1011	" "	100	632	0	0	1	0	70	"WBADGUY"	" "	250	0	0	" "	1	|	
+setentry	1561	-1561	0	3	1	18	100	1561	1011	" "	100	632	0	0	1	0	80	"WBADGUY"	" "	250	0	0	" "	1	|	
+
+setentry	1562	-1562	0	3	1	18	100	1562	1011	" "	100	631	0	0	1	0	90	"WBADGUY"	" "	250	0	0	" "	1	|	
+setentry	1563	-1563	0	3	1	18	100	1563	1011	" "	100	631	0	0	1	0	100	"WBADGUY"	" "	250	0	0	" "	1	|	
+
+setentry	1564	-1564	0	3	1	18	100	1564	1011	" "	200	630	0	0	1	0	120	"WBADGUY"	" "	250	0	0	" "	1	|	
+
+// Canyon Caves	
+
+setentry	1570	-1570	0	3	1	18	100	1570	0	" "	100	637	1	0	2	0	70	"INSMUT_1"	" "	250	0	0	" "	128	|	
+setentry	1571	-1571	0	3	1	18	100	1571	0	" "	100	637	1	0	2.2	0	80	"INSMUT_1"	" "	250	0	0	" "	128	|	
+
+setentry	1572	-1572	0	3	1	18	100	1572	0	" "	100	636	1	0	2	0	90	"INSMUT_2"	" "	250	0	0	" "	128	|	
+setentry	1573	-1573	0	3	1	18	100	1573	0	" "	100	636	1	0	2.2	0	100	"INSMUT_3"	" "	250	0	0	" "	128	|	
+
+setentry	1574	-1574	0	3	1	18	100	1574	0	" "	200	635	1	0	0.9	0	120	"INSMUT_4"	" "	250	0	0	" "	128	|	
+
+setentry	1575	-1575	0	3	1	18	100	1575	0	" "	100	601	2	0	8	0	100	"BIGBATINSECT"	" "	250	0	0	" "	128	|	
+
+// BERSERK BEGGARS	
+
+setentry	1580	-1580	0	3	0	18	100	1580	201	" "	80	1020	0	0	0	0	8	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+setentry	1581	-1581	0	3	0	18	100	1581	202	" "	100	1020	0	0	0	0	5	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+setentry	1582	-1582	0	3	0	18	100	1582	200	" "	80	1020	0	0	0	0	7	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+setentry	1583	-1583	0	3	0	18	100	1583	203	" "	80	1020	0	0	0	0	6	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+setentry	1584	-1583	0	3	0	18	100	1584	204	" "	80	1020	0	0	0	0	9	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+setentry	1585	-1583	0	3	0	18	100	1585	205	" "	80	1020	0	0	0	0	10	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+
+// Epic Runs	
+// padre agnus	
+setentry	1600	-1600	0	3	0	10	100	-1	2025	"DUMMY_MISC"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+// Ethan Cole	
+setentry	1601	-1601	0	3	0	0	100	-1	19	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Brother Gabriel	
+setentry	1602	-1602	0	3	0	10	100	-1	2010	"DUMMY_MISC"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	513	|	
+// Drakkhan Helios	
+setentry	1603	-1603	0	3	0	14	100	-1	1017	"DUMMY_MISC"	100	0	0	0	0	0	15	"WSK"	" "	100	0	0	" "	513	|	
+// D. Helios Bodyguard	
+setentry	1604	-1604	0	3	0	14	100	-1	3	"DUMMY_MISC"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	513	|	
+// Calvin Grimwood	
+setentry	1605	-1605	0	3	0	13	100	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	15	"WSK"	" "	100	0	0	" "	513	|	
+// C. Grimwood Bodyguard	
+setentry	1606	-1606	0	3	0	13	100	-1	3	"DUMMY_MISC"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	513	|	
+// Marc Torbin	
+setentry	1607	-1607	0	3	0	4	100	-1	3	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Gregory Parkins	
+setentry	1608	-1608	0	3	0	5	100	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Padre Morpheus	
+setentry	1609	-1609	0	3	0	10	100	-1	2008	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Padre Tesare	
+setentry	1610	-1610	0	3	0	10	100	-1	2044	"DUMMY_MISC"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+// Kev Critter	
+setentry	1611	-1611	0	3	0	0	100	-1	30	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Taylor Gomez	
+setentry	1612	-1612	0	3	0	8	100	-1	10	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Elias	
+setentry	1613	-1613	0	3	0	14	100	-1	3	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Max Delavare	
+setentry	1614	-1614	0	3	0	9	100	-1	2	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Vice Director Mason	
+setentry	1615	-1615	0	3	0	3	100	-1	17	"DUMMY_MISC"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	513	|	
+// Torben	 	
+setentry	1616	-1616	0	3	0	3	100	-1	18	"DUMMY_MISC"	100	0	0	0	0	0	15	"WSK"	" "	100	0	0	" "	513	|	
+// Gerard	
+setentry	1617	-1617	0	3	0	11	100	-1	3	"DUMMY_MISC"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	513	|	
+// Dennis Karsten	
+setentry	1618	-1618	0	3	0	6	100	-1	32	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Benji	
+setentry	1619	-1619	0	3	0	3	100	-1	3	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Almachim	
+setentry	1620	-1620	0	3	0	0	100	-1	20	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Mazzaro	
+setentry	1621	-1621	0	3	0	4	100	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Andressa	
+setentry	1622	-1622	0	3	1	4	100	-1	5	"DUMMY_MISC"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	513	|	
+//Benjamin Kaine	
+setentry	1623	-1623	0	3	0	5	100	-1	1014	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Figaro	
+setentry	1624	-1624	0	3	0	9	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Gruber Zakashi	
+setentry	1625	-1625	0	3	0	8	100	-1	34	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Matt Tronstett	
+setentry	1626	-1626	0	3	0	4	100	-1	8	"DUMMY_MISC"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	513	|	
+// Hontoka	
+setentry	1627	-1627	0	3	0	8	100	-1	1016	"DUMMY_MISC"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+// Simmons	
+setentry	1628	-1628	0	3	0	0	100	-1	1017	"DUMMY_MISC"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	513	|	
+// Officer Jenna	
+setentry	1629	-1629	0	3	1	1	100	-1	10	"DUMMY_MISC"	100	0	0	0	0	0	100	"WSK"	" "	100	0	0	" "	513	|	
+// Grand	
+setentry	1630	-1630	0	3	0	0	100	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	513	|	
+// Black Lily	
+setentry	1631	-1631	0	3	1	0	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Foster	
+setentry	1632	-1632	0	3	0	0	100	-1	10	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Crazy Dillan	
+setentry	1633	-1633	0	3	0	13	100	-1	44	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// Mr Cook	
+setentry	1634	-1634	0	3	0	6	100	-1	27	"DUMMY_MISC"	100	0	0	0	0	0	15	"WSK"	" "	100	0	0	" "	513	|	
+// Masterson	
+setentry	1635	-1635	0	3	0	6	100	-1	17	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+// McMillan	
+setentry	1636	-1636	0	3	0	5	100	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	513	|	
+// Beckert	
+setentry	1637	-1637	0	3	0	0	100	-1	3	"DUMMY_MISC"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	513	|	
+// Thompson	
+setentry	1638	-1638	0	3	0	1	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	15	"WSK"	" "	100	0	0	" "	513	|	
+// Grimm	
+setentry	1639	-1639	0	3	0	14	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Constantine	
+setentry	1640	-1640	0	3	1	14	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Feng	
+setentry	1641	-1641	0	3	0	14	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Pat	
+setentry	1642	-1642	0	3	0	0	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Fergusson	
+setentry	1643	-1643	0	3	0	0	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Susan	
+setentry	1644	-1644	0	3	1	0	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Garmont	
+setentry	1645	-1645	0	3	0	9	100	-1	2	"DUMMY_MISC"	100	0	0	0	0	0	15	"WSK"	" "	100	0	0	" "	513	|	
+// Michail	
+setentry	1646	-1646	0	3	0	6	100	-1	27	"DUMMY_MISC"	100	0	0	0	0	0	15	"WSK"	" "	100	0	0	" "	513	|	
+// George	
+setentry	1647	-1647	0	3	0	6	100	-1	27	"DUMMY_MISC"	100	0	0	0	0	0	15	"WSK"	" "	100	0	0	" "	513	|	
+// Finster	
+setentry	1648	-1648	0	3	0	6	100	-1	27	"DUMMY_MISC"	100	0	0	0	0	0	55	"WSK"	" "	100	0	0	" "	513	|	
+// Manuel	
+setentry	1649	-1691	0	3	0	9	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+//Lucy	
+setentry	1650	-1692	0	3	1	9	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+//Leone	
+setentry	1651	-1693	0	3	0	9	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+//Lucky	
+setentry	1652	-1694	0	3	0	9	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+//Mercurus	
+setentry	1653	-1699	0	3	0	10	100	-1	2025	"DUMMY_MISC"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+//Carlos	
+setentry	1654	-1695	0	3	0	9	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+//Pain	
+setentry	1655	-1690	0	3	0	0	100	-1	1017	"DUMMY_MISC"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	513	|	
+//Regy	
+setentry	1656	-1696	0	3	0	9	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+//Hung	
+setentry	1657	-1697	0	3	0	8	100	-1	10	"DUMMY_MISC"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	513	|	
+// Gehenna	
+setentry	1678	-1678	0	3	1	12	100	-1	500	"DUMMY_MISC"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	513	|	
+// Agent Hamil	
+setentry	1679	-1679	0	3	0	12	100	-1	18	"DUMMY_MISC"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	513	|	
+// General Babel	
+setentry	1680	-1680	0	3	0	12	100	-1	500	"DUMMY_MISC"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	513	|	
+// Marcel	
+setentry	1681	-1681	0	3	0	11	100	-1	176	"DUMMY_MISC"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+// Eljena	
+setentry	1682	-1682	0	3	1	11	100	-1	1	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Frederick	
+setentry	1683	-1683	0	3	0	11	100	-1	3	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Erik	
+setentry	1684	-1684	0	3	0	11	100	-1	82	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Claudia	
+setentry	1685	-1685	0	3	1	11	100	-1	25	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Mitchell	
+setentry	1686	-1686	0	3	0	11	100	-1	25	"DUMMY_MISC"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+// Gerome	
+setentry	1687	-1687	0	3	0	11	100	-1	25	"DUMMY_MISC"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+// Nicolas	
+setentry	1688	-1688	0	3	0	14	100	-1	1017	"DUMMY_MISC"	100	0	0	0	0	0	45	"WSK"	" "	100	0	0	" "	513	|	
+// Richard Faust	
+setentry	1689	-1689	0	3	0	9	100	-1	1017	"DUMMY_MISC"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	513	|	
+//Chang	
+setentry	1690	-1698	0	3	0	8	100	-1	10	"DUMMY_MISC"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Swamplizard Zyphotoles	
+setentry	1700	-1700	0	3	1	19	100	1700	0	" "	100	1010	1	0	0.5	0	15	"LIZARD_GREEN"	" "	40	|	
+// PSI-Spider Latekulus	
+setentry	1701	-1701	0	3	0	17	100	-1	2009	" "	100	0	1	0	1.8	0	30	"PSISPIDER"	" "	300	|	
+// Sandmonster Karmanus	
+setentry	1702	-1702	0	3	1	18	100	1702	0	" "	100	1010	1	0	0.6	0	15	"SANDWORMS"	" "	5	|	
+// Tacholytium Titan Warbot	
+setentry	1703	-1703	0	3	1	17	100	-1	0	" "	100	1030	1	0	1	0	40	"BROBOT"	" "	1000	0	0	" "	0	|	
+// Mutant Giant Veskulus	
+setentry	1704	-1704	0	3	0	17	100	1704	29	" "	100	1021	0	0	1.4	0	35	"BIGMUT"	" "	600	|	
+// Reaper Galopticus	
+setentry	1705	-1705	0	3	1	18	100	-1	0	" "	100	1	1	0	0.5	0	35	"LONGLEGCRAB"	" "	500	|	
+// Psi Mutant Gyphilius	
+setentry	1706	-1706	0	3	0	17	100	1706	2009	" "	100	1021	0	0	0.9	0	35	"PSIMUT"	" "	80	|	
+// El Farid Village Giant Wolf	
+setentry	1707	-1707	0	3	1	19	100	1707	0	" "	100	1010	1	0	0.5	0	20	"WOLF"	" "	80	|	
+// Malfunctioning Warbot	
+setentry	1708	-1708	0	3	1	17	100	1708	0	" "	100	1030	1	0	1	0	45	"BROBOT"	" "	1000	0	0	" "	0	|	
+// Killer Copbot	
+setentry	1709	-1709	0	3	1	18	100	1709	72	" "	100	1030	0	0	1	0	50	"WBADGUY"	" "	250	0	0	" "	0	|	
+
+//Dome York gedönse	
+//cyborg (Dome of York)	
+
+setentry	1720	-1720	0	3	1	12	100	1720	500	" "	100	1031	0	0	1	0	55	"WBADGUY"	" "	5	0	0	" "	34	|	
+//setentry	1720	-1720	0	3	1	18	100	1720	500	" "	100	1031	0	0	1	0	55	"WBADGUY"	" "	5	0	0	" "	34	|	
+
+setentry	1721	-1721	0	3	1	18	100	1721	501	" "	100	1031	0	0	1.1	0	60	"WBADGUY"	" "	5	0	0	" "	34	|	
+
+setentry	1722	-1722	0	3	1	18	100	1722	502	" "	100	1031	0	0	1.2	0	65	"WBADGUY"	" "	5	0	0	" "	34	|	
+
+//DreddBot BROBOT (Dome of York)	
+
+setentry	1725	-1725	0	3	1	18	100	1725	0	" "	100	1032	1	0	1.5	0	80	"BROBOT"	" "	1000	0	0	" "	34	|	
+
+setentry	1726	-1726	0	3	1	18	100	1726	0	" "	100	1032	1	0	2	0	85	"BROBOT"	" "	1000	0	0	" "	34	|	
+
+//Tank DOY	
+setentry	1730	-321	0	4	0	12	100	1730	500	" "	100	1021	0	0	0	0	60	"WBADGUY"	" "	100	0	0	" "	33	|	
+setentry	1731	-321	0	4	0	12	100	1731	501	" "	100	1021	0	0	0	0	75	"WBADGUY"	" "	100	0	0	" "	33	|	
+setentry	1732	-321	0	4	0	12	100	1732	502	" "	100	1021	0	0	0	0	90	"WBADGUY"	" "	100	0	0	" "	33	|	
+
+//cyborg (Dome of York) replicant	
+
+setentry	1735	-1735	0	3	1	18	100	1735	192	" "	100	1100	0	0	1	0	95	"WBADGUY"	" "	1000	0	0	" "	33	|	
+
+setentry	1736	-1736	0	3	1	18	125	1736	165	" "	150	1071	0	0	1.1	0	105	"WBADGUY"	" "	1000	0	0	" "	35	|	
+
+setentry	1737	-1737	0	3	1	18	150	1737	193	" "	180	1072	0	0	1.2	0	120	"WBADGUY"	" "	1000	0	0	" "	35	|	
+
+//DoY Guardian	
+setentry	1738	-320	0	3	0	12	200	-1	501	" "	300	0	0	0	1.1	0	118	"WDK"	" "	100	0	0	" "	33	|	
+
+//ANTI DoY STROM bot	
+
+setentry	1739	-1739	0	3	0	1	200	-1	46	" "	200	0	0	0	0	0	120	WLDK	" "	300	0	0	" "	1	|	
+
+
+//DoY Glider	
+
+//setentry	1750	-1750	0	3	1	12	100	1750	0	" "	150	1050	2	0	1	0	70	"HOVERSTATION"	" "	2000	0	0	" "	34	|	
+
+//setentry	1751	-1751	0	3	1	12	100	1751	0	" "	150	1051	2	0	1.2	0	91	"HOVERSTATION"	" "	2000	0	0	" "	34	|	
+
+//setentry	1752	-1752	0	3	1	12	100	1752	0	" "	150	1052	2	0	1	0	94	"HOVERSTATION"	" "	2000	0	0	" "	34	|	
+
+//setentry	1753	-1753	0	3	1	12	100	1753	0	" "	150	1053	2	0	1.2	0	101	"HOVERSTATION"	" "	2000	0	0	" "	34	|	
+
+//Special Mission NPCs	
+
+setentry	1800	-450	0	3	0	7	100	-1	0	"NEWBIE"	100	0	0	2	0	0	20	" "	" "	100	8	23	|	
+//setentry	1800	-450	0	3	0	7	100	-1	0	"PROF_STANDARD"	100	0	0	2	0	0	20	" "	" "	100	8	23	|	
+setentry	1805	-455	0	3	0	10	100	-1	3	"MONK_LEITUS_DIALOG"	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+setentry	1806	-456	0	3	0	10	100	-1	3	"MONK_ZARGERUS_STANDARD"	100	0	0	2	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+setentry	1807	-457	0	3	0	10	100	-1	2	"MONK_AURELIUS_STANDARD"	100	0	0	2	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	1810	-460	0	4	0	10	100	-1	2	"PREACHER"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	1811	-461	0	4	0	10	100	-1	2	"MONTEJAVARE"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	1812	-462	0	3	0	7	100	-1	25	"JUAN"	100	0	0	0	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+setentry	1813	-463	0	3	1	7	100	-1	25	"BIRGITTE"	100	0	0	0	0	0	12	"WSK"	" "	100	0	0	" "	1	|	
+
+// MEGAMONSTERS	
+// SANDWORM	
+setentry	2010	-2010	0	3	1	18	100	2010	0	" "	100	1070	1	0	0.8	0	80	"SANDWORMSII"	" "	5	0	0	" "	128	|	
+
+// BATMUTANT GROUND	
+setentry	2020	-2020	0	3	1	18	100	2020	0	" "	100	1070	1	0	1.5	0	85	"BATMUTII"	" "	300	0	0	" "	128	|	
+
+// BATMUTANT	
+setentry	2030	-2030	0	3	1	18	100	2030	0	" "	100	1070	2	0	1.5	0	90	"FLYBATMUTII"	" "	300	0	0	" "	128	|	
+
+// HORNY	
+setentry	2040	-2040	0	3	1	19	100	2040	0	" "	100	1071	1	0	1.5	0	95	"HORNYII"	" "	800	0	0	" "	128	|	
+
+// DRAGON	
+setentry	2050	-2050	0	3	1	19	100	2050	0	" "	100	1071	1	0	1.5	0	100	"DRAGONII"	" "	800	0	0	" "	64	|	
+
+// LONGLEGMUTANT	
+setentry	2060	-2060	0	3	1	18	100	2060	0	" "	100	1072	1	0	0.9	0	110	"LONGLEGMUTANTII"	" "	800	0	0	" "	128	|	
+
+// LONGLEGCRAB	
+setentry	2070	-2070	0	3	1	18	100	2070	0	" "	100	1072	1	0	0.9	0	120	"LONGLEGCRABII"	" "	800	0	0	" "	128	|	
+
+
+
+setentry	2080	-2080	0	3	1	18	200	2080	0	" "	200	1080	2	0	0.7	0	120	"HOVERBOT"	" "	2000	0	0	" "	34	|	
+
+//MC5 Monster	
+//level1	
+
+setentry	2090	-2090	0	3	1	18	100	2090	0	" "	100	1030	1	0	0.5	0	6	"MBOTP"	" "	5	0	0	" "	|	
+
+setentry	2091	-2094	0	3	1	18	100	2091	0	" "	100	1030	2	0	1	0	8	"MBOTFLYP"	" "	5	0	0	" "	|	
+
+setentry	2092	-2106	0	3	1	18	100	2092	0	" "	100	1000	1	0	1	0	2	"SSCORP"	" "	1	0	0	" "	|	
+
+setentry	2093	-2119	0	3	1	19	100	2093	0	" "	100	1000	1	0	0.8	0	4	"INSMUT_2P"	" "	8	0	0	" "	|	
+
+setentry	2094	-2114	0	3	1	18	100	2094	0	" "	100	1010	1	0	0.4	0	4	"SNAKE_SMALLP"	" "	20	0	0	" "	|	
+
+setentry 	2095	-2121	0	3	1	19	100	2095	0	" "	100	1000	1	0	2.0	0	6	"CCRAEP_P"	" "	5	0	0	" "	|	
+
+setentry	2096	-2122	0	3	1	18	100	2096	0	" "	100	1000	1	0	1	0	6	"SSPIDER"	" "	1	0	0	" "	|	
+
+setentry	2097	-2202	0	3	1	19	100	2097	0	" "	100	1000	2	0	0.5	0	4	"DSRTSWARM_S"	" "	1	0	0	" "	|	
+
+//Level2	
+
+setentry	2110	-2110	0	3	1	18	100	2110	0	" "	100	1000	1	0	2	0	8	"SSCORP"	" "	1	0	0	" "	|	
+
+setentry	2111	-2118	0	3	1	18	100	2111	0	" "	100	1010	1	0	0.6	0	10	"SNAKE_SMALLP"	" "	20	0	0	" "	|	
+
+setentry	2112	-2206	0	3	1	19	100	2112	0	" "	100	1000	2	0	0.5	0	10	"DSRTSWARM_B"	" "	1	0	0	" "	|	
+
+setentry	2113	-2203	0	3	1	19	100	2113	0	" "	70	1000	2	0	0.6	0	6	"DFLY_P"	" "	5	0	0	" "	|	
+
+setentry	2114	-2120	0	3	1	19	100	2114	0	" "	100	1000	1	0	0.8	0	12	"INSECTMUT_1_P"	" "	8	0	0	" "	|	
+
+setentry	2115	-2098	0	3	1	18	100	2115	0	" "	100	1030	2	0	0.5	0	12	"MBOTSWARMP"	" "	5	0	0	" "	|	
+
+setentry	2116	-2214	0	3	0	18	100	2116	205	" "	50	1020	0	0	1	0	5	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+setentry	2117	-2102	0	3	1	17	100	2117	1017	" "	80	1081	0	0	1	0	9	"WBADGUY"	" "	250	0	0	" "	1	|	
+
+//realgame MC5 Guards ( cyborg (Dome of York) replicant)	
+
+setentry	2230	-2230	0	3	1	18	100	2230	192	" "	200	1070	0	0	1	0	95	"WBADGUY"	" "	1000	0	0	" "	35	|	
+
+setentry	2231	-2231	0	3	1	18	100	2231	165	" "	200	1071	0	0	1.1	0	105	"WBADGUY"	" "	1000	0	0	" "	35	|	
+
+setentry	2232	-2232	0	3	1	18	100	2232	48	" "	200	1072	0	0	1.2	0	120	"WBADGUY"	" "	1000	0	0	" "	35	|	
+
+
+
+
+
+
+setentry	2240	-2240	0	3	1	12	200	2240	0	" "	300	1083	1	0	1.5	0	90	"DEFENSEUNIT"	" "	5000	0	0	" "	35	|	
+
+setentry	2241	-2241	0	3	1	12	200	2241	0	" "	180	1083	1	0	1.5	0	90	"SCOUTUNIT"	" "	5000	0	0	" "	35	|	
+
+setentry	2242	-2242	0	3	1	12	200	2242	0	" "	180	1083	1	0	1.5	0	90	"DOYBOT3"	" "	5000	0	0	" "	35	|	
+
+setentry	2243	-2243	0	3	1	12	200	2243	0	" "	180	1083	1	0	1.5	0	90	"DOYBOT4"	" "	5000	0	0	" "	35	|	
+
+setentry	2244	-2244	0	3	1	12	200	2244	0	" "	300	1083	1	0	1.0	0	110	"DOYBOT5"	" "	5000	0	0	" "	35	|	
+
+setentry	2245	-2245	0	3	1	12	200	2245	0	" "	180	1083	1	0	1.0	0	110	"DOYBOT6"	" "	5000	0	0	" "	35	|	
+
+setentry	2246	-2246	0	3	1	12	200	2246	0	" "	180	1083	1	0	1.0	0	110	"DOYBOT7"	" "	5000	0	0	" "	35	|	
+
+setentry	2247	-2247	0	3	1	12	200	2247	0	" "	180	1083	1	0	1.0	0	110	"DOYBOT8"	" "	5000	0	0	" "	35	|	
+
+
+
+setentry	2250	-2250	0	3	0	4	100	-1	3	"Tangent_DoyAuftrag"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2521	-2521	0	1	0	7	80	-1	1014	"HATGAME"	100	0	0	0	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2252	-2252	0	3	0	0	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2253	-2253	0	3	0	0	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2254	-2254	0	3	1	0	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2255	-2255	0	3	0	0	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2256	-2256	0	3	0	0	100	-1	31	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2257	-2257	0	3	0	0	100	-1	2	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2258	-2258	0	3	1	9	100	-1	27	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2259	-2259	0	3	0	6	100	-1	27	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2260	-2260	0	3	0	1	100	-1	27	"DUMMY_MISC"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2261	-2261	0	3	0	10	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2262	-2262	0	3	0	15	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2263	-2263	0	3	0	15	100	-1	2	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2264	-2264	0	3	0	15	100	-1	27	"TwilightGreward"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2265	-2265	0	3	1	15	100	-1	29	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	2266	-2266	0	3	0	13	100	-1	44	"DUMMY_MISC"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+
+// DOY Bunker	
+
+setentry	2280	-2280	0	3	0	18	250	2280	0	" "	280	1083	3	0	0.5	0	90	"BUNKER_1"	" "	2000	0	0	" "	259	|	
+
+
+setentry	2281	-2281	0	3	0	18	300	2281	0	" "	300	1083	3	0	0.5	0	90	"BUNKER_2"	" "	2500	0	0	" "	259	|	
+
+// DOY KAMIKAZE SOLDIERS	
+
+setentry	2300	-2300	0	3	0	19	100	2300	500	" "	180	640	0	0	0	0	120	"WBADGUY"	" "	100	0	0	" "	33	|	
+
+setentry	2301	-2301	0	3	0	19	100	2301	501	"  "	180	641	0	0	0	0	120	"WBADGUY"	" "	100	0	0	" "	33	|	
+
+setentry	2302	-2302	0	3	0	19	100	2302	502	" "	180	642	0	0	0	0	120	"WBADGUY"	" "	100	0	0	" "	33	|	
+
+setentry	2303	-2303	0	3	0	19	100	2303	2023	" "	180	643	0	0	0	0	120	"WBADGUY"	" "	100	0	0	" "	33	|	
+
+// REGANT MUTANTS	
+
+setentry	2310	-2310	0	3	1	17	100	2310	184	" "	100	1023	0	0	0	0	50	"MUTANTB"	" "	100	0	0	" "	512	|	
+
+setentry	2311	-2311	0	3	1	17	100	2311	10	" "	100	1023	0	0	0	0	55	"MUTANTB"	" "	100	0	0	" "	512	|	
+
+setentry	2312	-2312	0	3	1	17	100	2312	38	" "	100	1023	0	0	1.1	0	48	"MUTANTB"	" "	100	0	0	" "	512	|	
+
+setentry	2313	-2313	0	3	0	17	120	2313	192	" "	110	1023	0	0	1.1	0	57	"MUTANTB"	" "	100	0	0	" "	512	|	
+
+setentry	2314	-2314	0	3	0	17	120	2314	165	" "	110	1023	0	0	1.1	0	62	"MUTANTB"	" "	100	0	0	" "	512	|	
+
+setentry	2315	-2315	0	3	0	17	150	2315	188	" "	120	1023	0	0	1.1	0	70	"MUTANTB"	" "	100	0	0	" "	512	|	
+
+//DOY TUNNEL MOBS	
+//WARRIORS	
+setentry	2320	-2320	0	3	0	19	120	2320	500	" "	120	650	0	0	0	0	80	"WBADGUY"	" "	100	0	0	" "	33	|	
+setentry	2321	-2320	0	3	0	19	120	2321	501	" "	120	650	0	0	0	0	80	"WBADGUY"	" "	100	0	0	" "	33	|	
+setentry	2322	-2320	0	3	0	19	120	2322	502	" "	120	650	0	0	0	0	90	"WBADGUY"	" "	100	0	0	" "	33	|	
+//SUPERWARRIORS (warriors higher lvl)	
+setentry	2325	-2321	0	3	0	19	120	2325	500	" "	120	651	0	0	0	0	100	"WBADGUY"	" "	100	0	0	" "	33	|	
+setentry	2326	-2321	0	3	0	19	150	2326	501	" "	150	652	0	0	0	0	120	"WBADGUY"	" "	100	0	0	" "	33	|	
+setentry	2327	-2321	0	3	0	19	150	2327	502	" "	150	652	0	0	0	0	120	"WBADGUY"	" "	100	0	0	" "	33	|	
+//Y Replicants	
+setentry	2330	-2322	0	3	1	19	100	2330	192	" "	100	651	0	0	1	0	90	"WBADGUY"	" "	1000	0	0	" "	35	|	
+setentry	2331	-2323	0	3	1	19	120	2331	165	" "	120	651	0	0	1.1	0	100	"WBADGUY"	" "	1000	0	0	" "	35	|	
+setentry	2332	-2324	0	3	1	19	150	2332	193	" "	150	652	0	0	1.2	0	120	"WBADGUY"	" "	1000	0	0	" "	35	|	
+// DOY BOTS	
+//IMPROVED DEFENSE UNIT	
+setentry	2335	-2325	0	3	1	19	150	2335	0	" "	150	653	1	0	1	0	120	"DEFENSEUNIT"	" "	1000	0	0	" "	35	|	
+//ADVANCED SCOUT UNIT	
+setentry	2336	-2326	0	3	1	19	100	2336	0	" "	100	654	1	0	1	0	80	"SCOUTUNIT"	" "	1000	0	0	" "	35	|	
+//IMPROVED SCOUT UNIT 	
+setentry	2337	-2327	0	3	1	19	120	2337	0	" "	120	655	1	0	1	0	100	"SCOUTUNIT"	" "	1000	0	0	" "	35	|	
+
+
+
+
+
+
+
+
+
+
+setentry	2500	-2500	0	1	1	8	80	-1	1	"MUTSLUT1"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+setentry	2501	-2501	0	1	1	8	80	-1	1	"MUTSLUT2"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+
+setentry	2502	-2502	0	1	0	8	80	-1	168	"MUTSLUT_PIMP"	150	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2503	-2503	0	1	1	8	80	-1	1	"SLUT1"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+setentry	2504	-2504	0	1	1	8	80	-1	1	"SLUT1"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+setentry	2505	-2505	0	1	1	8	80	-1	1	"SLUT1"	100	0	0	0	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+
+setentry	2510	-2510	0	1	0	7	80	-1	2	"BLACKJACK"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2513	-2513	0	1	0	7	80	-1	2	"LOTTERY"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2516	-2516	0	1	0	7	80	-1	2	"JOKER"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2517	-2517	0	1	0	8	80	-1	9	"JOKERA1"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+setentry	2518	-2518	0	1	0	8	80	-1	3	"JOKERA2"	100	0	0	0	0	0	32	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2521	-2521	0	1	0	7	80	-1	24	"HATGAME"	100	0	0	0	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2524	-2524	0	1	0	7	80	-1	2	"RROULETTE"	100	0	0	0	0	0	18	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2525	-2525	0	1	0	9	80	-1	3	"LOOSER"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2526	-2526	0	1	0	9	80	-1	9	"WINNER"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2530	-2530	0	3	0	8	80	-1	3	"WGI_DK"	100	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2531	-2531	0	1	0	9	80	-1	168	"WGI_V1"	150	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+setentry	2532	-2532	0	1	0	7	80	-1	1014	"WGI_V2"	100	0	0	0	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+
+setentry	2600	-2600	0	1	0	14	100	-1	3	"TECHFREAK"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2602	-2602	0	1	0	8	100	-1	3	"KILLER"	200	0	0	0	0	0	120	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2604	-2604	0	1	0	9	100	-1	3	"POOR"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2606	-2606	0	1	0	9	100	-1	3	"AMOK"	100	0	0	0	0.8	0	80	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2608	-2608	0	1	0	15	100	-1	3	"HUNTER1"	150	0	0	0	0	0	120	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2610	-2610	0	1	1	15	100	-1	3	"HUNTER2"	100	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+
+
+setentry	2650	-2650	0	1	0	9	50	-1	3	"TRIP"	100	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2652	-2652	0	1	2	9	40	-1	3	"TRIP2"	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2654	-2654	0	1	0	9	60	-1	3	"DEAD_DEP"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2656	-2656	0	1	0	9	80	-1	3	"DEAD_EUPH"	100	0	0	0	0	0	70	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2658	-2658	0	1	0	9	60	-1	3	"MONEY"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2660	-2660	0	1	0	10	80	-1	3	"PREA1"	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2662	-2662	0	1	0	10	80	-1	3	"PREA2"	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+
+
+setentry	2700	-2700	0	1	0	15	100	-1	1	"TG_RECRUITER"	100	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2702	-2702	0	1	0	15	100	-1	8	"TG_RECRUIT"	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2704	-2704	0	1	0	15	100	-1	3	"TG_PASSERBY"	100	0	0	0	0	0	80	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2706	-2706	0	1	0	15	100	-1	8	"TG_DUDE1"	100	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2708	-2708	0	1	0	15	100	-1	8	"TG_DUDE2"	100	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2710	-2710	0	1	0	15	100	-1	3	"TG_REVENGE"	100	0	0	0	0	0	90	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+
+setentry	2760	-2760	0	1	0	14	100	-1	3	"SCAREDGUY"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2762	-2762	0	1	0	14	100	-1	3	"IMPLANTGUY"	100	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2764	-2764	0	1	0	14	100	-1	3	"SHOPPER"	100	0	0	0	0	0	33	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2766	-2766	0	1	0	14	100	-1	3	"CONSTRUCTER"	100	0	0	0	0	0	99	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2768	-2768	0	1	0	14	100	-1	3	"DOOMGUY"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2770	-2770	0	1	0	14	100	-1	3	"BRAWL1"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2772	-2772	0	1	0	14	100	-1	3	"BRAWL2"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2774	-2774	0	3	0	14	150	-1	453	"TECHSECURITY"	180	0	0	0	1	35	120	 WLDK	" "	1000	0	0	" "	35	|	
+
+
+
+
+
+setentry	2730	-2730	0	1	0	12	100	-1	162	"RESISTANCE1"	130	0	0	0	0	0	110	WSK	" "	100	0	0	" "	1	|	
+
+setentry	2732	-2732	0	1	0	12	100	-1	162	"RESISTANCE2"	100	0	0	0	0	0	90	WSK	" "	100	0	0	" "	1	|	
+
+setentry	2734	-2734	0	1	0	12	100	-1	162	"RESISTANCE3"	100	0	0	0	0	0	90	WSK	" "	100	0	0	" "	1	|	
+
+setentry	2736	-2736	0	1	0	12	100	-1	162	"RESISTANCE4"	130	0	0	0	0	0	110	WSK	" "	100	0	0	" "	1	|	
+
+setentry	2738	-2738	0	1	0	12	100	-1	162	"RESISTANCE5"	130	0	0	0	0	0	110	WSK	" "	100	0	0	" "	1	|	
+
+
+
+
+
+setentry	2780	-2780	0	1	0	10	100	-1	137	"CRAHN1"	100	0	0	0	0	0	70	WSK	" "	100	0	0	" "	1	|	
+
+setentry	2782	-2782	0	1	0	10	100	-1	137	"CRAHN2"	100	0	0	0	0	0	70	WSK	" "	100	0	0	" "	1	|	
+
+setentry	2784	-2784	0	1	0	10	100	-1	137	"CRAHN3"	100	0	0	0	0	0	70	WSK	" "	100	0	0	" "	1	|	
+
+
+
+
+
+setentry	2800	6	0	1	0	7	500	-1	2023	"MONKPA_START"	500	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2802	2	0	1	0	7	500	-1	3	"MONKPA_SEWERKING"	500	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2804	0	0	1	0	7	500	-1	182	"MONKPA_DOYGUY"	500	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2806	4	0	1	0	7	500	-1	186	"MONKPA_MINE"	500	0	0	0	0	0	70	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2808	2	0	1	0	7	500	-1	1212	"MONKPA_END"	500	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+
+setentry	2810	-246	0	3	0	7	500	-1	168	"SPYPA_START"	500	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2812	6	0	1	0	7	500	-1	2023	"SPYPA_WISEMONK"	500	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2814	-165	0	3	0	7	500	-1	165	"SPYPA_CAADMIN"	500	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2816	-141	0	3	0	7	500	-1	192	"SPYPA_JOBCENTER"	500	0	0	0	0	0	40	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2818	2	0	1	0	7	500	-1	1212	"SPYPA_END"	500	0	0	0	0	0	60	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+setentry	2850	-2850	0	4	1	1	200	-1	0	"CC_RECEPTION"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	2860	-2860	0	4	0	1	200	-1	0	"FOA_CA"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2861	-2861	0	4	0	5	200	-1	0	"FOA_BT"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2862	-2862	0	4	0	4	200	-1	0	"FOA_TT"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2863	-2863	0	4	0	6	200	-1	0	"FOA_PP"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2864	-2864	0	4	0	3	200	-1	0	"FOA_NX"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2865	-2865	0	4	0	2	200	-1	0	"FOA_DRE"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2866	-2866	0	4	0	11	200	-1	0	"FOA_CM"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	2870	-2870	0	3	0	7	200	-1	0	"NEMA_BPEPPER"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	2880	-2880	0	4	0	10	200	-1	0	"FOA_CRAHN"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2881	-2881	0	4	0	8	200	-1	0	"FOA_TS"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2882	-2882	0	4	0	9	200	-1	0	"FOA_BD"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	2890	-2890	0	4	1	7	200	-1	0	"DUMMY_MISC"	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	2891	-2891	0	4	1	7	200	-1	0	"DUMMY_MISC"	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2895	-2895	0	4	0	14	200	-1	3	"FOA_FA"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	2896	-2896	0	1	0	7	100	-1	24	"FOA_FA_BEGGAR"	100	0	0	0	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+//setentry	2897	-2897	0	4	0	14	200	-1	3	"FOA_FA_VOTR"	100	0	0	0	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+
+setentry	2900	-2900	0	3	0	20	200	-1	25	"JAILHOUSE_MOLE"	100	0	0	1	0	0	50	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	2901	-2901	0	3	0	20	200	-1	2	"JAILHOUSE_DAGGER"	100	0	0	1	0	0	50	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	2902	-2902	0	3	1	20	200	-1	1	"JAILHOUSE_MISSY"	100	0	0	1	0	0	20	"WSK"	" "	200	0	0	" "	512	|	
+
+setentry	2903	-2903	0	3	1	20	200	-1	1	"JAILHOUSE_SHELA"	100	0	0	1	0	0	10	"WSK"	" "	200	0	0	" "	512	|	
+
+setentry	2904	-2904	0	3	1	20	200	-1	1	"JAILHOUSE_YINGTAI"	100	0	0	1	0	0	10	"WSK"	" "	200	0	0	" "	512	|	
+
+setentry	2905	-2905	0	3	1	20	200	-1	1	"JAILHOUSE_CAROLINE"	100	0	1	0	0	0	10	"WSK"	" "	200	0	0	" "	512	|	
+
+setentry	2906	-2906	0	3	0	20	200	-1	25	"JAILHOUSE_ARCHER"	200	0	0	1	0	0	50	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	2907	-2907	0	3	0	20	200	-1	25	"JAILHOUSE_GORDON"	200	0	0	1	0	0	40	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	2908	-2908	0	3	0	20	200	-1	25	"JAILHOUSE_ZULU"	200	0	0	1	0	0	50	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	2909	-2909	0	3	0	20	200	-1	25	"JAILHOUSE_BILLY"	200	0	0	1	0	0	45	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	2910	-2910	0	3	0	20	200	-1	191	"JAILHOUSE_FRED"	200	0	0	1	0	0	40	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	2911	-2911	0	3	0	20	200	-1	191	"JAILHOUSE_HANK"	200	0	0	1	0	0	40	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	2912	-2912	0	3	0	20	300	-1	171	"JAILHOUSE_GUARD"	300	0	0	1	0	0	70	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+setentry	2913	-2913	0	3	0	20	300	-1	171	"JAILHOUSE_GUARD"	300	0	0	1	0	0	70	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+setentry	2914	-2914	0	3	0	20	300	-1	171	"JAILHOUSE_GUARD"	300	0	0	1	0	0	70	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+setentry	2915	-2915	0	3	1	20	200	-1	2001	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2916	-2916	0	3	1	20	200	-1	2001	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2917	-2917	0	3	1	20	200	-1	2001	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2918	-2918	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2919	-2919	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2920	-2920	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2921	-2921	0	3	0	20	200	-1	3	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2922	-2922	0	3	0	20	200	-1	3	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2923	-2923	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2924	-2924	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2925	-2925	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2926	-2926	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2927	-2927	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2928	-2928	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2929	-2929	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2930	-2930	0	3	1	20	200	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+
+setentry	2931	-2931	0	3	1	20	200	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	200	0	0	" "	1	|	
+
+setentry	2932	-2932	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2933	-2933	0	3	0	20	200	-1	2	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2934	-2934	0	3	0	20	300	-1	171	"JAILHOUSE_BOSS"	300	0	0	1	0	0	100	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	2935	-2935	0	3	0	20	200	-1	171	"JAILHOUSE_MONEYMAN"	200	0	0	1	0	0	50	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	2936	-2936	0	3	0	20	100	-1	1	"JAILHOUSE_FISH"	100	0	0	1	0	0	35	"WSK"	" "	100	0	0	" "	512	|	
+
+
+setentry	3499	-180	0	4	0	9	300	-1	162	"BLACKDRAGON_THUG"	120	0	0	0	0	0	120	"WLDKL"	" "	100	0	0	" "	1	|	
+
+
+
+
+
+
+
+
+
+
+setentry	3500	-3500	0	4	0	1	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3501	-3501	0	4	0	1	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3502	-3502	0	4	0	1	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3503	-3503	0	4	0	1	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3504	-3504	0	4	0	2	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3505	-3505	0	4	0	2	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3506	-3506	0	4	0	2	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3507	-3507	0	4	0	2	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3508	-3508	0	4	0	3	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3509	-3509	0	4	0	3	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3510	-3510	0	4	0	3	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3511	-3511	0	4	0	3	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3512	-3512	0	4	0	4	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3513	-3513	0	4	0	4	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3514	-3514	0	4	0	4	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3515	-3515	0	4	0	4	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3516	-3516	0	4	0	5	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3517	-3517	0	4	0	5	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3518	-3518	0	4	0	5	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3519	-3519	0	4	0	5	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3520	-3520	0	4	0	6	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3521	-3521	0	4	0	6	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3522	-3522	0	4	0	6	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3523	-3523	0	4	0	6	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3524	-3524	0	4	0	8	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3525	-3525	0	4	0	8	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3526	-3526	0	4	0	8	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3527	-3527	0	4	0	8	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3528	-3528	0	4	0	9	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3529	-3529	0	4	0	9	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3530	-3530	0	4	0	9	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3531	-3531	0	4	0	9	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3532	-3532	0	4	0	10	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3533	-3533	0	4	0	10	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3534	-3534	0	4	0	10	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3535	-3535	0	4	0	10	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3536	-3536	0	4	0	11	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3537	-3537	0	4	0	11	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3538	-3538	0	4	0	11	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3539	-3539	0	4	0	11	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3540	-3540	0	4	0	14	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3541	-3541	0	4	0	14	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3542	-3542	0	4	0	14	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3543	-3543	0	4	0	14	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3544	-3544	0	4	0	15	200	-1	176	"bdoy_fhq_psa_tank.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3545	-3545	0	4	0	15	200	-1	176	"bdoy_fhq_psa_pe.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3546	-3546	0	4	0	15	200	-1	176	"bdoy_fhq_psa_spy.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3547	-3547	0	4	0	15	200	-1	176	"bdoy_fhq_psa_psi.lua"	150	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+
+
+
+setentry	3550	-3550	0	4	0	1	200	-1	25	"RSM_CA"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3551	-3551	0	4	0	1	200	-1	25	"RSM_CA"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3552	-3552	0	4	0	1	200	-1	25	"RSM_CA"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3553	-3553	0	4	0	2	200	-1	25	"RSM_DRE"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3554	-3554	0	4	0	2	200	-1	25	"RSM_DRE"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3555	-3555	0	4	0	2	200	-1	25	"RSM_DRE"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3556	-3556	0	4	0	3	200	-1	25	"RSM_NX"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3557	-3557	0	4	0	3	200	-1	25	"RSM_NX"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3558	-3558	0	4	0	3	200	-1	25	"RSM_NX"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3559	-3559	0	4	0	4	200	-1	25	"RSM_TT"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3560	-3560	0	4	0	4	200	-1	25	"RSM_TT"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3561	-3561	0	4	0	4	200	-1	25	"RSM_TT"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3562	-3562	0	4	0	5	200	-1	25	"RSM_BT"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3563	-3563	0	4	0	5	200	-1	25	"RSM_BT"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3564	-3564	0	4	0	5	200	-1	25	"RSM_BT"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3565	-3565	0	4	0	6	200	-1	25	"RSM_PP"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3566	-3566	0	4	0	6	200	-1	25	"RSM_PP"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3567	-3567	0	4	0	6	200	-1	25	"RSM_PP"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3568	-3568	0	4	0	8	200	-1	25	"RSM_TS"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3569	-3569	0	4	0	8	200	-1	25	"RSM_TS"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3570	-3570	0	4	0	8	200	-1	25	"RSM_TS"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3571	-3571	0	4	0	9	200	-1	25	"RSM_BD"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3572	-3572	0	4	0	9	200	-1	25	"RSM_BD"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3573	-3573	0	4	0	9	200	-1	25	"RSM_BD"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3574	-3574	0	4	0	10	200	-1	25	"RSM_CS"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3575	-3575	0	4	0	10	200	-1	25	"RSM_CS"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3576	-3576	0	4	0	10	200	-1	25	"RSM_CS"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3577	-3577	0	4	0	11	200	-1	25	"RSM_CM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3578	-3578	0	4	0	11	200	-1	25	"RSM_CM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3579	-3579	0	4	0	11	200	-1	25	"RSM_CM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3580	-3580	0	4	0	14	200	-1	25	"RSM_FA"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3581	-3581	0	4	0	14	200	-1	25	"RSM_FA"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3582	-3582	0	4	0	14	200	-1	25	"RSM_FA"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3583	-3583	0	4	0	15	200	-1	25	"RSM_TG"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3584	-3584	0	4	0	15	200	-1	25	"RSM_TG"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3585	-3585	0	4	0	15	200	-1	25	"RSM_TG"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+
+
+
+setentry	3600	-3600	0	4	0	1	200	-1	25	"FSM_CA"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3601	-3601	0	4	0	2	200	-1	25	"FSM_DRE"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3602	-3602	0	4	0	3	200	-1	25	"FSM_NX"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3603	-3603	0	4	0	4	200	-1	25	"FSM_TT"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3604	-3604	0	4	0	5	200	-1	25	"FSM_BT"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3605	-3605	0	4	0	6	200	-1	25	"FSM_PP"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3606	-3606	0	4	0	8	200	-1	25	"FSM_TS"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3607	-3607	0	4	0	9	200	-1	25	"FSM_BD"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3608	-3608	0	4	0	10	200	-1	25	"FSM_CS"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3609	-3609	0	4	0	11	200	-1	25	"FSM_CM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3610	-3610	0	4	0	14	200	-1	25	"FSM_FA"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3611	-3611	0	4	0	15	200	-1	25	"FSM_TG"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+
+
+
+setentry	3620	-3620	0	4	0	1	200	-1	25	"CA_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3621	-3621	0	4	0	2	200	-1	25	"DRE_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3622	-3622	0	4	0	3	200	-1	25	"NX_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3623	-3623	0	4	0	4	200	-1	25	"TT_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3624	-3624	0	4	0	5	200	-1	25	"BT_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3625	-3625	0	4	0	6	200	-1	25	"PP_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3626	-3626	0	4	0	8	200	-1	25	"TS_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3627	-3627	0	4	0	9	200	-1	25	"BD_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3628	-3628	0	4	0	10	200	-1	25	"CS_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3629	-3629	0	4	0	11	200	-1	25	"CM_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3630	-3630	0	4	0	14	200	-1	25	"FA_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+setentry	3631	-3631	0	4	0	15	200	-1	25	"TG_IM"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	513	|	
+
+
+setentry	3700	-3700	0	4	0	1	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3701	-3701	0	4	0	2	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3702	-3702	0	4	0	3	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3703	-3703	0	4	0	4	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3704	-3704	0	4	0	5	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3705	-3705	0	4	0	6	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3706	-3706	0	4	0	8	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3707	-3707	0	4	0	9	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3708	-3708	0	4	0	10	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3709	-3709	0	4	0	11	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3710	-3710	0	4	0	14	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	3711	-3711	0	4	0	15	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+setentry	3800	-3800	0	4	0	15	200	-1	176	"foa_tg"	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	3801	-3801	0	4	0	7	200	-1	176	" "	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	3802	-3802	0	4	0	7	300	-1	162	"DUMMY_SEC"	200	0	0	0	0	0	120	"NOWEAPON"	" "	100	0	0	" "	1	|	
+
+
+
+setentry	4000	-4000	0	3	0	19	100	-1	2300	" "	150	0	0	0	0	1	100	"WBADGUY"	" "	100	0	0	" "	0	|	
+
+setentry	4001	-4001	0	3	0	19	100	-1	191	" "	150	0	0	0	0	1	100	"WBADGUY"	" "	100	0	0	" "	0	|	
+
+setentry	4002	-4002	0	3	0	19	100	-1	191	" "	150	0	0	0	0	1	100	"WBADGUY"	" "	100	0	0	" "	0	|	
+
+
+
+setentry	4200	-4200	0	3	0	7	250	-1	165	"WLS1_DJONES"	200	0	0	2	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	4201	-4201	0	3	0	7	250	-1	165	"WLS1_MCCOY"	150	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	4202	-4202	0	3	0	7	150	-1	165	"WLS1_JURI"	50	0	0	2	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	4203	-4203	0	3	0	19	100	-1	0	" "	200	1501	0	0	3	0	127	"BROBOT"	" "	1000	0	0	" "	34	|	
+
+setentry	4204	-4204	0	3	0	19	150	-1	0	" "	150	1502	0	0	2	0	100	"BROBOT"	" "	1500	0	0	" "	34	|	
+
+setentry	4205	-4205	0	3	0	15	100	-1	165	" "	100	1507	0	0	0	0	80	"WLDK"	" "	100	0	0	" "	1	|	
+
+setentry	4206	-4206	0	3	1	15	100	-1	165	" "	100	1508	0	0	0	0	80	"WLDK"	" "	100	0	0	" "	1	|	
+
+setentry	4207	-4207	0	3	0	15	100	-1	165	" "	100	1509	0	0	0	0	80	"WLDK"	" "	100	0	0	" "	1	|	
+
+setentry	4208	-4208	0	3	0	15	100	-1	165	" "	100	1510	0	0	0	0	80	"WLDK"	" "	100	0	0	" "	1	|	
+
+setentry	4209	-4209	0	3	0	1	250	-1	165	"WLS2_AFOSTER"	150	0	0	2	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	4210	-4210	0	3	1	15	250	-1	165	"WLS2_SLACROIX"	100	0	0	2	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	4211	-4211	0	4	0	1	150	-1	165	" "	150	1511	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+
+setentry	4212	-4212	0	4	0	1	150	-1	10	" "	150	1512	0	0	0	0	100	"WLDK"	" "	100	0	0	" "	1	|	
+
+setentry	4213	-4213	0	3	0	6	250	-1	165	"WLS3_GFORSYTE"	50	0	0	2	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	4214	-4214	0	3	0	9	250	-1	165	"WLS3_AEROL"	50	0	0	2	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+
+
+//setentry	4215	-4215	0	3	0	19	100	-1	0	" "	100	1503	0	0	2	0	80	"PLANT"	" "	100	0	0	" "	65	|	
+
+//setentry	4216	-4216	0	3	0	19	100	-1	0	" "	100	1504	0	0	2	0	80	"PLANT"	" "	100	0	0	" "	65	|	
+
+//setentry	4217	-4217	0	3	0	19	100	-1	0	" "	100	1505	0	0	2	0	80	"PLANT"	" "	100	0	0	" "	65	|	
+
+//setentry	4218	-4218	0	3	0	19	100	-1	0	" "	100	1506	0	0	2	0	80	"PLANT"	" "	100	0	0	" "	65	|	
+
+
+setentry	4219	-4219	0	3	1	7	250	-1	0	"WLS1_MORRISON"	100	0	0	2	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+
+setentry	4220	-4220	0	3	1	15	100	-1	165	" "	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+
+
+setentry	4221	-4221	0	4	0	19	150	-1	10	" "	150	0	0	0	0	0	100	"WLDK"	" "	100	0	0	" "	1	|	
+
+
+
+setentry	4230	-4230	0	3	0	19	100	-1	0	" "	100	1503	0	0	2	0	80	"PLANT"	" "	100	0	0	" "	65	|	
+
+setentry	4231	-4231	0	3	0	19	100	-1	0	" "	100	1504	0	0	2	0	80	"PLANT"	" "	100	0	0	" "	65	|	
+
+setentry	4232	-4232	0	3	0	19	100	-1	0	" "	100	1505	0	0	2	0	80	"PLANT"	" "	100	0	0	" "	65	|	
+
+setentry	4233	-4233	0	3	0	19	100	-1	0	" "	100	1506	0	0	2	0	80	"PLANT"	" "	100	0	0	" "	65	|	
+
+
+
+
+
+setentry	4250	-4250	0	3	1	19	100	1511	0	" "	120	0	1	0	1.0	0	80	"CAVESNAIL"	" "	250	0	0	" "	64	|	
+setentry	4251	-4251	0	3	1	19	100	1504	0	" "	100	0	1	0	0.4	0	120	"SCORPIONXL"	" "	250	0	0	" "	128	|	
+setentry	4252	-4252	0	3	1	19	100	1544	0	" "	200	0	1	0	1.0	0	120	"VIPER"	" "	250	0	0	" "	64	|	
+setentry	4253	-4253	0	3	1	19	100	458	0	" "	100	0	1	0	0.4	0	36	"POISONSPIDER"	" "	250	0	0	" "	64	|	
+
+
+
+setentry	4256	-4256	0	3	1	18	100	2060	0	" "	100	0	1	0	0.2	0	110	"LONGLEGMUTANTII"	" "	800	0	0	" "	128	|	
+setentry	4257	-4257	0	3	1	18	100	2070	0	" "	100	0	1	0	0.2	0	120	"LONGLEGCRABII"	" "	800	0	0	" "	128	|	
+
+setentry	4270	-4270	0	3	0	7	100	-1	1017	"nczoo_info"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4271	-4271	0	3	0	7	100	-1	1017	"nczoo_keeper01"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4272	-4272	0	3	0	7	100	-1	1017	"nczoo_keeper02"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4273	-4273	0	3	0	7	100	-1	1017	"nczoo_keeper03"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4274	-4274	0	3	0	7	100	-1	1017	"nczoo_keeper04"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4275	-4275	0	3	0	7	100	-1	1017	"nczoo_keeper05"	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+
+
+//ts	
+setentry	4300	-4300	0	3	0	7	200	-1	3	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+//crahn	
+setentry	4301	-4301	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+//bd	
+setentry	4302	-4302	0	3	0	7	200	-1	176	" "	100	0	0	1	0	0	80	"WSK"	" "	100	0	0	" "	1	|	
+//fa	
+setentry	4303	-4303	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//tg	
+setentry	4304	-4304	0	3	0	7	100	-1	12	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+//cm	
+setentry	4305	-4305	0	3	0	7	200	-1	25	" "	100	0	0	2	0	0	70	"WSK"	" "	100	0	0	" "	1	|	
+//fa2	
+setentry	4304	-4304	0	3	0	7	100	-1	12	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+//trader	
+setentry	4330	-4330	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4331	-4331	0	3	1	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4332	-4332	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4333	-4333	0	3	1	7	100	-1	2	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4334	-4334	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4335	-4335	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4336	-4336	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4337	-4337	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4338	-4338	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+//deko	
+setentry	4340	-4340	0	3	0	7	100	-1	1017	"TH_ADMIN"	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4341	-4341	0	3	1	7	100	-1	1017	"TH_SERVICE"	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4342	-4342	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+setentry	4400	-4400	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4401	-4401	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4402	-4402	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4403	-4403	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4405	-4405	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4406	-4406	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4407	-4407	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4408	-4408	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4410	-4410	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4411	-4411	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4412	-4412	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4413	-4413	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4415	-4415	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4416	-4416	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4417	-4417	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4418	-4418	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4420	-4420	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4421	-4421	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4422	-4422	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4423	-4423	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4424	-4424	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4425	-4425	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4426	-4426	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4427	-4427	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4428	-4428	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4429	-4429	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4430	-4430	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4431	-4431	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4432	-4432	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4433	-4433	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4434	-4434	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4435	-4435	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4436	-4436	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4437	-4437	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4438	-4438	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4440	-4440	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4441	-4441	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4442	-4442	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4443	-4443	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4444	-4444	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4445	-4445	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4446	-4446	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4447	-4447	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4448	-4448	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4450	-4450	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4451	-4451	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4452	-4452	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4455	-4455	0	3	0	7	100	-1	27	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+
+setentry	4500	-4500	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4501	-4501	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4502	-4502	0	3	1	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4503	-4503	0	3	1	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4504	-4504	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4505	-4505	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4506	-4506	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4507	-4507	0	3	1	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4508	-4508	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4509	-4509	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4510	-4510	0	3	1	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4511	-4511	0	3	0	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4512	-4512	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4513	-4513	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4514	-4514	0	3	1	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4515	-4515	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4516	-4516	0	3	1	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4517	-4517	0	3	0	7	100	-1	1017	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4518	-4518	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4519	-4519	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4520	-4520	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4521	-4521	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4522	-4522	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4523	-4523	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4524	-4524	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+setentry	4525	-4525	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4526	-4526	0	3	0	7	100	-1	2	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4527	-4527	0	3	0	7	100	-1	87	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4528	-4528	0	3	0	7	100	-1	76	" "	100	0	0	1	0	0	5	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4529	-4529	0	3	0	7	200	-1	1	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4530	-4530	0	3	0	7	200	-1	1	" "	100	0	0	1	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4531	-4531	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4532	-4532	0	3	0	7	200	-1	25	" "	100	0	0	2	0	0	70	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4533	-4533	0	3	0	7	100	-1	25	" "	100	0	0	1	0	0	25	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4535	-4535	0	3	1	7	100	-1	1	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+
+setentry	4540	-4540	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4541	-4541	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4542	-4542	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4543	-4543	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4544	-4544	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4545	-4545	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4546	-4546	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4547	-4547	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4548	-4548	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4549	-4549	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4550	-4550	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4551	-4551	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4552	-4552	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4553	-4553	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4554	-4554	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4555	-4555	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4556	-4556	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4557	-4557	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4558	-4558	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4559	-4559	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4560	-4560	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4561	-4561	0	3	0	7	100	-1	137	" "	100	0	0	1	0	0	10	"WSK"	" "	100	0	0	" "	1	|	
+
+
+setentry	4600	-4600	0	4	0	1	300	-1	46	" "	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+setentry	4601	-4601	0	4	0	1	300	-1	0	" "	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+
+setentry	4602	-4602	0	4	0	7	200	-1	3	" "	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4603	-4603	0	4	0	7	200	-1	3	" "	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4604	-4604	0	4	0	7	200	-1	3	" "	100	0	0	2	0	0	20	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4605	-4605	0	4	0	7	200	-1	3	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4606	-4606	0	4	0	7	200	-1	3	" "	100	0	0	1	0	0	30	"WSK"	" "	100	0	0	" "	1	|	
+setentry	4607	-4607	0	4	0	7	200	-1	162	"HOLOMATCH"	100	0	0	0	0	0	32	"WSK"	" "	100	0	0	" "	1	|	
+
+setentry	4610	-4610	0	4	0	1	300	-1	46	" "	120	0	0	0	0	0	120	"WLDK"	" "	100	0	0	" "	1	|	
+
+
+
+//ca	
+setentry	5000	-5000	0	3	1	1	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	256	|	
+setentry	5001	-5000	0	3	1	1	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+setentry	5002	-5000	0	3	1	1	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+//dre	
+setentry	5003	-5003	0	3	1	2	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	256	|	
+setentry	5004	-5003	0	3	1	2	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+setentry	5005	-5003	0	3	1	2	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+//next	
+setentry	5006	-5006	0	3	1	3	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	256	|	
+setentry	5007	-5006	0	3	1	3	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+setentry	5008	-5006	0	3	1	3	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+//tt                                                                                             	
+setentry	5009	-5009	0	3	1	4	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	256	|	
+setentry	5010	-5009	0	3	1	4	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+setentry	5011	-5009	0	3	1	4	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+//bt	
+setentry	5012	-5012	0	3	1	5	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	256	|	
+setentry	5013	-5012	0	3	1	5	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+setentry	5014	-5012	0	3	1	5	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+//pp	
+setentry	5015	-5015	0	3	1	6	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	256	|	
+setentry	5016	-5015	0	3	1	6	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+setentry	5017	-5015	0	3	1	6	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"216"	100000	0	0	" "	512	|	
+//ts	
+setentry	5018	-5018	0	3	1	8	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	256	|	
+setentry	5019	-5018	0	3	1	8	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+setentry	5020	-5018	0	3	1	8	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+//bd	
+setentry	5021	-5021	0	3	1	9	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	256	|	
+setentry	5022	-5021	0	3	1	9	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+setentry	5023	-5021	0	3	1	9	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+//crahn	
+setentry	5024	-5024	0	3	1	10	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	256	|	
+setentry	5025	-5024	0	3	1	10	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+setentry	5026	-5024	0	3	1	10	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+//cm	
+setentry	5027	-5027	0	3	1	11	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"211"	100000	0	0	" "	256	|	
+setentry	5028	-5027	0	3	1	11	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"211"	100000	0	0	" "	512	|	
+setentry	5029	-5027	0	3	1	11	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"211"	100000	0	0	" "	512	|	
+//fa	
+setentry	5030	-5030	0	3	1	14	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	256	|	
+setentry	5031	-5030	0	3	1	14	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+setentry	5032	-5030	0	3	1	14	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+//tg	
+setentry	5033	-5033	0	3	1	15	100	-1	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	256	|	
+setentry	5034	-5033	0	3	1	15	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+setentry	5035	-5033	0	3	1	15	100	1550	0	" "	5	0	2	2	10.0	0	5	"HACKNET_WSK"	"221"	100000	0	0	" "	512	|	
+
+
+
+//ca	
+setentry	5050	-5050	0	3	1	1	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 216 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5051	-5051	0	3	1	1	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 217 0.6 2000.0"	250	0	0	" "	256	|	
+//dre	
+setentry	5053	-5053	0	3	1	2	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 216 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5054	-5054	0	3	1	2	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 217 0.6 2000.0"	250	0	0	" "	256	|	
+//next	
+setentry	5056	-5056	0	3	1	3	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 216 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5057	-5057	0	3	1	3	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 217 0.6 2000.0"	250	0	0	" "	256	|	
+//tt	
+setentry	5059	-5059	0	3	1	4	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 216 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5060	-5060	0	3	1	4	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 217 0.6 2000.0"	250	0	0	" "	256	|	
+//bt	
+setentry	5062	-5062	0	3	1	5	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 216 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5063	-5063	0	3	1	5	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 217 0.6 2000.0"	250	0	0	" "	256	|	
+//pp	
+setentry	5065	-5065	0	3	1	6	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 216 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5066	-5066	0	3	1	6	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 217 0.6 2000.0"	250	0	0	" "	256	|	
+//ts	
+setentry	5068	-5068	0	3	1	8	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 221 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5069	-5069	0	3	1	8	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 222 0.6 2000.0"	250	0	0	" "	256	|	
+//bd	
+setentry	5071	-5071	0	3	1	9	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 221 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5072	-5072	0	3	1	9	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 222 0.6 2000.0"	250	0	0	" "	256	|	
+//crahn	
+setentry	5074	-5074	0	3	1	10	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 221 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5075	-5075	0	3	1	10	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 222 0.6 2000.0"	250	0	0	" "	256	|	
+//cm	
+setentry	5077	-5077	0	3	1	11	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 211 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5078	-5078	0	3	1	11	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 212 0.6 2000.0"	250	0	0	" "	256	|	
+//fa	
+setentry	5080	-5080	0	3	1	14	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 221 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5081	-5081	0	3	1	14	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 222 0.6 2000.0"	250	0	0	" "	256	|	
+//tg	"// turret params: shot.def - damage.def - firetime (Frequency=60/FireTime) - Range"	
+setentry	5083	-5083	0	3	1	15	100	-1	0	" "	30	0	3	0	12.0	0	30	"HACKNET_TURRET"	" 221 2311 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5084	-5084	0	3	1	15	150	-1	0	" "	60	1075	2	0	12.0	0	60	"HACKNET_FLY"	" 222 0.6 2000.0"	250	0	0	" "	256	|	
+
+
+//ca	
+setentry	5100	-5100	0	3	1	1	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"218 0.4 2000.0"	250	0	0	" "	256	|	
+//dre	
+setentry	5101	-5101	0	3	1	2	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"218 0.4 2000.0"	250	0	0	" "	256	|	
+//next	
+setentry	5102	-5102	0	3	1	3	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"218 0.4 2000.0"	250	0	0	" "	256	|	
+//tt	
+setentry	5103	-5103	0	3	1	4	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"218 0.4 2000.0"	250	0	0	" "	256	|	
+//bt	
+setentry	5104	-5104	0	3	1	5	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"218 0.4 2000.0"	250	0	0	" "	256	|	
+//pp	
+setentry	5105	-5105	0	3	1	6	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"218 0.4 2000.0"	250	0	0	" "	256	|	
+//ts	
+setentry	5106	-5106	0	3	1	8	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"223 0.4 2000.0"	250	0	0	" "	256	|	
+//bd	
+setentry	5107	-5107	0	3	1	9	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"223 0.4 2000.0"	250	0	0	" "	256	|	
+//crahn	
+setentry	5108	-5108	0	3	1	10	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"223 0.4 2000.0"	250	0	0	" "	256	|	
+//cm	
+setentry	5109	-5109	0	3	1	11	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"223 0.4 2000.0"	250	0	0	" "	256	|	
+//fa	
+setentry	5110	-5110	0	3	1	14	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"223 0.4 2000.0"	250	0	0	" "	256	|	
+//tg	
+setentry	5111	-5111	0	3	1	15	500	-1	0	" "	250	0	2	0	30.0	0	127	"HACKNET_FLY"	"223 0.4 2000.0"	250	0	0	" "	256	|	
+
+
+
+
+
+setentry	5150	-5150	0	3	1	19	25	-1	0	" "	10	0	3	0	8.0	0	20	"HACKNET_TURRET"	"225 2310 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5151	-5151	0	3	1	19	50	-1	0	" "	30	0	3	0	10.0	0	40	"HACKNET_TURRET"	"226 2311 125.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5152	-5152	0	3	1	19	100	-1	0	" "	50	0	3	0	12.0	0	60	"HACKNET_TURRET"	"227 2312 150.0 2500.0"	100000	0	0	" "	256	|	
+
+
+setentry	5153	-5153	0	3	1	19	25	-1	0	" "	10	0	2	0	8.0	0	20	"HACKNET_FLY"	"225 0.7 2000.0"	250	0	0	" "	256	|	
+setentry	5154	-5154	0	3	1	19	50	-1	0	" "	30	0	2	0	10.0	0	40	"HACKNET_FLY"	"226 0.6 2000.0"	250	0	0	" "	256	|	
+setentry	5155	-5155	0	3	1	19	100	-1	0	" "	50	0	2	0	12.0	0	60	"HACKNET_FLY"	"227 0.5 2000.0"	250	0	0	" "	256	|	
+
+
+
+setentry	5200	-5200	0	3	1	19	100	-1	0	" "	40	0	3	0	14	0	60	"HACKNET_TURRET"	"225 2310 100.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5201	-5201	0	3	1	19	150	-1	0	" "	60	0	3	0	16	0	80	"HACKNET_TURRET"	"226 2311 125.0 2500.0"	100000	0	0	" "	256	|	
+setentry	5202	-5202	0	3	1	19	200	-1	0	" "	80	1076	3	0	18	0	100	"HACKNET_TURRET"	"227 2312 150.0 2500.0"	100000	0	0	" "	256	|	
+
+
+
+setentry	5203	-5203	0	3	1	19	100	-1	0	" "	40	0	2	0	14	0	60	"HACKNET_FLY"	"225 0.7 2000.0"	250	0	0	" "	256	|	
+setentry	5204	-5204	0	3	1	19	150	-1	0	" "	60	0	2	0	16	0	80	"HACKNET_FLY"	"226 0.6 2000.0"	250	0	0	" "	256	|	
+setentry	5205	-5205	0	3	1	19	200	-1	0	" "	80	0	2	0	18	0	100	"HACKNET_FLY"	"227 0.5 2000.0"	250	0	0	" "	256	|	
+
+//big mobs. endbosse	
+//Ping of Death. flug	
+setentry	5300	-5300	0	3	1	19	500	-1	0	" "	250	0	2	0	20.0	0	120	"HACKNET_FLY"	"228 0.3 2000.0"	250	0	0	" "	256	|	
+
+
+
+
+//ca	
+setentry	5700	-5700	0	3	0	1	100	-1	0	"cahsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//der	
+setentry	5710	-5710	0	3	0	2	100	-1	0	"drehsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//nx	
+setentry	5720	-5720	0	3	0	3	100	-1	0	"nxhsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//bt	
+setentry	5730	-5730	0	3	0	5	100	-1	0	"bthsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//tt	
+setentry	5740	-5740	0	3	0	4	100	-1	0	"tthsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//pp	
+setentry	5750	-5750	0	3	0	6	100	-1	0	"pphsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//ts	
+setentry	5760	-5760	0	3	0	8	100	-1	0	"tshsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//bd	
+setentry	5770	-5770	0	3	0	9	100	-1	0	"bdhsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//cs	
+setentry	5780	-5780	0	3	0	10	100	-1	0	"cshsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//cm	
+setentry	5790	-5790	0	3	0	11	100	-1	0	"cmhsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//fa	
+setentry	5800	-5800	0	3	0	14	100	-1	0	"fahsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//tg	
+setentry	5810	-5810	0	3	0	15	100	-1	0	"tghsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+
+
+//ca	
+setentry	5820	-5820	0	3	0	1	100	-1	0	"caid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//der	
+setentry	5830	-5830	0	3	0	2	100	-1	0	"dreid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//nx	
+setentry	5840	-5840	0	3	0	3	100	-1	0	"nxid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//bt	
+setentry	5850	-5850	0	3	0	5	100	-1	0	"btid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//tt	
+setentry	5860	-5860	0	3	0	4	100	-1	0	"ttid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//pp	
+setentry	5870	-5870	0	3	0	6	100	-1	0	"ppid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//ts	
+setentry	5880	-5880	0	3	0	8	100	-1	0	"tsid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//bd	
+setentry	5890	-5890	0	3	0	9	100	-1	0	"bdid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//cs	
+setentry	5900	-5900	0	3	0	10	100	-1	0	"csid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//cm	
+setentry	5910	-5910	0	3	0	11	100	-1	0	"cmid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//fa	
+setentry	5920	-5920	0	3	0	14	100	-1	0	"faid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//tg	
+setentry	5930	-5930	0	3	0	15	100	-1	0	"tgid_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+
+
+//ca	
+setentry	5940	-5941	0	3	0	1	100	-1	0	"catm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5941	-5942	0	3	0	1	100	-1	0	"catm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5942	-5940	0	3	0	1	100	-1	0	"catm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//der	
+setentry	5950	-5951	0	3	0	2	100	-1	0	"dretm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5951	-5952	0	3	0	2	100	-1	0	"dretm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5952	-5950	0	3	0	2	100	-1	0	"dretm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//nx	
+setentry	5960	-5961	0	3	0	3	100	-1	0	"nxtm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5961	-5962	0	3	0	3	100	-1	0	"nxtm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5962	-5960	0	3	0	3	100	-1	0	"nxtm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//bt	
+setentry	5970	-5971	0	3	0	5	100	-1	0	"bttm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5971	-5972	0	3	0	5	100	-1	0	"bttm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5972	-5970	0	3	0	5	100	-1	0	"bttm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//tt	
+setentry	5980	-5981	0	3	0	4	100	-1	0	"tttm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5981	-5982	0	3	0	4	100	-1	0	"tttm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5982	-5980	0	3	0	4	100	-1	0	"tttm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//pp	
+setentry	5990	-5991	0	3	0	6	100	-1	0	"pptm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5991	-5992	0	3	0	6	100	-1	0	"pptm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	5992	-5990	0	3	0	6	100	-1	0	"pptm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//ts	
+setentry	6000	-6001	0	3	0	8	100	-1	0	"tstm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6001	-6002	0	3	0	8	100	-1	0	"tstm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6002	-6000	0	3	0	8	100	-1	0	"tstm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//bd	
+setentry	6010	-6011	0	3	0	9	100	-1	0	"bdtm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6011	-6012	0	3	0	9	100	-1	0	"bdtm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6012	-6010	0	3	0	9	100	-1	0	"bdtm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//cs	
+setentry	6020	-6021	0	3	0	10	100	-1	0	"cstm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6021	-6022	0	3	0	10	100	-1	0	"cstm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6022	-6020	0	3	0	10	100	-1	0	"cstm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//cm	
+setentry	6030	-6031	0	3	0	11	100	-1	0	"cmtm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6031	-6032	0	3	0	11	100	-1	0	"cmtm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6032	-6030	0	3	0	11	100	-1	0	"cmtm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//fa	
+setentry	6040	-6041	0	3	0	14	100	-1	0	"fatm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6041	-6042	0	3	0	14	100	-1	0	"fatm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6042	-6040	0	3	0	14	100	-1	0	"fatm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+//tg	
+setentry	6050	-6051	0	3	0	15	100	-1	0	"tgtm_001"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6051	-6052	0	3	0	15	100	-1	0	"tgtm_100"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+setentry	6052	-6050	0	3	0	15	100	-1	0	"tgtm_200"	100	0	0	2	10.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+
+
+
+
+setentry	6100	-6100	0	3	0	7	100	-1	0	"pnchsd_001"	100	0	0	2	11.0	0	20	"HACKNET_WSK"	" "	100	0	0	" "	512	|	
+
+
+
+setentry	6200	-6200	0	3	0	12	300	999	505	" "	200	0	0	0	0	0	120	"NOWEAPON"	" "	250	0	0	" "	33	|	
+
+
+setentry	6250	-6250	0	3	1	18	150	6250	193	" "	200	1516	0	0	1.2	0	127	"WBADGUY"	" "	1000	0	0	" "	35	|	
+setentry	6251	-6251	0	3	0	17	100	6251	2009	" "	200	1516	1	0	1.8	0	127	"PSISPIDER"	" "	300	0	0	" "	35	|	
+setentry	6252	-6252	0	3	0	17	100	6252	0	" "	200	1516	1	0	0.4	0	127	"FLYMUT"	" "	250	0	0	" "	35	|	
+
+setentry	6253	-6253	0	3	1	18	150	6250	193	" "	200	1515	0	0	1.2	0	127	"WBADGUY"	" "	1000	0	0	" "	35	|	
+setentry	6254	-6254	0	3	0	17	100	6251	2009	" "	200	1515	1	0	1.8	0	127	"PSISPIDER"	" "	300	0	0	" "	35	|	
+setentry	6255	-6255	0	3	0	17	100	6252	0	" "	200	1515	1	0	0.4	0	127	"FLYMUT"	" "	250	0	0	" "	35	|	
+
+
+setentry	6500	-6500	0	1	0	7	100	-1	1	"tut_beggar01"	100	0	0	0	0	0	5	" "	" "	100	0	0	" "	1	|	
+setentry	6501	-6501	0	1	1	7	100	6501	200	"tut_beggar02"	80	0	0	0	0	0	7	"WBADGUY"	" "	100	0	0	" "	1	|	
+setentry	6502	-6502	0	1	0	7	100	6502	203	"tut_beggar03"	80	0	0	0	0	0	6	"WBADGUY"	" "	100	0	0	" "	1	|	
+setentry	6503	-6503	0	1	0	7	100	6503	200	"tut_beggar04"	80	0	0	0	0	0	7	"WBADGUY"	" "	100	0	0	" "	1	|	
+
+
+
+setentry	6510	-6510	0	3	0	10	100	-1	2025	"woc_int"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	6511	-6511	0	3	0	10	100	-1	2025	"woc_psi"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	6512	-6512	0	3	0	10	100	-1	2025	"woc_str"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+
+setentry	6513	-6513	0	3	0	10	100	-1	2025	"woc_dex"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+
+
+setentry	6520	-6520	0	3	1	17	200	6520	0	" "	150	1502	1	0	2	0	80	"JUGGERNAUT_FREEZE"	" "	10000	0	0	" "	34	|	
+setentry	6521	-6521	0	3	1	17	200	6521	0	" "	150	1502	1	0	2	0	80	"JUGGERNAUT_LASER"	" "	10000	0	0	" "	34	|	
+setentry	6522	-6522	0	3	1	17	200	6522	0	" "	150	1502	1	0	2	0	80	"JUGGERNAUT_ROCKET"	" "	10000	0	0	" "	34	|	
+
+setentry	6523	-6523	0	3	1	17	400	6523	0	" "	250	1501	1	0	3	0	127	"JUGGERNAUT_FREEZE"	" "	10000	0	0	" "	34	|	
+setentry	6524	-6524	0	3	1	17	400	6524	0	" "	250	1501	1	0	3	0	127	"JUGGERNAUT_LASER"	" "	10000	0	0	" "	34	|	
+setentry	6525	-6525	0	3	1	17	400	6525	0	" "	250	1501	1	0	3	0	127	"JUGGERNAUT_ROCKET"	" "	10000	0	0	" "	34	|	
+
+//pc games & pc action special npcs	
+//nc	
+setentry	6550	-6550	0	3	0	7	100	-1	19	"nc_gwilkins"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+setentry	6551	-6551	0	3	1	7	100	-1	5	"nc_sforsyte"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	513	|	
+setentry	6552	-6552	0	3	0	7	250	-1	165	"nc_whizzler"	50	0	0	2	0	0	10	"WSK"	" "	100	0	0	" "	512	|	
+setentry	6553	-6553	0	3	0	7	100	-1	10	"nc_johnson"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+setentry	6554	-6554	0	3	0	7	100	-1	2010	"nc_rossi"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	513	|	
+
+//doy	
+setentry	6555	-6555	0	3	0	7	100	-1	3	"doy_wharrison"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+setentry	6556	-6556	0	3	0	7	100	-1	2	"doy_franky"	100	0	0	0	0	0	30	"WSK"	" "	100	0	0	" "	513	|	
+setentry	6557	-6557	0	3	0	7	100	-1	2044	"doy_festus"	100	0	0	0	0	0	50	"WSK"	" "	100	0	0	" "	513	|	
+setentry	6558	-6558	0	3	1	7	100	-1	31	"doy_amber"	100	0	0	0	0	0	20	"WSK"	" "	100	0	0	" "	513	|	
+setentry	6559	-6559	0	3	0	7	100	-1	2010	"doy_rossi"	100	0	0	0	0	0	10	"WSK"	" "	100	0	0	" "	513	|	
+
+
+
+
+
+
+
+
+
+
+/*	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

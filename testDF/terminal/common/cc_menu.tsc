@@ -1,0 +1,113 @@
+// terminal - common\cc_menu.tsc
+// contents:
+// menu for runners
+
+// coords:
+// LT (0, 0)	RB (640, 32) -> usable for main menu
+	
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		// messages
+
+		// init basics
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "10") );
+		OnLoad( SetEnv("ENV_CHAPTER", "1" ) );
+		OnLoad( SetEnv("ENV_PART", "1" ) );
+		OnLoad( SetEnv("ENV_PAGE", "1") );
+		OnLoad( SetEnv("ENV_PID", GetEnv("G_CHARID") ) );
+		OnLoad( SetEnv("ENV_CLANID", GetEnv("G_CLANID") ) );
+		OnLoad( SetEnv("ENV_FACTIONID", GetEnv("G_FACTIONID") ) );
+		OnLoad( SetEnv("ENV_LANGUAGE", GetEnv("G_LANG") ) );
+		OnLoad( SetEnv("ENV_LANG", GetEnv("G_LANG") ) );
+		OnLoad( SetEnv("ENV_SXMONEY", GetEnv("G_MONEY") ) );
+		OnLoad( SetEnv("ENV_SEARCHSTR", "") );
+		
+		// init forum (nc/doy)
+		OnLoad( TryAccess("DCBSetCategoryValuesForForum", 259, GetEnv("G_GFXOFFSET") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetCategoryValuesForForum"
+	{
+		OnAccess( SetEnv("ENV_TRAVALUE", "1") );
+		OnAccess( SetEnv("ENV_RUNVALUE", "2") );
+		OnAccess( SetEnv("ENV_TALVALUE", "3") );
+		OnAccessError( SetEnv("ENV_TRAVALUE", "5") );
+		OnAccessError( SetEnv("ENV_RUNVALUE", "6") );
+		OnAccessError( SetEnv("ENV_TALVALUE", "7") );
+	}
+
+	TEXTBUTTON "Mail"
+	{
+		Layout(8);
+		Size(21, 18, 61, 27); // 40
+		OnMouse( Message("Page", Document(".\terminal\email\emaillist.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "Forum"
+	{
+		Layout(8);
+		Size(61, 18, 111, 27); // 50
+		OnMouse( Message("Page", Document(".\terminal\forum\bbs.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "Neocronicle"
+	{
+		Layout(8);
+		Size(111, 18, 201, 27); // 90
+		OnMouse( Message("Page", Document(".\terminal\neocronicle\weekly.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "Info"
+	{
+		Layout(8);
+		Size(201, 18, 236, 27); // 35
+		OnMouse( Message("Page", Document(".\terminal\factioninfo\factioninfo.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "ClanAdmin"
+	{
+		Layout(8);
+		Size(236, 18, 316, 27); // 80
+		OnMouse( Message("Page", Document(".\terminal\clanadmin\clanchecker.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "Statistics"
+	{
+		Layout(8);
+		Size(316, 18, 396, 27); // 80
+		OnMouse( Message("Page", Document(".\terminal\statistics\faction.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "StockX"
+	{
+		Layout(8);
+		Size(396, 18, 446, 27); // 50
+		//OnMouse( Message("Page", Document(".\terminal\stockx\stockx.tsc") ) );
+		OnMouse( Message("Page", Document(".\terminal\stockx\overview.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "Missions"
+	{
+		Layout(8);
+		Size(446, 18, 516, 27); // 70
+		OnMouse( Message("Page", Document(".\terminal\missions\rm_root.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	TEXTBUTTON "Guide"
+	{
+		Layout(9);
+		Size(516, 18, 561, 27); // 50
+		OnMouse( Message("Page", Document(".\terminal\guide\guide.tsc") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	// logo is setted in citycom\setup.tsc

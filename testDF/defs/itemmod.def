@@ -1,0 +1,417 @@
+//	index	itemtype	implanttype	base buildtime 	number of MODS	1. qualifier ID 	1. qualifier add	1. qualifier scale	2. qualifier ID 	2. qualifier add	2. qualifier scale	3. qualifier ID 	3. qualifier add	3. qualifier scale	4. qualifier ID 	4. qualifier add	4. qualifier scale	name prefix 	mod icon ID	END	//	
+//Dummy	//Dummy	
+setentry	0	0	0	100	4	3	0.8	0.2	3	0.8	0.2	3	0.8	0.2	3	0.8	0.2	"weakened"	|	
+
+// Melee steelsurface	// Melee steelsurface	
+setentry	1	1	0	100	2	0	25	1	1	35	1	0	0	0	0	0	0	"sharpened"	0	|	
+// Melee diamondsurface	// Melee diamondsurface	
+setentry	2	1	0	200	2	0	35	1	1	50	1	0	0	0	0	0	0	"sharpened"	0	|	
+
+
+
+// Psimoduleenhancement	// Psimoduleenhancement	
+setentry	3	256	0	100	2	0	25	1	1	35	1	0	0	0	0	0	0	"enhanced"	0	|	
+setentry	4	256	0	100	2	2	25	1	1	12	1	0	0	0	0	0	0	"enhanced"	0	|	
+setentry	5	256	0	100	2	3	25	1	1	12	1	0	0	0	0	0	0	"enhanced"	0	|	
+setentry	6	256	0	100	2	4	25	1	1	12	1	0	0	0	0	0	0	"enhanced"	0	|	
+setentry	7	256	0	100	1	2	40	1	0	0	0	0	0	0	0	0	0	"enhanced"	0	|	
+setentry	8	256	0	100	1	3	40	1	0	0	0	0	0	0	0	0	0	"enhanced"	0	|	
+setentry	9	256	0	100	1	4	40	1	0	0	0	0	0	0	0	0	0	"enhanced"	0	|	
+setentry	10	256	0	100	4	1	30	1	2	30	1	3	30	1	4	30	1	"enhanced"	0	|	
+
+
+// Pistols	// Pistols	
+//Barreladvancement	//Barreladvancement	
+setentry	11	12	0	200	3	0	10	1	1	25	1	4	25	1	0	0	0	"enlarged"	4	|	
+// Gyrostabilisation	// Gyrostabilisation	
+setentry	12	12	0	200	2	0	15	1	3	35	1	0	0	0	0	0	0	"stabilized"	2	|	
+// Bulletchamberadvancement	// Bulletchamberadvancement	
+setentry	13	12	0	200	2	0	15	1	2	35	1	0	0	0	0	0	0	"advanced"	1	|	
+// Ultima Enhancement	// Ultima Enchancement	
+setentry	14	12	0	200	3	2	35	1	3	35	1	4	35	1	0	0	0	"ultimated"	1	|	
+
+// laser sword enhance	// Melee steelsurface	
+setentry	15	-37	0	100	1	1	40	1	0	0	0	0	0	0	0	0	0	"powered"	0	|	
+// laser sword enhance 2	// Melee diamondsurface	
+setentry	16	-37	0	200	2	1	25	1	2	25	1	0	0	0	0	0	0	"stabilized"	0	|	
+// laser sword enhance 3	// Melee diamondsurface	
+setentry	17	-37	0	200	1	2	40	1	0	0	0	0	0	0	0	0	0	"weight reduced"	0	|	
+// laser sword enhance 3	// Melee diamondsurface	
+setentry	18	-37	0	200	2	1	40	1	2	40	1	0	0	0	0	0	0	"ultimated"	0	|	
+
+// Rifle	// Rifle	
+//Barreladvancement	//Barreladvancement	
+setentry	21	48	0	300	3	0	10	1	1	25	1	4	25	1	0	0	0	"enlarged"	|	
+// Gyrostabilisation	// Gyrostabilisation	
+setentry	22	48	0	300	2	0	15	1	3	35	1	0	0	0	0	0	0	"stabilized"	|	
+// Bulletchamberadvancement	// Bulletchamberadvancement	
+setentry	23	48	0	300	2	0	15	1	2	35	1	0	0	0	0	0	0	"advanced"	|	
+// Ultima Enhancement	// Ultima Enchancement	
+setentry	24	48	0	300	3	2	35	1	3	35	1	4	35	1	0	0	0	"ultimated"	1	|	
+
+
+
+
+// Weapontype 3 Schwere Waffen	// Weapontype 3 Schwere Waffen	
+// Barreladvancement	// Barreladvancement	
+setentry	31	192	0	450	3	0	10	1	4	25	1	1	25	1	0	0	0	"enlarged"	|	
+// Gyrostabilisation	// Gyrostabilisation	
+setentry	32	192	0	450	2	0	15	1	3	35	1	0	0	0	0	0	0	"stabilized"	|	
+// Ammodeliveryadvancer	// Ammodeliveryadvancer	
+setentry	33	192	0	450	2	0	15	1	2	35	1	0	0	0	0	0	0	"advanced"	|	
+// Ultima Enhancement	// Ultima Enchancement	
+setentry	34	192	0	450	3	2	35	1	3	35	1	4	35	1	0	0	0	"ultimated"	1	|	
+
+
+
+
+// Energieweapons 4 	// Energieweapons 4 	
+// Barreladvancement	// Barreladvancement	
+setentry	41	168	0	450	3	0	10	1	4	25	1	1	25	1	0	0	0	"enlarged"	|	
+// Gyrostabilisation	// Gyrostabilisation	
+setentry	42	168	0	450	2	0	15	1	3	35	1	0	0	0	0	0	0	"stabilized"	|	
+// Energiemtrixadvancer	// Energiemtrixadvancer	
+setentry	43	168	0	450	2	0	15	1	2	35	1	0	0	0	0	0	0	"advanced"	|	
+
+
+//pistol-ammoadvancer	//pistol-ammoadvancer	
+// Larger Clip	// Larger Clip	
+setentry	106	12	0	200	1	100	64	1	0	0	0	0	0	0	0	0	0	"enlarged"	|	
+
+// Laserpistolammoadvancer	// Laserpistolammoadvancer	
+// High-Voltage-Energiematrix	// High-Voltage-Energiematrix	
+setentry	112	-12	0	200	1	100	2	1	0	0	0	0	0	0	0	0	0	"enlarged"	|	
+// Capacityadapter chip	// Capacityadapter chip	
+setentry	113	-12	0	200	1	100	4	1	0	0	0	0	0	0	0	0	0	"enlarged"	|	
+
+// Laserrifleammoadvancer	// Laserrifleammoadvancer	
+// High-Voltage-Energiematrix	// High-Voltage-Energiematrix	
+setentry	122	-13	0	200	1	101	2	1	0	0	0	0	0	0	0	0	0	|	
+// Capacityadapter chip	// Capacityadapter chip	
+setentry	123	-13	0	200	1	102	4	1	0	0	0	0	0	0	0	0	0	|	
+
+// Flamer	// Flamer	
+// Modification to use gas	// Modification to use gas	
+setentry	131	-14	0	200	1	100	1	1	0	0	0	0	0	0	0	0	0	|	
+
+
+
+
+//standard mods for all weapons	//standard mods for all weapons	
+
+//little better	//little better	
+//damage up	//damage up	
+setentry	1000	255	0	200	1	1	25	1	0	0	0	0	0	0	0	0	0	"high damage"	|	
+//frequency up	//frequency up	
+setentry	1001	255	0	200	1	2	25	1	0	0	0	0	0	0	0	0	0	"streamlined"	|	
+//handling up	//handling up	
+setentry	1002	255	0	200	1	3	25	1	0	0	0	0	0	0	0	0	0	"stabilized"	|	
+//range up	//range up	
+setentry	1003	255	0	200	1	4	25	1	0	0	0	0	0	0	0	0	0	"long range"	|	
+
+//much better - much worse	//much better - much worse	
+//damage up - range down	//damage up - range down	
+setentry	1010	255	0	450	2	1	45	1	4	-45	1	0	0	0	0	0	0	"high damage"	|	
+//frequency up - damage down	//frequency up - damage down	
+setentry	1011	255	0	450	2	2	45	1	1	-45	1	0	0	0	0	0	0	"streamlined"	|	
+//handling up - damage down	//handling up - damage down	
+setentry	1012	255	0	450	2	3	45	1	1	-45	1	0	0	0	0	0	0	"stabilized"	|	
+//range up - frequency down	//range up - frequency down	
+setentry	1013	255	0	450	2	4	45	1	2	-45	1	0	0	0	0	0	0	"long range"	|	
+
+// 3 ammo type adapters for all weapons	// 3 ammo type adapters for all weapons	
+
+//	fist	//	
+//	knuckles	//	
+//	brassknuckles	//	
+//	stiletto	//	
+//	knife	//	
+//	baseball bat	//	
+//	junkknife	//	
+//	electroshocker	//	
+//	combatknife	//	
+//	claw	//	
+//	double-edged sword	//	
+//	lasersword	//	
+//	biglasersword	//	
+
+//	index	itemtype	base buildtime 	number of MODS	1. qualifier ID 	1. qualifier add	1. qualifier scale	2. qualifier ID 	2. qualifier add	2. qualifier scale	3. qualifier ID 	3. qualifier add	3. qualifier scale	4. qualifier ID 	4. qualifier add	4. qualifier scale	END	//	
+//PISTOL	//PISTOL	
+//Explosiv bullet	//Explosiv bullet	
+setentry	1501	-1	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//Phosphor bullet	//Phosphor bullet	
+setentry	1502	-1	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"phosphor"	|	
+//Uran bullet	//Uran bullet	
+setentry	1503	-1	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"uranium"	|	
+
+//NAILGUN	//NAILGUN	
+//Explosiv bullet	//Explosiv bullet	
+setentry	1506	-26	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//Phosphor bullet	//Phosphor bullet	
+setentry	1507	-26	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"phosphor"	|	
+//Poison bullet	//Poison bullet	
+setentry	1508	-26	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"poison"	|	
+
+//RIFLE	//RIFLE	
+//Explosiv bullet	//Explosiv bullet	
+setentry	1511	-24	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//Phosphor bullet	//Phosphor bullet	
+setentry	1512	-24	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"phosphor"	|	
+//Uran bullet	//Uran bullet	
+setentry	1513	-24	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"uranium"	|	
+//Debuff bullet	//Debuff bullet	
+setentry	1514	-24	0	0	1	104	1	1	0	0	0	0	0	0	0	0	0	"spirit"	|	
+
+//PUMPGUN	//PUMPGUN	
+//Explosiv bullet	//Explosiv bullet	
+setentry	1516	-2	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//Phosphor bullet	//Phosphor bullet	
+setentry	1517	-2	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"phosphor"	|	
+//Uran bullet	//Uran bullet	
+setentry	1518	-2	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"uranium"	|	
+
+//SUBMGUN	//SUBMGUN	
+//Explosiv bullet	//Explosiv bullet	
+setentry	1521	-27	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//Phosphor bullet	//Phosphor bullet	
+setentry	1522	-27	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"phosphor"	|	
+//Uran bullet	//Uran bullet	
+setentry	1523	-27	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"uranium"	|	
+
+//ASSAULTRIFLE	//ASSAULTRIFLE	
+//Explosiv bullet	//Explosiv bullet	
+setentry	1526	-3	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//Phosphor bullet	//Phosphor bullet	
+setentry	1527	-3	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"phosphor"	|	
+//Uran bullet	//Uran bullet	
+setentry	1528	-3	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"uranium"	|	
+
+//GRANADE TH.	//GRANADE TH.	
+//Napalm	//Napalm	
+setentry	1531	-11	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"napalm"	|	
+//Poison	//Poison	
+setentry	1532	-11	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"poison"	|	
+//Uran	//Uran	
+setentry	1533	-11	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"uranium"	|	
+
+//FLAMER	//FLAMER	
+//Cerosine	//Cerosine	
+setentry	1536	-14	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"cerosine"	|	
+//Napalm	//Napalm	
+setentry	1537	-14	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"napalm"	|	
+//Poisongas	//Poisongas	
+setentry	1538	-14	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"poisongas"	|	
+
+//GATLIN PISTOL	//GATLIN PISTOL	
+//Explosiv bullet	//Explosiv bullet	
+setentry	1541	-25	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//Phosphor bullet	//Phosphor bullet	
+setentry	1542	-25	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"phosphor"	|	
+//Uran bullet	//Uran bullet	
+setentry	1543	-25	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"uranium"	|	
+
+//GATLIN RIFLE	//GATLIN RIFLE	
+//Explosiv bullet	//Explosiv bullet	
+setentry	1546	-45	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//Phosphor bullet	//Phosphor bullet	
+setentry	1547	-45	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"phosphor"	|	
+//Uran bullet	//Uran bullet	
+setentry	1548	-45	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"uranium"	|	
+
+//GATLIN CANNON	//GATLIN CANNON	
+//Explosiv bullet	//Explosiv bullet	
+setentry	1551	-40	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//Phosphor bullet	//Phosphor bullet	
+setentry	1552	-40	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"phosphor"	|	
+//Uran bullet	//Uran bullet	
+setentry	1553	-40	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"uranium"	|	
+
+//PLASMA PISTOL	//PLASMA PISTOL	
+//nova plasma	//nova plasma	
+setentry	1556	-38	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"nova"	|	
+//heated plasma	//heated plasma	
+setentry	1557	-38	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"x-heated"	|	
+//Radioactive plasma	//Radioactive plasma	
+setentry	1558	-38	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"radioactive"	|	
+
+//PLASMA RIFLE	//PLASMA RIFLE	
+//nova plasma	//nova plasma	
+setentry	1561	-10	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"nova"	|	
+//heated plasma	//heated plasma	
+setentry	1562	-10	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"x-heated"	|	
+//Radioactive plasma	//Radioactive plasma	
+setentry	1563	-10	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"radioactive"	|	
+
+//PLASMA CANNON	//PLASMA CANNON	
+//nova plasma	//nova plasma	
+setentry	1571	-42	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"nova"	|	
+//heated plasma	//heated plasma	
+setentry	1572	-42	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"x-heated"	|	
+//Radioactive plasma	//Radioactive plasma	
+setentry	1573	-42	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"radioactive"	|	
+
+//LASER PISTOL	//LASER PISTOL	
+//high voltage laser	//high voltage laser	
+setentry	1576	-12	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"high voltage"	|	
+//'lighter'	//'lighter'	
+setentry	1577	-12	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"light"	|	
+//gama beam	//gama beam	
+setentry	1578	-12	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"gamma beam"	|	
+
+//LASER RIFLE	//LASER RIFLE	
+//high voltage laser	//high voltage laser	
+setentry	1581	-13	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"high voltage"	|	
+//'lighter'	//'lighter'	
+setentry	1582	-13	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"light"	|	
+//gama beam	//gama beam	
+setentry	1583	-13	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"gamma beam"	|	
+
+//LASER CANNON	//LASER CANNON	
+//high voltage laser	//high voltage laser	
+setentry	1586	-39	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"high voltage"	|	
+//'lighter'	//'lighter'	
+setentry	1587	-39	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"light"	|	
+//gama beam	//gama beam	
+setentry	1588	-39	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"gamma beam"	|	
+
+//MINI LAUNCHER	//MINI LAUNCHER	
+//big rocket	//big rocket	
+setentry	1591	-43	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"big"	|	
+//fire rocket	//fire rocket	
+setentry	1592	-43	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"fire"	|	
+//splitter rocket	//splitter rocket	
+setentry	1593	-43	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"splitter"	|	
+
+//BIG LAUNCHER	//BIG LAUNCHER	
+//big rocket	//big rocket	
+setentry	1596	-4	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"big"	|	
+//fire rocket	//fire rocket	
+setentry	1597	-4	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"fire"	|	
+//splitter rocket	//splitter rocket	
+setentry	1598	-4	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"splitter"	|	
+
+//FREEZER PISTOL	//FREEZER PISTOL	
+//max duration	//max duration	
+setentry	1601	-17	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"max duration"	|	
+//max damage	//max damage	
+setentry	1602	-17	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"max damage"	|	
+//radiation damage	//radiation damage	
+setentry	1603	-17	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"x-ray"	|	
+
+//FREEZER RIFLE	//FREEZER RIFLE	
+//max duration	//max duration	
+setentry	1606	-15	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"max duration"	|	
+//max damage	//max damage	
+setentry	1607	-15	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"max damage"	|	
+//radiation damage	//radiation damage	
+setentry	1608	-15	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"x-ray"	|	
+
+//FUSION PISTOL	//FUSION PISTOL	
+//advanced fusion	//advanced fusion	
+setentry	1611	-33	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"advanced"	|	
+//cold fusion	//cold fusion	
+setentry	1612	-33	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"cold"	|	
+//radioactive fusion	//radioactive fusion	
+setentry	1613	-33	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"xray"	|	
+
+//FUSION RIFLE	//FUSION RIFLE	
+//advanced fusion	//advanced fusion	
+setentry	1616	-32	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"advanced"	|	
+//cold fusion	//cold fusion	
+setentry	1617	-32	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"cold"	|	
+//radioactive fusion	//radioactive fusion	
+setentry	1618	-32	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"xray"	|	
+
+//FUSION CANNON	//FUSION CANNON	
+//advanced fusion	//advanced fusion	
+setentry	1621	-7	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"advanced"	|	
+//cold fusion	//cold fusion	
+setentry	1622	-7	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"cold"	|	
+//radioactive fusion	//radioactive fusion	
+setentry	1623	-7	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"xray"	|	
+
+//RAYGUN PISTOL	//RAYGUN PISTOL	
+//advanced ray	//advanced ray	
+setentry	1626	-34	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"advanced"	|	
+//explosice ray	//explosice ray	
+setentry	1627	-34	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//radioactive ray	//radioactive ray	
+setentry	1628	-34	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"radioactive"	|	
+
+//RAYGUN RIFLE	//RAYGUN RIFLE	
+//advanced ray	//advanced ray	
+setentry	1631	-16	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"advanced"	|	
+//explosice ray	//explosice ray	
+setentry	1632	-16	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//radioactive ray	//radioactive ray	
+setentry	1633	-16	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"radioactive"	|	
+
+//RAYGUN CANNON	//RAYGUN CANNON	
+//advanced ray	//advanced ray	
+setentry	1636	-35	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"advanced"	|	
+//explosice ray	//explosice ray	
+setentry	1637	-35	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"explosive"	|	
+//radioactive ray	//radioactive ray	
+setentry	1638	-35	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"radioactive"	|	
+
+//FREEZER cannon	//FREEZER RIFLE	
+//max duration	//max duration	
+setentry	1641	-41	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"max duration"	|	
+//max damage	//max damage	
+setentry	1642	-41	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"max damage"	|	
+//radiation damage	//radiation damage	
+setentry	1643	-41	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"x-ray"	|	
+
+//PLASMA WAVE	//PLASMA CANNON	
+//nova plasma	//nova plasma	
+setentry	1655	-50	0	0	1	101	1	1	0	0	0	0	0	0	0	0	0	"nova"	|	
+//heated plasma	//heated plasma	
+setentry	1656	-50	0	0	1	102	1	1	0	0	0	0	0	0	0	0	0	"x-heated"	|	
+//Radioactive plasma	//Radioactive plasma	
+setentry	1657	-50	0	0	1	103	1	1	0	0	0	0	0	0	0	0	0	"radioactive"	|	
+
+//Event Items	
+//feb. Event	
+
+//pistolBarreladvancement	//Barreladvancement	
+setentry	10000	12	0	200	3	0	15	1	1	40	1	4	40	1	0	0	0	"enlarged"	4	|	
+
+//Rifle Barreladvancement	//Barreladvancement	
+setentry	10001	48	0	300	3	0	15	1	1	40	1	4	40	1	0	0	0	"enlarged"	|	
+
+// energy Barreladvancement	// Barreladvancement	
+setentry	10002	168	0	450	3	0	15	1	4	40	1	1	40	1	0	0	0	"enlarged"	|	
+
+// Heavy-Barreladvancement	// Barreladvancement	
+setentry	10003	192	0	450	3	0	15	1	4	40	1	1	40	1	0	0	0	"enlarged"	|	
+
+// Psimoduleenhancement	// Psimoduleenhancement	
+setentry	10004	256	0	100	2	0	35	1	1	50	1	0	0	0	0	0	0	"enhanced"	0	|	
+
+
+//Hacknet Weapon Mods	
+//damage	
+setentry	1700	-51	0	400	1	1	25	1	0	0	0	0	0	0	0	0	0	"amplified"	|	
+
+setentry	1701	-51	0	400	1	2	25	1	0	0	0	0	0	0	0	0	0	"multitasking"	|	
+
+setentry	1702	-51	0	400	1	4	25	1	0	0	0	0	0	0	0	0	0	"upgraded"	|	
+
+
+// itemtype	> 0	weapon type aus weapons.def +1	
+
+
+
+
+
+
+
+
+
+
+
+
+
+// qualifier id	0 - 7	item qualifier id	4=range	
+
+

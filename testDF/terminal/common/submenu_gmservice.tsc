@@ -1,0 +1,40 @@
+// Gamemastertool/Submenu: submenu_gmservice.tsc
+// contents:
+// submenu for gmcontent
+
+TEXTBUTTON "Mail"
+{
+	Size(32, 8, 72, 20);
+	Layout(10);
+	OnMouse( SetEnv("ENV_GMFACTIONID", "1") );
+	OnMouse( ChangePage("Page", ".\terminal\gmtool\service\mail_root.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}
+
+TEXTBUTTON "Forum"
+{
+	Size(82, 8, 142, 20); // 50
+	Layout(11);
+	OnMouse( ChangePage("Page", ".\terminal\gmtool\service\forum_root.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}
+
+TEXTBUTTON "Neocronicle"
+{
+	Size(152, 8, 232, 20); // 80
+	Layout(11);
+	OnMouse( ChangePage("Page", ".\terminal\gmtool\service\neocronicle_root.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}
+
+TEXTBUTTON "Guide"
+{
+	Size(242, 8, 292, 20); // 50
+	Layout(11);
+	OnMouse( ChangePage("Page", ".\terminal\gmtool\service\guide_root.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}
+
+
+
+

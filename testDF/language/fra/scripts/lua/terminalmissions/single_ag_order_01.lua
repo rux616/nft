@@ -1,0 +1,56 @@
+--new
+function DIALOG()
+	NODE(0)
+		SAY("Bonjour, comment puis-je vous aider ?")
+		SAY("Oui, runner ? Un problème ?")
+		SAY("Quoi ? Je suis très occupé...")
+		SAY("Un problème ?") 
+		SAY("Oui, je vous écoute.")
+		SAY("Soyez bref.")
+		SAY("Je ne pense pas vous connaître.")
+		SAY("Vous êtes là pour le job, c'est ça ?")
+		SAY("Bonne journée, runner.")
+		SAY("Si vous avez un problème, je suis là.")
+		
+		ANSWER("Je viens pour le job...",2)
+		ANSWER("Il me semble que vous avez un job pour moi.",2)
+		ANSWER("Vous avez du travail pour moi ?",2)
+		ANSWER("Je viens au sujet du job.",2)
+		ANSWER("Oubliez. Au revoir.",1)
+		ANSWER("Ce n'est pas à vous que je voulais parler.",1)
+		ANSWER("Je me suis trompé de personne.",1)
+		ANSWER("J'ai changé d'avis. Au revoir.",1)
+	NODE(1)	
+		--Person 0
+		SAY("Bonne chance... quoi que vous fassiez.")
+		SAY("N'hésitez pas à repasser.")
+		SAY("Au revoir. J'ai des choses plus importantes à traiter.")
+		SAY("Au revoir. Peut-être serez-vous intéressé par quelque chose la prochaine fois.")
+		ENDDIALOG()
+	NODE(2)
+		--Person 0
+		--Auftrag wird erklärt, Mission vergeben
+		SAY("Je serai bref. Nous avons beaucoup de vermine dans la zone. Il faut que vous vous en occupiez.")
+		SAY("Vous avez certainement remarqué la prolifération de vermine dans la zone, n'est-ce pas ?")
+		SAY("Nous devons faire des réparations sur nos installations toutes les heures en raisons des dégâts causés par la vermine.")
+		
+		ANSWER("Et qu'est-ce que je peux faire ?",4)
+	NODE(3)
+		ISMISSIONTARGETACCOMPLISHED(0)
+		if(result==0)then
+			SAY("Je ne vous ai pas demandé de faire quelque chose ?")
+			SAY("Vous n'avez pas du travail ?")
+		else
+			SAY("Merci pour votre aide. Voici %REWARD_MONEY() crédits en récompense.")
+			SAY("Beau travail, runner. Voici votre prime. %REWARD_MONEY() crédits.")
+			SAY("Merci pour votre aide. On avait parlé de %REWARD_MONEY() crédits, c'est bien ça ?")
+			ACTIVATEDIALOGTRIGGER(1)
+			ENDDIALOG()
+		end
+	NODE(4)
+		SAY("Votre mission est de tuer %TARGET_VALUE(0,1) %TARGET_NPCNAME(0). Revenez ensuite pour votre paiement.")
+		SAY("Nous avons besoin que vous exterminiez %TARGET_VALUE(0,1) %TARGET_NPCNAME(0). Après, je m'occuperai de votre récompense.")
+		ACTIVATEDIALOGTRIGGER(2)
+		SETNEXTDIALOGSTATE(3)
+		ENDDIALOG()
+end

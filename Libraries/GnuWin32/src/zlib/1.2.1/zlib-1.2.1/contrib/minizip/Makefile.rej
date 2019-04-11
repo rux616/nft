@@ -1,0 +1,75 @@
+***************
+*** 1,25 ****
+! CC=cc
+! CFLAGS=-O -I../..
+  
+! UNZ_OBJS = miniunz.o unzip.o ../../libz.a
+! ZIP_OBJS = minizip.o zip.o   ../../libz.a
+  
+! .c.o:
+! 	$(CC) -c $(CFLAGS) $*.c
+  
+! all: miniunz minizip
+! 
+! miniunz:  $(UNZ_OBJS)
+! 	$(CC) $(CFLAGS) -o $@ $(UNZ_OBJS)
+! 
+! minizip:  $(ZIP_OBJS)
+! 	$(CC) $(CFLAGS) -o $@ $(ZIP_OBJS)
+  
+  test:	miniunz minizip
+  	./minizip test readme.txt
+  	./miniunz -l test.zip
+  	mv readme.txt readme.old
+  	./miniunz test.zip
+  
+  clean:
+! 	/bin/rm -f *.o *~ minizip miniunz
+--- 1,47 ----
+! CC=gcc
+! CFLAGS=-c -O3 -Wall $(INCS)  \
+! 	-D__GTHREAD_HIDE_WIN32API -D_LARGEFILE_SOURCE=1 -D_LARGEFILE64_SOURCE=1 \
+! 	-D_FILE_OFFSET_BITS=64 \
+! 	-mms-bitfields -fms-extensions \
+! 	-fno-rtti -fno-exceptions -mcpu=i386 -march=i386 -I../..
+! 
+! UNZ_SOBJS = miniunz.o  unzip.o 
+! ZIP_SOBJS = minizip.o  zip.o
+! UNZ_OBJS = $(UNZ_SOBJS:.o=.pic.o)
+! ZIP_OBJS = $(ZIP_SOBJS:.o=.pic.o)
+! LIBS = -L ../.. -lz -lgw32c
+! 
+! %.pic.o: %.c
+! 	$(CC) $(CFLAGS) $< -o $@
+!      
+! %.o: %.c
+! 	$(CC) -static -D__STATIC__ -DZLIB_STATIC $(CFLAGS) $< -o $@
+! 
+! # Rule to make compiled resource (Windows)
+! %-rc.o: %.rc
+! 	windres -i $< -o $@
+! 
+! all: miniunz minizip miniunz-static	minizip-static  ../../libz.a ../../libz.dll.a
+! 
+! miniunz:  $(UNZ_OBJS) miniunz-rc.o
+! 	$(CC) -Wl,-s -o $@ $^ $(LIBS)
+  
+! minizip:  $(ZIP_OBJS) minizip-rc.o
+! 	$(CC) -Wl,-s -o $@ $^ $(LIBS)
+  
+! miniunz-static:  $(UNZ_SOBJS) miniunz-rc.o
+! 	$(CC) -Wl,-static -Wl,-s -o $@ $^ $(LIBS)
+  
+! minizip-static:  $(ZIP_SOBJS) minizip-rc.o
+! 	$(CC) -Wl,-static -Wl,-s -o $@ $^ $(LIBS)
+  
+  test:	miniunz minizip
++ 	rm -f test.zip
+  	./minizip test readme.txt
+  	./miniunz -l test.zip
+  	mv readme.txt readme.old
+  	./miniunz test.zip
++ 	cmp readme.old readme.txt
+  
+  clean:
+! 	/bin/rm -f *.o *~ *.exe

@@ -1,0 +1,84 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// clankey: changeapp.tsc
+// content:
+// displays owner, location, old code, new code
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 448 x 224
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "DCBENV_CONTROL"
+	{
+		OnLoad( SetContent("ENV_BACK", ".\terminal\clankey\changeapp.tsc") );
+	}
+
+	DATACONTROLBOX "DCBApartmentInfo"
+	{
+		OnLoad( ReceiveDB( "DCBApartmentInfo", 181, GetEnv("G_APPID") ) );
+		SetContent("Owner", 0);
+		SetContent("Location of Apartment", 1);
+		SetContent("Curr. Security Code", 2);
+	}
+	
+	DATACONTROLBOX "DCBCheckAccessCode"
+	{
+		OnAccess( TryAccess("DCBChangeApartmentCode", 218, GetEnv("G_CLANID") ) );
+		
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 168)", "0") );
+		OnAccessError( ChangePage("Page", ".\terminal\clankey\message.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBChangeApartmentCode"
+	{
+		OnAccess( UpdateDB("", 182, GetControlText("New Security Code"),
+					    GetEnv("G_APPID"), 
+					    GetEnv("G_CHARID") ) );
+		OnAccess( SetContent("Curr. Security Code", GetControlText("New Security Code") ) );
+		
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(6, 2550)", "7") );
+		OnAccessError( ChangePage("Page", ".\terminal\clankey\message.tsc") );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+	
+	TEXT "Location of Apartment"
+	{
+		LayOut(2);
+		Size(40, 35, 389, 47);
+		FunctionText("%TABLERSC(27, 0, 0)");
+	}
+	
+	TEXT "Owner"
+	{
+		LayOut(2);
+		Size(40, 69, 389, 81);
+	}
+	
+	TEXT "Curr. Security Code"
+	{
+		LayOut(2);
+		Size(40, 103, 208, 115);
+	}
+
+	EDITBOX "New Security Code"
+	{
+		LayOut(2);
+		Size(222, 103, 389, 115);
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "SUBMIT"
+	{
+		LayOut(5);
+		Size(154, 152, 274, 172);
+		OnMouse( TryAccess("DCBCheckAccessCode", 189, GetControlText("New Security Code") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	

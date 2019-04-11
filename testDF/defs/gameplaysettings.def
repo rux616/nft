@@ -1,0 +1,29 @@
+//	index	Setting Name	Value						
+setentry	1	"Lawenforcer enabled"	1	|					
+setentry	2	"Skillgainfactor"	0.5	|					
+setentry	3	"Skillcapfactor"	1	|					
+setentry	4	"NPC money reward factor"	1.4	|					
+setentry	5	"Max char per Server"	4	|					
+setentry	6	"Weapon Skill Gain Base"	10	|					
+setentry	7	"Weapon Skill Gain Level"	0.75	|					
+setentry	8	"Death Loose Strategie"	1	|	//	0 - quickbelt	1 - ein quickbeltitem		2 - money
+setentry 	9	"Clan Min Faction Sympathy"	70 |
+setentry 	10	"Clantrade price factor"	0.7 |
+setentry 	11	"faction price factor"		0.85 |
+setentry 	12	"outpost revenue factor"	12543 |
+setentry 	13	"outpost reward factor"		10000 |
+setentry 	14	"missionpts to sympathy factor"	600 |
+setentry 	15	"missionfailed reward factor"	0.05 |
+setentry 	16	"monster health factor"		20 |
+setentry 	17	"monster health exp"		0.2 |
+setentry 	18	"monster armor"			2 |
+setentry 	19	"monster nominal damage"	0.7 |
+setentry 	20	"trade skill gain factor"	1.9 |
+setentry 	21	"buy price fac"			1.2 |
+setentry 	22	"sell price fac"		0.45 |
+setentry 	23	"npc loot factor"		0.80 |			
+setentry 	24	"TestServer"			0.0 |			
+setentry 	25	"enable warzone drop"		0.0 |			
+setentry 	26	"drop item cnt"			1.0 |			
+setentry 	27	"Max caps per apartment"	20.0 |			
+setentry	28	"Must do epic to found clan"	0.0	|

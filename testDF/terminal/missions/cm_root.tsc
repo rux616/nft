@@ -1,0 +1,131 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: missions - cm_root.tsc
+// content:
+// selection of faction, difficulty for clanmissions
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+// Specials: Scrollbar: X: 557 - 572 Y: 110 - 364 (+2/-2)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_mission.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_CMFACTION", "1" )  );
+		OnLoad( SetEnv("ENV_CMLEVEL", "0" )  );
+	}
+	
+//	DATACONTROLBOX "DCBLookIfThereIsAllreadyAMissionSelected"
+//	{
+//		OnLoad(ReceiveDB("DCBLinker", 196, GetEnv("G_CLANID") ) );
+//	}
+//	
+//	DATACONTROLBOX "DCBLinker"
+//	{
+//		SetContent("ENV_CMID", 1);
+//		OnData( ChangePage("Page", ".\terminal\missions\cm_activemission.tsc") );
+//	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	TEXT "NCN Job System v 1.138"
+	{
+		LayOut(2);
+		Size(50, 40, 571, 52);
+		"Clanmissions: Select Faction and preferred difficulty level";
+	}
+
+	TEXT "Selected Faction"
+	{
+		Layout(2);
+		Size(50, 74, 456, 86);
+	}
+	
+	TEXT "Selected level"
+	{
+		Layout(2);
+		Size(470, 74, 571, 86);
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+FRAME "Faction"
+{
+	Size (50, 112, 456, 366);
+	Layout (2);
+	
+	LISTBOX "LBFactionSelect"
+	{
+		Size(0, 0, 406, 254);
+		Settings(0, 0, 1, 0);
+		LineHeight(16);
+		SelectionColumn(1);
+		DataFunctionColumn(1, "faction", "%FACTIONNAME", 0,  60, LEFT);
+	
+		SetData("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "13", "14", "15");
+	
+		OnMouse(
+			SetEnv("ENV_CMFACTION", GetControlText("LBFactionSelect") ),
+			SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("CMFACTION"))
+		);
+	}	
+}
+
+	DATACONTROLBOX "DCBSetFaction"
+	{
+		OnLoad( SetFunctionContent("Selected Faction", "%FACTIONNAME", GetEnv("CMFACTION") ) );
+	}
+
+FRAME "Difficulty Level"
+{
+	Size (470, 112, 571, 244);
+	Layout (2);
+	
+	LISTBOX "LBDifficultySelect"
+	{
+		Size(0, 0, 101, 124);
+		Settings(0, 0, 1, 0);
+		LineHeight(16);
+		SelectionColumn(1);
+		DataFunctionColumn(1, "difficultylevel", "%TEXTRSC(6, 3100)",0,  60, LEFT);
+	
+		SetData("0", "1", "2", "3", "4");
+		OnMouse(
+			SetEnv("ENV_CMLEVEL", GetControlText("LBDifficultySelect") ),
+			SetFunctionContent("Selected level", "%TEXTRSC(6, 3100)", GetEnv("CMLEVEL"))
+		);
+	}	
+}
+
+	DATACONTROLBOX "DCBSetLevel"
+	{
+		OnLoad( SetFunctionContent("Selected level", "%TEXTRSC(6, 3100)", GetEnv("CMLEVEL") ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+TEXTBUTTON "View missions"
+{
+	Size(48, 400, 198, 420);
+	Layout(5);
+	OnMouse( ChangePage("Page", ".\terminal\missions\cm_missions.tsc") );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}
+
+TEXTBUTTON "TESTBUTTON"
+{
+	Size(341, 400, 441, 420);
+	Layout(5);
+	//OnMouse( ServerMessage( "DISMISSMEMBER", "DCBAdminDismissMemberFinal", "43", "4", "10", "12" ) );
+	OnMouse( ServerMessage( "CHECKCLANMISSION", "DCBTestDataBox", "208", "110", GetEnv("G_CLANID"), GetEnv("G_CHARID") ) );
+	OnMouse( PlaySound(Resource(16, 1) ) );
+}

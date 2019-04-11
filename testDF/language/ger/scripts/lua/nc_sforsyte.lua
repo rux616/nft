@@ -1,0 +1,11 @@
+function DIALOG()
+NODE(0)
+	SAY("Sei gegrüßt, Runner.")
+	ANSWER("Hallo Susan.",1)
+NODE(1)
+	SAY("Ich habe mich hoffnungslos verirrt - kannst du mir vielleicht helfen? Ich weiß, dass ich mich in Plaza-4 befinde. Aber durch welchen Sektor muss ich gehen, wenn ich nach Viarosso-3 möchte?")
+	ANSWER("Kein Problem, ich schaue mich um…",2)
+NODE(2)
+	SAY("Danke! Die Antwort gibst du beim Gewinnspiel auf www.pcgames.de.")
+	ENDDIALOG()
+end

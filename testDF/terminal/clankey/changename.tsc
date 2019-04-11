@@ -1,0 +1,93 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// clankey: changename.tsc
+// content:
+// old short and name of clan would be displayed
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 448 x 192
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "DCBENV_CONTROL"
+	{
+		OnLoad( SetContent("ENV_BACK", ".\terminal\clankey\changename.tsc") );
+	}
+
+	DATACONTROLBOX "DCBClanInfo"
+	{
+		OnLoad( ReceiveDB( "DCBClanInfo", 26, GetEnv("G_CLANID") ) );
+		SetContent("Curr. Short", 0);
+		SetContent("ENV_CLANSHORT", 0);
+		SetContent("Curr. Name", 1);
+		SetContent("ENV_CLANNAME", 1);
+	}
+	
+	DATACONTROLBOX "DCBChangeName"
+	{
+		OnAccess( UpdateDB("", 180, GetControlText("New Name"),
+		                            GetControlText("New Short"),
+		                            GetEnv("G_CLANID"),
+		                            GetEnv("G_CHARID") ) );
+		OnAccess( UpdateDB("", 179, GetControlText("New Name"),
+		                            GetControlText("New Short"),
+		                            GetEnv("G_CLANID"),
+		                            GetEnv("G_CHARID") ) );
+		                            
+		OnAccess( SetContent("Curr. Short", GetControlText("New Short") ) );
+		OnAccess( SetContent("Curr. Name", GetControlText("New Name") ) );
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(6, 2550)", "7") );
+		OnAccessError( ChangePage("Page", ".\terminal\clankey\message.tsc") );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	TEXT "Location"
+	{
+		LayOut(2);
+		Size(40, 35, 389, 47);
+		//"G_PLACEID";
+		FunctionText("%TABLERSC(27, 0, 0)");
+	}
+	
+	DATACONTROLBOX "DCBLocater"
+	{
+		OnLoad( SetContent("Location", GetEnv("G_PLACEID") ) );
+	}
+
+	TEXT "Curr. Short"
+	{
+		LayOut(2);
+		Size(40, 69, 130, 81);
+	}
+	
+	TEXT "Curr. Name"
+	{
+		LayOut(2);
+		Size(144, 69, 389, 81);
+	}
+
+	EDITBOX "New Short"
+	{
+		LayOut(2);
+		Size(40, 103, 130, 115);
+	}
+	
+	EDITBOX "New Name"
+	{
+		LayOut(2);
+		Size(144, 103, 389, 115);
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "SUBMIT"
+	{
+		LayOut(5);
+		Size(154, 152, 274, 172);
+		OnMouse( TryAccess("DCBChangeName", 218, GetEnv("G_CLANID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	} 

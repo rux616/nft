@@ -1,0 +1,132 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// stockx - detail.tsc
+// content:
+// shows a detailed view of a stockx company (without having this stock in the depot)
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		//OnLoad( SetEnv("ENV_BACK", ".\terminal\stockx\detail.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBGetCompanyInfo"
+	{
+		OnLoad( ReceiveDB("DCBSetCompanyInfo", 752, GetEnv("SXCOMPANYID") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetCompanyInfo"
+	{
+		SetContent( "Company", 0 );
+		SetContent( "ENV_SXCOMPANYNAME", 0 );
+		SetContent( "ENV_SXFACTIONID", 1 );
+		SetContent( "Price", 3 );
+		SetContent( "ENV_SXPRICE", 3 );
+		SetContent( "Lastprice", 4 );
+		SetContent( "ENV_SXLASTPRICE", 4 );
+		SetContent( "Trend", 5 );
+		SetContent( "ENV_SXTREND", 5 );
+		SetContent( "ENV_SXAVAILABLESTOCKS", 6 );
+	}
+	
+	DATACONTROLBOX "DCBGetStockxChart"
+	{
+		OnLoad( ReceiveDB("StockX Chartscreen", 770, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_TIMESTAMP"), GetEnv("SXCHARTMONTHS") ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN StockX v 2.000"
+	{
+		LayOut(2);
+		Size( 50, 40, 220, 130);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 0, 0, 255, 127);
+		FunctionText("%BITMAP(8, 1, 3)" );
+	}
+	
+	DATACONTROLBOX "DCBSetCityComOffset"
+	{
+		OnLoad( SetContent("NCN StockX v 2.000", GetEnv("G_GFXOFFSET") ) );
+	}
+	
+	TEXT "Company"
+	{
+		LayOut(2);
+		Size(50, 152, 220, 164);
+	}
+	
+	TEXT "Price"
+	{
+		LayOut(2);
+		Size(50, 186, 220, 198);
+	}
+	
+	TEXT "Lastprice"
+	{
+		LayOut(2);
+		Size(50, 220, 220, 232);
+	}
+	
+	TEXT "Trend"
+	{
+		LayOut(2);
+		Size(50, 254, 220, 266);
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	STOCKXBOX "StockX Chartscreen"
+	{
+		LayOut(2);
+		Size(244, 40, 571, 130);
+		ShowAvailability(0);
+		ShowStatus(0);
+	}
+	
+	TEXTBUTTON "TODAY"
+	{
+		LayOut(6);
+		Size(466, 134, 516, 141);
+		OnMouse( ReceiveDB("StockX Chartscreen", 772, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_DATE"), GetEnv("G_DATE") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "LAST"
+	{
+		LayOut(7);
+		Size(528, 134, 563, 141);
+		OnMouse( ReceiveDB("StockX Chartscreen", 770, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_TIMESTAMP"), GetEnv("SXCHARTMONTHS") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "BUY"                                                                                                                  
+	{                                                                                                                              
+		LayOut(5);                                                                                                                 
+		Size(48, 400, 222, 420);
+		OnMouse( SetEnv("ENV_SXACTION", "1") );
+		OnMouse( UpdateDB("", 753, GetEnv("SXCOMPANYID"), GetEnv("G_CHARID") ) );
+		OnMouse( ChangePage("Page", ".\terminal\stockx\trading.tsc" ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "BACK"                                                                                                                  
+	{                                                                                                                              
+		LayOut(5);                                                                                                                 
+		Size(471, 400, 571, 420);
+		OnMouse( ChangePage("Page", ".\terminal\stockx\overview.tsc" ) );                                                       
+		OnMouse( PlaySound(Resource(16, 1) ) );                                                                                    
+	}

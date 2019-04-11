@@ -1,0 +1,104 @@
+//	Type	Description	BasePos	BaseAngle	LeavePos	LeaveAngle	FirePos	XLock	Ylock	MinX	MaxX	TurnS	ForceX	ShowAct	SitBone	rXBone	rYBone	WeaponBone	WeaponID	TL	DamageFac	SitAnimType	SitYOffset	SitFlags	END	
+//setentry	1	0	"Driver"	0	15	-70	-30	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	0	0	""	""	""	""	-1	0	0.0	0	|	
+
+//	Tank	
+setentry	1	0	"Driver"	-13	0	5	-30	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	0	"BONE43"	""	""	""	-1	30	1.0	0	|	
+setentry	2	1	"Gunner"	0	150	20	0	0	0	-50	0	0	0	90	0	0	150	0	0	0	-10	10	30	1	0	"BONE43"	"BONE38"	"BONE43"	"GUN1"	2500	0	1.0	0	|	
+setentry	3	2	"Passenger"	0	50	100	0	0	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	0	""	""	""	""	-1	0	1.0	0	|	
+setentry	4	2	"Passenger"	0	50	100	0	0	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	0	""	""	""	""	-1	0	1.0	0	|	
+
+//	TrackJeep	
+setentry	10	0	"Driver"	-13	0	5	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	1	"SIT"	""	""	""	-1	15	0.6	0	-5	|	
+setentry	11	1	"Gunner"	0	70	90	0	0	0	-50	0	0	0	90	0	0	130	0	0	0	-20	20	40	1	1	"SITGUN"	"BARREL"	"ARM"	"GUN"	2501	0	0.3	0	-5	|	
+setentry	12	2	"Passenger"	-13	0	5	0	0	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	1	"SIT2"	""	""	""	-1	0	0.6	0	-5	|	
+
+//	TrackBike	
+setentry	20	0	"Driver"	0	25	0	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	1	"SIT"	""	""	""	-1	5	0.4	1	-12	|	
+
+//	HoverBike	
+setentry	21	0	"Driver"	0	15	15	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	1	"SIT"	""	""	""	-1	10	0.3	1	-9	|	
+
+//	Bike	
+setentry	22	0	"Driver"	0	0	0	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	1	"SIT"	""	""	""	-1	7	0.3	1	0	|	
+//	Assault	Bike	
+setentry	23	3	"Driver/Gunner"	0	0	0	0	0	0	-50	0	0	0	90	0	0	60	-60	0	0	0	0	0	1	1	"SIT"	""	""	""	2506	25	0.3	1	0	13	|	
+
+//	Buggy	
+setentry	30	0	"Driver"	0	0	0	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	1	"SIT1"	""	""	""	-1	15	0.6	0	-22	|	
+setentry	31	2	"Passenger"	0	0	0	0	0	0	-50	0	0	0	90	0	0	80	0	0	0	-20	20	40	1	1	"SIT2"	"BARREL"	""	"GUN"	-1	0	0.3	0	-22	|	
+
+//	Trike	
+setentry	32	0	"Driver"	0	25	0	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	1	"SIT1"	""	""	""	-1	45	0.6	1	-5	|	
+setentry	33	1	"Gunner"	0	-13	0	0	0	0	-50	0	0	0	90	0	0	80	0	0	0	-20	20	40	1	1	"SIT2"	"BONE10"	"BARREL"	"GUN"	2503	0	0.3	0	-5	9	|	
+
+//	Heavy	Trike	
+setentry	34	3	"Driver/Gunner"	0	25	0	0	0	0	-50	0	0	0	90	0	30	60	0	0	0	0	0	0	1	1	"SIT1"	""	""	""	2507	45	0.6	1	-5	13	|	
+
+//	Troop	Transport	
+setentry	40	0	"Driver"	0	50	-50	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	1	"SIT1"	""	""	""	-1	30	1.0	0	-3	|	
+setentry	41	1	"Gunner"	0	100	0	0	0	0	-50	0	0	0	90	0	0	150	0	0	0	-15	15	30	1	1	"SIT2"	"BARREL"	"ARM"	"GUN"	2501	0	0.4	0	|	
+setentry	42	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	1	"SIT3"	""	""	""	-1	0	1.0	0	-3	|	
+setentry	43	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	1	"SIT4"	""	""	""	-1	0	1.0	0	-3	|	
+setentry	44	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	1	"SIT5"	""	""	""	-1	0	1.0	0	-3	|	
+setentry	45	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	1	"SIT6"	""	""	""	-1	0	1.0	0	-3	|	
+setentry	46	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	1	"SIT7"	""	""	""	-1	0	1.0	0	-8	|	
+setentry	47	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	1	"SIT8"	""	""	""	-1	0	1.0	0	-8	|	
+
+//combat	trackbike	
+setentry	49	3	"Driver/Gunner"	0	25	0	0	0	0	-50	0	0	0	90	0	10	60	-80	0	0	0	0	0	1	1	"SIT"	""	""	"GUN1A"	2503	15	0.4	1	-12	1	|	
+//	combat	HoverBike	
+setentry	50	3	"Driver/Gunner"	0	15	15	0	0	0	-50	0	0	0	90	0	0	40	-100	0	0	0	0	0	1	1	"SIT"	""	""	"GUN1"	2504	20	0.3	1	-9	1	|	
+//combat	Buggy	
+setentry	51	1	"Gunner"	0	0	0	0	0	0	-50	0	0	0	90	0	-40	100	100	0	0	-20	20	40	1	1	"SIT2"	"BARREL"	""	"GUN"	2505	0	0.3	0	-22	9	|	
+
+//doy	scout	
+setentry	60	4	"Pilot"	0	25	0	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	1	"SIT"	""	""	""	-1	75	0.3	0	0	|	
+setentry	61	5	"Pilot/Gunner"	0	25	0	0	0	0	-50	0	0	0	90	0	0	60	-300	0	0	0	0	0	1	1	"SIT"	""	""	"ROCKET"	2508	80	0.3	0	0	3	|	
+
+setentry	65	4	"Pilot"	0	25	0	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	1	"SIT1"	""	""	""	-1	85	0.3	0	-25	|	
+setentry	66	1	"Gunner"	0	50	100	0	0	0	50	0	0	0	-90	0	0	-20	0	0	0	0	0	0	1	1	"SIT2"	"GASDF"	"BARREL"	"BARREL"	2511	0	0.3	0	-25	17	|	
+setentry	67	5	"Pilot/Gunner"	0	50	100	0	0	0	50	0	0	0	-90	0	0	-40	0	0	0	0	0	0	1	1	"SIT1"	""	""	"ROCKET2"	2510	90	0.3	0	-25	3	|	
+
+//doy	aircrafts	
+setentry	70	6	"Pilot"	0	25	0	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	0	"BONE03"	""	""	""	-1	95	1.0	0	0	|	
+setentry	71	1	"Gunner"	0	25	0	0	0	0	-50	0	0	0	90	0	0	-20	0	0	0	-60	45	0	1	0	"BARREL1"	"BARREL1"	"ARM1"	""	2510	0	1.0	0	-100	|	
+
+setentry	72	6	"Pilot"	0	25	0	0	0	0	-50	0	0	0	90	0	0	0	0	0	0	0	0	0	1	0	"BONE03"	""	""	""	-1	100	1.0	0	200	|	
+setentry	73	1	"Gunner"	0	25	0	0	0	0	-50	0	0	0	90	0	0	-40	0	0	0	-60	45	0	1	0	"BARREL1"	"BARREL1"	"ARM1"	""	2510	0	1.0	0	-100	|	
+setentry	74	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	0	"BONE03"	""	""	""	-1	0	1.0	0	200	|	
+setentry	75	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	0	"BONE03"	""	""	""	-1	0	1.0	0	200	|	
+setentry	76	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	0	"BONE03"	""	""	""	-1	0	1.0	0	200	|	
+setentry	77	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	0	"BONE03"	""	""	""	-1	0	1.0	0	200	|	
+setentry	78	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	0	"BONE03"	""	""	""	-1	0	1.0	0	200	|	
+setentry	79	2	"Passenger"	0	0	0	0	180	0	50	0	0	0	-90	0	0	0	0	0	0	0	0	0	1	0	"BONE03"	""	""	""	-1	0	1.0	0	300	|	
+
+setentry	80	1	"Bomber"	0	25	0	0	0	0	-50	0	0	0	90	0	0	-20	0	0	0	-60	45	0	1	0	"BONE03"	""	""	"BONE03"	2509	0	1.0	0	-50	|	
+
+
+
+setentry	200	2	"Passenger"	0	5	-30	0	0	0	-220	50	-30	0	90	0	0	0	0	0	0	0	0	0	0	1	""	""	""	""	-1	0	0.0	0	0	|	
+setentry	201	2	"Passenger"	-30	5	20	0	0	0	-220	50	20	0	90	0	0	0	0	0	0	0	0	0	0	1	""	""	""	""	-1	0	0.0	0	0	|	
+setentry	202	2	"Passenger"	30	5	25	0	0	0	-220	50	25	0	90	0	0	0	0	0	0	0	0	0	0	1	""	""	""	""	-1	0	0.0	0	0	|	
+setentry	203	2	"Passenger"	0	5	85	0	0	0	-220	50	85	0	90	0	0	0	0	0	0	0	0	0	0	1	""	""	""	""	-1	0	0.0	0	0	|	
+
+setentry	210	2	"Passenger"	0	0	0	0	0	0	-10	50	-100	0	0	0	0	0	0	0	0	0	0	0	0	1	"CABSEAT1"	""	""	""	-1	0	0.0	0	0	|	
+setentry	211	2	"Passenger"	0	0	0	0	0	0	10	50	-100	0	0	0	0	0	0	0	0	0	0	0	0	1	"CABSEAT2"	""	""	""	-1	0	0.0	0	0	|	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

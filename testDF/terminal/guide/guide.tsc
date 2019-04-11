@@ -1,0 +1,159 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: guide - guide.tsc
+// content:
+// list of parts of this chapter plus detail of part
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+// Specials: Scrollbar: X: 557 - 572 Y: 110 - 364 (+2/-2)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_guide.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "5") );
+	}
+	
+	DATACONTROLBOX "DCBGetTopics"
+	{
+		OnLoad( ReceiveDB("NCN Guide Navigator", 455, GetEnv("CHAPTER"), GetEnv("G_LANG"), GetEnv("START"), GetEnv("LIMIT") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetGuideContent"
+	{
+		SetContent("Topic", 0);
+		SetContent("ENV_GUIDEFILE", 1);
+		
+		OnData( ClientAction( "LOADGUIDEFILE", "TXContent", GetEnv("GUIDEFILE") ) );
+	}
+	
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN Guide v 2.011"
+	{
+		LayOut(2);
+		Size( 50, 40, 220, 130);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 0, 0, 255, 127);
+		FunctionText("%BITMAP(9, 1, 3)" );
+	}
+	
+	DATACONTROLBOX "DCBSetCityComOffset"
+	{
+		OnLoad( SetContent("NCN Guide v 2.011", GetEnv("G_GFXOFFSET") ) );
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+	
+	LISTBOX "NCN Guide Navigator"
+	{
+		LayOut(2);
+		Size(234, 40, 571, 130);
+		Settings(0, 1, 1, 1);
+		Background(0);
+		LineHeight(15);
+		ShowLineNumbers(0, 0 );
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(2);
+		DataColumn(1, "Topic", 1, 337, LEFT);
+		DataColumn(2, "ID", 0, 0, LEFT);
+		
+		OnMouse( SetEnv("ENV_GUIDEID", GetControlText("NCN Guide Navigator") ) );
+		OnMouse( ReceiveDB("DCBSetGuideContent", 456, GetEnv("GUIDEID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );	
+	}
+	
+//	TEXTBUTTON "GB/USA"
+//	{
+//		LayOut(6); // 50
+//		Size(393, 134, 443, 141);
+//		OnMouse( SetEnv("ENV_LANG", "2" ) );
+//		OnMouse( ReceiveDB("NCN Guide Navigator", 455, GetEnv("CHAPTER"), GetEnv("G_LANG"), GetEnv("START"), GetEnv("LIMIT") ) );
+//		OnMouse( PlaySound(Resource(16, 1) ) );
+//	}
+//	
+//	TEXTBUTTON "D"
+//	{
+//		LayOut(6); // 15
+//		Size(455, 134, 470, 141);
+//		OnMouse( SetEnv("ENV_LANG", "1" ) );
+//		OnMouse( ReceiveDB("NCN Guide Navigator", 455, GetEnv("CHAPTER"), GetEnv("LANG"), GetEnv("START"), GetEnv("LIMIT") ) );
+//		OnMouse( PlaySound(Resource(16, 1) ) );
+//	}
+//	
+//	TEXTBUTTON "F"
+//	{
+//		LayOut(6); // 15
+//		Size(482, 134, 497, 141);
+//		OnMouse( SetEnv("ENV_LANG", "3" ) );
+//		OnMouse( ReceiveDB("NCN Guide Navigator", 455, GetEnv("CHAPTER"), GetEnv("LANG"), GetEnv("START"), GetEnv("LIMIT") ) );
+//		OnMouse( PlaySound(Resource(16, 1) ) );
+//	}
+//	
+//	TEXTBUTTON "   "
+//	{
+//		LayOut(6);
+//		Size(509, 134, 519, 141);
+//	}
+	
+	TEXTBUTTON "PREV"
+	{
+		LayOut(6);
+		Size(481, 134, 516, 141);
+		OnMouse( SetEnv("ENV_START", StringCalcSub( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("NCN Guide Navigator", 455, GetEnv("CHAPTER"), GetEnv("G_LANG"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "NEXT"
+	{
+		LayOut(7);
+		Size(528, 134, 563, 141);
+		OnMouse( SetEnv("ENV_START", StringCalcAdd( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("NCN Guide Navigator", 455, GetEnv("CHAPTER"), GetEnv("G_LANG"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXT "Topic"
+	{
+		LayOut(2);
+		Size(50, 162, 571, 174);
+		"- select a topic -";
+	}
+
+	FRAME "Content"
+	{
+		LayOut(4);
+		Size(50, 196, 555, 408);
+		
+		FRAME "Client"
+		{
+			Size(-1, -1, -1, -1);
+			
+			TEXT "TXContent"
+			{
+				Pos(0,0);
+				Width(503);
+				"- select a topic -";
+			}
+		}
+	}
+
+	SCROLLBAR "ScrollIt"
+	{
+		Size(557, 198, 572, 406);
+		Target("Content");
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

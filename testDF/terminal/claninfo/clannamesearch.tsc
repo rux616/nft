@@ -1,0 +1,247 @@
+// claninfo - clannamesearch.tsc
+// contents:
+// overview of all clans (limited to 20)
+// search for a specific clan by typing in the name
+// selecting a clan goes to clandetail
+	
+// coords:
+// LT (50, 40)	RB (571, 408) -> without buttons on bottom
+
+#include ".\terminal\common\submenu_info.tsc"
+
+// CONTROLS \\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+	
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "16") );
+		OnLoad( SetEnv("ENV_NAMEDOWN", "@%%") );
+		OnLoad( SetEnv("ENV_NAMEUP", "d_%%") );
+		OnLoad( SetEnv("ENV_BACK", ".\terminal\claninfo\clannamesearch.tsc") );
+
+		OnLoad( SetEnv("ENV_CLANSHORT", "-");
+		OnLoad( SetEnv("ENV_CLANNAME", "-");
+		OnLoad( SetEnv("ENV_CLANMONEY", "0");
+		OnLoad( SetEnv("ENV_FACTIONID", "1");
+		OnLoad( SetEnv("ENV_MINSYMP", "0");
+		OnLoad( SetEnv("ENV_CAPPID", "0");
+		OnLoad( SetEnv("ENV_CLANDESC", "-");
+		OnLoad( SetEnv("ENV_LEADERID", "0");
+		OnLoad( SetEnv("ENV_LEADERNAME", "-");
+	}
+	
+	DATACONTROLBOX "DCBClanOverview"
+	{
+		OnLoad( ReceiveDB("Clans", 14, GetEnv("SEARCHSTRING"), GetEnv("START"), GetEnv("LIMIT") ) );
+		//OnLoad( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+	}
+	
+	DATACONTROLBOX "DCBClanMembership"
+	{
+		OnAccess( ChangePage("Page", ".\terminal\claninfo\claninfo.tsc" ) );
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(6, 2580)", "0") );
+		OnAccessError( ChangePage("Page", ".\terminal\claninfo\message.tsc" ) );
+	}
+	
+	
+
+// CONTENT \\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+	
+	EDITBOX "Clan Searchstring"
+	{
+		LayOut(2);
+		Size(50, 40, 300, 52);
+	}
+	
+	DATACONTROLBOX "DCBSetSearchString"
+	{
+		OnLoad( SetContent( "Clan Searchstring", GetEnv("SEARCHSTRING") ) );
+	}
+	
+//	TEXTBUTTON "PREV"
+//	{
+//		LayOut(6);
+//		Size(319, 56, 354, 63);
+//		OnMouse( SetEnv("ENV_START", StringCalcSub( GetEnv("START"), "19") ) );
+//		OnMouse( ReceiveDB("Clans", 14, GetControlText("Clan Name"), GetEnv("START"), GetEnv("LIMIT") ) );
+//		OnMouse( PlaySound(Resource(16, 1) ) );
+//	}
+//	
+//	TEXTBUTTON "NEXT"
+//	{
+//		LayOut(6);
+//		Size(366, 56, 401, 63);
+//		OnMouse( SetEnv("ENV_START", StringCalcAdd( GetEnv("START"), "19") ) );
+//		OnMouse( ReceiveDB("Clans", 14, GetControlText("Clan Name"), GetEnv("START"), GetEnv("LIMIT") ) );
+//		OnMouse( PlaySound(Resource(16, 1) ) );
+//	}
+	
+	TEXTBUTTON "HELP"
+	{
+		LayOut(7);
+		Size(252, 56, 292, 63);
+		OnMouse( ChangePage("Page", ".\terminal\claninfo\helpsearch.tsc" ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "SEARCH"
+	{
+		LayOut(5);
+		Size(310, 38, 414, 58);
+		OnMouse( SetEnv("ENV_START", "0" ) );
+		OnMouse( SetEnv("ENV_SEARCHSTRING", GetControlText("Clan Searchstring") ) );
+	        OnMouse( ReceiveDB("Clans", 14, GetControlText("Clan Searchstring"), GetEnv("START"), GetEnv("LIMIT") ) );
+	        OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+	LISTBOX "Clans"
+	{
+		LayOut(1);
+		Size(50, 91, 571, 366);
+		Settings(0, 1, 1, 1);
+		Background(0);
+		LineHeight(16);
+		ShowLineNumbers(1, GetEnv("START") );
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(5);
+		DataColumn(1, "Short", 1, 80, LEFT);
+		DataColumn(2, "Clanname", 2, 241, LEFT);
+		DataFunctionColumn(3, "Faction", "%FACTIONNAME", 3, 140, LEFT);
+		DataFunctionColumn(4, "F.-Symp.", "%FACTIONSYMPATHY", 5, 60, LEFT);
+		DataColumn(5, "ID", 0, 0, CENTER);
+		
+		OnMouse( SetEnv("ENV_CLANID", GetControlText("Clans") ) );
+		
+		// change to this for change to dome of york
+		//OnMouse( ChangePage("Page", ".\terminal\claninfo\groupchecker.tsc" ) );
+		
+		OnMouse( ChangePage("Page", ".\terminal\claninfo\claninfo.tsc" ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "PREV"
+	{
+		LayOut(6);
+		Size(481, 370, 516, 377);
+		OnMouse( SetEnv("ENV_START", StringCalcSub( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "NEXT"
+	{
+		LayOut(7);
+		Size(528, 370, 563, 377);
+		OnMouse( SetEnv("ENV_START", StringCalcAdd( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+// BUTTONS \\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+	
+	// alphabet-tabs
+	TEXTBUTTON "<  A "
+	{
+		Layout(10);
+		Size(56, 74, 91, 86);
+		OnMouse( SetEnv("ENV_START", "0" ) );
+		OnMouse( SetEnv("ENV_NAMEDOWN", " %%") );
+		OnMouse( SetEnv("ENV_NAMEUP", "@%%") );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "A - D"
+	{
+		Layout(11);
+		Size(101, 74, 141, 86);
+		OnMouse( SetEnv("ENV_START", "0" ) );
+		OnMouse( SetEnv("ENV_NAMEDOWN", "@%%") );
+		OnMouse( SetEnv("ENV_NAMEUP", "d_%%") );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "E - H"
+	{
+		Layout(11);
+		Size(151, 74, 191, 86);
+		OnMouse( SetEnv("ENV_START", "0" ) );
+		OnMouse( SetEnv("ENV_NAMEDOWN", "d_%%") );
+		OnMouse( SetEnv("ENV_NAMEUP", "h_%%") );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "I - N"
+	{
+		Layout(11);
+		Size(201, 74, 241, 86);
+		OnMouse( SetEnv("ENV_START", "0" ) );
+		OnMouse( SetEnv("ENV_NAMEDOWN", "h_%%") );
+		OnMouse( SetEnv("ENV_NAMEUP", "n_%%") );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "O - R"
+	{
+		Layout(11);
+		Size(251, 74, 291, 86);
+		OnMouse( SetEnv("ENV_START", "0" ) );
+		OnMouse( SetEnv("ENV_NAMEDOWN", "n_%%") );
+		OnMouse( SetEnv("ENV_NAMEUP", "r_%%") );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "S - T"
+	{
+		Layout(11);
+		Size(301, 74, 341, 86);
+		OnMouse( SetEnv("ENV_START", "0" ) );
+		OnMouse( SetEnv("ENV_NAMEDOWN", "r_%%") );
+		OnMouse( SetEnv("ENV_NAMEUP", "t_%%") );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "U - Z"
+	{
+		Layout(11);
+		Size(351, 74, 391, 86);
+		OnMouse( SetEnv("ENV_START", "0" ) );
+		OnMouse( SetEnv("ENV_NAMEDOWN", "t_%%") );
+		OnMouse( SetEnv("ENV_NAMEUP", "z_%%") );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON " Z  >"
+	{
+		Layout(11);
+		Size(401, 74, 441, 86);
+		OnMouse( SetEnv("ENV_START", "0" ) );
+		OnMouse( SetEnv("ENV_NAMEDOWN", "z_%%") );
+		OnMouse( SetEnv("ENV_NAMEUP", "µ%%") );
+		OnMouse( ReceiveDB( "Clans", 25, GetEnv("NAMEDOWN"), GetEnv("NAMEUP"), GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "Search by Faction"
+	{
+		LayOut(5);
+		Size(48, 400, 222, 420);
+	        OnMouse( SetEnv("ENV_FACTIONID", GetEnv("G_FACTIONID") ) );
+	        OnMouse( ChangePage("Page", ".\terminal\claninfo\clanfactionsearch.tsc" ) );
+	        OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "My Clan"
+	{
+		LayOut(5);
+		Size(473, 400, 573, 420);
+	        OnMouse( SetEnv("ENV_CLANID", GetEnv("G_CLANID") ) );
+	        OnMouse( TryAccess("DCBClanMembership", 269, GetEnv("G_CLANID") ) );
+	        OnMouse( PlaySound(Resource(16, 1) ) );
+	}

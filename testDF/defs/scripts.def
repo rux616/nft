@@ -1,0 +1,771 @@
+setentry 0 "DIALOGHEADER" "scripts/lua/dialogheader.lua" ""|
+setentry 1 "MISSIONHEADER" "scripts/lua/missionheader.lua" ""|
+setentry 2 "S_TEST" "scripts/lua/s_test.lua" "DIALOGHEADER"|
+setentry 3 "M_SPY" "scripts/lua/M_SPY.lua" "MISSIONHEADER"|
+setentry 4 "M_S_PACKET" "scripts/lua/M_S_PACKET.lua" "MISSIONHEADER"|
+setentry 5 "M_S_RESEARCH_K" "scripts/lua/M_S_RESEARCH_K.lua" "MISSIONHEADER"|
+setentry 6 "M_S_RESEARCH_B" "scripts/lua/M_S_RESEARCH_B.lua" "MISSIONHEADER"|
+setentry 7 "M_S_RESEARCH_P" "scripts/lua/M_S_RESEARCH_P.lua" "MISSIONHEADER"|
+setentry 10 "M_SE_PACKET" "scripts/lua/M_SE_PACKET.lua" "MISSIONHEADER"|
+setentry 11 "M_S_KILLENEMY" "scripts/lua/M_S_KILLENEMY.lua" "MISSIONHEADER"|
+setentry 12 "M_S_KILLGROUP" "scripts/lua/M_S_KILLGROUP.lua" "MISSIONHEADER"|
+setentry 13 "M_S_KILLGROUP1" "scripts/lua/M_S_KILLGROUP1.lua" "MISSIONHEADER"|
+setentry 14 "M_SPY_BIOTECH" "scripts/lua/M_SPY_BIOTECH.lua" "MISSIONHEADER"|
+setentry 15 "M_SPY_DIAMOND" "scripts/lua/M_SPY_DIAMOND.lua" "MISSIONHEADER"|
+setentry 16 "M_SPY_NEXT" "scripts/lua/M_SPY_NEXT.lua" "MISSIONHEADER"|
+setentry 17 "M_SPY_PHARMA" "scripts/lua/M_SPY_PHARMA.lua" "MISSIONHEADER"|
+setentry 18 "M_SPY_TANGENT" "scripts/lua/M_SPY_TANGENT.lua" "MISSIONHEADER"|
+setentry 19 "M_S_RECYCLE_BP" "scripts/lua/M_S_RECYCLE_BP.lua" "MISSIONHEADER"|
+setentry 20 "M_S_RECYCLE_ME" "scripts/lua/M_S_RECYCLE_ME.lua" "MISSIONHEADER"|
+setentry 21 "M_S_KILLGROUP2" "scripts/lua/M_S_KILLGROUP2.lua" "MISSIONHEADER"| //Testreihen von Protopharma unterbinden
+setentry 22 "M_S_KILLGROUP3" "scripts/lua/M_S_KILLGROUP3.lua" "MISSIONHEADER"| //Drogenhandel von Tsunami unterbinden (durch BD)
+setentry 23 "M_S_KILLGROUP4" "scripts/lua/M_S_KILLGROUP4.lua" "MISSIONHEADER"| //angrenzende Sektoren von Ungezifer befreien
+setentry 26 "M_S_KILLGROUP5" "scripts/lua/M_S_KILLGROUP5.lua" "MISSIONHEADER"| //fuer das NCPD Gegener vor der Stadt toeten
+setentry 27 "M_S_KILLENEMY1" "scripts/lua/M_S_KILLENEMY1.lua" "MISSIONHEADER"| //Toetungsauftrag 1NPC: Job erhalten 2NPC: Infos 3:NPC toeten
+setentry 28 "M_S_INVEST_M1" "scripts/lua/M_S_INVEST_M1.lua" "MISSIONHEADER"| //Mordfall aufklären
+setentry 29 "M_S_STEAL1" "scripts/lua/M_S_STEAL1.lua" "MISSIONHEADER"| //Diebstahl durchführen
+setentry 30 "SINGLE_AG_OFFICIAL_01" "scripts/lua/single_ag_official_01.lua" "MISSIONHEADER"| //testmissionen
+setentry 31 "IMO_START" "scripts/lua/IMO_START.lua" "DIALOGHEADER"| //testmissionen
+setentry 32 "START_CONST" "scripts/lua/START_CONST.lua" "MISSIONHEADER"|
+
+//TERMINAL MISSIONS (ferrons rework) 
+//AG  Assasinate Group
+setentry 40 "SINGLE_AG_CA_01" "scripts/lua/terminalmissions/SINGLE_AG_CA_01.lua" "MISSIONHEADER"|
+setentry 41 "SINGLE_AG_CA_02" "scripts/lua/terminalmissions/SINGLE_AG_CA_02.lua" "MISSIONHEADER"|
+setentry 42 "SINGLE_AG_TT_01" "scripts/lua/terminalmissions/SINGLE_AG_TT_01.lua" "MISSIONHEADER"|
+setentry 43 "SINGLE_AG_TT_02" "scripts/lua/terminalmissions/SINGLE_AG_TT_02.lua" "MISSIONHEADER"|
+setentry 44 "SINGLE_AG_BT_01" "scripts/lua/terminalmissions/SINGLE_AG_BT_01.lua" "MISSIONHEADER"|
+setentry 45 "SINGLE_AG_BT_02" "scripts/lua/terminalmissions/SINGLE_AG_BT_02.lua" "MISSIONHEADER"|
+setentry 46 "SINGLE_AG_PP_01" "scripts/lua/terminalmissions/SINGLE_AG_PP_01.lua" "MISSIONHEADER"|
+setentry 47 "SINGLE_AG_PP_02" "scripts/lua/terminalmissions/SINGLE_AG_PP_02.lua" "MISSIONHEADER"|
+setentry 48 "SINGLE_AG_DRE_01" "scripts/lua/terminalmissions/SINGLE_AG_DRE_01.lua" "MISSIONHEADER"|
+setentry 49 "SINGLE_AG_DRE_02" "scripts/lua/terminalmissions/SINGLE_AG_DRE_02.lua" "MISSIONHEADER"|
+setentry 50 "SINGLE_AG_NX_01" "scripts/lua/terminalmissions/SINGLE_AG_NX_01.lua" "MISSIONHEADER"|
+setentry 51 "SINGLE_AG_NX_02" "scripts/lua/terminalmissions/SINGLE_AG_NX_02.lua" "MISSIONHEADER"|
+setentry 52 "SINGLE_AG_CM_01" "scripts/lua/terminalmissions/SINGLE_AG_CM_01.lua" "MISSIONHEADER"|
+setentry 53 "SINGLE_AG_CM_02" "scripts/lua/terminalmissions/SINGLE_AG_CM_02.lua" "MISSIONHEADER"|
+setentry 54 "SINGLE_AG_FA_01" "scripts/lua/terminalmissions/SINGLE_AG_FA_01.lua" "MISSIONHEADER"|
+setentry 55 "SINGLE_AG_FA_02" "scripts/lua/terminalmissions/SINGLE_AG_FA_02.lua" "MISSIONHEADER"|
+setentry 56 "SINGLE_AG_TG_01" "scripts/lua/terminalmissions/SINGLE_AG_TG_01.lua" "MISSIONHEADER"|
+setentry 57 "SINGLE_AG_TG_02" "scripts/lua/terminalmissions/SINGLE_AG_TG_02.lua" "MISSIONHEADER"|
+setentry 58 "SINGLE_AG_TS_01" "scripts/lua/terminalmissions/SINGLE_AG_TS_01.lua" "MISSIONHEADER"|
+setentry 59 "SINGLE_AG_TS_02" "scripts/lua/terminalmissions/SINGLE_AG_TS_02.lua" "MISSIONHEADER"|
+setentry 60 "SINGLE_AG_BD_01" "scripts/lua/terminalmissions/SINGLE_AG_BD_01.lua" "MISSIONHEADER"|
+setentry 61 "SINGLE_AG_BD_02" "scripts/lua/terminalmissions/SINGLE_AG_BD_02.lua" "MISSIONHEADER"|
+setentry 62 "SINGLE_AG_CS_01" "scripts/lua/terminalmissions/SINGLE_AG_CS_01.lua" "MISSIONHEADER"|
+setentry 63 "SINGLE_AG_CS_02" "scripts/lua/terminalmissions/SINGLE_AG_CS_02.lua" "MISSIONHEADER"|
+setentry 64 "SINGLE_AG_AB_01" "scripts/lua/terminalmissions/SINGLE_AG_AB_01.lua" "MISSIONHEADER"|
+setentry 65 "SINGLE_AG_AB_02" "scripts/lua/terminalmissions/SINGLE_AG_AB_02.lua" "MISSIONHEADER"|
+
+//AS Assassinate Single
+setentry 66 "SINGLE_AS_CA_01" "scripts/lua/terminalmissions/SINGLE_AS_CA_01.lua" "MISSIONHEADER"|
+setentry 67 "SINGLE_AS_CA_02" "scripts/lua/terminalmissions/SINGLE_AS_CA_02.lua" "MISSIONHEADER"|
+setentry 68 "SINGLE_AS_TT_01" "scripts/lua/terminalmissions/SINGLE_AS_TT_01.lua" "MISSIONHEADER"|
+setentry 69 "SINGLE_AS_TT_02" "scripts/lua/terminalmissions/SINGLE_AS_TT_02.lua" "MISSIONHEADER"|
+setentry 70 "SINGLE_AS_BT_01" "scripts/lua/terminalmissions/SINGLE_AS_BT_01.lua" "MISSIONHEADER"|
+setentry 71 "SINGLE_AS_BT_02" "scripts/lua/terminalmissions/SINGLE_AS_BT_02.lua" "MISSIONHEADER"|
+setentry 72 "SINGLE_AS_PP_01" "scripts/lua/terminalmissions/SINGLE_AS_PP_01.lua" "MISSIONHEADER"|
+setentry 73 "SINGLE_AS_PP_02" "scripts/lua/terminalmissions/SINGLE_AS_PP_02.lua" "MISSIONHEADER"|
+setentry 74 "SINGLE_AS_DRE_01" "scripts/lua/terminalmissions/SINGLE_AS_DRE_01.lua" "MISSIONHEADER"|
+setentry 75 "SINGLE_AS_DRE_02" "scripts/lua/terminalmissions/SINGLE_AS_DRE_02.lua" "MISSIONHEADER"|
+setentry 76 "SINGLE_AS_NX_01" "scripts/lua/terminalmissions/SINGLE_AS_NX_01.lua" "MISSIONHEADER"|
+setentry 77 "SINGLE_AS_NX_02" "scripts/lua/terminalmissions/SINGLE_AS_NX_02.lua" "MISSIONHEADER"|
+setentry 78 "SINGLE_AS_CM_01" "scripts/lua/terminalmissions/SINGLE_AS_CM_01.lua" "MISSIONHEADER"|
+setentry 79 "SINGLE_AS_CM_02" "scripts/lua/terminalmissions/SINGLE_AS_CM_02.lua" "MISSIONHEADER"|
+setentry 80 "SINGLE_AS_FA_01" "scripts/lua/terminalmissions/SINGLE_AS_FA_01.lua" "MISSIONHEADER"|
+setentry 81 "SINGLE_AS_FA_02" "scripts/lua/terminalmissions/SINGLE_AS_FA_02.lua" "MISSIONHEADER"|
+setentry 82 "SINGLE_AS_TG_01" "scripts/lua/terminalmissions/SINGLE_AS_TG_01.lua" "MISSIONHEADER"|
+setentry 83 "SINGLE_AS_TG_02" "scripts/lua/terminalmissions/SINGLE_AS_TG_02.lua" "MISSIONHEADER"|
+setentry 84 "SINGLE_AS_TS_01" "scripts/lua/terminalmissions/SINGLE_AS_TS_01.lua" "MISSIONHEADER"|
+setentry 85 "SINGLE_AS_TS_02" "scripts/lua/terminalmissions/SINGLE_AS_TS_02.lua" "MISSIONHEADER"|
+setentry 86 "SINGLE_AS_BD_01" "scripts/lua/terminalmissions/SINGLE_AS_BD_01.lua" "MISSIONHEADER"|
+setentry 87 "SINGLE_AS_BD_02" "scripts/lua/terminalmissions/SINGLE_AS_BD_02.lua" "MISSIONHEADER"|
+setentry 88 "SINGLE_AS_CS_01" "scripts/lua/terminalmissions/SINGLE_AS_CS_01.lua" "MISSIONHEADER"|
+setentry 89 "SINGLE_AS_CS_02" "scripts/lua/terminalmissions/SINGLE_AS_CS_02.lua" "MISSIONHEADER"|
+setentry 90 "SINGLE_AS_AB_01" "scripts/lua/terminalmissions/SINGLE_AS_AB_01.lua" "MISSIONHEADER"|
+setentry 91 "SINGLE_AS_AB_02" "scripts/lua/terminalmissions/SINGLE_AS_AB_02.lua" "MISSIONHEADER"|
+
+//DEL Delivery Missions
+setentry 92 "SINGLE_DEL_CA_01" "scripts/lua/terminalmissions/SINGLE_DEL_CA_01.lua" "MISSIONHEADER"|
+setentry 93 "SINGLE_DEL_CA_02" "scripts/lua/terminalmissions/SINGLE_DEL_CA_02.lua" "MISSIONHEADER"|
+setentry 94 "SINGLE_DEL_TT_01" "scripts/lua/terminalmissions/SINGLE_DEL_TT_01.lua" "MISSIONHEADER"|
+setentry 95 "SINGLE_DEL_TT_02" "scripts/lua/terminalmissions/SINGLE_DEL_TT_02.lua" "MISSIONHEADER"|
+setentry 96 "SINGLE_DEL_BT_01" "scripts/lua/terminalmissions/SINGLE_DEL_BT_01.lua" "MISSIONHEADER"|
+setentry 97 "SINGLE_DEL_BT_02" "scripts/lua/terminalmissions/SINGLE_DEL_BT_02.lua" "MISSIONHEADER"|
+setentry 98 "SINGLE_DEL_PP_01" "scripts/lua/terminalmissions/SINGLE_DEL_PP_01.lua" "MISSIONHEADER"|
+setentry 99 "SINGLE_DEL_PP_02" "scripts/lua/terminalmissions/SINGLE_DEL_PP_02.lua" "MISSIONHEADER"|
+setentry 100 "SINGLE_DEL_DRE_01" "scripts/lua/terminalmissions/SINGLE_DEL_DRE_01.lua" "MISSIONHEADER"|
+setentry 101 "SINGLE_DEL_DRE_02" "scripts/lua/terminalmissions/SINGLE_DEL_DRE_02.lua" "MISSIONHEADER"|
+setentry 102 "SINGLE_DEL_NX_01" "scripts/lua/terminalmissions/SINGLE_DEL_NX_01.lua" "MISSIONHEADER"|
+setentry 103 "SINGLE_DEL_NX_02" "scripts/lua/terminalmissions/SINGLE_DEL_NX_02.lua" "MISSIONHEADER"|
+setentry 104 "SINGLE_DEL_CM_01" "scripts/lua/terminalmissions/SINGLE_DEL_CM_01.lua" "MISSIONHEADER"|
+setentry 105 "SINGLE_DEL_CM_02" "scripts/lua/terminalmissions/SINGLE_DEL_CM_02.lua" "MISSIONHEADER"|
+setentry 106 "SINGLE_DEL_FA_01" "scripts/lua/terminalmissions/SINGLE_DEL_FA_01.lua" "MISSIONHEADER"|
+setentry 107 "SINGLE_DEL_FA_02" "scripts/lua/terminalmissions/SINGLE_DEL_FA_02.lua" "MISSIONHEADER"|
+setentry 108 "SINGLE_DEL_TG_01" "scripts/lua/terminalmissions/SINGLE_DEL_TG_01.lua" "MISSIONHEADER"|
+setentry 109 "SINGLE_DEL_TG_02" "scripts/lua/terminalmissions/SINGLE_DEL_TG_02.lua" "MISSIONHEADER"|
+setentry 110 "SINGLE_DEL_TS_01" "scripts/lua/terminalmissions/SINGLE_DEL_TS_01.lua" "MISSIONHEADER"|
+setentry 111 "SINGLE_DEL_TS_02" "scripts/lua/terminalmissions/SINGLE_DEL_TS_02.lua" "MISSIONHEADER"|
+setentry 112 "SINGLE_DEL_BD_01" "scripts/lua/terminalmissions/SINGLE_DEL_BD_01.lua" "MISSIONHEADER"|
+setentry 113 "SINGLE_DEL_BD_02" "scripts/lua/terminalmissions/SINGLE_DEL_BD_02.lua" "MISSIONHEADER"|
+setentry 114 "SINGLE_DEL_CS_01" "scripts/lua/terminalmissions/SINGLE_DEL_CS_01.lua" "MISSIONHEADER"|
+setentry 115 "SINGLE_DEL_CS_02" "scripts/lua/terminalmissions/SINGLE_DEL_CS_02.lua" "MISSIONHEADER"|
+setentry 116 "SINGLE_DEL_AB_01" "scripts/lua/terminalmissions/SINGLE_DEL_AB_01.lua" "MISSIONHEADER"|
+setentry 117 "SINGLE_DEL_AB_02" "scripts/lua/terminalmissions/SINGLE_DEL_AB_02.lua" "MISSIONHEADER"|
+
+//DOME and NEOCRON  ALLIANCE missions (old ivos chaos order missions)
+//RC Recycle
+setentry 120 "SINGLE_RC_ALL_NEOCRON_01" "scripts/lua/terminalmissions/SINGLE_RC_ALL_NEOCRON_01.lua" "MISSIONHEADER"|
+setentry 121 "SINGLE_RC_ALL_DOME_01" "scripts/lua/terminalmissions/SINGLE_RC_ALL_DOME_01.lua" "MISSIONHEADER"|
+//R Research New Patch 112
+setentry 122 "SINGLE_R_ALL_01" "scripts/lua/terminalmissions/SINGLE_R_ALL_01.lua" "MISSIONHEADER"|
+//DEL Delivery
+setentry 123 "SINGLE_DEL_ALL_NEOCRON_01" "scripts/lua/terminalmissions/SINGLE_DEL_ALL_NEOCRON_01.lua" "MISSIONHEADER"|
+setentry 124 "SINGLE_DEL_ALL_DOME_01" "scripts/lua/terminalmissions/SINGLE_DEL_ALL_DOME_01.lua" "MISSIONHEADER"|
+//setentry 125 "SINGLE_AG_ALL_NEOCRON_01" "scripts/lua/terminalmissions/SINGLE_AG_ALL_NEOCRON_01.lua" "MISSIONHEADER"|
+//setentry 126 "SINGLE_AS_ALL_NEOCRON_01" "scripts/lua/terminalmissions/SINGLE_AS_ALL_NEOCRON_01.lua" "MISSIONHEADER"|
+//CON Construction New Patch 112
+setentry 127 "SINGLE_CON_BD_01" "scripts/lua/terminalmissions/SINGLE_CON_BD_01.lua" "MISSIONHEADER"|
+setentry 128 "SINGLE_CON_BD_02" "scripts/lua/terminalmissions/SINGLE_CON_BD_02.lua" "MISSIONHEADER"|
+setentry 129 "SINGLE_CON_BD_03" "scripts/lua/terminalmissions/SINGLE_CON_BD_03.lua" "MISSIONHEADER"|
+setentry 130 "SINGLE_CON_BT_01" "scripts/lua/terminalmissions/SINGLE_CON_BT_01.lua" "MISSIONHEADER"|
+setentry 131 "SINGLE_CON_BT_02" "scripts/lua/terminalmissions/SINGLE_CON_BT_02.lua" "MISSIONHEADER"|
+setentry 132 "SINGLE_CON_BT_03" "scripts/lua/terminalmissions/SINGLE_CON_BT_03.lua" "MISSIONHEADER"|
+setentry 133 "SINGLE_CON_CA_01" "scripts/lua/terminalmissions/SINGLE_CON_CA_01.lua" "MISSIONHEADER"|
+setentry 134 "SINGLE_CON_CA_02" "scripts/lua/terminalmissions/SINGLE_CON_CA_02.lua" "MISSIONHEADER"|
+setentry 135 "SINGLE_CON_CA_03" "scripts/lua/terminalmissions/SINGLE_CON_CA_03.lua" "MISSIONHEADER"|
+setentry 136 "SINGLE_CON_CM_01" "scripts/lua/terminalmissions/SINGLE_CON_CM_01.lua" "MISSIONHEADER"|
+setentry 137 "SINGLE_CON_CM_02" "scripts/lua/terminalmissions/SINGLE_CON_CM_02.lua" "MISSIONHEADER"|
+setentry 138 "SINGLE_CON_CM_03" "scripts/lua/terminalmissions/SINGLE_CON_CM_03.lua" "MISSIONHEADER"|
+setentry 139 "SINGLE_CON_CS_01" "scripts/lua/terminalmissions/SINGLE_CON_CS_01.lua" "MISSIONHEADER"|
+setentry 140 "SINGLE_CON_CS_02" "scripts/lua/terminalmissions/SINGLE_CON_CS_02.lua" "MISSIONHEADER"|
+setentry 141 "SINGLE_CON_CS_03" "scripts/lua/terminalmissions/SINGLE_CON_CS_03.lua" "MISSIONHEADER"|
+setentry 142 "SINGLE_CON_DRE_01" "scripts/lua/terminalmissions/SINGLE_CON_DRE_01.lua" "MISSIONHEADER"|
+setentry 143 "SINGLE_CON_DRE_02" "scripts/lua/terminalmissions/SINGLE_CON_DRE_02.lua" "MISSIONHEADER"|
+setentry 144 "SINGLE_CON_DRE_03" "scripts/lua/terminalmissions/SINGLE_CON_DRE_03.lua" "MISSIONHEADER"|
+setentry 145 "SINGLE_CON_FA_01" "scripts/lua/terminalmissions/SINGLE_CON_FA_01.lua" "MISSIONHEADER"|
+setentry 146 "SINGLE_CON_FA_02" "scripts/lua/terminalmissions/SINGLE_CON_FA_02.lua" "MISSIONHEADER"|
+setentry 147 "SINGLE_CON_FA_03" "scripts/lua/terminalmissions/SINGLE_CON_FA_03.lua" "MISSIONHEADER"|
+setentry 148 "SINGLE_CON_NEXT_01" "scripts/lua/terminalmissions/SINGLE_CON_NEXT_01.lua" "MISSIONHEADER"|
+setentry 149 "SINGLE_CON_NEXT_02" "scripts/lua/terminalmissions/SINGLE_CON_NEXT_02.lua" "MISSIONHEADER"|
+setentry 150 "SINGLE_CON_NEXT_03" "scripts/lua/terminalmissions/SINGLE_CON_NEXT_03.lua" "MISSIONHEADER"|
+setentry 151 "SINGLE_CON_PP_01" "scripts/lua/terminalmissions/SINGLE_CON_PP_01.lua" "MISSIONHEADER"|
+setentry 152 "SINGLE_CON_PP_02" "scripts/lua/terminalmissions/SINGLE_CON_PP_02.lua" "MISSIONHEADER"|
+setentry 153 "SINGLE_CON_PP_03" "scripts/lua/terminalmissions/SINGLE_CON_PP_03.lua" "MISSIONHEADER"|
+setentry 154 "SINGLE_CON_TG_01" "scripts/lua/terminalmissions/SINGLE_CON_TG_01.lua" "MISSIONHEADER"|
+setentry 155 "SINGLE_CON_TG_02" "scripts/lua/terminalmissions/SINGLE_CON_TG_02.lua" "MISSIONHEADER"|
+setentry 156 "SINGLE_CON_TG_03" "scripts/lua/terminalmissions/SINGLE_CON_TG_03.lua" "MISSIONHEADER"|
+setentry 157 "SINGLE_CON_TS_01" "scripts/lua/terminalmissions/SINGLE_CON_TS_01.lua" "MISSIONHEADER"|
+setentry 158 "SINGLE_CON_TS_02" "scripts/lua/terminalmissions/SINGLE_CON_TS_02.lua" "MISSIONHEADER"|
+setentry 159 "SINGLE_CON_TS_03" "scripts/lua/terminalmissions/SINGLE_CON_TS_03.lua" "MISSIONHEADER"|
+setentry 160 "SINGLE_CON_TT_01" "scripts/lua/terminalmissions/SINGLE_CON_TT_01.lua" "MISSIONHEADER"|
+setentry 161 "SINGLE_CON_TT_02" "scripts/lua/terminalmissions/SINGLE_CON_TT_02.lua" "MISSIONHEADER"|
+setentry 162 "SINGLE_CON_TT_03" "scripts/lua/terminalmissions/SINGLE_CON_TT_03.lua" "MISSIONHEADER"|
+
+//END TERMINAL MISSIONS
+
+
+
+
+//NPCMISSIONS
+setentry 230 "PREACHER" "scripts/lua/npcmissions/CHURCH_PREACHER.lua" "MISSIONHEADER"|
+setentry 231 "MONTEJAVARE" "scripts/lua/npcmissions/CHURCH_MONTE.lua" "MISSIONHEADER"|
+setentry 232 "JUAN" "scripts/lua/npcmissions/CHURCH_JUAN.lua" "MISSIONHEADER"|
+setentry 233 "BIRGITTE" "scripts/lua/npcmissions/CHURCH_BIRGITTE.lua" "MISSIONHEADER"|
+
+setentry 234 "SCIENTIST_CREST" "scripts/lua/npcmissions/SCIENTIST.lua" "MISSIONHEADER"|
+setentry 235 "TECHNICIAN_CREST" "scripts/lua/npcmissions/CREST_TEC.lua" "MISSIONHEADER"|
+
+setentry 236 "GRIZZLY" "scripts/lua/npcmissions/GRIZZLY.lua" "MISSIONHEADER"|
+
+setentry 237 "ARCHEOLOGY" "scripts/lua/npcmissions/ARCHEOLOGIST.lua" "MISSIONHEADER"|
+setentry 238 "SNAKESCIENTIST" "scripts/lua/npcmissions/SNAKESCIENTIST.lua" "MISSIONHEADER"|
+setentry 239 "ROK" "scripts/lua/npcmissions/ROK.lua" "MISSIONHEADER"|
+
+//Einstein Missions
+setentry 240 "PROF_01" "scripts/lua/npcmissions/PROF_01.lua" "MISSIONHEADER"|
+setentry 241 "PROF_02" "scripts/lua/npcmissions/PROF_02.lua" "MISSIONHEADER"|
+setentry 242 "PROF_03" "scripts/lua/npcmissions/PROF_03.lua" "MISSIONHEADER"|
+setentry 243 "PROF_STANDARD" "scripts/lua/npcmissions/PROF_STANDARD.lua" "DIALOGHEADER"|
+
+//Fillups
+setentry 250 "DUMMY_ANG" "scripts/lua/DUMMY_ANG.lua" "DIALOGHEADER"|
+setentry 251 "DUMMY_JOB" "scripts/lua/DUMMY_JOB.lua" "DIALOGHEADER"|
+setentry 252 "DUMMY_MIS" "scripts/lua/DUMMY_MIS.lua" "DIALOGHEADER"|
+setentry 253 "DUMMY_MISC" "scripts/lua/DUMMY_MISC.lua" "DIALOGHEADER"|
+setentry 254 "DUMMY_SEC" "scripts/lua/DUMMY_SEC.lua" "DIALOGHEADER"|
+
+//Subway Service
+setentry 270 "SUBWAY_PLAZA" "scripts/lua/subway_plaza.lua" "DIALOGHEADER"|
+setentry 271 "SUBWAY_VIAROSSO" "scripts/lua/subway_viarosso.lua" "DIALOGHEADER"|
+setentry 272 "SUBWAY_PPARK" "scripts/lua/subway_ppark.lua" "DIALOGHEADER"|
+
+
+//faction dialogues
+//CITYADMIN
+setentry 281 "S_CITYADMIN" "scripts/lua/S_CITYADMIN.lua" "DIALOGHEADER"|
+setentry 282 "BANKENTRANCE" "scripts/lua/bankentrance_ph.lua" "DIALOGHEADER"|
+
+
+//starterdialogs
+setentry 283 "NEWBIE" "scripts/lua/newbiedialog.lua" "DIALOGHEADER"|
+setentry 284 "CRYTON" "scripts/lua/cryton.lua" "DIALOGHEADER"|
+setentry 285 "START_CONST" "scripts/lua/start_const.lua" "MISSIONHEADER"|
+
+//Concenter
+setentry 300 "S_CONCENTER" "scripts/lua/S_CONCENTER.lua" "DIALOGHEADER"|
+
+//Jobcenter
+setentry 301 "S_JOBCENTER" "scripts/lua/S_JOBCENTER.lua" "DIALOGHEADER"|
+
+//DIAMOND
+setentry 401 "S_DIAMOND" "scripts/lua/S_DIAMOND.lua" "DIALOGHEADER"|
+
+//NEXT
+setentry 501 "S_NEXT" "scripts/lua/S_NEXT.lua" "DIALOGHEADER"|
+
+//biotech
+setentry 601 "S_BIOTEC" "scripts/lua/S_BIOTEC.lua" "DIALOGHEADER"|
+
+//PROTOPHARMa
+setentry 701 "S_PHARMA" "scripts/lua/S_PHARMA.lua" "DIALOGHEADER"|
+
+//TANGENT
+setentry 801 "S_TANGENT" "scripts/lua/S_TANGENT.lua" "DIALOGHEADER"|
+
+//ASG Shopkeeper
+setentry 891 "ASG" "scripts/lua/ASg.lua" "DIALOGHEADER"|
+
+//StockX Shopkeeper
+setentry 892 "STOCKX" "scripts/lua/stockX.lua" "DIALOGHEADER"|
+setentry 893 "STOCKX_HQ" "scripts/lua/stockX_hq.lua" "DIALOGHEADER"|
+
+//VentureWarp Shopkeeper
+setentry 894 "VENTUREWARP" "scripts/lua/venturewarp.lua" "DIALOGHEADER"|
+
+//CITYMERCS
+setentry 901 "S_CITYMERCS_0" "scripts/lua/S_CITYMERCS_1.lua" "DIALOGHEADER"|
+setentry 902 "S_CITYMERCS_1" "scripts/lua/S_CITYMERCS_2.lua" "DIALOGHEADER"|
+
+//twilight g
+//setentry 1001 "S_CITYADMIN" "scripts/lua/S_CITYADMIN.lua" "DIALOGHEADER"|
+
+//fallen angles
+setentry 1101 "FALLENANGEL" "scripts/lua/fallenangel.lua" "DIALOGHEADER"|
+setentry 1102 "FALLENANGEL1" "scripts/lua/fallenangel1.lua" "DIALOGHEADER"|
+
+//TSUNAMI
+setentry 1201 "TSUNAMI" "scripts/lua/TSUNAMI.lua" "DIALOGHEADER"|
+setentry 1202 "MAZE" "scripts/lua/maze.lua" "DIALOGHEADER"|
+setentry 1203 "PPEPCLUBENTRANCE" "scripts/lua/peepclubentrance.lua" "DIALOGHEADER"|
+setentry 1204 "STRIPCLUBBOUNCER" "scripts/lua/stripclubbouncer.lua" "DIALOGHEADER"|
+setentry 1205 "VERONIQUEBOUNCER" "scripts/lua/veroniquebouncer.lua" "DIALOGHEADER"|
+setentry 1206 "VERONIQUEBOUNCER1" "scripts/lua/veroniquebouncer1.lua" "DIALOGHEADER"|
+setentry 1207 "HOLOMATCH" "scripts/lua/holomatch.lua" "DIALOGHEADER"|
+
+//BLACKDRAGON
+setentry 1301 "BLACKDRAGON_CONTACT" "scripts/lua/BLACKDRAGON_contact.lua" "DIALOGHEADER"|
+setentry 1302 "BLACKDRAGON_THUG" "scripts/lua/BLACKDRAGON_thug.lua" "DIALOGHEADER"|
+setentry 1303 "CLUE_BLACKDRAGON_0" "scripts/lua/clue_BLACKDRAGON_0.lua" "DIALOGHEADER"|
+setentry 1304 "SHOOTINGRANGE" "scripts/lua/shootingrange_ph.lua" "DIALOGHEADER"|
+
+
+//CRAHN
+setentry 1351 "CRAHNPREACHER" "scripts/lua/CRAHNpreacher_ph.lua" "DIALOGHEADER"|
+
+//NCPD
+setentry 1401 "NCPD" "scripts/lua/ncpd.lua" "DIALOGHEADER"|
+
+//OUTLAW PSIMONKS
+setentry 1500 "MONK_LEITUS_DIALOG" "scripts/lua/npcmissions/monk_leitus_dialog.lua" "DIALOGHEADER"|
+
+setentry 1510 "MONK_AURELIUS_STANDARD" "scripts/lua/npcmissions/monk_aurelius_standard.lua" "DIALOGHEADER"|
+setentry 1511 "MONK_AURELIUS_01" "scripts/lua/npcmissions/monk_aurelius_01.lua" "MISSIONHEADER"|
+setentry 1512 "MONK_AURELIUS_02" "scripts/lua/npcmissions/monk_aurelius_02.lua" "MISSIONHEADER"|
+setentry 1513 "MONK_AURELIUS_03" "scripts/lua/npcmissions/monk_aurelius_03.lua" "MISSIONHEADER"|
+setentry 1514 "MONK_AURELIUS_04" "scripts/lua/npcmissions/monk_aurelius_04.lua" "MISSIONHEADER"|
+
+setentry 1520 "MONK_ZARGERUS_STANDARD" "scripts/lua/npcmissions/monk_zargerus_standard.lua" "DIALOGHEADER"|
+setentry 1521 "MONK_ZARGERUS_01" "scripts/lua/npcmissions/monk_zargerus_01.lua" "MISSIONHEADER"|
+
+//misc
+setentry 2000 "WHORE" "scripts/lua/WHORE.lua" "DIALOGHEADER"|
+setentry 2001 "HOOKER" "scripts/lua/hooker.lua" "DIALOGHEADER"|
+setentry 2002 "LUNATIC0" "scripts/lua/lunatic0.lua" "DIALOGHEADER"|
+setentry 2003 "LUNATIC1" "scripts/lua/lunatic1.lua" "DIALOGHEADER"|
+setentry 2004 "LUNATIC2" "scripts/lua/lunatic2.lua" "DIALOGHEADER"|
+setentry 2005 "BEGGAR0" "scripts/lua/beggar0.lua" "DIALOGHEADER"|
+setentry 2006 "BEGGAR1" "scripts/lua/beggar1.lua" "DIALOGHEADER"|
+setentry 2007 "HOOKER_CLASSY" "scripts/lua/hooker_clASsy.lua" "DIALOGHEADER"|
+setentry 2008 "HOOKER_NASTY1" "scripts/lua/hooker_nASty.lua" "DIALOGHEADER"|
+setentry 2009 "MUTANT1" "scripts/lua/sad_mutant.lua" "DIALOGHEADER"|
+setentry 2010 "MUTANT2" "scripts/lua/angry_mutant.lua" "DIALOGHEADER"|
+setentry 2011 "CLUE_CITYSEWERS" "scripts/lua/clue_citysewers_ph.lua" "DIALOGHEADER"|
+setentry 2012 "CLUE_TSUNAMI" "scripts/lua/clue_TSUNAMI_ph.lua" "DIALOGHEADER"|
+
+
+setentry 2013 "GENERALHINTS1" "scripts/lua/generalhints_1.lua" "DIALOGHEADER"|
+setentry 2014 "GENERALHINTS2" "scripts/lua/generalhints_2.lua" "DIALOGHEADER"|
+setentry 2015 "DRUNK_ANGRY" "scripts/lua/DRUNK_ANGRY.lua" "DIALOGHEADER"|
+setentry 2016 "DRUNK_SILLY" "scripts/lua/DRUNK_SILLY.lua" "DIALOGHEADER"|
+setentry 2017 "BARTALK_GANGS" "scripts/lua/bartalk_gangs.lua" "DIALOGHEADER"|
+
+//Anti Radiation Rüstung Quest
+setentry 2070 "Tangent_DoyAuftrag" "scripts/lua/eventnpcs/Tangent_DoyAuftrag.lua" "MISSIONHEADER"|
+setentry 2071 "Tangent_DoyAuftrag2" "scripts/lua/eventnpcs/Tangent_DoyAuftrag2.lua" "MISSIONHEADER"|
+
+
+//AREA MC5
+setentry 2080 "MC5_COMMAND" "scripts/lua/area_mc5/AreaMC5_BaseCommander.lua" "DIALOGHEADER"|
+setentry 2081 "MC5_TECHCHIEF" "scripts/lua/area_mc5/AreaMC5_ChiefTechnician.lua" "MISSIONHEADER"|
+setentry 2082 "MC5_TECHASSI" "scripts/lua/area_mc5/AreaMC5_AssistentTechnician.lua" "DIALOGHEADER"|
+setentry 2083 "MC5_ADMIN" "scripts/lua/area_mc5/AreaMC5_CivilAdministrator.lua" "DIALOGHEADER"|
+setentry 2084 "MC5_SEC" "scripts/lua/area_mc5/AreaMC5_Security.lua" "DIALOGHEADER"|
+setentry 2085 "MC5_SECCHIEF" "scripts/lua/area_mc5/AreaMC5_Securitychief.lua" "MISSIONHEADER"|
+
+setentry 2086 "BNC_LEADER" "scripts/lua/area_mc5/BrightnClean_Coordinator.lua" "DIALOGHEADER"|
+setentry 2087 "BNC_TECHNICIAN" "scripts/lua/area_mc5/BrightnClean_Technician.lua" "MISSIONHEADER"|
+setentry 2088 "BNC_STAFF" "scripts/lua/area_mc5/BrightnClean_Staffmember.lua" "MISSIONHEADER"|
+
+setentry 2089 "MC5_ANG" "scripts/lua/area_mc5/AreaMC5_angry.lua" "DIALOGHEADER"|
+
+setentry 2090 "MC5_VICTIM1" "scripts/lua/area_mc5/AreaMC5_victim1.lua" "DIALOGHEADER"|
+setentry 2091 "MC5_VICTIM2" "scripts/lua/area_mc5/AreaMC5_victim2.lua" "DIALOGHEADER"|
+
+setentry 2095 "MC5_AD_PE" "scripts/lua/area_mc5/AreaMC5_Advisor_PE.lua" "DIALOGHEADER"|
+setentry 2096 "MC5_AD_PSI" "scripts/lua/area_mc5/AreaMC5_Advisor_PSI.lua" "DIALOGHEADER"|
+setentry 2097 "MC5_AD_SPY" "scripts/lua/area_mc5/AreaMC5_Advisor_SPY.lua" "DIALOGHEADER"|
+setentry 2098 "MC5_AD_TANK" "scripts/lua/area_mc5/AreaMC5_Advisor_TANK.lua" "DIALOGHEADER"|
+
+//EPICRUN MISSIONS
+//CRAHN
+setentry 2101 "Crahn01" "scripts/lua/epicruns/Crahn01.lua" "MISSIONHEADER"|
+setentry 2102 "Crahn02" "scripts/lua/epicruns/Crahn02.lua" "MISSIONHEADER"|
+setentry 2103 "Crahn03" "scripts/lua/epicruns/Crahn03.lua" "MISSIONHEADER"|
+setentry 2104 "Crahn04" "scripts/lua/epicruns/Crahn04.lua" "MISSIONHEADER"|
+setentry 2105 "Crahn05" "scripts/lua/epicruns/Crahn05.lua" "MISSIONHEADER"|
+setentry 2106 "Crahn06" "scripts/lua/epicruns/Crahn06.lua" "MISSIONHEADER"|
+
+//BioTech
+setentry 2107 "BioTech01" "scripts/lua/epicruns/BioTech01.lua" "MISSIONHEADER"|
+setentry 2108 "BioTech02" "scripts/lua/epicruns/BioTech02.lua" "MISSIONHEADER"|
+setentry 2109 "BioTech03" "scripts/lua/epicruns/BioTech03.lua" "MISSIONHEADER"|
+setentry 2110 "BioTech04" "scripts/lua/epicruns/BioTech04.lua" "MISSIONHEADER"|
+setentry 2111 "BioTech05" "scripts/lua/epicruns/BioTech05.lua" "MISSIONHEADER"|
+setentry 2112 "BioTech06" "scripts/lua/epicruns/BioTech06.lua" "MISSIONHEADER"|
+
+//CityAdmin
+setentry 2113 "CityAdmin01" "scripts/lua/epicruns/CityAdmin01.lua" "MISSIONHEADER"|
+setentry 2114 "CityAdmin02" "scripts/lua/epicruns/CityAdmin02.lua" "MISSIONHEADER"|
+setentry 2115 "CityAdmin03" "scripts/lua/epicruns/CityAdmin03.lua" "MISSIONHEADER"|
+setentry 2116 "CityAdmin04" "scripts/lua/epicruns/CityAdmin04.lua" "MISSIONHEADER"|
+setentry 2117 "CityAdmin05" "scripts/lua/epicruns/CityAdmin05.lua" "MISSIONHEADER"|
+setentry 2118 "CityAdmin06" "scripts/lua/epicruns/CityAdmin06.lua" "MISSIONHEADER"|
+
+//NEXT
+setentry 2119 "NEXT01" "scripts/lua/epicruns/NEXT01.lua" "MISSIONHEADER"|
+setentry 2120 "NEXT02" "scripts/lua/epicruns/NEXT02.lua" "MISSIONHEADER"|
+setentry 2121 "NEXT03" "scripts/lua/epicruns/NEXT03.lua" "MISSIONHEADER"|
+setentry 2122 "NEXT04" "scripts/lua/epicruns/NEXT04.lua" "MISSIONHEADER"|
+setentry 2123 "NEXT05" "scripts/lua/epicruns/NEXT05.lua" "MISSIONHEADER"|
+setentry 2124 "NEXT06" "scripts/lua/epicruns/NEXT06.lua" "MISSIONHEADER"|
+
+//Tangent
+setentry 2125 "Tangent01" "scripts/lua/epicruns/Tangent01.lua" "MISSIONHEADER"|
+setentry 2126 "Tangent02" "scripts/lua/epicruns/Tangent02.lua" "MISSIONHEADER"|
+setentry 2127 "Tangent03" "scripts/lua/epicruns/Tangent03.lua" "MISSIONHEADER"|
+setentry 2128 "Tangent04" "scripts/lua/epicruns/Tangent04.lua" "MISSIONHEADER"|
+setentry 2129 "Tangent05" "scripts/lua/epicruns/Tangent05.lua" "MISSIONHEADER"|
+setentry 2130 "Tangent06" "scripts/lua/epicruns/Tangent06.lua" "MISSIONHEADER"|
+
+//Tsunami
+setentry 2131 "Tsunami01" "scripts/lua/epicruns/Tsunami01.lua" "MISSIONHEADER"|
+setentry 2132 "Tsunami02" "scripts/lua/epicruns/Tsunami02.lua" "MISSIONHEADER"|
+setentry 2133 "Tsunami03" "scripts/lua/epicruns/Tsunami03.lua" "MISSIONHEADER"|
+setentry 2134 "Tsunami04" "scripts/lua/epicruns/Tsunami04.lua" "MISSIONHEADER"|
+setentry 2135 "Tsunami05" "scripts/lua/epicruns/Tsunami05.lua" "MISSIONHEADER"|
+setentry 2136 "Tsunami06" "scripts/lua/epicruns/Tsunami06.lua" "MISSIONHEADER"|
+
+//FallenAngels
+setentry 2137 "FallenAngel01" "scripts/lua/epicruns/FallenAngel01.lua" "MISSIONHEADER"|
+setentry 2138 "FallenAngel02" "scripts/lua/epicruns/FallenAngel02.lua" "MISSIONHEADER"|
+setentry 2139 "FallenAngel03" "scripts/lua/epicruns/FallenAngel03.lua" "MISSIONHEADER"|
+setentry 2140 "FallenAngel04" "scripts/lua/epicruns/FallenAngel04.lua" "MISSIONHEADER"|
+setentry 2141 "FallenAngel05" "scripts/lua/epicruns/FallenAngel05.lua" "MISSIONHEADER"|
+setentry 2142 "FallenAngel06" "scripts/lua/epicruns/FallenAngel06.lua" "MISSIONHEADER"|
+
+//Epicregisterluas
+setentry 2143 "EpicCityAdmin" "./scripts/lua/epicruns/EpicCityAdmin.lua" "MISSIONHEADER"|
+setentry 2144 "EpicTangent"   "./scripts/lua/epicruns/EpicTangent.lua" "MISSIONHEADER"|
+setentry 2145 "EpicTsunami"   "./scripts/lua/epicruns/EpicTsunami.lua" "MISSIONHEADER"|
+setentry 2146 "EpicCrahn"     "./scripts/lua/epicruns/EpicCrahn.lua" "MISSIONHEADER"|
+setentry 2147 "EpicNEXT"      "./scripts/lua/epicruns/EpicNEXT.lua" "MISSIONHEADER"|
+setentry 2148 "EpicBioTech"   "./scripts/lua/epicruns/EpicBioTech.lua" "MISSIONHEADER"|
+setentry 2149 "EpicDiamond"   "./scripts/lua/epicruns/EpicDiamond.lua" "MISSIONHEADER"|
+setentry 2156 "EpicProtoPharm"   "./scripts/lua/epicruns/EpicProtoPharm.lua" "MISSIONHEADER"|
+setentry 2536 "EpicCityMerc"   "./scripts/lua/epicruns/EpicCityMerc.lua" "MISSIONHEADER"|
+setentry 2544 "EpicBlackDragon"   "./scripts/lua/epicruns/EpicBlackDragon.lua" "MISSIONHEADER"|
+setentry 2552 "EpicFallenAngel"   "./scripts/lua/epicruns/EpicFallenAngel.lua" "MISSIONHEADER"|
+setentry 2553 "EpicTwilightGuardian"   "./scripts/lua/epicruns/EpicTwilightGuardian.lua" "MISSIONHEADER"|
+
+
+//Diamond
+setentry 2150 "Diamond01" "scripts/lua/epicruns/Diamond01.lua" "MISSIONHEADER"|
+setentry 2151 "Diamond02" "scripts/lua/epicruns/Diamond02.lua" "MISSIONHEADER"|
+setentry 2152 "Diamond03" "scripts/lua/epicruns/Diamond03.lua" "MISSIONHEADER"|
+setentry 2153 "Diamond04" "scripts/lua/epicruns/Diamond04.lua" "MISSIONHEADER"|
+setentry 2154 "Diamond05" "scripts/lua/epicruns/Diamond05.lua" "MISSIONHEADER"|
+setentry 2155 "Diamond06" "scripts/lua/epicruns/Diamond06.lua" "MISSIONHEADER"|
+
+//ProtoPharm
+setentry 2157 "ProtoPharm01" "scripts/lua/epicruns/ProtoPharm01.lua" "MISSIONHEADER"|
+setentry 2158 "ProtoPharm02" "scripts/lua/epicruns/ProtoPharm02.lua" "MISSIONHEADER"|
+setentry 2159 "ProtoPharm03" "scripts/lua/epicruns/ProtoPharm03.lua" "MISSIONHEADER"|
+setentry 2160 "ProtoPharm04" "scripts/lua/epicruns/ProtoPharm04.lua" "MISSIONHEADER"|
+setentry 2161 "ProtoPharm05" "scripts/lua/epicruns/ProtoPharm05.lua" "MISSIONHEADER"|
+setentry 2162 "ProtoPharm06" "scripts/lua/epicruns/ProtoPharm06.lua" "MISSIONHEADER"|
+
+//Event NPCs
+setentry 2500 "ROHANNOSUS" "./scripts/lua/eventnpcs/RohanNosus.lua" "DIALOGHEADER"|
+setentry 2501 "KEVINSMITHE" "./scripts/lua/eventnpcs/KevinSmithe.lua" "DIALOGHEADER"|
+setentry 2502 "SUTHERWILSON" "./scripts/lua/eventnpcs/SutherWilson.lua" "DIALOGHEADER"|
+
+//AntiNeocron Epicrun Ersatz
+setentry 2503 "ANBDragon01" "scripts/lua/epicruns/ANBDragon01.lua" "MISSIONHEADER"|
+setentry 2504 "ANBDragon02" "scripts/lua/epicruns/ANBDragon02.lua" "MISSIONHEADER"|
+setentry 2505 "ANBDragon03" "scripts/lua/epicruns/ANBDragon03.lua" "MISSIONHEADER"|
+setentry 2506 "EpicANBDragon" "scripts/lua/epicruns/EpicANBDragon.lua" "MISSIONHEADER"|
+setentry 2507 "ANCrahn01" "scripts/lua/epicruns/ANCrahn01.lua" "MISSIONHEADER"|
+setentry 2508 "ANCrahn02" "scripts/lua/epicruns/ANCrahn02.lua" "MISSIONHEADER"|
+setentry 2509 "ANCrahn03" "scripts/lua/epicruns/ANCrahn03.lua" "MISSIONHEADER"|
+setentry 2510 "EpicANCrahn" "scripts/lua/epicruns/EpicANCrahn.lua" "MISSIONHEADER"|
+setentry 2511 "ANFAngels01" "scripts/lua/epicruns/ANFAngels01.lua" "MISSIONHEADER"|
+setentry 2512 "ANFAngels02" "scripts/lua/epicruns/ANFAngels02.lua" "MISSIONHEADER"|
+setentry 2513 "ANFAngels03" "scripts/lua/epicruns/ANFAngels03.lua" "MISSIONHEADER"|
+setentry 2514 "EpicANFAngels" "scripts/lua/epicruns/EpicANFAngels.lua" "MISSIONHEADER"|
+setentry 2515 "ANTsunami01" "scripts/lua/epicruns/ANTsunami01.lua" "MISSIONHEADER"|
+setentry 2516 "ANTsunami02" "scripts/lua/epicruns/ANTsunami02.lua" "MISSIONHEADER"|
+setentry 2517 "ANTsunami03" "scripts/lua/epicruns/ANTsunami03.lua" "MISSIONHEADER"|
+setentry 2518 "EpicANTsunami" "scripts/lua/epicruns/EpicANTsunami.lua" "MISSIONHEADER"|
+setentry 2519 "ANTGuardian01" "scripts/lua/epicruns/ANTGuardian01.lua" "MISSIONHEADER"|
+setentry 2520 "ANTGuardian02" "scripts/lua/epicruns/ANTGuardian02.lua" "MISSIONHEADER"|
+setentry 2521 "ANTGuardian03" "scripts/lua/epicruns/ANTGuardian03.lua" "MISSIONHEADER"|
+setentry 2522 "EpicANTGuardian" "scripts/lua/epicruns/EpicANTGuardian.lua" "MISSIONHEADER"|
+
+//CityMerc
+setentry 2530 "CityMerc01" "scripts/lua/epicruns/CityMerc01.lua" "MISSIONHEADER"|
+setentry 2531 "CityMerc02" "scripts/lua/epicruns/CityMerc02.lua" "MISSIONHEADER"|
+setentry 2532 "CityMerc03" "scripts/lua/epicruns/CityMerc03.lua" "MISSIONHEADER"|
+setentry 2533 "CityMerc04" "scripts/lua/epicruns/CityMerc04.lua" "MISSIONHEADER"|
+setentry 2534 "CityMerc05" "scripts/lua/epicruns/CityMerc05.lua" "MISSIONHEADER"|
+setentry 2535 "CityMerc06" "scripts/lua/epicruns/CityMerc06.lua" "MISSIONHEADER"|
+
+//Black Dragon
+setentry 2537 "BlackDragon01" "scripts/lua/epicruns/BlackDragon01.lua" "MISSIONHEADER"|
+setentry 2538 "BlackDragon02" "scripts/lua/epicruns/BlackDragon02.lua" "MISSIONHEADER"|
+setentry 2539 "BlackDragon03" "scripts/lua/epicruns/BlackDragon03.lua" "MISSIONHEADER"|
+setentry 2540 "BlackDragon04" "scripts/lua/epicruns/BlackDragon04.lua" "MISSIONHEADER"|
+setentry 2541 "BlackDragon05" "scripts/lua/epicruns/BlackDragon05.lua" "MISSIONHEADER"|
+setentry 2542 "BlackDragon06" "scripts/lua/epicruns/BlackDragon06.lua" "MISSIONHEADER"|
+setentry 2543 "BlackDragonrew" "scripts/lua/epicruns/BlackDragonrew.lua" "MISSIONHEADER"|
+
+//Twilight Guardian
+setentry 2545 "TwilightGuardian01" "scripts/lua/epicruns/TwilightGuardian01.lua" "MISSIONHEADER"|
+setentry 2546 "TwilightGuardian02" "scripts/lua/epicruns/TwilightGuardian02.lua" "MISSIONHEADER"|
+setentry 2547 "TwilightGuardian03" "scripts/lua/epicruns/TwilightGuardian03.lua" "MISSIONHEADER"|
+setentry 2548 "TwilightGuardian04" "scripts/lua/epicruns/TwilightGuardian04.lua" "MISSIONHEADER"|
+setentry 2549 "TwilightGuardian05" "scripts/lua/epicruns/TwilightGuardian05.lua" "MISSIONHEADER"|
+setentry 2550 "TwilightGuardian06" "scripts/lua/epicruns/TwilightGuardian06.lua" "MISSIONHEADER"|
+setentry 2551 "TwilightGreward" "scripts/lua/epicruns/TwilightGreward.lua" "MISSIONHEADER"|
+
+//Szenario Dialoge
+//Redlight/Gambling
+setentry 2560 "BLACKJACK" "scripts/lua/scenario/redlight/blackjack.lua" "MISSIONHEADER"|
+setentry 2561 "LOOSER" "scripts/lua/scenario/redlight/gambler_looser.lua" "MISSIONHEADER"|
+setentry 2562 "RROULETTE" "scripts/lua/scenario/redlight/gambler_rrulette.lua" "MISSIONHEADER"|
+setentry 2563 "WINNER" "scripts/lua/scenario/redlight/gambler_winner.lua" "MISSIONHEADER"|
+setentry 2564 "HATGAME" "scripts/lua/scenario/redlight/hütchenspiel.lua" "MISSIONHEADER"|
+setentry 2565 "JOKER" "scripts/lua/scenario/redlight/joker.lua" "MISSIONHEADER"|
+setentry 2566 "JOKERA1" "scripts/lua/scenario/redlight/joker_audience1.lua" "MISSIONHEADER"|
+setentry 2567 "JOKERA2" "scripts/lua/scenario/redlight/joker_audience2.lua" "MISSIONHEADER"|
+setentry 2568 "LOTTERY" "scripts/lua/scenario/redlight/moneylottery.lua" "MISSIONHEADER"|
+setentry 2569 "WGI_DK" "scripts/lua/scenario/redlight/WGI_DKeeper.lua" "MISSIONHEADER"|
+setentry 2570 "WGI_V1" "scripts/lua/scenario/redlight/WGI_visitor1.lua" "MISSIONHEADER"|
+setentry 2571 "WGI_V2" "scripts/lua/scenario/redlight/WGI_visitor2.lua" "MISSIONHEADER"|
+setentry 2572 "SLUT1" "scripts/lua/scenario/redlight/slut1.lua" "MISSIONHEADER"|
+setentry 2573 "MUTSLUT1" "scripts/lua/scenario/redlight/mutatedgirl1.lua" "MISSIONHEADER"|
+setentry 2574 "MUTSLUT2" "scripts/lua/scenario/redlight/mutatedgirl2.lua" "MISSIONHEADER"|
+setentry 2575 "MUTSLUT_PIMP" "scripts/lua/scenario/redlight/pimp_mutatedgirls.lua" "MISSIONHEADER"|
+
+//Weaponmarket
+setentry 2580 "AMOK" "scripts/lua/scenario/weaponmarket/Amokman.lua" "MISSIONHEADER"|
+setentry 2581 "HUNTER1" "scripts/lua/scenario/weaponmarket/Hunter1.lua" "MISSIONHEADER"|
+setentry 2582 "HUNTER2" "scripts/lua/scenario/weaponmarket/Hunter2.lua" "MISSIONHEADER"|
+setentry 2583 "KILLER" "scripts/lua/scenario/weaponmarket/Killer.lua" "MISSIONHEADER"|
+setentry 2584 "POOR" "scripts/lua/scenario/weaponmarket/Poorguy.lua" "MISSIONHEADER"|
+setentry 2585 "TECHFREAK" "scripts/lua/scenario/weaponmarket/Techfreak.lua" "MISSIONHEADER"|
+
+//Drugmarket
+setentry 2590 "DEAD_DEP" "scripts/lua/scenario/drugmarket/junk_dead_dep.lua" "MISSIONHEADER"|
+setentry 2591 "DEAD_EUPH" "scripts/lua/scenario/drugmarket/junk_dead_euph.lua" "MISSIONHEADER"|
+setentry 2592 "MONEY" "scripts/lua/scenario/drugmarket/junk_money.lua" "MISSIONHEADER"|
+setentry 2593 "PREA1" "scripts/lua/scenario/drugmarket/junk_preacher1.lua" "MISSIONHEADER"|
+setentry 2594 "PREA2" "scripts/lua/scenario/drugmarket/junk_preacher2.lua" "MISSIONHEADER"|
+setentry 2595 "TRIP2" "scripts/lua/scenario/drugmarket/junk_trip2.lua" "MISSIONHEADER"|
+setentry 2596 "TRIP" "scripts/lua/scenario/drugmarket/junk_trip.lua" "MISSIONHEADER"|
+
+//TG-Recruitment
+setentry 2600 "TG_RECRUITER" "scripts/lua/scenario/tgrecruitment/tg_recruiter.lua" "MISSIONHEADER"|
+setentry 2601 "TG_RECRUIT" "scripts/lua/scenario/tgrecruitment/tg_recruit.lua" "MISSIONHEADER"|
+setentry 2602 "TG_PASSERBY" "scripts/lua/scenario/tgrecruitment/tg_passerby.lua" "MISSIONHEADER"|
+setentry 2603 "TG_DUDE1" "scripts/lua/scenario/tgrecruitment/tg_dude1.lua" "MISSIONHEADER"|
+setentry 2604 "TG_DUDE2" "scripts/lua/scenario/tgrecruitment/tg_dude2.lua" "MISSIONHEADER"|
+setentry 2605 "TG_REVENGE" "scripts/lua/scenario/tgrecruitment/tg_revenge.lua" "MISSIONHEADER"|
+
+//Techmarket
+setentry 2610 "SCAREDGUY" "scripts/lua/scenario/techmarket/scaredman.lua" "MISSIONHEADER"|
+setentry 2611 "IMPLANTGUY" "scripts/lua/scenario/techmarket/implantguy.lua" "MISSIONHEADER"|
+setentry 2612 "SHOPPER" "scripts/lua/scenario/techmarket/shopper.lua" "MISSIONHEADER"|
+setentry 2613 "CONSTRUCTER" "scripts/lua/scenario/techmarket/constructer.lua" "MISSIONHEADER"|
+setentry 2614 "DOOMGUY" "scripts/lua/scenario/techmarket/doomedguy.lua" "MISSIONHEADER"|
+setentry 2615 "BRAWL1" "scripts/lua/scenario/techmarket/streithahn1.lua" "MISSIONHEADER"|
+setentry 2616 "BRAWL2" "scripts/lua/scenario/techmarket/streithahn2.lua" "MISSIONHEADER"|
+setentry 2617 "TECHSECURITY" "scripts/lua/scenario/techmarket/scbot.lua" "MISSIONHEADER"|
+
+//Resistance
+setentry 2620 "RESISTANCE1" "scripts/lua/scenario/resistance/resistance1.lua" "MISSIONHEADER"|
+setentry 2621 "RESISTANCE2" "scripts/lua/scenario/resistance/resistance2.lua" "MISSIONHEADER"|
+setentry 2623 "RESISTANCE3" "scripts/lua/scenario/resistance/resistance3.lua" "MISSIONHEADER"|
+setentry 2624 "RESISTANCE4" "scripts/lua/scenario/resistance/resistance4.lua" "MISSIONHEADER"|
+setentry 2625 "RESISTANCE5" "scripts/lua/scenario/resistance/resistance5.lua" "MISSIONHEADER"|
+
+//Monk PA
+setentry 2630 "MONKPA_START" "scripts/lua/monkpa_start.lua" "MISSIONHEADER"|
+setentry 2631 "MONKPA_SEWERKING" "scripts/lua/monkpa_sewerking.lua" "MISSIONHEADER"|
+setentry 2632 "MONKPA_DOYGUY" "scripts/lua/monkpa_doyguy.lua" "MISSIONHEADER"|
+setentry 2633 "MONKPA_MINE" "scripts/lua/monkpa_mine.lua" "MISSIONHEADER"|
+setentry 2634 "MONKPA_END" "scripts/lua/monkpa_end.lua" "MISSIONHEADER"|
+
+//Spy PA
+setentry 2635 "SPYPA_START" "scripts/lua/spypa_start.lua" "MISSIONHEADER"|
+setentry 2636 "SPYPA_WISEMONK" "scripts/lua/spypa_wisemonk.lua" "MISSIONHEADER"|
+setentry 2637 "SPYPA_CAADMIN" "scripts/lua/spypa_caadmin.lua" "MISSIONHEADER"|
+setentry 2638 "SPYPA_JOBCENTER" "scripts/lua/spypa_jobcenter.lua" "MISSIONHEADER"|
+setentry 2639 "SPYPA_END" "scripts/lua/spypa_end.lua" "MISSIONHEADER"|
+
+//Junkdealer
+setentry 2640 "JUNKDEALER" "scripts/lua/junkdealer.lua" "MISSIONHEADER"|
+
+//faction offices NEW
+setentry 2650 "CC_RECEPTION" "scripts/lua/themeparks/concenter/cc_reception.lua" "DIALOGHEADER"|
+setentry 2651 "FOA_CA" "scripts/lua/factionoffices/foa_ca.lua" "DIALOGHEADER"|
+setentry 2652 "FOA_BT" "scripts/lua/factionoffices/foa_bt.lua" "DIALOGHEADER"|
+setentry 2653 "FOA_TT" "scripts/lua/factionoffices/foa_tt.lua" "DIALOGHEADER"|
+setentry 2654 "FOA_PP" "scripts/lua/factionoffices/foa_pp.lua" "DIALOGHEADER"|
+setentry 2655 "FOA_NX" "scripts/lua/factionoffices/foa_nx.lua" "DIALOGHEADER"|
+setentry 2656 "FOA_DRE" "scripts/lua/factionoffices/foa_dre.lua" "DIALOGHEADER"|
+setentry 2657 "FOA_CM" "scripts/lua/factionoffices/foa_cm.lua" "DIALOGHEADER"|
+setentry 2658 "NEMA_BPEPPER" "scripts/lua/nema/nema_bpepper.lua" "DIALOGHEADER"|
+setentry 2659 "FOA_CRAHN" "scripts/lua/factionoffices/foa_crahn.lua" "DIALOGHEADER"|
+setentry 2660 "FOA_TS" "scripts/lua/factionoffices/foa_ts.lua" "DIALOGHEADER"|
+setentry 2661 "FOA_BD" "scripts/lua/factionoffices/foa_bd.lua" "DIALOGHEADER"|
+setentry 2662 "NEMA_SALESGIRL" "scripts/lua/nema/nema_salesgirl.lua" "DIALOGHEADER"|
+setentry 2663 "FOA_FA" "scripts/lua/factionoffices/foa_fa.lua" "DIALOGHEADER"|
+
+//themeparks
+//jalhouse
+setentry 2700 "JAILHOUSE_MOLE" "scripts/lua/themeparks/jailhouse/jailhouse_mole.lua" "DIALOGHEADER"|
+setentry 2701 "JAILHOUSE_DAGGER" "scripts/lua/themeparks/jailhouse/jailhouse_dagger.lua" "DIALOGHEADER"|
+setentry 2702 "JAILHOUSE_SHELA" "scripts/lua/themeparks/jailhouse/jailhouse_shela.lua" "DIALOGHEADER"|
+setentry 2703 "JAILHOUSE_YINGTAI" "scripts/lua/themeparks/jailhouse/jailhouse_yingtai.lua" "DIALOGHEADER"|
+setentry 2704 "JAILHOUSE_MISSY" "scripts/lua/themeparks/jailhouse/jailhouse_missy.lua" "DIALOGHEADER"|
+setentry 2705 "JAILHOUSE_CAROLINE" "scripts/lua/themeparks/jailhouse/jailhouse_caroline.lua" "DIALOGHEADER"|
+setentry 2706 "JAILHOUSE_ARCHER" "scripts/lua/themeparks/jailhouse/jailhouse_archer.lua" "DIALOGHEADER"|
+setentry 2707 "JAILHOUSE_GORDON" "scripts/lua/themeparks/jailhouse/jailhouse_gordon.lua" "DIALOGHEADER"|
+setentry 2708 "JAILHOUSE_ZULU" "scripts/lua/themeparks/jailhouse/jailhouse_zulu.lua" "DIALOGHEADER"|
+setentry 2709 "JAILHOUSE_BILLY" "scripts/lua/themeparks/jailhouse/jailhouse_billy.lua" "DIALOGHEADER"|
+setentry 2710 "JAILHOUSE_FRED" "scripts/lua/themeparks/jailhouse/jailhouse_fred.lua" "DIALOGHEADER"|
+setentry 2711 "JAILHOUSE_HANK" "scripts/lua/themeparks/jailhouse/jailhouse_hank.lua" "DIALOGHEADER"|
+setentry 2712 "JAILHOUSE_BOSS" "scripts/lua/themeparks/jailhouse/jailhouse_boss.lua" "DIALOGHEADER"|
+setentry 2713 "JAILHOUSE_MONEYMAN" "scripts/lua/themeparks/jailhouse/jailhouse_moneyman.lua" "DIALOGHEADER"|
+setentry 2714 "JAILHOUSE_FISH" "scripts/lua/themeparks/jailhouse/jailhouse_fish.lua" "DIALOGHEADER"|
+setentry 2715 "JAILHOUSE_GUARD" "scripts/lua/themeparks/jailhouse/jailhouse_guard.lua" "DIALOGHEADER"|
+
+//Drugdealer/PA Vendors
+setentry 2720 "DRUGDEALER" "scripts/lua/drugdealer.lua" "DIALOGHEADER"|
+setentry 2721 "MONKPATRADER" "scripts/lua/monkpatrader.lua" "DIALOGHEADER"|
+setentry 2722 "SPYPATRADER" "scripts/lua/spypatrader.lua" "DIALOGHEADER"|
+setentry 2723 "PEPATRADER" "scripts/lua/pepatrader.lua" "DIALOGHEADER"|
+
+//Wastelands Szenarien
+//Juggernauts
+setentry 2800 "WLS1_DJONES" "scripts/lua/wls/bdoy_wls1_devlinjones.lua" "MISSIONHEADER"|
+setentry 2801 "WLS1_JURI" "scripts/lua/wls/bdoy_wls1_jurinetschajev.lua" "MISSIONHEADER"|
+setentry 2802 "WLS1_MCCOY" "scripts/lua/wls/bdoy_wls1_mccoy.lua" "DIALOGHEADER"|
+setentry 2803 "WLS1_MORRISON" "scripts/lua/wls/bdoy_wls1_morrison.lua" "DIALOGHEADER"|
+
+
+//Guard Recon
+setentry 2805 "WLS2_AFOSTER" "scripts/lua/wls/bdoy_wls2_agentfoster.lua" "MISSIONHEADER"|
+setentry 2806 "WLS2_SLACROIX" "scripts/lua/wls/bdoy_wls2_slacroix.lua" "MISSIONHEADER"|
+
+//Herbal Hunt
+setentry 2810 "WLS3_GFORSYTE" "scripts/lua/wls/bdoy_wls3_gforsyte.lua" "MISSIONHEADER"|
+setentry 2811 "WLS3_AEROL" "scripts/lua/wls/bdoy_wls3_aerol.lua" "MISSIONHEADER"|
+
+//Faction Information Managers
+setentry 2900 "CA_IM" "scripts/lua/IM/CA_IM.lua" "MISSIONHEADER"|
+setentry 2901 "DRE_IM" "scripts/lua/IM/DRE_IM.lua" "MISSIONHEADER"|
+setentry 2902 "NXT_IM" "scripts/lua/IM/NXT_IM.lua" "MISSIONHEADER"|
+setentry 2903 "TT_IM" "scripts/lua/IM/TT_IM.lua" "MISSIONHEADER"|
+setentry 2904 "BT_IM" "scripts/lua/IM/BT_IM.lua" "MISSIONHEADER"|
+setentry 2905 "PP_IM" "scripts/lua/IM/PP_IM.lua" "MISSIONHEADER"|
+setentry 2906 "TS_IM" "scripts/lua/IM/TS_IM.lua" "MISSIONHEADER"|
+setentry 2907 "BD_IM" "scripts/lua/IM/BD_IM.lua" "MISSIONHEADER"|
+setentry 2908 "CS_IM" "scripts/lua/IM/CS_IM.lua" "MISSIONHEADER"|
+setentry 2909 "CM_IM" "scripts/lua/IM/CM_IM.lua" "MISSIONHEADER"|
+setentry 2910 "FA_IM" "scripts/lua/IM/FA_IM.lua" "MISSIONHEADER"|
+setentry 2911 "TG_IM" "scripts/lua/IM/TG_IM.lua" "MISSIONHEADER"|
+
+//faction supply manager
+setentry 2914 "FSM_CA" "scripts/lua/SM/fsm_CA.lua" "DIALOGHEADER" |
+setentry 2915 "FSM_DRE" "scripts/lua/SM/fsm_DRE.lua" "DIALOGHEADER" |
+setentry 2916 "FSM_NX" "scripts/lua/SM/fsm_NX.lua" "DIALOGHEADER" |
+setentry 2917 "FSM_BT" "scripts/lua/SM/fsm_BT.lua" "DIALOGHEADER" |
+setentry 2918 "FSM_TT" "scripts/lua/SM/fsm_TT.lua" "DIALOGHEADER" |
+setentry 2919 "FSM_PP" "scripts/lua/SM/fsm_PP.lua" "DIALOGHEADER" |
+setentry 2920 "FSM_TS" "scripts/lua/SM/fsm_TS.lua" "DIALOGHEADER" |
+setentry 2921 "FSM_BD" "scripts/lua/SM/fsm_BD.lua" "DIALOGHEADER" |
+setentry 2922 "FSM_CS" "scripts/lua/SM/fsm_CS.lua" "DIALOGHEADER" |
+setentry 2923 "FSM_CM" "scripts/lua/SM/fsm_CM.lua" "DIALOGHEADER" |
+setentry 2924 "FSM_FA" "scripts/lua/SM/fsm_FA.lua" "DIALOGHEADER" |
+setentry 2925 "FSM_TG" "scripts/lua/SM/fsm_TG.lua" "DIALOGHEADER" |
+//ressource supply manager
+setentry 2926 "RSM_CA" "scripts/lua/SM/rsm_CA.lua" "DIALOGHEADER" |
+setentry 2927 "RSM_DRE" "scripts/lua/SM/rsm_DRE.lua" "DIALOGHEADER" |
+setentry 2928 "RSM_NX" "scripts/lua/SM/rsm_NX.lua" "DIALOGHEADER" |
+setentry 2929 "RSM_BT" "scripts/lua/SM/rsm_BT.lua" "DIALOGHEADER" |
+setentry 2930 "RSM_TT" "scripts/lua/SM/rsm_TT.lua" "DIALOGHEADER" |
+setentry 2931 "RSM_PP" "scripts/lua/SM/rsm_PP.lua" "DIALOGHEADER" |
+setentry 2932 "RSM_TS" "scripts/lua/SM/rsm_TS.lua" "DIALOGHEADER" |
+setentry 2933 "RSM_BD" "scripts/lua/SM/rsm_BD.lua" "DIALOGHEADER" |
+setentry 2934 "RSM_CS" "scripts/lua/SM/rsm_CS.lua" "DIALOGHEADER" |
+setentry 2935 "RSM_CM" "scripts/lua/SM/rsm_CM.lua" "DIALOGHEADER" |
+setentry 2936 "RSM_FA" "scripts/lua/SM/rsm_FA.lua" "DIALOGHEADER" |
+setentry 2937 "RSM_TG" "scripts/lua/SM/rsm_TG.lua" "DIALOGHEADER" |
+//tech haven revamp
+setentry 3000 "TH_ADMIN" "scripts/lua/techhaven/techhaven_admin.lua" "DIALOGHEADER" |
+setentry 3001 "TH_SERVICE" "scripts/lua/techhaven/techhaven_service.lua" "DIALOGHEADER" |
+//nc zoo
+setentry 3010 "nczoo_info" "scripts/lua/themeparks/nczoo/nczoo_info.lua" "DIALOGHEADER" |
+setentry 3011 "nczoo_keeper01" "scripts/lua/nczoo/nczoo_keeper01.lua" "DIALOGHEADER" |
+setentry 3012 "nczoo_keeper02" "scripts/lua/nczoo/nczoo_keeper02.lua" "DIALOGHEADER" |
+setentry 3013 "nczoo_keeper03" "scripts/lua/nczoo/nczoo_keeper03.lua" "DIALOGHEADER" |
+setentry 3014 "nczoo_keeper04" "scripts/lua/nczoo/nczoo_keeper04.lua" "DIALOGHEADER" |
+setentry 3015 "nczoo_keeper05" "scripts/lua/nczoo/nczoo_keeper05.lua" "DIALOGHEADER" |      
+
+
+//hn datenobjekte
+setentry 4000 "ctt_001" "scripts/lua/hn/dataobjects/stores/ctt_001.lua" "DIALOGHEADER" |
+setentry 4001 "aw_001" "scripts/lua/hn/stores/aw_001.lua" "DIALOGHEADER" |
+setentry 4002 "hew_001" "scripts/lua/hn/stores/hew_001.lua" "DIALOGHEADER" |
+setentry 4003 "yak_001" "scripts/lua/hn/stores/yak_001.lua" "DIALOGHEADER" |
+setentry 4004 "asg_001" "scripts/lua/hn/stores/asg_001.lua" "DIALOGHEADER" |
+setentry 4005 "tbc_001" "scripts/lua/hn/stores/tbc_001.lua" "DIALOGHEADER" |
+setentry 4006 "bng_001" "scripts/lua/hn/stores/bng_001.lua" "DIALOGHEADER" |
+setentry 4007 "dd_001" "scripts/lua/hn/stores/dd_001.lua" "DIALOGHEADER" |
+setentry 4008 "tae_001" "scripts/lua/hn/stores/tae_001.lua" "DIALOGHEADER" |
+setentry 4009 "fw_001"  "scripts/lua/hn/stores/fw_001.lua" "DIALOGHEADER" |
+setentry 4010 "cahsd_001" "scripts/lua/hn/mainframe/cahsd_001.lua" "MISSIONHEADER" |
+setentry 4011 "drehsd_001" "scripts/lua/hn/mainframe/drehsd_001.lua" "MISSIONHEADER" |
+setentry 4012 "nxhsd_001" "scripts/lua/hn/mainframe/nxhsd_001.lua" "MISSIONHEADER" |
+setentry 4013 "bthsd_001" "scripts/lua/hn/mainframe/bthsd_001.lua" "MISSIONHEADER" |
+setentry 4014 "tthsd_001" "scripts/lua/hn/mainframe/tthsd_001.lua" "MISSIONHEADER" |
+setentry 4015 "pphsd_001" "scripts/lua/hn/mainframe/pphsd_001.lua" "MISSIONHEADER" |
+setentry 4016 "tshsd_001" "scripts/lua/hn/mainframe/tshsd_001.lua" "MISSIONHEADER" |
+setentry 4017 "bdhsd_001" "scripts/lua/hn/mainframe/bdhsd_001.lua" "MISSIONHEADER" |
+setentry 4018 "cshsd_001" "scripts/lua/hn/mainframe/cshsd_001.lua" "MISSIONHEADER" |
+setentry 4019 "cmhsd_001" "scripts/lua/hn/mainframe/cmhsd_001.lua" "MISSIONHEADER" |
+setentry 4020 "fahsd_001" "scripts/lua/hn/mainframe/fahsd_001.lua" "MISSIONHEADER" |
+setentry 4021 "tghsd_001" "scripts/lua/hn/mainframe/tghsd_001.lua" "MISSIONHEADER" |
+setentry 4022 "cam_001" "scripts/lua/hn/mainframe/caid_001.lua" "DIALOGHEADER" |
+setentry 4023 "drem_001" "scripts/lua/hn/mainframe/dreid_001.lua" "DIALOGHEADER" |
+setentry 4024 "nxm_001" "scripts/lua/hn/mainframe/nxid_001.lua" "DIALOGHEADER" |
+setentry 4025 "btm_001" "scripts/lua/hn/mainframe/btid_001.lua" "DIALOGHEADER" |
+setentry 4026 "ttm_001" "scripts/lua/hn/mainframe/ttid_001.lua" "DIALOGHEADER" |
+setentry 4027 "ppm_001" "scripts/lua/hn/mainframe/ppid_001.lua" "DIALOGHEADER" |
+setentry 4028 "tsm_001" "scripts/lua/hn/mainframe/tsid_001.lua" "DIALOGHEADER" |
+setentry 4029 "bdm_001" "scripts/lua/hn/mainframe/bdid_001.lua" "DIALOGHEADER" |
+setentry 4030 "csm_001" "scripts/lua/hn/mainframe/csid_001.lua" "DIALOGHEADER" |
+setentry 4031 "cmm_001" "scripts/lua/hn/mainframe/cmid_001.lua" "DIALOGHEADER" |
+setentry 4032 "fam_001" "scripts/lua/hn/mainframe/faid_001.lua" "DIALOGHEADER" |
+setentry 4033 "tgm_001" "scripts/lua/hn/mainframe/tgid_001.lua" "DIALOGHEADER" |
+setentry 4034 "catm_001" "scripts/lua/hn/missions/catm_001.lua" "MISSIONHEADER"|
+setentry 4035 "catm_100" "scripts/lua/hn/missions/catm_100.lua" "MISSIONHEADER" |
+setentry 4036 "catm_200" "scripts/lua/hn/missions/catm_200.lua" "MISSIONHEADER" |
+setentry 4037 "dretm_001" "scripts/lua/hn/missions/dretm_001.lua" "MISSIONHEADER" |
+setentry 4038 "dretm_100" "scripts/lua/hn/missions/dretm_100.lua" "MISSIONHEADER" |
+setentry 4039 "dretm_200" "scripts/lua/hn/missions/dretm_200.lua" "MISSIONHEADER" |
+setentry 4040 "nxtm_001" "scripts/lua/hn/missions/nxtm_001.lua" "MISSIONHEADER" |
+setentry 4041 "nxtm_100" "scripts/lua/hn/missions/nxtm_100.lua" "MISSIONHEADER" |
+setentry 4042 "nxtm_200" "scripts/lua/hn/missions/nxtm_200.lua" "MISSIONHEADER" |
+setentry 4043 "bttm_001" "scripts/lua/hn/missions/bttm_001.lua" "MISSIONHEADER" |
+setentry 4044 "bttm_100" "scripts/lua/hn/missions/bttm_100.lua" "MISSIONHEADER" |
+setentry 4045 "bttm_200" "scripts/lua/hn/missions/bttm_200.lua" "MISSIONHEADER" |
+setentry 4046 "tttm_001" "scripts/lua/hn/missions/tttm_001.lua" "MISSIONHEADER" |
+setentry 4047 "tttm_100" "scripts/lua/hn/missions/tttm_100.lua" "MISSIONHEADER" |
+setentry 4048 "tttm_200" "scripts/lua/hn/missions/tttm_200.lua" "MISSIONHEADER" |
+setentry 4049 "pptm_001" "scripts/lua/hn/missions/pptm_001.lua" "MISSIONHEADER" |
+setentry 4050 "pptm_100" "scripts/lua/hn/missions/pptm_100.lua" "MISSIONHEADER" |
+setentry 4051 "pptm_200" "scripts/lua/hn/missions/pptm_200.lua" "MISSIONHEADER" |
+setentry 4052 "tstm_001" "scripts/lua/hn/missions/tstm_001.lua" "MISSIONHEADER"|
+setentry 4053 "tstm_100" "scripts/lua/hn/missions/tstm_100.lua" "MISSIONHEADER"|
+setentry 4054 "tstm_200" "scripts/lua/hn/missions/tstm_200.lua" "MISSIONHEADER"|
+setentry 4055 "bdtm_001" "scripts/lua/hn/missions/bdtm_001.lua" "MISSIONHEADER" |
+setentry 4056 "bdtm_100" "scripts/lua/hn/missions/bdtm_100.lua" "MISSIONHEADER" |
+setentry 4057 "bdtm_200" "scripts/lua/hn/missions/bdtm_200.lua" "MISSIONHEADER" |
+setentry 4058 "cstm_001" "scripts/lua/hn/missions/cstm_001.lua" "MISSIONHEADER"|
+setentry 4059 "cstm_100" "scripts/lua/hn/missions/cstm_100.lua" "MISSIONHEADER"|
+setentry 4060 "cstm_200" "scripts/lua/hn/missions/cstm_200.lua" "MISSIONHEADER"|
+setentry 4061 "cmtm_001" "scripts/lua/hn/missions/cmtm_001.lua" "MISSIONHEADER" |
+setentry 4062 "cmtm_100" "scripts/lua/hn/missions/cmtm_100.lua" "MISSIONHEADER" |
+setentry 4063 "cmtm_200" "scripts/lua/hn/missions/cmtm_200.lua" "MISSIONHEADER" |
+setentry 4064 "fatm_001" "scripts/lua/hn/missions/fatm_001.lua" "MISSIONHEADER" |
+setentry 4065 "fatm_100" "scripts/lua/hn/missions/fatm_100.lua" "MISSIONHEADER" |
+setentry 4066 "fatm_200" "scripts/lua/hn/missions/fatm_200.lua" "MISSIONHEADER" |
+setentry 4067 "tgtm_001" "scripts/lua/hn/missions/tgtm_001.lua" "MISSIONHEADER" |
+setentry 4068 "tgtm_100" "scripts/lua/hn/missions/tgtm_100.lua" "MISSIONHEADER" |
+setentry 4069 "tgtm_200" "scripts/lua/hn/missions/tgtm_200.lua" "MISSIONHEADER" |
+
+//special npcs
+setentry 4070 "pnchsd_001" "scripts/lua/hn/mainframe/pnchsd_001.lua" "MISSIONHEADER" |
+
+//tutorial npcs
+setentry 4100 "tut_beggar01" "scripts/lua/tutorial/tut_beggar01.lua" "DIALOGHEADER" |
+setentry 4101 "tut_beggar02" "scripts/lua/tutorial/tut_beggar02.lua" "DIALOGHEADER" |
+setentry 4102 "tut_beggar03" "scripts/lua/tutorial/tut_beggar03.lua" "DIALOGHEADER" |
+setentry 4103 "tut_beggar04" "scripts/lua/tutorial/tut_beggar04.lua" "DIALOGHEADER" |
+
+//2552 und 2553 sind bereits vergeben für epic starter
+
+//woc savants
+setentry 4200 "woc_int" "scripts/lua/woc/woc_int.lua" "DIALOGHEADER" |
+setentry 4201 "woc_con" "scripts/lua/woc/woc_con.lua" "DIALOGHEADER" |
+setentry 4202 "woc_dex" "scripts/lua/woc/woc_dex.lua" "DIALOGHEADER" |
+setentry 4203 "woc_str" "scripts/lua/woc/woc_str.lua" "DIALOGHEADER" |
+setentry 4204 "woc_psi" "scripts/lua/woc/woc_psi.lua" "DIALOGHEADER" |
+
+//extra dummy dialoge
+setentry 4205 "advisor_dummy" "scripts/lua/advisor_dummy.lua" "DIALOGHEADER" |
+setentry 4206 "broadcast_dummy" "scripts/lua/broadcast_dummy.lua" "DIALOGHEADER" |
+
+//pc games gewinnspiel
+setentry 4210 "nc_gwilkins" "scripts/lua/nc_gwilkins.lua" "DIALOGHEADER" |
+setentry 4211 "nc_sforsyte" "scripts/lua/nc_sforsyte.lua" "DIALOGHEADER" |
+setentry 4212 "nc_whizzler" "scripts/lua/nc_whizzler.lua" "DIALOGHEADER" |
+setentry 4213 "nc_johnson" "scripts/lua/nc_johnson.lua" "DIALOGHEADER" |
+setentry 4214 "nc_rossi" "scripts/lua/nc_rossi.lua" "DIALOGHEADER" |
+setentry 4215 "doy_franky" "scripts/lua/doy_franky.lua" "DIALOGHEADER" |
+setentry 4216 "doy_festus" "scripts/lua/doy_festus.lua" "DIALOGHEADER" |
+setentry 4217 "doy_amber" "scripts/lua/doy_amber.lua" "DIALOGHEADER" |
+setentry 4218 "doy_rossi" "scripts/lua/doy_rossi.lua" "DIALOGHEADER" |

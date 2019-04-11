@@ -1,0 +1,52 @@
+function DIALOG()
+
+	NODE(0)
+		SAY("Ouais, tu veux quoi ?")
+		SAY("Tu ferais mieux d'avoir quelque chose d'intéressant à dire.")
+		SAY("Qu'est-ce que tu me veux, toi ?")
+		
+		ANSWER("Je viens pour la livraison. Qu'est-ce que je dois faire ?",1)
+		ANSWER("Je viens pour la livraison.",1)
+		ANSWER("Rien. Bye.",4)
+	NODE(1)
+		GIVEQUESTITEM(91)
+		SAY("Oh, ouais. %NPC_NAME(1) nous a commandé des holovids 'spéciales'. Tu trouveras %NPC_NAME(1) à %NPC_WORLD(1). Donne-lui les vidéos, et sois discret : ce sont de bons clients. Lorsque tu as fini, reviens ici pour toucher ta paye.")
+		SAY("Voilà, j'ai quelques numéros d'un vieux magazine que je veux donner à l'un de nos meilleurs clients. Va à %NPC_WORLD(1) et trouve %NPC_NAME(1) pour les lui donner. Ne te fais pas repérer. Quand tu as fini, reviens me voir pour toucher ta part.")
+		ACTIVATEDIALOGTRIGGER(0)
+		SETNEXTDIALOGSTATE(2)
+		ENDDIALOG()
+	NODE(2)	
+		ISMISSIONTARGETACCOMPLISHED(1)
+			if (result==0) then
+				SAY("Et merde, c'est quoi ton problème ? Va livrer ce que je t'ai demandé, et en vitesse, avant que je dise à mes hommes de s'occuper de toi !")
+				SAY("Toi, t'es pas une lumière, je me trompe ? Va livrer ce que je t'ai demandé, et reviens pas tant que c'est pas fait.")
+				ENDDIALOG()
+			else
+				SAY("Bon travail, tu viens de gagner %REWARD_MONEY() crédits. Ne dépense pas tout en divertissements de seconde zone.")
+				SAY("Bon travail, tu viens de gagner %REWARD_MONEY() crédits. Maintenant fais-moi de la place, va t'amuser ailleurs.") 
+				ACTIVATEDIALOGTRIGGER(2)
+				ENDDIALOG()
+			end
+	NODE(3)
+		TAKEQUESTITEM(91)
+			if (result==0) then
+				SAY("Mon colis, il est où ? Tu devais me le donner ! Va me le chercher, en vitesse !")
+				SAY("T'as pas mon colis ? Reviens quand tu l'as !")
+				ENDDIALOG()
+			else	
+				SAY("Ah, super, mon colis. Ca fait un bout de temps que j'attends ça. Maintenant retourne voir %NPC_NAME(0) pour ta récompense.")
+				SAY("Ah, la livraison. Bon travail. Retourne voir %NPC_NAME(0) pour toucher ta récompense.")
+				SAY("Bon travail. Retourne voir %NPC_NAME(0) pour toucher ta récompense.")
+				ACTIVATEDIALOGTRIGGER(1)	
+				SETNEXTDIALOGSTATE(5)
+				ENDDIALOG()
+			end
+	NODE(4)
+		SAY("Bye.")
+		SAY("Reviens quand tu sauras ce que tu veux, runner.")
+		ENDDIALOG()
+	NODE(5)
+		SAY("Qu'est-ce que tu veux encore ? J'ai mon colis, maintenant retourne chez %NPC_NAME(0) pour toucher ton fric.")
+		SAY("Merci pour la livraison, maintenant retourne chez %NPC_NAME(0) pour toucher ton fric.") 
+		ENDIALOG()
+end

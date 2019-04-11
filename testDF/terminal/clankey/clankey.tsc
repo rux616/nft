@@ -1,0 +1,64 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// clankey: root.tsc
+// content:
+// setup basic frame 
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 448 x 192
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+FRAME "CLANKEY"
+{
+	Size(0, 0, 448, 224);
+
+	FRAME "Menu"
+	{
+		Size(0, 0, 448, 32);
+		
+		TEXTBUTTON "Name"
+		{
+			Layout(8);
+			Size(21, 18, 61, 27);
+			OnMouse(
+				Message("Page", Document(".\terminal\clankey\changename.tsc")),
+				PlaySound(Resource(16, 1))
+			);
+		}
+
+		TEXTBUTTON "Apartment"
+		{
+			Layout(9);
+			Size(61, 18, 141, 27);
+			OnMouse(
+				Message("Page", Document(".\terminal\clankey\changeapp.tsc")),
+				PlaySound(Resource(16, 1))
+			);
+		}
+		
+		TEXTBUTTON "Delete"
+		{
+			Layout(9);
+			Size(141, 18, 191, 27);
+			OnMouse(
+				Message("Page", Document(".\terminal\clankey\deleteclan.tsc")),
+				PlaySound(Resource(16, 1))
+			);
+		}
+	}
+	
+	FRAME "Page"
+	{
+		Size(0, 32, 448, 224);
+	}
+
+	Set("Page", Document(".\terminal\clankey\changename.tsc"));
+}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

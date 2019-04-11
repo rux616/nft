@@ -1,0 +1,173 @@
+//actionmodifikatoren
+//		Index	startvalue 	NOS	SSQ  Modfactor
+
+//meelee weapon strength(SMC, STR, Q0)
+setentry	1	0.15,		3,	1, 0.7,		1001, 0.1,	2001, 0.0;
+//meelee weapon target(DEX, SMC, AGL)
+setentry	2	0.5,		2,	1, 0.2,		14, 0.3;
+//meelee weapon handling(SMC, DEX, AGL)
+setentry	3	0.6,		3,	1, 0.3,		14, 0.3, 	2003, 0.0;
+
+
+//pistol weapon strength(P-C, WPL, Q1)
+setentry	4	0.1,		3,	10, 0.7,	33, 0.2,	2001, 0.0;
+//pistol weapon targetspeed(P-C, WPL, Q3)
+setentry	5	0.05,		3,	10, 0.4,	33, 0.6,	2003, 0.0;
+//pistol weapon targetmax(P-C, WPL, Q3)
+setentry	6	0.05,		3,	10, 0.4,	33, 0.6,	2003, 0.0;
+//pistol weapon freq(P-C, DEX, Q2)
+setentry	7	0.2,		3,	10, 0.5,	1002, 0.3,	2002, 0.0;
+//pistol weapon handling(P-C, DEX, Q3)
+setentry	8	0.2,		3,	10, 0.5,	1002, 0.3,	2003, 0.0;
+//pistol weapon range(P-C, WPL, Q4)
+setentry	9	0.3,		3,	10, 0.25,	33, 0.25,	2004, 0.0;
+
+
+
+//rifle weapon strength(R-C, WPL, Q1)
+setentry	10	0.1,		3,	11, 0.7,	33, 0.2,	2001, 0.0;
+//rifle weapon targetspeed(R-C, WPL, Q3)
+setentry	11	0.01,		3,	11, 0.4,	33, 0.6,	2003, 0.0;
+//rifle weapon targetmax(R-C, WPL, Q3)
+setentry	12	0.01,		3,	11, 0.4,	33, 0.6,	2003, 0.0;
+//rifle weapon freq(R-C, DEX, Q2)
+setentry	13	0.1,		3,	11, 0.5,	1002, 0.4,	2002, 0.0;
+//rifle weapon handling(R-C, DEX, STR, Q3)
+setentry	14	0.1,		4,	11, 0.4,	1002, 0.3,	1001, 0.2, 	2003, 0.0;
+//rifle weapon range(R-C, WPL, Q4)
+setentry	15	0.2,		3,	11, 0.3,	33, 0.5,	2004, 0.0;
+
+
+//heavy weapon strength(H-C, WPL, Q1)
+setentry	16	0.0,		3,	2, 0.8,		33, 0.2,	2001, 0.0;
+//heavy weapon freq(H-C, WPL, STR, Q2)
+setentry	17	0.0,		4,	2, 0.5,		33, 0.2,	1001, 0.3,	2002, 0.0;
+//heavy weapon handling(H-C, WPL, STR, Q3)
+setentry	18	0.0,		4,	2, 0.4,		33, 0.2,	1001, 0.4, 	2003, 0.0;
+//heavy weapon range(H-C, WPL, Q4)
+setentry	19	0.2,		3,	2, 0.3,		33, 0.2,	2004, 0.0;
+
+
+
+
+//hitech weapon strength(T-C, DEX, WPL, Q1)
+setentry	20	0.0,		4,	12, 0.7,	1002, 0.1,	33, 0.2,	2001, 0.0;
+//hitech weapon targetspeed(T-C, DEX, WPL, Q3)
+setentry	21	0.0,		4,	12, 0.5,	1002, 0.3,	33, 0.2,	2003, 0.0;
+//hitech weapon targetmax(T-C, DEX, WPL, Q3)
+setentry	22	0.0,		4,	12, 0.5,	1002, 0.3,	33, 0.2,	2003, 0.0;
+//hitech weapon freq(T-C, DEX, INT, Q2)
+setentry	23	0.0,		4,	12, 0.5,	1002, 0.3,	1004, 0.4,	2002, 0.0;
+//hitech weapon handling(T-C, DEX, INT, Q3)
+setentry	24	0.0,		4,	12, 0.4,	1002, 0.3,	1004, 0.4, 	2003, 0.0;
+//hitech weapon range(T-C, DEX, Q4)
+setentry	25	0.7,		3,	12, 0.2,	1002, 0.1,	2004, 0.0;
+
+
+
+//player acceleration (ATL, AGL)
+setentry	30	0.4,	2,	20, 0.26,	14, 0.26;
+//player speed(ATL, AGL)
+setentry	31	0.4,	2,	20, 0.26,	14, 0.26;
+//player jump(ATL, AGL)
+setentry	32	0.65,	2,	20, 0.15,	14, 0.15;
+//player stamina drain(ATL, END, CON)
+setentry	33	0.15,	3,	20, 0.2,	21, 0.6,	1003, 0.2;
+
+//player transport(TRA, STR, DEX)
+setentry	34	0.1,	2,	3, 0.5,		1001, 0.4;
+
+
+//medicine use(INT, DEX, MED)
+setentry	35	0.0,	3,	1004, 0.3,	1002, 0.2,	15, 0.5;
+
+//body health
+setentry	39	0.1,	2,	27, 0.5,	1003, 0.25;
+
+
+//repair	//noch repair subskill hinzufügen
+setentry	40	0.0,	3,	1002, 0.2,	1004, 0.1, 	15, 0.7;
+
+//research	(INT, RES)
+setentry	41	0.0,	2,	1004, 0.3,	35, 0.7;
+//hacking	(SFT, RCL)
+setentry	43	0.0,	2,	30, 0.9, 	17, 0.1;
+//implant	//(DEX, INT, IMP)
+setentry	44	0.0,	2,	1002, 0.2,	1004, 0.3, 	36, 0.5;
+//stamina
+setentry	45	0.4,	2,	21, 0.6,	1003, 0.1;
+//barter	//(INT, BRT)
+setentry	46	0.4,	2,	1004, 0.03, 	31, 0.35;
+//recycle	//(DEX, REC)
+setentry	47	0.0,	2,	1002, 0.3, 	16, 0.7;
+//construction (DEX, INT, CST)
+setentry	48	0.0,	3,	1002, 0.1 	, 1004, 0.2,	34, 0.7;
+
+
+//resist force
+setentry	51	0.0,	1,	22, 1.0;
+//resist fire
+setentry	52	0.0,	1,	23, 1.0;
+//resist energy
+setentry	53	0.0,	1,	24, 1.0;
+//resist xray
+setentry	54	0.0,	1,	25, 1.0;
+//resist poison
+setentry	55	0.0,	1,	26, 1.0;
+//resist psi
+setentry	56	0.0,	1,	44, 1.0;
+
+//psi energy   (PPW, PSI, PSU)
+setentry	60	0.0,	3,	43, 0.65,	1005, 0.1,	32,	0.15;
+
+///passive psi use (PPU, PPW)
+setentry	61	0.0,	3,	40, 0.65,	43, 0.35, 	2001, 0.0;
+//aggr psi use (APU, PPW)
+setentry	62	0.0,	3,	41, 0.65,	43, 0.35, 	2001, 0.0;
+
+//passive psi range (PPU, PSU)
+setentry	63	0.0,	3,	40, 0.4,	32,	0.4,	2004, 0.0;
+//passive psi cast (PPU, PSU)
+setentry	64	0.0,	3,	40, 0.4,	32,	0.4,	2002, 0.0;
+
+//aggr psi range (APU, PSU)
+setentry	65	0.0,	3,	41, 0.4,	32,	0.4,	2004, 0.0;
+//aggr psi cast (APU, PSU)
+setentry	66	0.0,	3,	41, 0.4,	32,	0.4,	2002, 0.0;
+
+//advanced meelee weapon strength(SMC, STR, Q0)
+//setentry	70	0.3,		3,	5, 0.5,		1001, 0.3,	2000, 0.0;
+//advanced meelee weapon target(DEX, SMC, AGL)
+//setentry	71	0.75,		3,	1002, 0.1,	5, 0.1,		14, 0.05;
+//advanced meelee weapon handling(SMC, DEX, AGL)
+//setentry	72	0.5,		3,	5, 0.2,		1002, 0.2,	14, 0.2;
+
+//remote control (RCL, WPW)
+setentry	79	0.2,	2,	17,	0.6,	45,	0.3;
+
+//remote weapon strength (DEX, RMC, WPW)
+setentry	80	0.0,		3,	17, 0.7,	45, 0.3, 	2001, 0.0;
+//remote weapon handling (DEX, RMC, WPW)
+setentry	81	0.0,		3,	17, 0.6, 	45, 0.4,	2003, 0.0;
+//remote weapon range (DEX, RMC, WPW)
+setentry	82	0.0,		3,	17, 0.4,	45, 0.6, 	2004, 0.0;
+
+//hacknet health (INT, HCK, HLT)
+setentry	90	0.0,	3,	1004,	0.1,	30,	0.3,	27,	0.6;
+//hacknet stamina (INT, HCK, END)
+setentry	91	0.0,	3,	1004,	0.1,	30,	0.3,	21,	0.6;
+//hacknet psi (INT, HCK, T/C)
+setentry	92	0.0,	3,	1004,	0.1,	30,	0.3,	12,	0.6;
+
+//hacknet weapon strength (INT, HCK, T-C, 62)
+setentry	93	0.0,	4,	1004,	0.1,	30,	0.5,	12,	0.4,	2001, 0.0;
+//hacknet weapon handling (INT, HCK, T-C, 65)
+setentry	94	0.0,	4,	1004,	0.1,	30,	0.5,	12,	0.4,	2002, 0.0;
+//hacknet weapon range (INT, HCK, T-C, 66)
+setentry	95	0.0,	4,	1004,	0.1,	30,	0.5,	12,	0.4,	2004, 0.0;
+
+//NOS - number of skills/subskills (max. 8)
+//SSQ - Skill/Subskill//item Quallifier
+//1..1000 	SubskillID
+//1001...1100 	SkillID (1..100)
+//2000...2002	ItemQualifierID (0..6)

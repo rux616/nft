@@ -1,0 +1,21 @@
+Das Skillsystem in Neocron ist einfach zu erlernen. Es gibt fünf Attribute denen wiederum eigene Subskills zugeordnet sind. Erreicht man in einem der Attribute einen neuen Level, so erhält man 5 Punkte, die man auf die dem betreffenden Attribut zugeordneten Subskills verteilen kann. Auf diesen Seiten folgt eine genaue Beschreibung der Attribute und aller Subskills.
+
+Intelligence
+Der Skill Intelligence umfasst Subskills für deren Einsatz ein gewisses Mass an Intelligenz erforderlich ist. Die Intelligenz ist von grösster Wichtigkeit für PSI Mönche, Hacker, Konstrukteure und ähnliche Berufe.
+
+Strength
+Der Skill Strength kommt insbesondere im Kampf und beim Transportieren schwerer Lasten zum Tragen.
+
+Constitution
+Constitution ist für alle Runner gleichermassen wichtig. Die Subskills betreffen vor allem die Gesundheit und Widerstandskraft des Charakters.
+
+Dexterity
+Dieses Attribut umfasst Subskills, bei deren Anwendung ein gewisses Mass an Geschick notwendig ist. Vom Umgang mit verschiedenen Waffensystemen über das Führen von Fahrzeugen bis hin zum Steuern von Dronen deckt der Skill Dexterity diesen Bereich ab.
+
+Psychic Power
+Die Psychic Power ist das Hauptattribut eines jeden PSI Mönches. Ohne sie wäre er nicht in der Lage, seine mächtigen PSI Module einzusetzen. Die PSI Module werden in die Kategorien Passiv und Agressiv einegteilt.
+
+
+
+
+

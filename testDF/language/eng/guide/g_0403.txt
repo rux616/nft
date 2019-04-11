@@ -1,0 +1,15 @@
+This skill is particularly important for combat and the ability to carry heavy loads.
+
+Melee Combat 
+The subskill Melee Combat determines the melee abilities and damage of a character in close combat with melee weapons like knives and swords. A higher skill level improves the values of damage and swinging frequency.
+
+Heavy Combat 
+To use heavy weapons like cannons and flame throwers, a certain level in this subskill is required, depending on the strength of the weapon. A higher skill level improves the values of damage, range, firing frequency and aiming.
+
+Transport 
+This subskill determines the maximal weight a character can carry. This value is displayed in the inventory window, as well as the remaining capacity. The closer a Runner gets to his maximal capacity, the slower he will move. Strength also has an influence on the carrying capacity.
+
+Resist Force 
+This subskill influences the resistance of a character to damage against shockwaves, like those caused by explosions.
+ 
+

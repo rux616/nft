@@ -1,0 +1,173 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: gmtool/create - stdmail_detail.tsc
+// content:
+// detail view of existing standard support mail
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+// Specials: Scrollbar: X: 557 - 572 Y: 110 - 364 (+2/-2)
+// Specials: GM_COMMANDS: X: 471 - 571
+// Specials: GM_COMMANDS: Logo Size(471, 40, 571, 120)
+// Specials: GM_CONTENT: X: 50 - 447 (10 pixels extra space)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_gmcreate.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+	
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_SSMSUBJECT", "No Subject ...") );
+		OnLoad( SetEnv("ENV_SSMMESSAGE", "No Message ...") );
+		OnLoad( SetEnv("ENV_SSMDESCRIPTION", "No Description ...") );
+	}
+	
+	DATACONTROLBOX "DCBGMChecker"
+	{
+		OnLoad( TryAccess("DCBGMLinker", 340, GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBGMLinker"
+	{
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_040") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+	
+	DATACONTROLBOX "DCBGetStandardMailIfExist"
+	{
+		OnLoad( Condition( StrEqual( GetEnv("SSMID"), "0"),
+		                   SetContent( "ENV_SSMSUBJECT", "Your Helprequest - " ),
+		                   ReceiveDB( "DCBSetStandardMailContent", 801, GetEnv("SSMID") ) ) );
+	}
+	
+	DATACONTROLBOX "DCBSetStandardMailContent"
+	{
+		SetContent("Subject", 2);
+		SetContent("ENV_SSMSUBJECT", 2);
+		SetContent("Description", 1);
+		SetContent("ENV_SSMDESCRIPTION", 1);
+		SetContent("EBContent", 3);
+		SetContent("ENV_SSMMESSAGE", 3);
+	}
+	
+	DATACONTROLBOX "DCBUpdateStandardMail"
+	{
+		OnAccess( Condition( StrEqual( GetEnv("SSMID"), "0"),
+		                     UpdateDB( "DCBGMAccess", 802, GetControlText("Subject"), GetControlText("EBContent"), GetControlText("Description") ),
+		                     UpdateDB( "DCBGMAccess", 803, GetControlText("Subject"), GetControlText("EBContent"), GetControlText("Description"), GetEnv("SSMID") ) ) );
+		                     
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_040") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+	
+	DATACONTROLBOX "DCBDeleteStandardMail"
+	{
+		OnAccess( Condition( StrEqual( GetEnv("SSMID"), "0"),
+		                     ChangePage("Page", ".\terminal\gmtool\create\stdmail_overview.tsc" ),
+		                     UpdateDB( "DCBGMAccess", 804, GetEnv("SSMID") ) ) );
+		                     
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_040") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+	
+	
+	DATACONTROLBOX "DCBGMAccess"
+	{
+		OnAccess( ChangePage("Page", ".\terminal\gmtool\create\stdmail_overview.tsc" ) );
+		
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_040") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN GMTOOL"
+	{
+		LayOut(2);
+		Size(471, 40, 571, 120);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 19, 0, 225, 138);
+		"1";
+		FunctionText("%BITMAP(45, 1, 3)" );
+	}
+
+	FRAME "COMMANDS"
+	{
+		LayOut(2);
+		Size(471, 142, 571, 408);
+		
+		TEXTBUTTON "SUBMIT"
+		{
+			LayOut(5);
+			Size(0, 0, 100, 20);
+			OnMouse( TryAccess("DCBUpdateStandardMail", 340, GetEnv("G_CHARID") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+		TEXTBUTTON "DELETE"
+		{
+			LayOut(5);
+			Size(0, 25, 100, 45);
+			OnMouse( TryAccess("DCBDeleteStandardMail", 340, GetEnv("G_CHARID") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+		TEXTBUTTON "BACK"                                                                                                                  
+		{                                                                                                                                  
+			LayOut(5);                                                                                                                 
+			Size(0, 246, 100, 266);
+			OnMouse( ChangePage("Page", GetEnv("BACK") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );                                                                                    
+		}
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	EDITBOX "Subject"
+	{
+		LayOut(2);
+		Size( 50, 40, 447, 52);
+		MaxBuffer(127);
+	}
+	
+	FRAME "Message Text"
+	{
+		Layout(2);
+		Size(50, 74, 447, 340); 
+		
+		FRAME "Client"
+		{
+			Size(-1, -1, -1, -1);
+	
+			EDITBOX "EBContent"
+			{
+				Size(0, 0, 397, 266);
+				Params(Multiline);
+				MaxBuffer(2048);
+			}
+		}
+	}
+	
+	EDITBOX "Description"
+	{
+		LayOut(2);
+		Size( 50, 362, 447, 408);
+		Params(Multiline);
+		MaxBuffer(255);
+	}
+	
+	DATACONTROLBOX "DCBSetStandardMailContent"
+	{
+		OnLoad( SetContent("Subject", GetEnv("SSMSUBJECT") ) );
+		OnLoad( SetContent("EBContent", GetEnv("SSMMESSAGE") ) );
+		OnLoad( SetContent("Description", GetEnv("SSMDESCRIPTION") ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

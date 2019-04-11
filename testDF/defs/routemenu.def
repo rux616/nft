@@ -1,0 +1,18 @@
+// Index	Desc				Type	Start	End	XZTolerance	YTolerance
+
+setentry 1	"NC SERVICES"			0	10	49	125.0	100.0	|
+setentry 2	"NC APARTMENTS"			1	200	213	125.0	100.0	|
+setentry 3	"MORE APARTMENTS"		1	240	287	125.0	100.0	|
+setentry 4	"NC LOCATIONS"			0	50	99	125.0	100.0	|
+setentry 5	"NC FACTION HQ'S"		0	100	149	125.0	100.0	|
+setentry 6	"TRADER CATEGORIES"		0	180	193	125.0	100.0	|
+setentry 7	"DOY SERVICES"			0	300	349	125.0	100.0	|
+setentry 8	"DOY APARTMENTS"		1	214	231	125.0	100.0	|
+setentry 9	"DOY LOCATIONS"			0	350	399	125.0	100.0	|
+setentry 10	"DOY FACTION HQ'S"		0	400	449	125.0	100.0	|
+
+
+
+// Type:
+// 0 - default (Start/End: Index in RouteSubMenu.def)
+// 1 - apartments oder sewers (Start/End: Index in appplaces.def)

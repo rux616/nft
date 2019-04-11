@@ -1,0 +1,88 @@
+// Index	Desc		DestType	DestSubType
+//Services
+setentry 10 	"PRIMARY APARTMENT"	5	0	|
+setentry 11	"GENREP STATION"	3	-1	|
+setentry 12	"GOGUARDIAN"		4	-1	|
+setentry 13	"HOVERCAB STATION"	2	1000	|
+setentry 14	"CITYCOM STATION"	7	-1	|
+setentry 15 	"YO'S PAWNSHOP"		8	-2	|
+setentry 16 	"NEOFRAG TERMINAL"	9	-1	|
+
+//NC LOCATIONS
+setentry 51	"CITYADMIN"		2	105	|
+setentry 52	"NCPD"			2	404	|
+setentry 53	"CONFERENCE CENTER"	2	104	|
+setentry 54	"HOVERCAB STATION"	2	1000	|
+setentry 55	"NEOCRON ZOO"		2	403	|
+setentry 66	"NEOFRAG"		2	608	|
+setentry 57	"PEPPER PUB"		2	610	|
+setentry 58	"CLUB VERONIQUE"	2	602	|
+setentry 59	"TWISTER"		2	612	|
+setentry 60	"PUSSY CLUB"		2	605	|
+setentry 61	"INDUSTRIAL AREA"	2	8	|
+setentry 62	"MILITARY BASE"		2	753	|
+setentry 63	"TECHHAVEN"		2	500	|
+
+//NCHQS
+setentry 100	"CITYADMIN"		2	105	|
+setentry 101	"DIAMOND REAL ESTATE"	2	107	|
+setentry 102	"N.E.X.T."		2	108	|
+setentry 103	"TANGENT TECHNOLOGIES"	2	405	|
+setentry 104	"BIOTECH"		2	406	|
+setentry 105	"PROTO PHARMA"		2	407	|
+setentry 106	"THE CITY MERCS"	2	753	|
+
+//NCTRADER
+setentry 180	"WEAPONS"		8	1	|
+setentry 181	"AMMUNITION"		8	2	|
+setentry 182	"ARMOR"			8	3	|
+setentry 183	"TOOLS"			8	4	|
+setentry 184	"PSI EQUIPMENT"		8	5	|
+setentry 185	"CHEMICALS"		8	10	|
+setentry 186	"ITEM PARTS"		8	11	|
+setentry 187	"IMPLANTS"		8	12	|
+setentry 188	"BONE ENFORCEMENTS"	8	13	|
+setentry 189	"REFRESHMENTS"		8	20	|
+setentry 190	"DRUGS"			8	21	|
+setentry 191	"MEDICAMENTS"		8	22	|
+setentry 192	"REAL ESTATES"		8	23	|
+setentry 193	"VEHICLES"		8	24	|
+
+//DOY SERVICES
+setentry 300 	"PRIMARY APARTMENT"	5	0	|
+setentry 301	"GENREP STATION"	3	-1	|
+setentry 302	"GOGUARDIAN"		4	-1	|
+setentry 303	"WIRELESS R.N. NETLINK"	7	-1	|
+setentry 304 	"YO'S PAWNSHOP"		8	-2	|
+
+
+//DOY LOCATIONS
+//setentry 350	"MILITARY BASE"		2	753	|
+//setentry 351	"TECHHAVEN"		2	500	|
+
+//DOYHQs
+setentry 400	"TSUNAMI"		2	1116	|
+setentry 401	"BLACK DRAGON"		2	1119	|
+setentry 402	"BROTHERHOOD OF CRAHN"	2	1112	|
+setentry 403	"THE CITY MERCS"	2	753	|
+setentry 404	"THE FALLEN ANGLES"	2	1111	|
+setentry 405	"THE TWILIGHT GUARDIAN"	2	1110	|
+
+
+// DestType - DestSubType:
+// 1 - WORLDROUTETYPE_WORLDCHANGE_ACTOR			- ToWorldID
+// 2 - WORLDROUTETYPE_WORLDCHANGE_ENTITY		- ToWorldID
+// 3 - WORLDROUTETYPE_GENEREP				- -1
+// 4 - WORLDROUTETYPE_GOGUARDIAN			- -1
+// 5 - WORLDROUTETYPE_APPENTRY				- PlaceID, 0=Primary Apartment
+// 6 - WORLDROUTETYPE_APPEXIT				- ?
+// 7 - WORLDROUTETYPE_TERMINAL				- TerminalID
+// 8 - WORLDROUTETYPE_TRADER				- TRADERTYPE
+// 9 - WORLDROUTETYPE_HOLOMATCHENTRY			- ?
+// 10 - WORLDROUTETYPE_MISSIONNPC			- FactionID
+// 11 - WORLDROUTETYPE_SEWERENTRANCE			- Level
+
+// TRADERTYPES
+// -2 - ALLBUYER
+// 0 - unspecified																																								
+// weitere siehe trader.def

@@ -1,0 +1,2304 @@
+
+setentry	0	"private male"	-1	0	1000	1010	1020	0	0	700	800	900	|	
+setentry	1	"private female"	-1	0	1090	1100	1110	0	0	710	810	910	|	
+setentry	2	"spy male"	-1	0	1210	1220	1230	0	0	720	820	920	|	
+setentry	3	"spy female"	-1	0	1680	1690	1700	0	0	730	830	930	|	
+setentry	4	"tank male"	-1	0	1050	1060	1070	0	0	740	840	940	|	
+setentry	5	"tank female"	-1	0	1130	1140	1150	0	0	750	850	950	|	
+setentry	6	"psimonk male"	-1	0	1250	1260	1270	0	0	760	860	960	|	
+setentry	7	"psimonk female"	-1	0	1290	1300	1310	0	0	770	870	970	|	
+setentry	8	"anarcho male"	26	0	1480	1490	1500	0	0	|	
+setentry	9	"anarcho female"	27	0	1520	1530	1540	0	0	|	
+
+
+
+
+setentry	10	"S.T.O.R.M. BOT"	21	0	1441	1451	1461	0	0	|	
+
+setentry	11	"S.T.O.R.M. BOT"	21	0	1443	1453	1463	0	0	|	
+
+
+setentry	12	"Soldier"	4	0	1058	1063	1073	0	0	|	
+setentry	13	"Soldier"	5	0	1130	1063	1153	0	0	|	
+
+
+setentry	14	"Technician "	4	0	1080	1081	1082	0	0	|	
+
+
+setentry	15	"MEDICARE CENTER\nParamedic"	11	0	1328	1339	1348	0	0	|	
+
+
+
+
+setentry	17	"CRYTON'S TECH TOOLS\nSelling: Tools"	13	0	1407	1418	1424	0	0	|	
+
+setentry	18	"ARCHER & WESSON\nTrader"	25	0	1642	1652	1662	0	0	|	
+
+setentry	19	"YO'S PAWN SHOP\nTrader"	13	0	1401	1412	1423	0	0	|	
+
+
+
+
+
+
+setentry	20	"ARCHER & WESSON\nSelling: Simple Armor"	13	0	1403	1418	1424	0	0	|	
+setentry	21	"ARCHER & WESSON\nSelling: Simple Weapons"	11	0	1323	1330	1340	0	0	|	
+setentry	22	"ARCHER & WESSON\nSelling: Simple Ammo"	25	0	1642	1652	1662	0	0	|	
+
+setentry	23	"ARCHER & WESSON\nSelling: Advanced Armor"	13	0	1405	1418	1424	0	0	|	
+setentry	24	"ARCHER & WESSON\nSelling: Advanced Weapons"	11	0	1321	1330	1340	0	0	|	
+setentry	25	"ARCHER & WESSON\nSelling: Advanced Ammo"	25	0	1642	1652	1662	0	0	|	
+
+setentry	26	"H.E.W. TECHNOLOGY\nSelling: Advanced Armor"	13	0	1407	1418	1424	0	0	|	
+setentry	27	"H.E.W. TECHNOLOGY\nSelling: HighTech Weapons"	11	0	1325	1330	1340	0	0	|	
+setentry	28	"H.E.W. TECHNOLOGY\nSelling: HighTech Ammo"	25	0	1642	1652	1662	0	0	|	
+
+setentry	29	"ARCHER & WESSON\nSelling: Advanced Armor"	13	0	1404	1418	1424	0	0	|	
+setentry	30	"ARCHER & WESSON\nSelling: Explosive Weapons"	11	0	1321	1330	1340	0	0	|	
+setentry	31	"ARCHER & WESSON\nSelling: Explosive Ammo"	25	0	1642	1652	1662	0	0	|	
+
+
+
+setentry	32	"CRYTON'S TECH TOOLS\nStore Manager"	13	0	1407	1418	1424	0	0	|	
+setentry	33	"CRYTON'S TECH TOOLS\nStore Manager"	11	0	1323	1330	1340	0	0	|	
+setentry	34	"CRYTON'S TECH TOOLS\nStore Manager"	13	0	1407	1418	1424	0	0	|	
+setentry	35	"CRYTON'S TECH TOOLS\nStore Manager"	13	0	1407	1418	1424	0	0	|	
+setentry	36	"CRYTON'S TECH TOOLS\nStore Manager"	11	0	1322	1330	1340	0	0	|	
+setentry	37	"CRYTON'S TECH TOOLS\nStore Manager"	25	0	1642	1652	1662	0	0	|	
+
+
+
+
+setentry	40	"CRYTON'S TECH TOOLS\nSelling: Tools"	13	0	1407	1418	1424	0	0	|	
+setentry	41	"CRYTON'S TECH TOOLS\nSelling: Advanced Tools"	11	0	1323	1330	1340	0	0	|	
+setentry	42	"CRYTON'S TECH TOOLS\nSelling: Chemicals"	25	0	1642	1652	1662	0	0	|	
+setentry	43	"CRYTON'S TECH TOOLS\nSelling: Item Parts"	13	0	1405	1418	1424	0	0	|	
+setentry	44	"CRYTON'S TECH TOOLS\nSelling: Bone Enforcements"	25	0	1642	1652	1662	0	0	|	
+setentry	45	"CRYTON'S TECH TOOLS\nSelling: Implants"	11	0	1322	1330	1340	0	0	|	
+
+
+setentry	46	"ASG\nSelling: Vehicles"	13	0	1407	1418	1424	0	0	|	
+
+
+
+setentry	49	"STOCK X\nSelling: Stocks"	13	0	1407	1418	1424	0	0	|	
+
+
+setentry	50	"TYLOR'S BIOCHEM\nSelling: Drugs"	13	0	1405	1418	1424	0	0	|	
+setentry	51	"TYLOR'S BIOCHEM\nSelling: Chems"	25	0	1642	1652	1662	0	0	|	
+
+
+setentry	54	"VENTURE WARP\nService Personnel"	13	0	1407	1418	1424	0	0	|	
+
+
+setentry	55	"MEDICARE CENTER\nSelling: Drugs"	11	0	1325	1330	1340	0	0	|	
+setentry	56	"MEDICARE CENTER\nSelling: Chems"	13	0	1404	1418	1424	0	0	|	
+
+
+setentry	57	"YAKARMA\nSelling: PSI Equipment"	6	0	1250	1961	1962	0	0	|	
+setentry	58	"YAKARMA\nSelling: Passive PSI Modules"	6	0	1252	1961	1962	0	0	|	
+setentry	59	"YAKARMA\nSelling: Aggressive PSI Modules"	6	0	1960	1961	1962	0	0	|	
+
+
+setentry	60	"GARRIOT'S DINER\nBarkeeper"	13	0	1401	1411	1422	0	0	|	
+
+
+setentry	65	"CHEZ SYPHER\nBarkeeper"	13	0	1402	1411	1422	0	0	|	
+
+
+
+
+setentry	70	"YO'S PAWN SHOP\nSelling: Simple Misc Stuff"	13	0	1401	1412	1423	0	0	|	
+setentry	71	"YO'S PAWN SHOP\nSelling: Simple Misc Stuff"	13	0	1402	1411	1422	0	0	|	
+setentry	72	"YO'S PAWN SHOP\nSelling: Cool Misc Stuff"	13	0	1405	1412	1423	0	0	|	
+setentry	73	"YO'S PAWN SHOP\nSelling: Cool Misc Stuff"	13	0	1406	1412	1423	0	0	|	
+setentry	74	"YO'S PAWN SHOP\nSelling: Simple Drugstore Stuff"	13	0	1401	1411	1422	0	0	|	
+setentry	75	"YO'S PAWN SHOP\nSelling: Cool Drugstore Stuff"	13	0	1403	1412	1423	0	0	|	
+setentry	76	"YO'S PAWN SHOP\nSelling: Weapon Stuff"	13	0	1405	1412	1423	0	0	|	
+setentry	77	"YO'S PAWN SHOP\nAllbuyer"	13	0	1401	1412	1423	0	0	|	
+
+
+setentry	80	"STREET HAWKER\nSelling: Simple Misc Stuff"	13	0	1403	1412	1423	0	0	|	
+setentry	81	"STREET HAWKER\nSelling: Simple Misc Stuff"	13	0	1402	1411	1422	0	0	|	
+setentry	82	"STREET HAWKER\nSelling: Cool Misc Stuff"	13	0	1405	1412	1423	0	0	|	
+setentry	83	"STREET HAWKER\nSelling: Cool Misc Stuff"	13	0	1406	1412	1423	0	0	|	
+setentry	84	"STREET HAWKER\nSelling: Simple Drugstore Stuff"	13	0	1401	1411	1422	0	0	|	
+setentry	85	"STREET HAWKER\nSelling: Cool Drugstore Stuff"	13	0	1405	1412	1423	0	0	|	
+setentry	86	"STREET HAWKER\nSelling: Weapon Stuff"	13	0	1403	1412	1423	0	0	|	
+
+
+setentry	90	"NOMAD TRADER\nSelling: Simple Misc Stuff"	159	0	1910	1915	1920	0	0	|	
+setentry	91	"NOMAD TRADER\nSelling: Simple Misc Stuff"	159	0	1911	1916	1921	0	0	|	
+setentry	92	"NOMAD TRADER\nSelling: Cool Misc Stuff"	159	0	1910	1915	1920	0	0	|	
+setentry	93	"NOMAD TRADER\nSelling: Cool Misc Stuff"	159	0	1911	1916	1921	0	0	|	
+setentry	94	"NOMAD TRADER\nSelling: Simple Drugstore Stuff"	159	0	1910	1915	1920	0	0	|	
+setentry	95	"NOMAD TRADER\nSelling: Cool Drugstore Stuff"	159	0	1911	1916	1921	0	0	|	
+setentry	96	"NOMAD TRADER\nSelling: Weapon Stuff"	159	0	1910	1915	1920	0	0	|	
+setentry	97	"NOMAD TRADER\nSelling: PSI Stuff"	159	0	1911	1916	1921	0	0	|	
+
+setentry	100	"SUBWAY SERVICE"	4	0	1080	1081	1082	0	0	|	
+
+
+
+setentry	103	"COPBOT"	21	0	1440	1450	1460	0	0	|	
+setentry	104	"COPBOT"	21	0	1442	1452	1462	0	0	|	
+setentry	105	"S.T.O.R.M. BOT"	21	0	1441	1451	1461	0	0	|	
+
+setentry	106	"SHOPKEEPER"	11	0	1320	1330	1340	0	0	|	
+setentry	107	"SHOPKEEPER"	11	0	1321	1330	1340	0	0	|	
+setentry	108	"SHOPKEEPER"	11	0	1322	1330	1340	0	0	|	
+
+
+setentry	109	"DOORKEEPER"	4	0	1050	1061	1071	0	0	|	
+setentry	110	"MEDIC"	11	0	1328	1339	1348	0	0	|	
+setentry	111	"BARKEEPER"	13	0	1401	1411	1422	0	0	|	
+
+setentry	112	"BUMP"	26	0	1481	1493	1500	0	0	|	
+setentry	113	"BUMP"	11	0	1009	1019	1025	0	0	|	
+setentry	114	"BUMP"	27	0	1521	1532	1542	0	0	|	
+setentry	115	"BUMP"	11	0	1006	1019	1025	0	0	|	
+setentry	116	"BUMP"	11	0	1007	1019	1025	0	0	|	
+setentry	117	"SCIENTIST"	11	0	1322	1332	1342	0	0	|	
+setentry	118	"JUNKDEALER"	11	0	1007	1019	1025	0	0	|	
+
+setentry	120	"DANCER"	23	0	-1	-1	-1	0	0	|	
+setentry	121	"DANCER"	23	0	-1	-1	-1	0	0	|	
+setentry	122	"DANCER"	24	0	-1	-1	-1	0	0	|	
+setentry	123	"DANCER"	24	0	-1	-1	-1	0	0	|	
+setentry	124	"DANCER"	25	0	-1	-1	-1	0	0	|	
+setentry	125	"DANCER"	25	0	-1	-1	-1	0	0	|	
+setentry	126	"DANCER"	28	0	-1	-1	-1	0	0	|	
+
+setentry	127	"BIG MAMA"	14	0	1770	1780	1790	0	0	|	
+
+setentry	128	"COPBOT"	20	0	-1	-1	-1	0	0	|	
+
+
+
+
+setentry	130	"Service"	15	0	1641	1651	1661	0	0	|	
+setentry	131	"Employee"	11	0	1321	1330	1340	0	0	|	
+setentry	132	"Human Resources Director"	11	0	1320	1330	1340	0	0	|	
+setentry	133	"Security Officer"	4	0	1053	1840	1850	0	0	|	
+setentry	134	"Scientist"	11	0	1321	1330	1340	0	0	|	
+
+
+setentry	135	"Service"	15	0	1641	1651	1661	0	0	|	
+setentry	136	"Employee"	11	0	1321	1330	1340	0	0	|	
+setentry	137	"Human Resources Director"	11	0	1320	1330	1340	0	0	|	
+
+
+setentry	140	"Service"	15	0	1641	1651	1661	0	0	|	
+setentry	141	"Employee"	11	0	1321	1330	1340	0	0	|	
+setentry	142	"Human Resources Director"	11	0	1320	1330	1340	0	0	|	
+
+
+setentry	155	"Service"	15	0	1641	1651	1661	0	0	|	
+setentry	156	"Employee"	11	0	1321	1330	1340	0	0	|	
+setentry	157	"Human Resources Director"	11	0	1320	1330	1340	0	0	|	
+setentry	158	"Broker"	11	0	1320	1330	1340	0	0	|	
+
+
+setentry	165	"Service"	11	0	1320	1330	1340	0	0	|	
+setentry	166	"Cop"	21	0	1440	1450	1460	0	0	|	
+setentry	167	"Recruitment Officer"	11	0	1320	1330	1340	0	0	|	
+
+
+
+
+
+
+setentry	168	"CLUB VERONIQUE Security "	4	0	1830	1840	1850	0	0	|	
+setentry	169	"PUSSY CLUB Security "	4	0	1830	1840	1850	0	0	|	
+setentry	170	"Security "	4	0	1830	1840	1850	0	0	|	
+setentry	171	"Contact"	0	0	1800	1810	1820	0	0	|	
+setentry	172	"Recruiter"	0	0	1801	1811	1820	0	0	|	
+setentry	173	"Barkeeper"	0	0	1801	1811	1820	0	0	|	
+setentry	174	"CLUB VERONIQUE Manager"	0	0	1801	1810	1820	0	0	|	
+setentry	175	"Pimp"	4	0	1831	1841	1850	0	0	|	
+setentry	176	"NEOFRAG Service"	0	0	1800	1810	1820	0	0	|	
+setentry	177	"PEEPCLUB MANAGER"	14	0	1770	1780	1790	0	0	|	
+setentry	178	"MYSTERIOUS MAZE Manager"	0	0	1800	1810	1820	0	0	|	
+setentry	179	"PUSSY CLUB Manager"	4	0	1830	1840	1850	0	0	|	
+
+
+setentry	180	"Thug"	4	0	1875	1880	1885	0	0	|	
+setentry	181	"Contact"	13	0	1890	1895	1900	0	0	|	
+setentry	182	"Wiseguy"	11	0	1860	1865	1870	0	0	|	
+setentry	183	"Fence"	13	0	1890	1895	1900	0	0	|	
+setentry	184	"Capo"	11	0	1860	1865	1870	0	0	|	
+setentry	185	"SHOOTING RANGE Boss"	11	0	1860	1865	1870	0	0	|	
+setentry	186	"Storage Boss"	13	0	1890	1895	1900	0	0	|	
+
+
+setentry	189	"Sales Assistant"	0	0	1801	1811	1820	0	0	|	
+
+
+setentry	200	"Scientist"	6	0	1930	1935	1940	0	0	|	
+setentry	201	"Novice"	7	0	1945	1950	1955	0	0	|	
+setentry	202	"Registrar"	7	0	1945	1950	1955	0	0	|	
+setentry	203	"Head Of The Monastery"	6	0	1930	1935	1940	0	0	|	
+setentry	204	"Inquisitor"	6	0	1930	1935	1940	0	0	|	
+setentry	205	"Grand Inquisitor"	6	0	1930	1935	1940	0	0	|	
+
+
+
+
+
+
+
+
+
+
+setentry	222	"NOMAD TRADER"	159	0	1910	1915	1920	0	0	|	
+setentry	223	"NOMAD TRADER"	159	0	1911	1916	1921	0	0	|	
+
+
+setentry	225	"STREET HAWKER"	13	0	1406	1412	1423	0	0	|	
+setentry	226	"STREET HAWKER"	13	0	1401	1411	1422	0	0	|	
+setentry	227	"STREET HAWKER"	13	0	1405	1412	1423	0	0	|	
+
+
+setentry	228	"STREET HAWKER"	26	0	1480	1490	1500	0	0	|	
+setentry	229	"STREET HAWKER"	27	0	1520	1530	1540	0	0	|	
+
+
+
+
+
+
+setentry	230	"Member"	12	0	1486	1496	1506	0	0	|	
+setentry	231	"Member"	5	0	1526	1536	1546	0	0	|	
+setentry	232	"Sales Assistant"	12	0	1486	1496	1506	0	0	|	
+setentry	233	"Sales Assistant"	5	0	1526	1536	1546	0	0	|	
+setentry	234	"Personnel Director"	12	0	1486	1496	1506	0	0	|	
+setentry	235	"Scientist"	12	0	1486	1496	1506	0	0	|	
+setentry	236	"Fallen Angel Light Security Bot"	200	0	-1	-1	-1	0	0	|	
+setentry	237	"Fallen Angel Heavy Security Bot"	200	0	-1	-1	-1	0	0	|	
+
+setentry	238	"Fallen Angel Sentrygun"	172	0	-1	-1	-1	0	0	|	
+setentry	239	"Fallen Angel Sentrygun"	173	0	-1	-1	-1	0	0	|	
+
+
+setentry	240	"Service"	15	0	1641	1651	1661	0	0	|	
+setentry	241	"Employee"	11	0	1321	1334	1346	0	0	|	
+setentry	242	"Human Resources Director "	11	0	1320	1330	1340	0	0	|	
+setentry	243	"Security Officer"	4	0	1050	1061	1071	0	0	|	
+setentry	244	"Director Of Operations "	13	0	1403	1414	1420	0	0	|	
+
+
+setentry	245	"Service"	15	0	1641	1651	1661	0	0	|	
+setentry	246	"Employee"	11	0	1321	1334	1346	0	0	|	
+setentry	247	"Human Resources Director "	11	0	1320	1330	1340	0	0	|	
+setentry	248	"Security Officer"	4	0	1050	1061	1071	0	0	|	
+setentry	249	"Director Of Operations "	13	0	1403	1414	1420	0	0	|	
+
+
+setentry	250	"Service"	15	0	1641	1651	1661	0	0	|	
+setentry	251	"Employee"	11	0	1321	1334	1346	0	0	|	
+setentry	252	"Human Resources Director "	11	0	1320	1330	1340	0	0	|	
+setentry	253	"Security Officer"	4	0	1050	1061	1071	0	0	|	
+setentry	254	"Director Of Operations "	13	0	1403	1414	1420	0	0	|	
+
+
+setentry	255	"Service"	15	0	1641	1651	1661	0	0	|	
+setentry	256	"Employee"	11	0	1321	1334	1346	0	0	|	
+setentry	257	"Human Resources Director "	11	0	1320	1330	1340	0	0	|	
+setentry	258	"Security Officer"	4	0	1050	1061	1071	0	0	|	
+setentry	259	"Director Of Operations "	13	0	1403	1414	1420	0	0	|	
+
+
+setentry	260	"Service"	15	0	1641	1651	1661	0	0	|	
+setentry	261	"Employee"	11	0	1321	1334	1346	0	0	|	
+setentry	262	"Human Resources Director "	11	0	1320	1330	1340	0	0	|	
+setentry	263	"Security Officer"	4	0	1050	1061	1071	0	0	|	
+setentry	264	"Broker "	13	0	1403	1414	1420	0	0	|	
+
+
+setentry	265	"Contact Person"	0	0	1361	1017	1870	0	0	|	
+setentry	266	"Soldier"	22	0	1173	1184	1194	0	0	|	
+setentry	267	"Recruitment Officer "	22	0	1173	1184	1194	0	0	|	
+setentry	268	"Trader"	11	0	1323	1337	1341	0	0	|	
+setentry	269	"Sentry Gun"	170	0	-1	-1	-1	0	0	|	
+
+
+setentry	270	"Contact Person"	5	0	1131	1143	1153	0	0	|	
+setentry	271	"Soldier"	4	0	1058	1063	1073	0	0	|	
+setentry	272	"Recruitment Officer "	5	0	1132	1143	1153	0	0	|	
+setentry	273	"Trader"	4	0	1051	1063	1073	0	0	|	
+setentry	274	"Sentry Gun"	170	0	-1	-1	-1	0	0	|	
+setentry	275	"Supply Manager"	5	0	1131	1143	1153	0	0	|	
+
+
+setentry	276	"Dealer"	11	0	1860	1865	1870	0	0	|	
+setentry	277	"Distributor"	33	0	-1	-1	-1	0	0	|	
+setentry	278	"Distributor"	32	0	-1	-1	-1	0	0	|	
+setentry	279	"Distributor"	31	0	-1	-1	-1	0	0	|	
+
+
+setentry	280	"Vandal"	26	0	1480	1490	1500	0	0	|	
+setentry	281	"Vandal"	27	0	1520	1530	1540	0	0	|	
+
+
+
+setentry	285	"Mr. Smith"	11	0	1321	1330	1340	0	0	|	
+setentry	286	"Mr. Smith"	11	0	1321	1334	1346	0	0	|	
+setentry	287	"Mr. Smith"	13	0	1403	1414	1420	0	0	|	
+setentry	288	"Mr. Smith"	11	0	1321	1334	1346	0	0	|	
+setentry	289	"Mr. Smith"	11	0	1321	1334	1346	0	0	|	
+setentry	290	"Mr. Smith"	11	0	1321	1330	1340	0	0	|	
+setentry	291	"Mr. Smith"	11	0	1321	1334	1346	0	0	|	
+setentry	292	"Mr. Smith"	13	0	1403	1414	1420	0	0	|	
+setentry	293	"Mr. Smith"	11	0	1321	1334	1346	0	0	|	
+setentry	294	"Mr. Smith"	11	0	1321	1334	1346	0	0	|	
+setentry	295	"Mr. Smith"	11	0	1321	1330	1340	0	0	|	
+setentry	296	"Mr. Smith"	11	0	1321	1334	1346	0	0	|	
+
+
+
+
+
+
+
+setentry	300	"Barvisitor"	11	0	1323	1334	1346	0	0	|	
+setentry	301	"Barvisitor"	12	0	1360	1372	1380	0	0	|	
+setentry	302	"Barvisitor"	13	0	1405	1412	1422	0	0	|	
+setentry	303	"Barvisitor"	12	0	1363	1373	1382	0	0	|	
+setentry	304	"Barvisitor"	12	0	1360	1372	1380	0	0	|	
+
+setentry	310	"Private female dancer"	9	0	1096	1102	1110	0	0	|	
+setentry	311	"Private female dancer"	9	0	1095	1106	1114	0	0	|	
+setentry	312	"Private female dancer"	9	0	1091	1107	1114	0	0	|	
+setentry	313	"Dancing Dave"	10	0	1366	1374	1384	0	0	|	
+setentry	314	"Dancing Dave"	10	0	1363	1375	1380	0	0	|	
+
+
+setentry	329	"Drone Test Vendor"	2	0	1210	1220	1230	0	0	|	
+
+
+
+
+
+setentry	320	"DOME OF YORK\nGUARDIAN"	4	0	2330	2340	2350	0	0	|	
+setentry	321	"DOME OF YORK\nWARRIOR"	4	0	2331	2340	2350	0	0	|	
+
+
+
+setentry	400	"MG Security turret MK1"	170	0	-1	-1	-1	0	0	|	
+setentry	401	"MG Security turret MK2"	170	0	-1	-1	-1	0	0	|	
+setentry	402	"MG Security turret MK3"	170	0	-1	-1	-1	0	0	|	
+
+setentry	410	"Laser Security turret MK1"	170	0	-1	-1	-1	0	0	|	
+setentry	411	"Laser Security turret MK2"	170	0	-1	-1	-1	0	0	|	
+setentry	412	"Laser Security turret MK3"	170	0	-1	-1	-1	0	0	|	
+
+setentry	420	"Plasma Security turret MK1"	170	0	-1	-1	-1	0	0	|	
+setentry	421	"Plasma Security turret MK2"	170	0	-1	-1	-1	0	0	|	
+setentry	422	"Plasma Security turret MK3"	170	0	-1	-1	-1	0	0	|	
+
+setentry	430	"Rocket Security turret MK1"	170	0	-1	-1	-1	0	0	|	
+setentry	431	"Rocket Security turret MK2"	170	0	-1	-1	-1	0	0	|	
+setentry	432	"Rocket Security turret MK3"	170	0	-1	-1	-1	0	0	|	
+
+setentry	440	"Gatlin Security turret MK1"	301	0	-1	-1	-1	0	0	|	
+setentry	441	"Gatlin Security turret MK2"	301	0	-1	-1	-1	0	0	|	
+setentry	442	"Gatlin Security turret MK3"	301	0	-1	-1	-1	0	0	|	
+
+setentry	445	"Artillery Security turret MK1"	301	0	-1	-1	-1	0	0	|	
+setentry	446	"Artillery Security turret MK2"	301	0	-1	-1	-1	0	0	|	
+setentry	447	"Artillery Security turret MK3"	301	0	-1	-1	-1	0	0	|	
+
+setentry	449	"Stuntrap Security turret MK1"	301	0	-1	-1	-1	0	0	|	
+
+
+
+
+
+setentry	450	"Albert Einstein"	13	0	1403	1412	1423	0	0	|	
+
+setentry	455	"Brother Leitus"	6	0	1250	1935	1940	0	0	|	
+setentry	456	"Brother Zargerus"	6	0	1251	1935	1940	0	0	|	
+setentry	457	"Brother Aurelius"	6	0	1252	1935	1940	0	0	|	
+
+setentry	460	"Gregory"	7	0	1945	1950	1955	0	0	|	
+setentry	461	"Montejavare"	7	0	1945	1950	1955	0	0	|	
+setentry	462	"Juan"	13	0	1405	1412	1423	0	0	|	
+//setentry	281	"Birgitte"	27	0	1520	1530	1540	0	0	|	
+
+
+
+
+
+setentry	470	"AREA MC5\nBase Commander"	4	0	2303	2304	2305	0	0	|	
+setentry	471	"AREA MC5\nChief Technician"	4	0	2309	2311	2312	0	0	|	
+setentry	472	"AREA MC5\nAssistant Technician"	4	0	2310	2311	2312	0	0	|	
+setentry	473	"AREA MC5\nCivil Administrator"	4	0	2300	2301	2302	0	0	|	
+setentry	474	"AREA MC5\nSecurity Officer"	4	0	2306	2307	2308	0	0	|	
+setentry	475	"AREA MC5\nSecurity Chief"	4	0	2306	2307	2308	0	0	|	
+setentry	476	"NewB Mentor"	4	0	2303	2304	2305	0	0	|	
+
+setentry	480	"Bright 'n' Clean\nCoordinator"	0	0	2313	2314	2319	0	0	|	
+setentry	481	"AREA MC5\nTechnician"	0	0	2315	2316	2319	0	0	|	
+setentry	482	"AREA MC5\nStaffmember"	13	0	2317	2318	2319	0	0	|	
+setentry	483	"NewB Mentor"	0	0	2315	2316	2319	0	0	|	
+
+setentry	490	"NOMAD TRADER\nBuying: Simple Misc Stuff"	159	0	1910	1915	1920	0	0	|	
+
+setentry	491	"MC5 VICTIM"	11	0	1009	1019	1025	0	0	|	
+setentry	492	"MC5 VICTIM"	11	0	1009	1019	1025	0	0	|	
+
+setentry	493	"AREA MC5\nSECURITY SYSTEM BOT\nSTATUS: ONLINE"	254	0	-1	-1	-1	0	0	|	
+
+setentry	495	"AREA MC5\nCIVIL ADVISOR\nCompetence: Private Eye"	0	0	1000	1010	1020	0	0	|	
+setentry	496	"AREA MC5\nCIVIL ADVISOR\nCompetence: Spy"	2	0	1210	1220	1230	0	0	|	
+setentry	497	"AREA MC5\nCIVIL ADVISOR\nCompetence: Gen Tank"	4	0	1050	1060	1070	0	0	|	
+setentry	498	"AREA MC5\nCIVIL ADVISOR\nCompetence: PSI Monk"	6	0	1250	1260	1270	0	0	|	
+
+
+
+
+
+
+
+
+
+
+
+
+setentry	500	"MUTANT SCOUT"	154	0	2000	2010	2020	0	0	|	
+setentry	501	"MUTANT SOLDIER"	154	0	2001	2011	2021	0	0	|	
+setentry	502	"MUTANT TROOPER"	154	0	2001	2011	2021	0	0	|	
+
+setentry	510	"MUTANT CORPORAL"	155	0	2030	2040	2050	0	0	|	
+setentry	511	"MUTANT WARRIOR"	155	0	2031	2041	2051	0	0	|	
+setentry	512	"MUTANT GUNMAN"	155	0	2031	2041	2051	0	0	|	
+
+setentry	520	"AGGRESSOR"	156	0	2060	2070	2080	0	0	|	
+setentry	521	"AGGRESSOR CAPTAIN"	156	0	2061	2071	2081	0	0	|	
+
+
+setentry	530	"ARACHNID"	157	0	2090	2100	2110	0	0	|	
+setentry	531	"ARACHNID LIEUTENANT"	157	0	2091	2101	2111	0	0	|	
+
+
+setentry	540	"HURLER"	158	0	2120	2130	2140	0	0	|	
+setentry	541	"BUTCHEE"	158	0	2121	2131	2141	0	0	|	
+
+
+setentry	550	"ENLIGHTED ACOLYTE"	159	0	2150	2160	2170	0	0	|	
+setentry	551	"ENLIGHTED PREACHER"	159	0	2151	2161	2171	0	0	|	
+
+
+setentry	560	"CAVECRAWLER"	340	0	-1	-1	-1	0	0	|	
+setentry	561	"BIG CAVECRAWLER"	340	0	-1	-1	-1	0	0	|	
+setentry	562	"GIANT CAVECRAWLER"	340	0	-1	-1	-1	0	0	|	
+
+
+setentry	570	"CRAWLER"	342	0	-1	-1	-1	0	0	|	
+setentry	571	"BIG CRAWLER"	342	0	-1	-1	-1	0	0	|	
+setentry	572	"GIANT CRAWLER"	342	0	-1	-1	-1	0	0	|	
+
+
+setentry	580	"CRAB"	341	0	-1	-1	-1	0	0	|	
+setentry	581	"BIG CRAB"	341	0	-1	-1	-1	0	0	|	
+setentry	582	"GIANT CRAB"	341	0	-1	-1	-1	0	0	|	
+
+
+setentry	590	"WEE CRAWLER"	343	0	-1	-1	-1	0	0	|	
+setentry	591	"TINY CRAWLER"	343	0	-1	-1	-1	0	0	|	
+setentry	592	"SMALL CRAWLER"	343	0	-1	-1	-1	0	0	|	
+
+
+setentry	600	"WEE CAVECRAWLER"	345	0	-1	-1	-1	0	0	|	
+setentry	601	"TINY CAVECRAWLER"	345	0	-1	-1	-1	0	0	|	
+setentry	602	"SMALL CAVECRAWLER"	345	0	-1	-1	-1	0	0	|	
+
+
+setentry	610	"WEE CRAB"	344	0	-1	-1	-1	0	0	|	
+setentry	611	"TINY CRAB"	344	0	-1	-1	-1	0	0	|	
+setentry	612	"SMALL CRAB"	344	0	-1	-1	-1	0	0	|	
+
+
+setentry	970	"DESERT WOLF CUBLING"	122	0	-1	-1	-1	0	0	|	
+setentry	971	"DESERT WOLF"	122	0	-1	-1	-1	0	0	|	
+setentry	972	"DESERT ALPHA WOLF"	122	0	-1	-1	-1	0	0	|	
+
+
+setentry	985	"SMALL RAT"	167	0	-1	-1	-1	0	0	|	
+setentry	986	"RAT"	167	0	-1	-1	-1	0	0	|	
+setentry	987	"GIANT RAT"	167	0	-1	-1	-1	0	0	|	
+
+
+setentry	990	"SMALL SEWER RAT"	166	0	-1	-1	-1	0	0	|	
+setentry	991	"SEWER RAT"	166	0	-1	-1	-1	0	0	|	
+setentry	992	"GIANT SEWER RAT"	166	0	-1	-1	-1	0	0	|	
+
+
+setentry	995	"SMALL DISEASED RAT"	161	0	-1	-1	-1	0	0	|	
+setentry	996	"DISEASED RAT"	161	0	-1	-1	-1	0	0	|	
+setentry	997	"GIANT DISEASED RAT"	161	0	-1	-1	-1	0	0	|	
+
+
+setentry	1000	"STRAY DOG"	120	0	-1	-1	-1	0	0	|	
+setentry	1001	"FIERCE DOG"	120	0	-1	-1	-1	0	0	|	
+setentry	1002	"RABID DOG"	120	0	-1	-1	-1	0	0	|	
+
+
+setentry	1003	"MUTATED DOG"	118	0	-1	-1	-1	0	0	|	
+setentry	1004	"MUTATED RABID DOG"	118	0	-1	-1	-1	0	0	|	
+
+
+setentry	1005	"WOLF CUBLING"	121	0	-1	-1	-1	0	0	|	
+setentry	1006	"WOLF"	121	0	-1	-1	-1	0	0	|	
+setentry	1007	"ALPHA WOLF"	121	0	-1	-1	-1	0	0	|	
+
+
+setentry	1009	"SCORPION"	131	0	-1	-1	-1	0	0	|	
+setentry	1010	"SMALL SCORPION"	131	0	-1	-1	-1	0	0	|	
+setentry	1011	"CAVE SCORPION"	131	0	-1	-1	-1	0	0	|	
+
+setentry	1012	"BIG SCORPION"	130	0	-1	-1	-1	0	0	|	
+setentry	1013	"GIANT SCORPION"	130	0	-1	-1	-1	0	0	|	
+setentry	1014	"BIG CAVE SCORPION"	130	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	1015	"ROACH"	297	0	-1	-1	-1	0	0	|	
+setentry	1016	"RADIATED ROACH"	297	0	-1	-1	-1	0	0	|	
+
+
+setentry	1017	"BLACK ROACH"	298	0	-1	-1	-1	0	0	|	
+setentry	1018	"BIG BLACK ROACH"	298	0	-1	-1	-1	0	0	|	
+
+
+setentry	1019	"GRAND SPIDER"	135	0	-1	-1	-1	0	0	|	
+
+setentry	1021	"SMALL SPIDER"	136	0	-1	-1	-1	0	0	|	
+setentry	1022	"SPIDER"	136	0	-1	-1	-1	0	0	|	
+setentry	1023	"FIERCE SPIDER"	136	0	-1	-1	-1	0	0	|	
+
+setentry	1024	"BIG SPIDER"	135	0	-1	-1	-1	0	0	|	
+setentry	1025	"SPIDER QUEEN"	135	0	-1	-1	-1	0	0	|	
+
+setentry	1026	"BIG HAIRY SPIDER"	137	0	-1	-1	-1	0	0	|	
+setentry	1027	"HAIRY SPIDER QUEEN"	137	0	-1	-1	-1	0	0	|	
+
+setentry	1028	"BIG POISONOUS SPIDER"	312	0	-1	-1	-1	0	0	|	
+setentry	1029	"POISONOUS SPIDER QUEEN"	312	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	1030	"BAT"	140	0	-1	-1	-1	0	0	|	
+setentry	1031	"FIERCE BAT"	140	0	-1	-1	-1	0	0	|	
+
+setentry	1032	"GRAND HAIRY SPIDER"	137	0	-1	-1	-1	0	0	|	
+
+setentry	1033	"GRAND POISONOUS SPIDER"	312	0	-1	-1	-1	0	0	|	
+
+
+setentry	1035	"SEWER FLIES"	331	0	-1	-1	-1	0	0	|	
+
+
+setentry	1036	"SWARM OF FLIES"	330	0	-1	-1	-1	0	0	|	
+
+
+setentry	1037	"SEWER MOSQUITOS"	332	0	-1	-1	-1	0	0	|	
+
+
+setentry	1038	"SWARM OF MOSQUITOS"	333	0	-1	-1	-1	0	0	|	
+setentry	1039	"CLUSTER OF MOSQUITOS"	333	0	-1	-1	-1	0	0	|	
+
+
+setentry	1040	"BANEFUL PLANT"	146	0	-1	-1	-1	0	0	|	
+setentry	1041	"CANKERED PLANT"	145	0	-1	-1	-1	0	0	|	
+setentry	1042	"VIROUS PLANT"	145	0	-1	-1	-1	0	0	|	
+
+
+setentry	1043	"HAIRY SMALL SPIDER"	138	0	-1	-1	-1	0	0	|	
+setentry	1044	"HAIRY SPIDER"	138	0	-1	-1	-1	0	0	|	
+setentry	1045	"HAIRY FIERCE SPIDER"	138	0	-1	-1	-1	0	0	|	
+
+
+setentry	1046	"POISONOUS SMALL SPIDER"	313	0	-1	-1	-1	0	0	|	
+setentry	1047	"POISONOUS SPIDER"	313	0	-1	-1	-1	0	0	|	
+setentry	1048	"POISONOUS FIERCE SPIDER"	313	0	-1	-1	-1	0	0	|	
+
+
+setentry	1049	"GRAND CAVESPIDER"	311	0	-1	-1	-1	0	0	|	
+setentry	1050	"BIG CAVESPIDER"	311	0	-1	-1	-1	0	0	|	
+setentry	1051	"CAVESPIDER QUEEN"	311	0	-1	-1	-1	0	0	|	
+
+
+setentry	1052	"SEWER BEES"	331	0	-1	-1	-1	0	0	|	
+
+
+setentry	1053	"SWARM OF BEES"	330	0	-1	-1	-1	0	0	|	
+
+
+setentry	1055	"SMALL CAVESPIDER"	314	0	-1	-1	-1	0	0	|	
+setentry	1056	"CAVESPIDER"	314	0	-1	-1	-1	0	0	|	
+setentry	1057	"FIERCE CAVESPIDER"	314	0	-1	-1	-1	0	0	|	
+
+
+setentry	1060	"SMALL LIZARD"	152	0	-1	-1	-1	0	0	|	
+setentry	1061	"LIZARD"	152	0	-1	-1	-1	0	0	|	
+setentry	1062	"BIG LIZARD"	152	0	-1	-1	-1	0	0	|	
+//mini	
+setentry	1063	"TINY LIZARD"	152	0	-1	-1	-1	0	100	|	
+
+
+setentry	1065	"BIG IGUANA"	209	0	-1	-1	-1	0	0	|	
+setentry	1066	"IGUANA"	209	0	-1	-1	-1	0	0	|	
+setentry	1067	"SMALL IGUANA"	209	0	-1	-1	-1	0	0	|	
+
+
+setentry	1070	"DESERT REPTILE"	151	0	-1	-1	-1	0	0	|	
+setentry	1071	"GIANT DESERT REPTILE"	151	0	-1	-1	-1	0	0	|	
+
+
+setentry	1072	"DESERT BEAST"	175	0	-1	-1	-1	0	0	|	
+setentry	1073	"GIANT DESERT BEAST"	175	0	-1	-1	-1	0	0	|	
+
+
+setentry	1075	"SMALL SPIDERBOT"	202	0	-1	-1	-1	0	0	|	
+setentry	1076	"SPIDERBOT"	202	0	-1	-1	-1	0	0	|	
+setentry	1077	"SPIDERBOT SENTRY"	202	0	-1	-1	-1	0	0	|	
+
+
+setentry	1078	"LIGHT MALFUNCTIONING BOT"	200	0	-1	-1	-1	0	0	|	
+setentry	1079	"HEAVY MALFUNCTIONING BOT"	200	0	-1	-1	-1	0	0	|	
+
+
+setentry	1080	"DRAGONFLY"	163	0	-1	-1	-1	0	0	|	
+setentry	1081	"BIG DRAGONFLY"	163	0	-1	-1	-1	0	0	|	
+setentry	1082	"GIANT DRAGONFLY"	163	0	-1	-1	-1	0	0	|	
+setentry	1083	"STINGER"	163	0	-1	-1	-1	0	0	|	
+setentry	1084	"BIG STINGER"	163	0	-1	-1	-1	0	0	|	
+
+
+setentry	1085	"VULTURE"	162	0	-1	-1	-1	0	0	|	
+
+
+setentry	1086	"TOXIC PLANT"	146	0	-1	-1	-1	0	0	|	
+setentry	1087	"POISONOUS PLANT"	145	0	-1	-1	-1	0	0	|	
+setentry	1088	"VENOMOUS PLANT"	145	0	-1	-1	-1	0	0	|	
+
+
+setentry	1090	"WARBOT"	201	0	-1	-1	-1	0	0	|	
+setentry	1091	"WARBOT TITAN"	201	0	-1	-1	-1	0	0	|	
+setentry	1092	"JUGGERNAUT"	260	0	-1	-1	-1	0	0	|	
+setentry	1093	"JUGGERNAUT FX-15"	260	0	-1	-1	-1	0	0	|	
+
+
+setentry	1095	"SMALL RATTLESNAKE"	153	0	-1	-1	-1	0	0	|	
+setentry	1096	"RATTLESNAKE"	153	0	-1	-1	-1	0	0	|	
+setentry	1097	"MUTATED RATTLESNAKE"	153	0	-1	-1	-1	0	0	|	
+
+
+setentry	1100	"YOUNG SWAMP SNAKE"	206	0	-1	-1	-1	0	0	|	
+setentry	1101	"SWAMP SNAKE"	206	0	-1	-1	-1	0	0	|	
+setentry	1102	"MUTATED SWAMP SNAKE"	206	0	-1	-1	-1	0	0	|	
+setentry	1103	"SNAKE"	206	0	-1	-1	-1	0	100	|	
+
+
+setentry	1105	"SMALL DROM"	220	0	-1	-1	-1	0	0	|	
+setentry	1106	"DROM"	220	0	-1	-1	-1	0	0	|	
+
+
+setentry	1107	"MARSH HIPPO"	221	0	-1	-1	-1	0	0	|	
+setentry	1108	"MARSH HIPPO BULL"	221	0	-1	-1	-1	0	0	|	
+
+
+setentry	1109	"SWAMPRIDER"	222	0	-1	-1	-1	0	0	|	
+
+
+setentry	1110	"SMALL GLIDER"	164	0	-1	-1	-1	0	0	|	
+setentry	1111	"GLIDER"	164	0	-1	-1	-1	0	0	|	
+setentry	1112	"FIERCE GLIDER"	164	0	-1	-1	-1	0	0	|	
+
+
+setentry	1113	"SMALL FLOATING JELLY"	165	0	-1	-1	-1	0	0	|	
+setentry	1114	"FLOATING JELLY"	165	0	-1	-1	-1	0	0	|	
+setentry	1115	"FIERCE FLOATING JELLY"	165	0	-1	-1	-1	0	0	|	
+
+
+setentry	1120	"SWAMP STRANGLER"	230	0	-1	-1	-1	0	0	|	
+setentry	1121	"SWAMP SQUID"	230	0	-1	-1	-1	0	0	|	
+
+setentry	1124	"TENTACLE"	231	0	-1	-1	-1	0	0	|	
+setentry	1125	"FIERCE TENTACLE"	231	0	-1	-1	-1	0	0	|	
+setentry	1126	"ACANTHOUS TENTACLE"	231	0	-1	-1	-1	0	0	|	
+
+
+setentry	1130	"MAULER"	212	0	-1	-1	-1	0	0	|	
+setentry	1131	"TERRORMAULER"	212	0	-1	-1	-1	0	0	|	
+
+
+setentry	1135	"SMALL REAPER"	213	0	-1	-1	-1	0	0	|	
+setentry	1136	"DOOMREAPER"	213	0	-1	-1	-1	0	0	|	
+
+
+setentry	1145	"RAPTOR"	240	0	-1	-1	-1	0	0	|	
+setentry	1146	"GIANT RAPTOR"	240	0	-1	-1	-1	0	0	|	
+
+
+setentry	1150	"HOPPER"	241	0	-1	-1	-1	0	0	|	
+setentry	1151	"LEAPER"	241	0	-1	-1	-1	0	0	|	
+
+
+setentry	1160	"LAUNCHER CYCLOPS"	160	0	-1	-1	-1	0	0	|	
+
+
+setentry	1170	"CYBERGUARD"	254	0	-1	-1	-1	0	0	|	
+setentry	1171	"SMALL CYBERGUARD"	254	0	-1	-1	-1	0	0	|	
+setentry	1175	"SENTINEL"	253	0	-1	-1	-1	0	0	|	
+setentry	1176	"SUBSTANDARD CYBERGUARD"	253	0	-1	-1	-1	0	0	|	
+
+
+setentry	1180	"CYBERWATCHDOG"	276	0	-1	-1	-1	0	0	|	
+setentry	1181	"CYBERDOG"	276	0	-1	-1	-1	0	0	|	
+
+
+setentry	1182	"CYBERHOUND"	277	0	-1	-1	-1	0	0	|	
+setentry	1183	"HOUNDBOT"	277	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	1190	"SMALL MECHTURTLE"	285	0	-1	-1	-1	0	0	|	
+setentry	1195	"MECHTURTLE"	286	0	-1	-1	-1	0	0	|	
+setentry	1200	"BIG MECHTURTLE"	287	0	-1	-1	-1	0	0	|	
+
+
+setentry	1205	"SMALL MECHSHELL"	280	0	-1	-1	-1	0	0	|	
+setentry	1210	"MECHSHELL"	281	0	-1	-1	-1	0	0	|	
+setentry	1215	"BIG MECHSHELL"	282	0	-1	-1	-1	0	0	|	
+
+
+setentry	1216	"MECHBEETLE"	283	0	-1	-1	-1	0	0	|	
+setentry	1217	"MECHBEETLE SWARM"	284	0	-1	-1	-1	0	0	|	
+setentry	1218	"CYBERBEETLE SWARM"	289	0	-1	-1	-1	0	0	|	
+setentry	1219	"CYBERBEETLE"	288	0	-1	-1	-1	0	0	|	
+
+
+setentry	1220	"SMALL CREEPER"	320	0	-1	-1	-1	0	0	|	
+setentry	1221	"CREEPER"	323	0	-1	-1	-1	0	0	|	
+
+
+setentry	1225	"SMALL GNAWER"	321	0	-1	-1	-1	0	0	|	
+setentry	1226	"GNAWER"	324	0	-1	-1	-1	0	0	|	
+
+
+setentry	1230	"SMALL CRUNCHER"	322	0	-1	-1	-1	0	0	|	
+setentry	1231	"CRUNCHER"	325	0	-1	-1	-1	0	0	|	
+
+
+setentry	1235	"AMOK COPBOT"	21	0	1444	1454	1464	0	0	|	
+setentry	1236	"MAD COPBOT"	21	0	1444	1454	1464	0	0	|	
+
+
+
+setentry	1240	"LASERDRONE"	370	0	-1	-1	-1	0	0	|	
+setentry	1241	"KAMIKAZEDRONE"	371	0	-1	-1	-1	0	0	|	
+setentry	1242	"DOUBLELASERDRONE"	372	0	-1	-1	-1	0	0	|	
+setentry	1243	"GATLINDRONE"	373	0	-1	-1	-1	0	0	|	
+setentry	1244	"ROCKETDRONE"	374	0	-1	-1	-1	0	0	|	
+
+
+setentry	1250	"HOVERBOT"	264	0	-1	-1	-1	0	0	|	
+setentry	1251	"HOVERBOMBER"	265	0	-1	-1	-1	0	0	|	
+setentry	1252	"HOVEREYE"	266	0	-1	-1	-1	0	0	|	
+setentry	1253	"HOVERSTATION"	267	0	-1	-1	-1	0	0	|	
+
+
+setentry	1254	"BIG HOVERBOT"	264	0	-1	-1	-1	0	0	|	
+setentry	1255	"BIG HOVERBOMBER"	265	0	-1	-1	-1	0	0	|	
+setentry	1256	"BIG HOVEREYE"	266	0	-1	-1	-1	0	0	|	
+setentry	1257	"BIG HOVERSTATION"	267	0	-1	-1	-1	0	0	|	
+
+
+setentry	1260	"CYBORG GD103"	380	0	-1	-1	-1	0	0	|	
+setentry	1261	"CYBORG GD204"	380	0	-1	-1	-1	0	0	|	
+setentry	1262	"CYBORG GD305"	380	0	-1	-1	-1	0	0	|	
+
+
+setentry	1265	"SMALL MUTANT BAT"	365	0	-1	-1	-1	0	0	|	
+setentry	1266	"MUTANT BAT"	365	0	-1	-1	-1	0	0	|	
+setentry	1267	"BIG MUTANT BAT"	365	0	-1	-1	-1	0	0	|	
+
+
+setentry	1268	"SMALL CONTAMINATED BAT"	366	0	-1	-1	-1	0	0	|	
+setentry	1269	"CONTAMINATED BAT"	366	0	-1	-1	-1	0	0	|	
+setentry	1270	"BIG CONTAMINATED BAT"	366	0	-1	-1	-1	0	0	|	
+
+
+setentry	1271	"GIANT HOVERBOT"	264	0	-1	-1	-1	0	0	|	
+setentry	1272	"GIANT HOVERBOMBER"	265	0	-1	-1	-1	0	0	|	
+setentry	1273	"GIANT HOVEREYE"	266	0	-1	-1	-1	0	0	|	
+setentry	1274	"GIANT HOVERSTATION"	267	0	-1	-1	-1	0	0	|	
+
+
+setentry	1280	"SMALL REAPERSPIDER"	355	0	-1	-1	-1	0	0	|	
+setentry	1281	"REAPERSPIDER"	355	0	-1	-1	-1	0	0	|	
+setentry	1282	"BIG REAPERSPIDER"	355	0	-1	-1	-1	0	0	|	
+
+
+setentry	1285	"SMALL SPIDER COCOON"	139	0	-1	-1	-1	0	0	|	
+setentry	1286	"SPIDER COCOON"	139	0	-1	-1	-1	0	0	|	
+setentry	1287	"BIG SPIDER COCOON"	139	0	-1	-1	-1	0	0	|	
+
+
+setentry	1288	"SMALL SANDCRAWLER"	242	0	-1	-1	-1	0	0	|	
+setentry	1289	"SANDCRAWLER"	242	0	-1	-1	-1	0	0	|	
+setentry	1290	"BIG SANDCRAWLER"	242	0	-1	-1	-1	0	0	|	
+
+
+setentry	1291	"SMALL SANDWORM"	243	0	-1	-1	-1	0	0	|	
+setentry	1292	"SANDWORM"	243	0	-1	-1	-1	0	0	|	
+setentry	1293	"BIG SANDWORM"	243	0	-1	-1	-1	0	0	|	
+
+
+setentry	1294	"SMALL SPIDERNEST"	141	0	-1	-1	-1	0	0	|	
+setentry	1295	"SPIDERNEST"	141	0	-1	-1	-1	0	0	|	
+setentry	1296	"BIG SPIDERNEST"	141	0	-1	-1	-1	0	0	|	
+
+
+setentry	1300	"SMALL ENERGYSWARM"	385	0	-1	-1	-1	0	0	|	
+setentry	1301	"ENERGYSWARM"	385	0	-1	-1	-1	0	0	|	
+setentry	1302	"BIG ENERGYSWARM"	385	0	-1	-1	-1	0	0	|	
+
+
+setentry	1310	"SMALL POISON SNAKE"	205	0	-1	-1	-1	0	0	|	
+setentry	1311	"POISON SNAKE"	205	0	-1	-1	-1	0	0	|	
+setentry	1312	"MUTATED POISON SNAKE"	205	0	-1	-1	-1	0	0	|	
+
+
+setentry	1313	"SMALL VIPER"	207	0	-1	-1	-1	0	0	|	
+setentry	1314	"VIPER"	207	0	-1	-1	-1	0	0	|	
+setentry	1315	"MUTATED VIPER"	207	0	-1	-1	-1	0	0	|	
+
+
+setentry	1320	"SWAMPMAGE NOVICE"	224	0	-1	-1	-1	0	0	|	
+setentry	1321	"SWAMPMAGE MASTER"	224	0	-1	-1	-1	0	0	|	
+
+
+setentry	1325	"MARSH SAURUS"	225	0	-1	-1	-1	0	0	|	
+setentry	1326	"MARSH SAURUS BULL"	225	0	-1	-1	-1	0	0	|	
+
+
+setentry	1330	"YOUNG SWAMP WARRIOR"	223	0	-1	-1	-1	0	0	|	
+setentry	1331	"SWAMP WARRIOR"	223	0	-1	-1	-1	0	0	|	
+
+
+setentry	1340	"STRAY HOUND"	119	0	-1	-1	-1	0	0	|	
+setentry	1341	"FIERCE HOUND"	119	0	-1	-1	-1	0	0	|	
+setentry	1342	"RABID HOUND"	119	0	-1	-1	-1	0	0	|	
+
+
+
+
+
+
+
+
+setentry	1500	"SMALL BLACK SCORPION"	131	0	-1	-1	-1	100	200	|	
+setentry	1501	"BLACK SCORPION"	131	0	-1	-1	-1	100	200	|	
+setentry	1502	"BIG BLACK SCORPION"	390	0	-1	-1	-1	0	0	|	
+setentry	1503	"GIANT BLACK SCORPION "	390	0	-1	-1	-1	0	0	|	
+setentry	1504	"BLACK SCORPION QUEEN"	390	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	1510	"SMALL KRI就AKH SLIMEWORM"	165	0	-1	-1	-1	0	0	|	
+setentry	1511	"KRI就AKH SLIMEWORM"	165	0	-1	-1	-1	0	0	|	
+
+setentry	1512	"SMALL KRI就AKH FLAPPER"	365	0	-1	-1	-1	0	0	|	
+setentry	1513	"KRI就AKH FLAPPER"	365	0	-1	-1	-1	0	0	|	
+
+setentry	1514	"KRI就AKH SHAMAN"	224	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	1517	"LIL BASTARD"	163	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	1520	"SMALL CRYSTAL CAVE BAT"	140	0	-1	-1	-1	0	0	|	
+setentry	1521	"CRYSTAL CAVE BAT"	140	0	-1	-1	-1	0	0	|	
+
+setentry	1522	"SMALL CRYSTAL CAVE SWARMER"	366	0	-1	-1	-1	0	0	|	
+setentry	1523	"CRYSTAL CAVE SWARMER"	366	0	-1	-1	-1	0	0	|	
+
+setentry	1524	"CRYSTAL CAVE QUEEN"	241	0	-1	-1	-1	0	0	|	
+
+
+
+
+setentry	1530	"COPBOT DEFECTOR"	21	0	1442	1452	1462	0	0	|	
+setentry	1531	"COPBOT RENEGADE"	21	0	1442	1452	1462	0	0	|	
+
+setentry	1532	"CRAZED COPBOT"	21	0	1444	1454	1464	0	0	|	
+setentry	1533	"BERSERK COPBOT"	21	0	1444	1454	1464	0	0	|	
+
+setentry	1534	"MALFUNCTIONING S.T.O.R.M. UNIT"	21	0	1443	1453	1463	0	0	|	
+
+
+
+
+setentry	1540	"SNAKE MINION"	153	0	-1	-1	-1	0	0	|	
+setentry	1541	"BIG SNAKE MINION"	153	0	-1	-1	-1	0	0	|	
+
+setentry	1542	"SANDVIPER"	205	0	-1	-1	-1	0	0	|	
+setentry	1543	"SANDVIPER KING"	205	0	-1	-1	-1	0	0	|	
+
+setentry	1544	"BLOODVIPER KING"	207	0	-1	-1	-1	0	0	|	
+
+
+
+
+setentry	1550	"SOULCLUSTER"	385	0	-1	-1	-1	0	0	|	
+setentry	1551	"BIG SOULCLUSTER"	385	0	-1	-1	-1	0	0	|	
+
+setentry	1552	"FEN FIRE"	385	0	-1	-1	-1	0	0	|	
+setentry	1553	"BIG FEN FIRE"	385	0	-1	-1	-1	0	0	|	
+
+setentry	1554	"APPARITION"	385	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	1560	"CERES WAR SOLDIER"	155	0	2031	2041	2051	0	0	|	
+setentry	1561	"CERES WAR LIEUTENANT"	155	0	2031	2041	2051	0	0	|	
+
+setentry	1562	"CERES WAR INFANTERIST"	155	0	2031	2041	2051	0	0	|	
+setentry	1563	"CERES WAR HEAVY INFANTERIST"	155	0	2031	2041	2051	0	0	|	
+
+setentry	1564	"DOOM HARBINGER"	155	0	2031	2041	2051	0	0	|	
+
+
+
+setentry	1570	"CHAOS MINION"	324	0	-1	-1	-1	0	0	|	
+setentry	1571	"CHAOS CREEPER"	324	0	-1	-1	-1	0	0	|	
+
+setentry	1572	"CHAOS SOLDIER"	323	0	-1	-1	-1	0	0	|	
+setentry	1573	"CHAOS LIEUTENANT"	323	0	-1	-1	-1	0	0	|	
+
+setentry	1574	"FLAME CHAOS QUEEN"	355	0	-1	-1	-1	0	0	|	
+
+setentry	1575	"CHAOS VAMPIRE"	367	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	1580	"FURIOUS LAZAR"	26	0	1481	1493	1500	0	0	|	
+setentry	1581	"BEGGAR"	11	0	1009	1019	1025	0	0	|	
+setentry	1582	"LAZAR"	27	0	1521	1532	1542	0	0	|	
+setentry	1583	"BERSERK BEGGAR"	11	0	1006	1019	1025	0	0	|	
+setentry	1584	"MENDICANT"	26	0	1482	1494	1501	0	0	|	
+setentry	1585	"INSANE MENDICANT"	26	0	1483	1495	1502	0	0	|	
+
+
+
+
+
+
+setentry	1600	"Father Agnus"	6	0	1252	1935	1940	0	0	|	
+setentry	1601	"Ethan Cole"	0	0	1361	1017	1870	0	0	|	
+setentry	1602	"Brother Gabriel"	11	0	1323	1337	1341	0	0	|	
+setentry	1603	"Drakkhan Helios"	11	0	1321	1333	1341	0	0	|	
+setentry	1604	"D. Helios Bodyguard"	11	0	1710	1720	1343	0	0	|	
+setentry	1605	"Calvin Grimwood"	26	0	1484	1493	1502	0	0	|	
+setentry	1606	"C. Grimwood Bodyguard"	26	0	1481	1495	1505	0	0	|	
+setentry	1607	"Marc Torbin"	11	0	1324	1335	1345	0	0	|	
+setentry	1608	"Gregory Parkins"	11	0	1051	1338	1347	0	0	|	
+setentry	1609	"Father Morpheus"	6	0	1006	1935	1275	0	0	|	
+setentry	1610	"Father Tesare"	6	0	1256	1935	1940	0	0	|	
+setentry	1611	"Kev Critter"	11	0	1362	1019	1023	0	0	|	
+setentry	1612	"Taylor Gomez"	11	0	1325	1810	1870	0	0	|	
+setentry	1613	"Elias"	12	0	1486	1496	1506	0	0	|	
+setentry	1614	"Max Delavare"	4	0	1875	1880	1885	0	0	|	
+setentry	1615	"Vice Director Mason"	13	0	1403	1414	1420	0	0	|	
+setentry	1616	"Torben"	11	0	1321	1334	1346	0	0	|	
+setentry	1617	"Gerard"	22	0	1173	1184	1194	0	0	|	
+setentry	1618	"Dennis Karsten"	11	0	1321	1334	1346	0	0	|	
+setentry	1619	"Benji"	11	0	1320	1330	1340	0	0	|	
+setentry	1620	"Almachim"	159	0	1910	1915	1920	0	0	|	
+setentry	1621	"Mazzaro"	11	0	1320	1330	1340	0	0	|	
+setentry	1622	"Andressa"	15	0	1641	1651	1661	0	0	|	
+setentry	1623	"Benjamin Kaine"	11	0	1321	1334	1346	0	0	|	
+setentry	1624	"Figaro"	11	0	1860	1865	1870	0	0	|	
+setentry	1625	"Gruber Zakashi"	4	0	1830	1840	1850	0	0	|	
+setentry	1626	"Matt Tronstett"	13	0	1403	1414	1420	0	0	|	
+setentry	1627	"Hontoka"	0	0	1800	1810	1820	0	0	|	
+setentry	1628	"Simmons"	2	0	1210	1220	1230	0	0	|	
+setentry	1629	"Officer Jenna"	21	0	1440	1450	1460	0	0	|	
+setentry	1630	"Grand"	2	0	1211	1221	1231	0	0	|	
+setentry	1631	"Black Lily"	15	0	1640	1650	1660	0	0	|	
+setentry	1632	"Foster"	13	0	1405	1961	1422	0	0	|	
+setentry	1633	"Crazy Dillan"	26	0	1484	1493	1502	0	0	|	
+setentry	1634	"Mr Cook"	11	0	1320	1330	1340	0	0	|	
+setentry	1635	"Masterson"	13	0	1403	1414	1420	0	0	|	
+setentry	1636	"McMillan"	11	0	1053	1330	1340	0	0	|	
+setentry	1637	"Beckert"	13	0	1054	1412	1422	0	0	|	
+setentry	1638	"Thompson"	11	0	1055	1330	1340	0	0	|	
+setentry	1639	"Grimm"	12	0	1486	1496	1506	0	0	|	
+setentry	1640	"Constantine"	5	0	1526	1536	1546	0	0	|	
+setentry	1641	"Feng"	4	0	1320	1063	1073	0	0	|	
+setentry	1642	"Pat"	5	0	1526	1536	1546	0	0	|	
+setentry	1643	"Fergusson"	11	0	1362	1019	1023	0	0	|	
+setentry	1644	"Susan"	1	0	1090	1100	1110	0	0	|	
+setentry	1645	"Garmont"	4	0	1875	1880	1885	0	0	|	
+setentry	1646	"Michail"	11	0	1321	1334	1346	0	0	|	
+setentry	1647	"George"	11	0	1051	1338	1347	0	0	|	
+setentry	1648	"Finster"	13	0	1403	1414	1420	0	0	|	
+setentry	1678	"Gehenna"	4	0	1058	1063	1073	0	0	|	
+setentry	1679	"Agent Hamil"	2	0	1210	1220	1230	0	0	|	
+setentry	1680	"General Babel"	4	0	1058	1063	1073	0	0	|	
+setentry	1681	"Marcel"	4	0	1361	1880	1885	0	0	|	
+setentry	1682	"Eljena"	5	0	1561	1142	1153	0	0	|	
+setentry	1683	"Frederick"	2	0	1211	1221	1231	0	0	|	
+setentry	1684	"Erik"	2	0	1210	1220	1230	0	0	|	
+setentry	1685	"Claudia"	5	0	1563	1142	1153	0	0	|	
+setentry	1686	"Mitchell"	22	0	1173	1184	1194	0	0	|	
+setentry	1687	"Gerome"	4	0	1054	1840	1850	0	0	|	
+setentry	1688	"Nicolas"	11	0	1321	1333	1341	0	0	|	
+setentry	1689	"Richard Faust"	11	0	1860	1865	1870	0	0	|	
+setentry	1690	"Pain"	158	0	2120	2130	2140	0	0	|	
+setentry	1691	"Manuel"	4	0	1252	1880	1885	0	0	|	
+setentry	1692	"Lucy"	3	0	1683	1690	1700	0	0	|	
+setentry	1693	"Leone"	13	0	1406	1414	1423	0	0	|	
+setentry	1694	"Lucky"	11	0	1009	1865	1870	0	0	|	
+setentry	1695	"Carlos"	4	0	1251	1880	1885	0	0	|	
+setentry	1696	"Regie"	0	0	1484	1337	1341	0	0	|	
+setentry	1697	"Hung"	13	0	1830	1810	1420	0	0	|	
+setentry	1698	"Chang "	4	0	1830	1490	1850	0	0	|	
+setentry	1699	"Mercurus"	6	0	1481	1935	1940	0	0	|	
+
+
+
+
+
+
+setentry	1650	"Kevin Smithe"	12	0	1486	1496	1506	0	0	|	
+setentry	1651	"Suther Wilson"	11	0	1320	1330	1340	0	0	|	
+setentry	1652	"Rohan Nosus"	11	0	1323	1337	1341	0	0	|	
+
+
+
+
+
+setentry	1700	"Swamplizard Zyphotoles"	152	0	-1	-1	-1	0	0	|	
+setentry	1701	"PSI-Spider Latekulus"	157	0	2090	2100	2110	0	0	|	
+setentry	1702	"Sandmonster Karmanus"	242	0	-1	-1	-1	0	0	|	
+setentry	1703	"Tacholytium Titan Warbot"	201	0	-1	-1	-1	0	0	|	
+setentry	1704	"Mutant Giant Veskulus"	158	0	2122	2132	2142	0	0	|	
+setentry	1705	"Reaper Galopticus"	213	0	-1	-1	-1	0	0	|	
+setentry	1706	"PSI Mutant Gyphilius"	159	0	2152	2162	2172	0	0	|	
+setentry	1707	"El Farid Village Giant Wolf"	121	0	-1	-1	-1	0	0	|	
+setentry	1708	"Malfunctioning Warbot"	201	0	-1	-1	-1	0	0	|	
+setentry	1709	"Killer Copbot"	21	0	1444	1454	1464	0	0	|	
+
+
+
+setentry	1720	"YORK TROOPER"	381	0	-1	-1	-1	0	0	|	
+setentry	1721	"YORK SERGEANT"	381	0	-1	-1	-1	0	0	|	
+setentry	1722	"YORK COMMANDER"	381	0	-1	-1	-1	0	0	|	
+
+
+setentry	1725	"DOY - DEFENSEBOT ALPHA"	201	0	-1	-1	-1	0	0	|	
+setentry	1726	"DOY - DEFENSEBOT BETA"	201	0	-1	-1	-1	0	0	|	
+
+setentry	1730	"YORK SCOUT"	4	0	1058	1063	1073	0	0	|	
+setentry	1731	"YORK SOLDIER"	4	0	1058	1063	1073	0	0	|	
+setentry	1732	"YORK WARRIOR"	4	0	1058	1063	1073	0	0	|	
+
+setentry	1735	"Y. TROOPER REPLICANT"	381	0	-1	-1	-1	0	0	|	
+setentry	1736	"Y. SERGEANT REPLICANT"	381	0	-1	-1	-1	0	0	|	
+setentry	1737	"Y. COMMANDER REPLICANT"	381	0	-1	-1	-1	0	0	|	
+
+setentry	1739	"ELITE S.T.O.R.M. BOT UNIT"	21	0	1441	1451	1461	0	0	|	
+
+
+setentry	1750	"SCOUT GLIDER"	613	0	-1	-1	-1	0	0	|	
+setentry	1751	"ASSAULT GLIDER"	613	0	-1	-1	-1	0	0	|	
+setentry	1752	"ADVANCED GLIDER"	614	0	-1	-1	-1	0	0	|	
+setentry	1753	"ADVANCED ASSAULT GLIDER"	614	0	-1	-1	-1	0	0	|	
+
+
+
+
+
+setentry	2000	"Tank Heavy"	30	0	-1	-1	-1	0	0	|	
+setentry	2001	"Tank Heavy"	30	0	-1	-1	-1	0	75	|	
+setentry	2002	"Tank Heavy"	30	0	-1	-1	-1	0	150	|	
+setentry	2003	"Tank Heavy"	30	0	-1	-1	-1	0	255	|	
+setentry	2005	"Tank Melee"	30	0	-1	-1	-1	100	200	|	
+setentry	2006	"Tank Melee"	30	0	-1	-1	-1	120	220	|	
+setentry	2007	"Tank Melee"	30	0	-1	-1	-1	100	230	|	
+setentry	2008	"Tank Melee"	30	0	-1	-1	-1	0	255	|	
+setentry	2009	"Tank Camo"	35	0	-1	-1	-1	0	0	|	
+
+setentry	2011	"Spy Rifle"	32	0	-1	-1	-1	100	200	|	
+setentry	2012	"Spy Rifle"	32	0	-1	-1	-1	120	220	|	
+setentry	2013	"Spy Rifle"	32	0	-1	-1	-1	100	230	|	
+setentry	2014	"Spy Rifle"	32	0	-1	-1	-1	0	255	|	
+setentry	2015	"Spy Pistol"	32	0	-1	-1	-1	0	0	|	
+setentry	2016	"Spy Pistol"	32	0	-1	-1	-1	0	75	|	
+setentry	2017	"Spy Pistol"	32	0	-1	-1	-1	0	150	|	
+setentry	2018	"Spy Pistol"	32	0	-1	-1	-1	0	255	|	
+
+setentry	2021	"PSI APU"	33	0	-1	-1	-1	250	210	|	
+setentry	2022	"PSI APU"	33	0	-1	-1	-1	250	230	|	
+setentry	2023	"PSI APU"	33	0	-1	-1	-1	230	230	|	
+setentry	2024	"PSI APU"	33	0	-1	-1	-1	0	255	|	
+setentry	2025	"PSI PPU"	33	0	-1	-1	-1	100	200	|	
+setentry	2026	"PSI PPU"	33	0	-1	-1	-1	120	220	|	
+setentry	2027	"PSI PPU"	33	0	-1	-1	-1	100	230	|	
+setentry	2028	"PSI PPU"	33	0	-1	-1	-1	70	200	|	
+
+setentry	2031	"PE Pistol"	31	0	-1	-1	-1	0	0	|	
+setentry	2032	"PE Pistol"	31	0	-1	-1	-1	0	75	|	
+setentry	2033	"PE Pistol"	31	0	-1	-1	-1	0	150	|	
+setentry	2034	"PE Pistol"	31	0	-1	-1	-1	0	255	|	
+setentry	2035	"PE Rifle"	31	0	-1	-1	-1	100	200	|	
+setentry	2036	"PE Rifle"	31	0	-1	-1	-1	120	220	|	
+setentry	2037	"PE Rifle"	31	0	-1	-1	-1	100	230	|	
+setentry	2038	"PE Rifle"	31	0	-1	-1	-1	0	255	|	
+setentry	2039	"PE Camo"	36	0	-1	-1	-1	0	0	|	
+
+setentry	2041	"NCPD Powerarmor"	34	0	-1	-1	-1	0	0	|	
+setentry	2042	"Spy Radiationsuit"	32	0	-1	-1	-1	0	0	|	
+setentry	2043	"GPW"	21	0	-1	-1	-1	70	200	|	
+setentry	2044	"Sexeh"	24	0	-1	-1	-1	0	0	|	
+
+setentry	2051	"private male"	-1	0	1000	1010	1020	0	0	700	800	900	|	
+setentry	2052	"private female"	-1	0	1090	1100	1110	0	0	710	810	910	|	
+setentry	2053	"spy male"	-1	0	1210	1220	1230	0	0	720	820	920	|	
+setentry	2054	"spy female"	-1	0	1680	1690	1700	0	0	730	830	930	|	
+setentry	2055	"tank male"	-1	0	1050	1060	1070	0	0	740	840	940	|	
+setentry	2056	"tank female"	-1	0	1130	1140	1150	0	0	750	850	950	|	
+setentry	2057	"psimonk male"	-1	0	1250	1260	1270	0	0	760	860	960	|	
+setentry	2058	"psimonk female"	-1	0	1290	1300	1310	0	0	770	870	970	|	
+
+
+
+
+
+setentry	2010	"HAZARD WORM"	242	0	-1	-1	-1	0	0	|	
+
+
+setentry	2020	"TERROR LEAPER"	241	0	-1	-1	-1	0	0	|	
+
+
+setentry	2030	"TERROR RAPTOR"	240	0	-1	-1	-1	0	0	|	
+
+
+setentry	2040	"DECAYED BRUTE"	175	0	-1	-1	-1	0	0	|	
+
+
+setentry	2050	"DECAYED HORROR"	151	0	-1	-1	-1	0	0	|	
+
+
+setentry	2060	"GRIM PERSECUTOR"	212	0	-1	-1	-1	0	0	|	
+
+
+setentry	2070	"GRIM CHASER"	213	0	-1	-1	-1	0	0	|	
+
+
+
+
+
+setentry	2090	"AREA MC5\nAUTOMATIC CLEANING BOT"	285	0	-1	-1	-1	0	0	|	
+
+setentry	2094	"AREA MC5\nHOVER MOWER"	288	0	-1	-1	-1	0	0	|	
+
+setentry	2098	"AREA MC5\nCRITTER CHASER SQUAD"	289	0	-1	-1	-1	0	0	|	
+
+setentry	2102	"AREA MC5\nSECURITY SYSTEM BOT\nSTATUS: MALFUNCTIONING"	254	0	-1	-1	-1	0	0	|	
+
+setentry	2106	"SAND SCORPION"	131	0	-1	-1	-1	0	0	|	
+
+setentry	2110	"BLACK CANYON SCORPION"	131	0	-1	-1	-1	0	200	|	
+
+setentry	2114	"SMALL RATTLESNAKE"	153	0	-1	-1	-1	0	0	|	
+
+setentry	2118	"SAND VIPER"	207	0	-1	-1	-1	0	0	|	
+
+setentry	2119	"CANYON CREEPER"	320	0	-1	-1	-1	0	0	|	
+setentry	2120	"CANYON GNAWER"	321	0	-1	-1	-1	0	0	|	
+
+setentry	2121	"SAND CRAWLER"	340	0	-1	-1	-1	0	0	|	
+setentry	2122	"FIRE SPIDER"	313	0	-1	-1	-1	0	0	|	
+
+setentry	2202	"FLIES"	332	0	-1	-1	-1	0	100	|	
+setentry	2203	"CANYON DRAGONFLY"	163	0	-1	-1	-1	0	0	|	
+
+setentry	2206	"MOSQUITOS"	333	0	-1	-1	-1	0	100	|	
+
+setentry	2210	"CANYON  WOLF"	122	0	-1	-1	-1	0	50	|	
+
+setentry	2214	"MANIC MC5 VICTIM"	11	0	1009	1019	1025	0	0	|	
+
+
+setentry	2230	"AREA MC5\nSECURITY SYSTEM BOT\nLEVEL: LOW\nSTATUS: ONLINE"	381	0	-1	-1	-1	0	0	|	
+setentry	2231	"AREA MC5\nSECURITY SYSTEM BOT\nLEVEL: MED\nSTATUS: ONLINE"	381	0	-1	-1	-1	0	0	|	
+setentry	2232	"AREA MC5\nSECURITY SYSTEM BOT\nLEVEL: HIGH\nSTATUS: ONLINE"	381	0	-1	-1	-1	0	200	|	
+
+
+
+
+
+setentry	2080	"LARENT HOVERCRAFT"	264	0	-1	-1	-1	0	250	|	
+
+
+
+setentry	2240	"DOY DEFENCE UNIT "	400	0	-1	-1	-1	0	0	|	
+setentry	2241	"DOY SCOUT UNIT "	401	0	-1	-1	-1	0	0	|	
+setentry	2242	"DOY ASSAULT UNIT "	402	0	-1	-1	-1	0	0	|	
+setentry	2243	"DOY ARTILLERY UNIT "	403	0	-1	-1	-1	0	0	|	
+setentry	2244	"DOY  DEFENCE UNIT Mk II"	404	0	-1	-1	-1	0	0	|	
+setentry	2245	"DOY SCOUT UNIT  Mk II"	405	0	-1	-1	-1	0	0	|	
+setentry	2246	"DOY ASSAULT UNIT Mk II"	406	0	-1	-1	-1	0	0	|	
+setentry	2247	"DOY ARTILLERY UNIT Mk II"	407	0	-1	-1	-1	0	0	|	
+
+
+setentry	2248	"Neocron Defence S.T.O.R.M. SQUAD"	21	0	1441	1451	1461	0	0	|	
+
+setentry	2249	"Neocron Defence S.T.O.R.M. SQUAD"	21	0	1443	1453	1463	0	0	|	
+
+
+
+
+
+setentry	2250	"Head of Technical Division"	13	0	1403	1414	1420	0	0	|	
+setentry	2251	"Storage Keeper of Technical Division"	11	0	1324	1335	1345	0	0	|	
+setentry	2252	"Rick Boujard"	11	0	1320	1330	1340	0	0	|	
+setentry	2253	"Johnson"	11	0	1055	1330	1340	0	0	|	
+setentry	2254	"Mrs Sung"	1	0	1090	1100	1110	0	0	|	
+setentry	2255	"Maxime"	3	0	1681	1690	1700	0	0	|	
+setentry	2256	"Jester"	26	0	1480	1067	1076	0	0	|	
+setentry	2257	"Mark Cole"	11	0	1320	1330	1340	0	0	|	
+setentry	2258	"Leila"	25	0	-1	-1	-1	0	0	|	
+setentry	2259	"Raymon"	26	0	1485	1490	1500	0	0	|	
+setentry	2260	"Blight"	11	0	1256	1334	1346	0	0	|	
+setentry	2261	"Father Manus"	6	0	1481	1935	1940	0	0	|	
+setentry	2262	"Donnovan"	13	0	1001	1063	1073	0	0	|	
+setentry	2263	"Tovall"	4	0	1252	1063	1073	0	0	|	
+setentry	2264	"Heff"	4	0	1483	1063	1073	0	0	|	
+setentry	2265	"Jade"	5	0	1130	1063	1153	0	0	|	
+setentry	2266	"Happy Gil"	26	0	1484	1493	1502	0	0	|	
+
+setentry	2280	"DEFENCE BUNKER "	410	0	-1	-1	-1	0	0	|	
+setentry	2281	"WAR BUNKER "	411	0	-1	-1	-1	0	0	|	
+
+
+setentry	2300	"DOME OF YORK\nKAMIKAZE TROOPER"	4	0	2331	2340	2350	0	0	|	
+setentry	2301	"DOME OF YORK\nKAMIKAZE SERGEANT"	4	0	2331	2340	2350	0	0	|	
+setentry	2302	"DOME OF YORK\nKAMIKAZE COMMANDER"	4	0	2331	2340	2350	0	0	|	
+setentry	2303	"DOME OF YORK\nKAMIKAZE PSIONIC"	4	0	2331	2340	2350	0	0	|	
+
+
+setentry	2310	"REGANT SCOUT"	154	0	2000	2010	2020	0	0	|	
+setentry	2311	"REGANT SOLDIER"	154	0	2001	2011	2021	0	0	|	
+setentry	2312	"REGANT TROOPER"	154	0	2001	2011	2021	0	0	|	
+setentry	2313	"REGANT CORPORAL"	155	0	2030	2040	2050	0	0	|	
+setentry	2314	"REGANT WARRIOR"	155	0	2031	2041	2051	0	0	|	
+setentry	2315	"REGANT COMMANDER"	155	0	2031	2041	2051	0	0	|	
+
+
+setentry	2320	"DOME OF YORK\nWARRIOR"	4	0	2331	2340	2350	0	0	|	
+setentry	2321	"DOME OF YORK\nSUPERWARRIOR"	4	0	2331	2340	2350	0	0	|	
+setentry	2322	"DOME OF YORK\nCYBORG SOLDIER"	380	0	-1	-1	-1	0	0	|	
+setentry	2323	"DOME OF YORK\nCYBORG SERGEANT"	380	0	-1	-1	-1	0	0	|	
+setentry	2324	"DOME OF YORK\nCYBORG COMMANDER"	380	0	-1	-1	-1	0	0	|	
+setentry	2325	"DOME OF YORK\nIMPROVED DEFENCE UNIT "	400	0	-1	-1	-1	0	0	|	
+setentry	2326	"DOME OF YORK\nADVANCED SCOUT UNIT "	401	0	-1	-1	-1	0	0	|	
+setentry	2327	"DOME OF YORK\nIMPROVED SCOUT UNIT "	401	0	-1	-1	-1	0	0	|	
+
+
+
+
+
+
+
+
+
+
+setentry	2500	"Mut_slut1"	23	0	-1	-1	-1	0	0	|	
+setentry	2501	"Mut_slut2"	24	0	-1	-1	-1	0	0	|	
+
+setentry	2502	"pimp"	4	0	1830	1840	1850	0	0	|	
+
+setentry	2503	"slut1"	23	0	-1	-1	-1	0	0	|	
+setentry	2504	"slut2"	24	0	-1	-1	-1	0	0	|	
+setentry	2505	"slut3"	25	0	-1	-1	-1	0	0	|	
+
+setentry	2510	"TMP"	13	0	1406	1412	1423	0	0	|	
+
+setentry	2513	"TMP"	13	0	1401	1411	1422	0	0	|	
+
+setentry	2516	"TMP"	13	0	1405	1412	1423	0	0	|	
+
+setentry	2517	"TMP"	0	0	1800	1810	1820	0	0	|	
+setentry	2518	"TMP"	159	0	1910	1915	1920	0	0	|	
+
+setentry	2521	"TMP"	11	0	1007	1019	1025	0	0	|	
+
+setentry	2524	"TMP"	26	0	1480	1490	1500	0	0	|	
+
+setentry	2525	"TMP"	26	0	1481	1493	1500	0	0	|	
+
+setentry	2526	"TMP"	13	0	1890	1895	1900	0	0	|	
+
+setentry	2530	"WARGAMES INN\nDOORKEEPER"	4	0	1830	1840	1850	0	0	|	
+
+setentry	2531	"TMP"	4	0	1875	1880	1885	0	0	|	
+setentry	2532	"TMP"	27	0	1521	1532	1542	0	0	|	
+
+
+
+
+setentry	2600	"private male"	0	0	1004	1016	1024	0	0	|	
+
+setentry	2602	"spy male"	2	0	1214	1016	1024	0	0	|	
+
+setentry	2604	"anarcho male"	26	0	1481	1493	1500	0	0	|	
+
+setentry	2606	"HURLER"	158	0	2120	2130	2140	0	0	|	
+
+setentry	2608	"Soldier"	4	0	2317	1062	1024	0	0	|	
+
+setentry	2610	"Soldier"	5	0	1136	1149	1159	0	0	|	
+
+
+
+
+
+
+setentry	2650	"anarcho male"	26	0	1481	1493	1500	0	0	|	
+
+setentry	2652	"anarcho female"	27	0	1520	1530	1540	0	0	|	
+
+setentry	2654	"private male"	0	0	2313	1010	1020	0	0	|	
+
+setentry	2656	"anarcho male"	26	0	1480	1494	1502	0	0	|	
+
+setentry	2658	"tank male"	4	0	2315	1060	1070	0	0	|	
+
+setentry	2660	"psimonk male"	6	0	1252	1260	1270	0	0	|	
+
+setentry	2662	"NOMAD TRADER\nSelling: Simple Misc Stuff"	159	0	1910	1915	1920	0	0	|	
+
+
+
+
+
+
+setentry	2700	"private male"	0	0	1004	1010	1020	0	0	|	
+
+setentry	2702	"anarcho male"	26	0	1481	1493	1500	0	0	|	
+
+setentry	2704	"spy male"	2	0	1210	1220	1230	0	0	|	
+
+setentry	2706	"soldier"	4	0	1058	1063	1073	0	0	|	
+
+setentry	2708	"soldier"	4	0	1052	1069	1077	0	0	|	
+
+setentry	2710	"private male"	0	0	1008	1017	1026	0	0	|	
+
+
+
+
+
+
+setentry	2730	"anarcho male"	26	0	1484	1490	1501	0	0	|	
+
+setentry	2732	"anarcho male"	26	0	1482	1491	1503	0	0	|	
+
+setentry	2734	"anarcho male"	26	0	1486	1493	1505	0	0	|	
+
+setentry	2736	"spy male"	2	0	1216	1224	1236	0	0	|	
+
+setentry	2738	"tank male"	4	0	1056	1065	1072	0	0	|	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+setentry	2760	"anarcho male"	26	0	1481	1493	1500	0	0	|	
+
+setentry	2762	"Personnel Director"	12	0	1486	1496	1506	0	0	|	
+
+setentry	2764	"Shopperfem"	1	0	1090	1100	1110	0	0	|	
+
+setentry	2766	"spy male"	2	0	1210	1220	1230	0	0	|	
+
+setentry	2768	"NOMAD TRADER\nSelling: Simple Misc Stuff"	159	0	1910	1915	1920	0	0	|	
+
+setentry	2770	"YAKARMA\nSelling: PSI Equipment"	6	0	1250	1961	1962	0	0	|	
+
+setentry	2772	"YO'S PAWN SHOP\nSelling: Simple Misc Stuff"	13	0	1401	1412	1423	0	0	|	
+
+setentry	2774	"SECURITY UNIT MK II"	381	0	-1	-1	-1	0	0	|	
+
+
+
+
+setentry	2780	"psimonk male"	6	0	1253	1260	1270	0	0	|	
+
+setentry	2782	"psimonk male"	6	0	1254	1267	1277	0	0	|	
+
+setentry	2784	"psimonk male"	6	0	1257	1268	1278	0	0	|	
+
+
+
+
+setentry	2850	"Concenter Receptionist"	15	0	1641	1651	1661	0	0	|	
+
+
+setentry	2860	"Faction Office Assistant"	11	0	1321	1330	1340	0	0	|	
+
+setentry	2861	"Faction Office Assistant"	11	0	1321	1334	1346	0	0	|	
+
+setentry	2862	"Faction Office Assistant"	11	0	1321	1330	1340	0	0	|	
+
+setentry	2863	"Faction Office Assistant"	11	0	1321	1334	1346	0	0	|	
+
+setentry	2864	"Faction Office Assistant"	11	0	1321	1334	1346	0	0	|	
+
+setentry	2865	"Faction Office Assistant"	11	0	1321	1334	1346	0	0	|	
+
+setentry	2866	"Faction Office Assistant"	0	0	1361	1017	1870	0	0	|	
+
+
+setentry	2870	"Barry Pepper"	12	0	1363	1373	1382	0	0	|	
+
+
+setentry	2880	"Faction Office Assistant"	7	0	1945	1950	1955	0	0	|	
+
+setentry	2881	"Faction Office Assistant"	0	0	1800	1810	1820	0	0	|	
+
+setentry	2882	"Faction Office Assistant"	13	0	1890	1895	1900	0	0	|	
+
+
+setentry	2890	"NEMA Papergirl"	15	0	1641	1651	1661	0	0	|	
+setentry	2891	"NEMA Papergirl"	15	0	1641	1651	1661	0	0	|	
+
+
+setentry	2895	"Faction Office Assistant"	12	0	1486	1496	1506	0	0	|	
+setentry	2896	"Beggar"	11	0	1007	1019	1025	0	0	|	
+setentry	2897	"Voice of the Resistance"	5	0	1526	1536	1546	0	0	|	
+
+
+
+
+setentry	2900	"Mole"	0	0	1008	1016	1023	0	0	|	
+
+setentry	2901	"Dagger"	0	0	1001	1016	1024	0	0	|	
+
+setentry	2902	"Missy"	14	0	1770	1780	1790	0	0	|	
+
+setentry	2903	"Shela"	24	0	-1	-1	-1	0	0	|	
+
+setentry	2904	"Ying-Tai"	15	0	1640	1650	1660	0	0	|	
+
+setentry	2905	"Caroline"	24	0	-1	-1	-1	0	0	|	
+
+setentry	2906	"Archer"	2	0	1484	1220	1230	0	0	|	
+
+setentry	2907	"Gordon"	26	0	1481	1493	1500	0	0	|	
+
+setentry	2908	"Zulu"	4	0	1057	1066	1885	0	0	|	
+
+setentry	2909	"Billy"	5	0	1563	1141	1153	0	0	|	
+
+setentry	2910	"Fred"	4	0	1405	1066	1423	0	0	|	
+
+setentry	2911	"Hank"	4	0	1406	1064	1885	0	0	|	
+
+setentry	2912	"Jailhouse Guard"	4	0	1483	1064	1885	0	0	|	
+
+setentry	2913	"Jailhouse Guard"	4	0	1056	1064	1885	0	0	|	
+
+setentry	2914	"Jailhouse Guard"	4	0	1050	1064	1885	0	0	|	
+
+setentry	2915	"Jailhouse Trader\nPPU Modules"	6	0	1930	1935	1940	0	0	|	
+
+setentry	2916	"Jailhouse Trader\nAPU Modules"	6	0	1930	1935	1940	0	0	|	
+
+setentry	2917	"Jailhouse Trader\nEquipment"	6	0	1930	1935	1940	0	0	|	
+
+setentry	2918	"Jailhouse Trader\nHigh-Tech Weapons"	13	0	1890	1895	1900	0	0	|	
+
+setentry	2919	"Jailhouse Trader\nHigh-Tech Ammunition"	13	0	1405	1895	1900	0	0	|	
+
+setentry	2920	"Jailhouse Trader\nHigh-Tech Armor"	13	0	1890	1895	1900	0	0	|	
+
+setentry	2921	"Jailhouse Trader\nAllbuyer"	13	0	1890	1895	1900	0	0	|	
+
+setentry	2922	"Jailhouse Trader\nAllbuyer"	13	0	1405	1895	1900	0	0	|	
+
+setentry	2923	"Jailhouse Trader\nLow-Tech Weapons"	13	0	1405	1895	1900	0	0	|	
+
+setentry	2924	"Jailhouse Trader\nLow-Tech Ammunition"	13	0	1890	1895	1900	0	0	|	
+
+setentry	2925	"Jailhouse Trader\nLow-Tech Armor"	13	0	1405	1895	1900	0	0	|	
+
+setentry	2926	"Jailhouse Trader\nTech Tools"	13	0	1890	1895	1900	0	0	|	
+
+setentry	2927	"Jailhouse Trader\nChemicals"	13	0	1405	1895	1900	0	0	|	
+
+setentry	2928	"Jailhouse Trader\nParts"	13	0	1890	1895	1900	0	0	|	
+
+setentry	2929	"Jailhouse Trader\nApartments"	13	0	1890	1895	1900	0	0	|	
+
+setentry	2930	"Jailhouse Service"	24	0	-1	-1	-1	0	0	|	
+
+setentry	2931	"Jailhouse Service"	23	0	-1	-1	-1	0	0	|	
+
+setentry	2932	"Jailhouse Trader\nMedical Equipment"	13	0	1405	1895	1900	0	0	|	
+
+setentry	2933	"Jailhouse Trader\nVehicles"	13	0	1405	1895	1900	0	0	|	
+
+setentry	2934	"Jailhouse Boss"	4	0	1875	1880	1885	0	0	|	
+
+setentry	2935	"Jailhouse Moneyman"	11	0	1321	1810	1870	0	0	|	
+
+setentry	2936	"Fish"	11	0	1009	1019	1025	0	0	|	
+
+
+
+
+
+
+
+
+
+
+
+
+
+setentry	3500	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3501	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3502	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3503	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3504	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3505	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3506	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3507	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3508	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3509	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3510	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3511	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3512	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3513	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3514	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3515	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3516	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3517	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3518	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3519	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3520	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3521	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3522	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3523	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3524	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3525	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3526	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3527	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3528	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3529	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3530	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3531	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3532	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3533	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3534	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3535	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3536	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3537	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3538	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3539	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3540	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3541	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3542	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3543	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+setentry	3544	"Personal Skill Advisor\nTank Skills"	4	0	1050	1060	1070	0	0	|	
+setentry	3545	"Personal Skill Advisor\nPrivate Eye Skills"	0	0	1008	1017	1026	0	0	|	
+setentry	3546	"Personal Skill Advisor\nSpy Skills"	2	0	1210	1220	1230	0	0	|	
+setentry	3547	"Personal Skill Advisor\nPSI Skills"	6	0	1250	1961	1962	0	0	|	
+
+
+
+setentry	3550	"Resource Supply Manager\nTools"	11	0	1325	1330	1340	0	0	|	
+setentry	3551	"Resource Supply Manager\nTech Parts"	13	0	1407	1418	1424	0	0	|	
+setentry	3552	"Resource Supply Manager\nChemicals"	15	0	1642	1652	1662	0	0	|	
+setentry	3553	"Resource Supply Manager\nTools"	11	0	1325	1330	1340	0	0	|	
+setentry	3554	"Resource Supply Manager\nTech Parts"	13	0	1407	1418	1424	0	0	|	
+setentry	3555	"Resource Supply Manager\nChemicals"	15	0	1642	1652	1662	0	0	|	
+setentry	3556	"Resource Supply Manager\nTools"	11	0	1325	1330	1340	0	0	|	
+setentry	3557	"Resource Supply Manager\nTech Parts"	13	0	1407	1418	1424	0	0	|	
+setentry	3558	"Resource Supply Manager\nChemicals"	15	0	1642	1652	1662	0	0	|	
+setentry	3559	"Resource Supply Manager\nTools"	11	0	1325	1330	1340	0	0	|	
+setentry	3560	"Resource Supply Manager\nTech Parts"	13	0	1407	1418	1424	0	0	|	
+setentry	3561	"Resource Supply Manager\nChemicals"	15	0	1642	1652	1662	0	0	|	
+setentry	3562	"Resource Supply Manager\nTools"	11	0	1325	1330	1340	0	0	|	
+setentry	3563	"Resource Supply Manager\nTech Parts"	13	0	1407	1418	1424	0	0	|	
+setentry	3564	"Resource Supply Manager\nChemicals"	15	0	1642	1652	1662	0	0	|	
+setentry	3565	"Resource Supply Manager\nTools"	11	0	1325	1330	1340	0	0	|	
+setentry	3566	"Resource Supply Manager\nTech Parts"	13	0	1407	1418	1424	0	0	|	
+setentry	3567	"Resource Supply Manager\nChemicals"	15	0	1642	1652	1662	0	0	|	
+setentry	3568	"Resource Supply Manager\nTools"	4	0	1830	1840	1850	0	0	|	
+setentry	3569	"Resource Supply Manager\nTech Parts"	4	0	1830	1840	1850	0	0	|	
+setentry	3570	"Resource Supply Manager\nChemicals"	4	0	1830	1840	1850	0	0	|	
+setentry	3571	"Resource Supply Manager\nTools"	13	0	1890	1895	1900	0	0	|	
+setentry	3572	"Resource Supply Manager\nTech Parts"	13	0	1890	1895	1900	0	0	|	
+setentry	3573	"Resource Supply Manager\nChemicals"	13	0	1890	1895	1900	0	0	|	
+setentry	3574	"Resource Supply Manager\nTools"	6	0	1930	1935	1940	0	0	|	
+setentry	3575	"Resource Supply Manager\nTech Parts"	6	0	1930	1935	1940	0	0	|	
+setentry	3576	"Resource Supply Manager\nChemicals"	6	0	1930	1935	1940	0	0	|	
+setentry	3577	"Resource Supply Manager\nTools"	11	0	1325	1330	1340	0	0	|	
+setentry	3578	"Resource Supply Manager\nTech Parts"	13	0	1407	1418	1424	0	0	|	
+setentry	3579	"Resource Supply Manager\nChemicals"	15	0	1642	1652	1662	0	0	|	
+setentry	3580	"Resource Supply Manager\nTools"	5	0	1526	1536	1546	0	0	|	
+setentry	3581	"Resource Supply Manager\nTech Parts"	12	0	1486	1496	1506	0	0	|	
+setentry	3582	"Resource Supply Manager\nChemicals"	5	0	1526	1536	1546	0	0	|	
+setentry	3583	"Resource Supply Manager\nTools"	4	0	1051	1063	1073	0	0	|	
+setentry	3584	"Resource Supply Manager\nTech Parts"	5	0	1132	1143	1153	0	0	|	
+setentry	3585	"Resource Supply Manager\nChemicals"	4	0	1051	1063	1073	0	0	|	
+
+
+
+setentry	3600	"Faction Supply Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3601	"Faction Supply Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3602	"Faction Supply Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3603	"Faction Supply Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3604	"Faction Supply Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3605	"Faction Supply Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3606	"Faction Supply Manager"	0	0	1800	1810	1820	0	0	|	
+setentry	3607	"Faction Supply Manager"	11	0	1860	1865	1870	0	0	|	
+setentry	3608	"Faction Supply Manager"	7	0	1945	1950	1955	0	0	|	
+setentry	3609	"Faction Supply Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3610	"Faction Supply Manager"	12	0	1486	1496	1506	0	0	|	
+setentry	3611	"Faction Supply Manager"	4	0	1051	1063	1073	0	0	|	
+
+
+
+setentry	3620	"Information Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3621	"Information Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3622	"Information Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3623	"Information Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3624	"Information Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3625	"Information Manager"	11	0	1325	1330	1340	0	0	|	
+setentry	3626	"Info Man"	0	0	1800	1810	1820	0	0	|	
+setentry	3627	"Info Guy"	11	0	1860	1865	1870	0	0	|	
+setentry	3628	"Lore Keeper"	7	0	1945	1950	1955	0	0	|	
+setentry	3629	"Communications Officer"	11	0	1325	1330	1340	0	0	|	
+setentry	3630	"Knowledge Archivist"	12	0	1486	1496	1506	0	0	|	
+setentry	3631	"Propaganda Officer"	4	0	1051	1063	1073	0	0	|	
+
+
+//ca	
+setentry	3700	"ParaMedic"	0	0	1008	1339	1870	0	0	|	
+//dre	
+setentry	3701	"ParaMedic"	0	0	1008	1339	1870	0	0	|	
+//next	
+setentry	3702	"ParaMedic"	0	0	1008	1339	1870	0	0	|	
+//tangent	
+setentry	3703	"ParaMedic"	0	0	1008	1339	1870	0	0	|	
+//bt	
+setentry	3704	"ParaMedic"	0	0	1211	1339	1870	0	0	|	
+//pp	
+setentry	3705	"ParaMedic"	0	0	1008	1339	1870	0	0	|	
+//ts	
+setentry	3706	"ParaMedic"	0	0	1800	1339	1870	0	0	|	
+//bd	
+setentry	3707	"ParaMedic"	0	0	1008	1339	1870	0	0	|	
+//crahn	
+setentry	3708	"ParaMedic"	0	0	1008	1339	1870	0	0	|	
+//cm	
+setentry	3709	"ParaMedic"	0	0	1008	1339	1870	0	0	|	
+//fa	
+setentry	3710	"ParaMedic"	0	0	1008	1339	1870	0	0	|	
+//tg	
+setentry	3711	"ParaMedic"	0	0	1211	1339	1870	0	0	|	
+
+
+setentry	3800	"Faction Office Assistant"	4	0	1051	1063	1073	0	0	|	
+setentry	3801	"Snack Attack"	13	0	1401	1411	1422	0	0	|	
+setentry	3802	"Twister Security"	4	0	1830	1840	1850	0	0	|	
+
+
+
+setentry	4000	"Insane Monk"	6	0	1930	1935	1940	0	0	|	
+setentry	4001	"Anarchist Beggar"	11	0	1009	1019	1025	0	0	|	
+setentry	4002	"Anarchy Breed Squatter"	26	0	1480	1490	1500	0	0	|	
+
+
+
+
+setentry	4200	"Devlin Jones"	4	0	1320	1063	1073	0	0	|	
+setentry	4201	"Frank McCoy"	2	0	1210	1220	1230	0	0	|	
+setentry	4202	"Juri Netschajev"	159	0	1910	1915	1920	0	0	|	
+setentry	4203	"X-15 Juggernaut Warbot"	261	0	-1	-1	-1	0	0	|	
+setentry	4204	"Juggernaut Warbot"	260	0	-1	-1	-1	0	0	|	
+setentry	4205	"Signal Intelligence Officer Gordon Herald"	4	0	1051	1063	1073	0	0	|	
+setentry	4206	"Signal Intelligence Officer Isabelle Renard"	5	0	1132	1143	1153	0	0	|	
+setentry	4207	"Signal Intelligence Officer Morten Ludvigsen"	4	0	1051	1063	1073	0	0	|	
+setentry	4208	"Signal Intelligence Officer Lambros Theodorou"	4	0	1051	1063	1073	0	0	|	
+setentry	4209	"Agent Foster"	2	0	1211	1221	1231	0	0	|	
+setentry	4210	"Sandra Lacroix"	5	0	1131	1143	1153	0	0	|	
+setentry	4211	"44th Special Forces Rezas Finest\nCommanding Officer"	4	0	1053	1840	1850	0	0	|	
+setentry	4212	"44th Special Forces Rezas Finest\n Corporal"	21	0	1441	1451	1461	0	0	|	
+setentry	4213	"Gerald Forsyte"	2	0	1210	1220	1230	0	0	|	
+setentry	4214	"Aerol"	11	0	1009	1865	1870	0	0	|	
+//setentry	4215	"Herbalis Aurora Carnivoris"	145	0	-1	-1	-1	0	0	|	
+//setentry	4216	"Herbalis Natura Carnivoris"	145	0	-1	-1	-1	0	0	|	
+//setentry	4217	"Herbalis Agrimonia Carnivoris"	145	0	-1	-1	-1	0	0	|	
+//setentry	4218	"Herbalis Melaleuca Carnivoris"	145	0	-1	-1	-1	0	0	|	
+setentry	4219	"Doctor Kaytlin Morrison"	3	0	1683	1690	1700	0	0	|	
+setentry	4220	"Intelligence Analyst"	5	0	1132	1143	1153	0	0	|	
+
+
+setentry	4221	"44th Special Forces Rezas Finest\n Corporal"	21	0	1441	1451	1461	0	0	|	
+
+setentry	4230	"Herbalis Aurora Carnivoris"	145	0	-1	-1	-1	0	0	|	
+setentry	4231	"Herbalis Natura Carnivoris"	145	0	-1	-1	-1	0	0	|	
+setentry	4232	"Herbalis Agrimonia Carnivoris"	145	0	-1	-1	-1	0	0	|	
+setentry	4233	"Herbalis Melaleuca Carnivoris"	145	0	-1	-1	-1	0	0	|	
+
+
+
+
+
+setentry	4250	"KRI就AKH SLIMEWORM"	165	0	-1	-1	-1	0	0	|	
+setentry	4251	"BLACK SCORPION QUEEN"	390	0	-1	-1	-1	0	0	|	
+setentry	4252	"BLOODVIPER KING"	207	0	-1	-1	-1	0	0	|	
+setentry	4253	"POISONOUS SPIDER QUEEN"	312	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	4256	"GRIM PERSECUTOR"	212	0	-1	-1	-1	0	0	|	
+setentry	4257	"GRIM CHASER"	213	0	-1	-1	-1	0	0	|	
+
+setentry	4270	"Neocron Zoo Service\n"	13	0	1407	1418	1424	0	0	|	
+setentry	4271	"Neocron Zoo Keeper\n"	13	0	1407	1418	1424	0	0	|	
+setentry	4272	"Neocron Zoo Keeper\n"	13	0	1407	1418	1424	0	0	|	
+setentry	4273	"Neocron Zoo Keeper\n"	13	0	1407	1418	1424	0	0	|	
+setentry	4274	"Neocron Zoo Keeper\n"	13	0	1407	1418	1424	0	0	|	
+setentry	4275	"Neocron Zoo Keeper\n"	13	0	1407	1418	1424	0	0	|	
+
+
+
+setentry	4300	"The Twisters Bar\nBarkeeper"	0	0	1801	1811	1820	0	0	|	
+setentry	4301	"The Holy Mug Tavern\nBarkeeper"	6	0	1250	1961	1962	0	0	|	
+setentry	4302	"The Dragon Bar\nBarkeeper"	13	0	1401	1411	1422	0	0	|	
+setentry	4303	"Hackers Delight\nBarkeeper"	12	0	1486	1496	1506	0	0	|	
+setentry	4304	"Yagers Inn\nBarkeeper"	5	0	1131	1143	1153	0	0	|	
+setentry	4305	"The Black Ribbon Bar\nBarkeeper"	0	0	1361	1017	1870	0	0	|	
+setentry	4303	"Hackers Delight\nBarkeeper"	12	0	1486	1496	1506	0	0	|	
+setentry	4304	"Flatline Cafe\nBarkeeper"	12	0	1486	1496	1506	0	0	|	
+
+
+//trader	
+setentry	4330	"TECH HAVEN TRADER\nTools"	12	0	1486	1496	1506	0	0	|	
+setentry	4331	"TECH HAVEN TRADER\nChemicals"	5	0	1526	1536	1546	0	0	|	
+setentry	4332	"TECH HAVEN TRADER\nItem Parts"	12	0	1486	1496	1506	0	0	|	
+setentry	4333	"TECH HAVEN TRADER\nVehicles"	5	0	1526	1536	1546	0	0	|	
+setentry	4334	"TECH HAVEN TRADER\nImplants"	12	0	1486	1496	1506	0	0	|	
+setentry	4335	"TECH HAVEN TRADER\nBone Enforcements"	5	0	1526	1536	1546	0	0	|	
+setentry	4336	"TECH HAVEN TRADER\nPSI Equipment"	6	0	1250	1961	1962	0	0	|	
+setentry	4337	"TECH HAVEN TRADER\nPassive PSI Modules"	6	0	1252	1961	1962	0	0	|	
+setentry	4338	"TECH HAVEN TRADER\nAggressive PSI Modules"	6	0	1960	1961	1962	0	0	|	
+
+setentry	4340	"TECH HAVEN ADMINISTRATION\nEmployee"	12	0	1486	1496	1506	0	0	|	
+setentry	4341	"TECH HAVEN SERVICE\nEmployee"	5	0	1526	1536	1546	0	0	|	
+setentry	4342	"Co-Dees Sushi BAR\nService"	13	0	1401	1411	1422	0	0	|	
+
+
+
+setentry	4400	"Boobs'n'guns\nPistols & Rifles"	23	0	-1	-1	-1	0	0	|	
+setentry	4401	"Boobs'n'guns\nDrones"	24	0	-1	-1	-1	0	0	|	
+setentry	4402	"Boobs'n'guns\nArmor"	25	0	-1	-1	-1	0	0	|	
+setentry	4403	"Boobs'n'guns\nAmmo"	9	0	1096	1102	1110	0	0	|	
+
+setentry	4405	"Boobs'n'guns\nPistols & Rifles"	9	0	1096	1102	1110	0	0	|	
+setentry	4406	"Boobs'n'guns\nDrones"	25	0	-1	-1	-1	0	0	|	
+setentry	4407	"Boobs'n'guns\nArmor"	23	0	-1	-1	-1	0	0	|	
+setentry	4408	"Boobs'n'guns\nAmmo"	24	0	-1	-1	-1	0	0	|	
+
+
+setentry	4410	"Fist Weaponry\nMelee & Cannons"	5	0	1131	1143	1153	0	0	|	
+setentry	4411	"Fist Weaponry\nTurrets"	5	0	1132	1143	1153	0	0	|	
+setentry	4412	"Fist Weaponry\nArmor"	5	0	1131	1143	1153	0	0	|	
+setentry	4413	"Fist Weaponry\nAmmo"	4	0	1051	1063	1073	0	0	|	
+
+setentry	4415	"Fist Weaponry\nMelee & Cannons"	4	0	1058	1063	1073	0	0	|	
+setentry	4416	"Fist Weaponry\nTurrets"	4	0	1051	1063	1073	0	0	|	
+setentry	4417	"Fist Weaponry\nBasic Armor"	5	0	1132	1143	1153	0	0	|	
+setentry	4418	"Fist Weaponry\nAmmo"	5	0	1131	1143	1153	0	0	|	
+
+
+setentry	4420	"Tech Angels\nTool Equipment"	12	0	1486	1496	1506	0	0	|	
+setentry	4421	"Tech Angels\nTools"	5	0	1526	1536	1546	0	0	|	
+setentry	4422	"Tech Angels\nChemicals & Parts"	12	0	1486	1496	1506	0	0	|	
+setentry	4423	"Tech Angels\nBasic Implants"	5	0	1526	1536	1546	0	0	|	
+setentry	4424	"Tech Angels\nBone Implants"	12	0	1486	1496	1506	0	0	|	
+
+setentry	4425	"Tech Angels\nTool Equipment"	12	0	1486	1496	1506	0	0	|	
+setentry	4426	"Tech Angels\nTools"	5	0	1526	1536	1546	0	0	|	
+setentry	4427	"Tech Angels\nChemicals & Parts"	12	0	1486	1496	1506	0	0	|	
+setentry	4428	"Tech Angels\nBasic Implants"	5	0	1526	1536	1546	0	0	|	
+setentry	4429	"Tech Angels\nBone Implants"	12	0	1486	1496	1506	0	0	|	
+
+
+setentry	4430	"Brothers in Arms\nBasic Support PPU Spells"	6	0	1930	1935	1940	0	0	|	
+setentry	4431	"Brothers in Arms\nBasic Booster PPU Spells"	7	0	1945	1950	1955	0	0	|	
+setentry	4432	"Brothers in Arms\nBasic Defensive PPU Spells"	7	0	1945	1950	1955	0	0	|	
+setentry	4433	"Brothers in Arms\nBasic Energy APU Spells"	6	0	1930	1935	1940	0	0	|	
+setentry	4434	"Brothers in Arms\nBasic Fire APU Spells"	7	0	1945	1950	1955	0	0	|	
+setentry	4435	"Brothers in Arms\nBasic Poison APU Spells"	6	0	1930	1935	1940	0	0	|	
+setentry	4436	"Brothers in Arms\nSpell Mods. PSI Equipment & PSI Implants"	7	0	1945	1950	1955	0	0	|	
+
+
+setentry	4437	"Dragon Drugs\nLoMs"	4	0	1875	1880	1885	0	0	|	
+setentry	4438	"Dragon Drugs\nStamina Boosters & Medkits"	11	0	1860	1865	1870	0	0	|	
+
+
+setentry	4440	"Brothers in Arms\nBasic Support PPU Spells"	7	0	1945	1950	1955	0	0	|	
+setentry	4441	"Brothers in Arms\nBasic Booster PPU Spells"	6	0	1930	1935	1940	0	0	|	
+setentry	4442	"Brothers in Arms\nBasic Defensive PPU Spells"	7	0	1945	1950	1955	0	0	|	
+setentry	4443	"Brothers in Arms\nBasic Energy APU Spells"	6	0	1930	1935	1940	0	0	|	
+setentry	4444	"Brothers in Arms\nBasic Fire APU Spells"	6	0	1930	1935	1940	0	0	|	
+setentry	4445	"Brothers in Arms\nBasic Poison APU Spells"	7	0	1945	1950	1955	0	0	|	
+setentry	4446	"Brothers in Arms\nSpell Mods. PSI Equipment & PSI Implants"	6	0	1930	1935	1940	0	0	|	
+
+
+setentry	4447	"Dragon Drugs\nLoMs"	13	0	1890	1895	1900	0	0	|	
+setentry	4448	"Dragon Drugs\nStamina Boosters & Medkits"	4	0	1875	1880	1885	0	0	|	
+
+
+setentry	4450	"Furniture"	0	0	1801	1811	1820	0	0	|	
+setentry	4451	"Furniture"	0	0	1801	1811	1820	0	0	|	
+
+setentry	4452	"Harry\nPlants"	0	0	1801	1811	1820	0	0	|	
+
+setentry	4455	"Barkeeper"	0	0	1801	1811	1820	0	0	|	
+
+
+
+
+
+
+
+setentry	4500	"Archer & Wesson\nBasic Melee Weapons"	13	0	1403	1418	1424	0	0	|	
+setentry	4501	"Archer & Wesson\nAdvanced Melee Weapons"	11	0	1323	1330	1340	0	0	|	
+setentry	4502	"Archer & Wesson\nBasic Armor"	15	0	1642	1652	1662	0	0	|	
+
+setentry	4503	"Archer & Wesson\nLow Tech Pistols. Rifles & Cannons"	15	0	1642	1652	1662	0	0	|	
+
+setentry	4504	"Archer & Wesson\nLow Tech Pistol Ammunitions & Mods"	11	0	1323	1330	1340	0	0	|	
+setentry	4505	"Archer & Wesson\nLow Tech Rifle Ammunitions & Mods"	13	0	1407	1418	1424	0	0	|	
+setentry	4506	"Archer & Wesson\nLow Tech Cannon Ammunitions & Mods"	11	0	1321	1330	1340	0	0	|	
+
+
+
+setentry	4507	"H.E.W.\nHigh Tech Pistols. Rifles & Mods"	15	0	1642	1652	1662	0	0	|	
+
+setentry	4508	"H.E.W.\nHigh Tech Pistol Ammunitions & Mods"	11	0	1325	1330	1340	0	0	|	
+setentry	4509	"H.E.W.\nHigh Tech Rifle Ammunitions & Mods"	11	0	1321	1330	1340	0	0	|	
+setentry	4510	"H.E.W.\nHigh Tech Cannon Ammunitions & Mods"	15	0	1642	1652	1662	0	0	|	
+setentry	4511	"H.E.W.\nDrones & Turrets"	13	0	1407	1418	1424	0	0	|	
+
+
+setentry	4512	"Crytons Tech Tools\nTools"	13	0	1407	1418	1424	0	0	|	
+setentry	4513	"Crytons Tech Tools\nTools Equipment"	11	0	1323	1330	1340	0	0	|	
+setentry	4514	"Crytons Tech Tools\nChemicals"	15	0	1642	1652	1662	0	0	|	
+setentry	4515	"Crytons Tech Tools\nConstruction Parts"	13	0	1405	1418	1424	0	0	|	
+setentry	4516	"Crytons Tech Tools\nImplants"	15	0	1642	1652	1662	0	0	|	
+setentry	4517	"Crytons Tech Tools\nBasic & Advanced Boneenforcements"	11	0	1322	1330	1340	0	0	|	
+
+
+setentry	4518	"Smuggler\nBasic Support PSI Spells "	159	0	1910	1915	1920	0	0	|	
+setentry	4519	"Smuggler\nBasic Energy PSI Spells"	159	0	1911	1916	1921	0	0	|	
+setentry	4520	"Smuggler\nPSI Equipment. Mods & Implants"	159	0	1910	1915	1920	0	0	|	
+setentry	4521	"Smuggler\nBasic Booster PSI Spells"	159	0	1911	1916	1921	0	0	|	
+setentry	4522	"Smuggler\nBasic Defence PSI Spells"	159	0	1910	1915	1920	0	0	|	
+setentry	4523	"Smuggler\nBasic Fire PSI Spells"	159	0	1911	1916	1921	0	0	|	
+setentry	4524	"Smuggler\nBasic Poison PSI Spells"	159	0	1910	1915	1920	0	0	|	
+
+
+
+setentry	4525	"ASG\nGeneral Vehicles"	11	0	1323	1330	1340	0	0	|	
+setentry	4526	"ASG\nVehicle Ammunitions"	13	0	1407	1418	1424	0	0	|	
+
+
+setentry	4527	"Tylors BioChem\nPharmaceutical Products"	13	0	1405	1418	1424	0	0	|	
+setentry	4528	"Medicare\nMedical Equipment"	11	0	1325	1330	1340	0	0	|	
+
+
+setentry	4529	"Estate Agent\nPlaza Apartments"	13	0	1403	1414	1420	0	0	|	
+setentry	4530	"Estate Agent\nViaRosso Apartments"	13	0	1403	1414	1420	0	0	|	
+setentry	4531	"Smuggler\nPepper Park & Outzone Apartments"	159	0	1910	1915	1920	0	0	|	
+setentry	4532	"Barracks Officer\nMilitary Base Apartments"	0	0	1361	1017	1870	0	0	|	
+setentry	4533	"Smuggler\nCanyon Apartments"	159	0	1910	1915	1920	0	0	|	
+
+setentry	4535	"H.E.W.\nHacknet Software"	13	0	1407	1418	1424	0	0	|	
+
+
+
+setentry	4540	"Smuggler\nLowTech Cannons "	159	0	1910	1915	1920	0	0	|	
+setentry	4541	"Smuggler\nArmor"	159	0	1911	1916	1921	0	0	|	
+setentry	4542	"Smuggler\nVehicles"	159	0	1910	1915	1920	0	0	|	
+
+setentry	4543	"Smuggler\nHighTech Cannons"	159	0	1911	1916	1921	0	0	|	
+
+setentry	4544	"Smuggler\nLowTech Pistols"	159	0	1910	1915	1920	0	0	|	
+setentry	4545	"Smuggler\nSpecial Armor"	159	0	1911	1916	1921	0	0	|	
+
+setentry	4546	"Smuggler\nLowTech Rifles"	159	0	1910	1915	1920	0	0	|	
+
+setentry	4547	"Smuggler\nLowTech Pistols"	159	0	1910	1915	1920	0	0	|	
+setentry	4548	"Smuggler\nLowTech Cannons "	159	0	1911	1916	1921	0	0	|	
+setentry	4549	"Smuggler\nArmor"	159	0	1910	1915	1920	0	0	|	
+
+setentry	4550	"Smuggler\nHighTech Melee"	159	0	1911	1916	1921	0	0	|	
+setentry	4551	"Smuggler\nHighTech Rifles"	159	0	1910	1915	1920	0	0	|	
+setentry	4552	"Smuggler\nSpecial Armor"	159	0	1911	1916	1921	0	0	|	
+
+setentry	4553	"Smuggler\nHighTech Pistols"	159	0	1910	1915	1920	0	0	|	
+setentry	4554	"Smuggler\nHighTech Rifles"	159	0	1910	1915	1920	0	0	|	
+setentry	4555	"Smuggler\nHighTech Cannons"	159	0	1911	1916	1921	0	0	|	
+setentry	4556	"Smuggler\nArmor"	159	0	1910	1915	1920	0	0	|	
+
+setentry	4557	"Smuggler\nPSI Equipment"	159	0	1911	1916	1921	0	0	|	
+
+setentry	4558	"Smuggler\nLowTech Cannons "	159	0	1910	1915	1920	0	0	|	
+setentry	4559	"Smuggler\nArmor"	159	0	1911	1916	1921	0	0	|	
+setentry	4560	"Smuggler\nVehicles"	159	0	1910	1915	1920	0	0	|	
+setentry	4561	"Smuggler\nApartments"	159	0	1911	1916	1921	0	0	|	
+
+
+
+setentry	4600	"Screaming Horse Agency\nCity Security"	4	0	1050	1840	1850	0	0	|	
+setentry	4601	"Screaming Horse Agency\nPublic Relations Officer"	4	0	1053	1840	1850	0	0	|	
+
+setentry	4602	"Red Pepper Entertainment Group\nPublic Relations Officer"	11	0	1860	1865	1870	0	0	|	
+
+setentry	4603	"Club Veronique\nManager"	0	0	1801	1810	1820	0	0	|	
+setentry	4604	"Pussy Club\nManager"	4	0	1830	1840	1850	0	0	|	
+
+setentry	4605	"Club Veronique\nBarkeeper"	0	0	1801	1811	1820	0	0	|	
+setentry	4606	"PussyClub\nBarkeeper"	0	0	1801	1811	1820	0	0	|	
+
+setentry	4607	"Red Pepper Entertainment Group\nService"	0	0	1800	1810	1820	0	0	|	
+
+setentry	4610	"Screaming Horse Agency\nCity Security"	4	0	1050	1840	1850	0	0	|	
+
+
+//ca	
+setentry	5000	"Broadcast Daemon\nCityAdmin"	421	0	-1	-1	-1	0	0	|	
+//dre	
+setentry	5003	"Broadcast Daemon\nDiamond Real Estate"	421	0	-1	-1	-1	0	0	|	
+//next	
+setentry	5006	"Broadcast Daemon\nNEXT Systems"	421	0	-1	-1	-1	0	0	|	
+//tt	
+setentry	5009	"Broadcast Daemon\nTangent Technologies"	421	0	-1	-1	-1	0	0	|	
+//bt	
+setentry	5012	"Broadcast Daemon\nBioTech Industries"	421	0	-1	-1	-1	0	0	|	
+//pp	
+setentry	5015	"Broadcast Daemon\nProtoPharm Inc."	421	0	-1	-1	-1	0	0	|	
+//ts	
+setentry	5018	"Broadcast Daemon\nTsunami Syndicate"	420	0	-1	-1	-1	0	0	|	
+//bd	
+setentry	5021	"Broadcast Daemon\nBlackDragon Clan"	420	0	-1	-1	-1	0	0	|	
+//crahn	
+setentry	5024	"Broadcast Daemon\nBrotherhood of Crahn"	420	0	-1	-1	-1	0	0	|	
+//cm	
+setentry	5027	"Broadcast Daemon\nCityMercs"	422	0	-1	-1	-1	0	0	|	
+//fa	
+setentry	5030	"Broadcast Daemon\nFallen Angels"	420	0	-1	-1	-1	0	0	|	
+//tg	
+setentry	5033	"Broadcast Daemon\nTwilight Guardian"	420	0	-1	-1	-1	0	0	|	
+
+
+setentry	5050	"Intrusion Countermeasure Daemon v1.1.1\nCityAdmin"	427	0	-1	-1	-1	0	0	|	
+setentry	5051	"Intrusion Countermeasure Daemon v2.2.2\nCityAdmin"	427	0	-1	-1	-1	0	0	|	
+//dre	
+setentry	5053	"Intrusion Countermeasure Daemon v1.1.1\nDiamond Real Estate"	427	0	-1	-1	-1	0	0	|	
+setentry	5054	"Intrusion Countermeasure Daemon v2.2.2\nDiamond Real Estate"	427	0	-1	-1	-1	0	0	|	
+//next	
+setentry	5056	"Intrusion Countermeasure Daemon v1.1.1\nNext Systems"	427	0	-1	-1	-1	0	0	|	
+setentry	5057	"Intrusion Countermeasure Daemon v2.2.2\nNext Systems "	427	0	-1	-1	-1	0	0	|	
+//tt	
+setentry	5059	"Intrusion Countermeasure Daemon v1.1.1\nTangent Technologies"	427	0	-1	-1	-1	0	0	|	
+setentry	5060	"Intrusion Countermeasure Daemon v2.2.2\nTangent Technologies"	427	0	-1	-1	-1	0	0	|	
+//bt	
+setentry	5062	"Intrusion Countermeasure Daemon v1.1.1\nBioTech Industries"	427	0	-1	-1	-1	0	0	|	
+setentry	5063	"Intrusion Countermeasure Daemon v2.2.2\nBioTech Industries"	427	0	-1	-1	-1	0	0	|	
+//pp	
+setentry	5065	"Intrusion Countermeasure Daemon v1.1.1\nProtoPharm Inc."	427	0	-1	-1	-1	0	0	|	
+setentry	5066	"Intrusion Countermeasure Daemon v2.2.2\nProtoPharm Inc."	427	0	-1	-1	-1	0	0	|	
+//ts	
+setentry	5068	"Intrusion Countermeasure Daemon v1.1.1\nTsunami Syndicate"	426	0	-1	-1	-1	0	0	|	
+setentry	5069	"Intrusion Countermeasure Daemon v2.2.2\nTsunami Syndicate"	426	0	-1	-1	-1	0	0	|	
+//bd	
+setentry	5071	"Intrusion Countermeasure Daemon v1.1.1\nBlackDragon Clan"	426	0	-1	-1	-1	0	0	|	
+setentry	5072	"Intrusion Countermeasure Daemon v2.2.2\nBlackDragon Clan"	426	0	-1	-1	-1	0	0	|	
+//crahn	
+setentry	5074	"Intrusion Countermeasure Daemon v1.1.1\nBrotherhood of Crahn"	426	0	-1	-1	-1	0	0	|	
+setentry	5075	"Intrusion Countermeasure Daemon v2.2.2\nBrotherhood of Crahn"	426	0	-1	-1	-1	0	0	|	
+//cm	
+setentry	5077	"Intrusion Countermeasure Daemon v1.1.1\nCityMercs"	428	0	-1	-1	-1	0	0	|	
+setentry	5078	"Intrusion Countermeasure Daemon v2.2.2\nCityMercs"	428	0	-1	-1	-1	0	0	|	
+//fa	
+setentry	5080	"Intrusion Countermeasure Daemon v1.1.1\nFallen Angels"	426	0	-1	-1	-1	0	0	|	
+setentry	5081	"Intrusion Countermeasure Daemon v2.2.2\nFallen Angels"	426	0	-1	-1	-1	0	0	|	
+//tg	
+setentry	5083	"Intrusion Countermeasure Daemon v1.1.1\nTwilight Guardian"	426	0	-1	-1	-1	0	0	|	
+setentry	5084	"Intrusion Countermeasure Daemon v2.2.2\nTwilight Guardian"	426	0	-1	-1	-1	0	0	|	
+
+//faction mainframe kernels	
+setentry	5100	"Mainframe Kernel\nCityAdmin"	427	0	-1	-1	-1	0	0	|	
+//dre	
+setentry	5101	"Mainframe Kernel\nDiamond Real Estate"	427	0	-1	-1	-1	0	0	|	
+//next	
+setentry	5102	"Mainframe Kernel\nNEXT Systems"	427	0	-1	-1	-1	0	0	|	
+//tt	
+setentry	5103	"Mainframe Kernel\nTangent Technologies"	427	0	-1	-1	-1	0	0	|	
+//bt	
+setentry	5104	"Mainframe Kernel\nBioTech Industries "	427	0	-1	-1	-1	0	0	|	
+//pp	
+setentry	5105	"Mainframe Kernel\nProtoPharm Inc."	427	0	-1	-1	-1	0	0	|	
+//ts	
+setentry	5106	"Mainframe Kernel\nTsunami Syndicate"	426	0	-1	-1	-1	0	0	|	
+//bd	
+setentry	5107	"Mainframe Kernel\nBlackDragon Clan "	426	0	-1	-1	-1	0	0	|	
+//crahn	
+setentry	5108	"Mainframe Kernel\nBrotherhood of Crahn"	426	0	-1	-1	-1	0	0	|	
+//cm	
+setentry	5109	"Mainframe Kernel\nCityMercs"	428	0	-1	-1	-1	0	0	|	
+//fa	
+setentry	5110	"Mainframe Kernel\nFallen Angels"	426	0	-1	-1	-1	0	0	|	
+//tg	
+setentry	5111	"Mainframe Kernel\nTwilight Guardian"	426	0	-1	-1	-1	0	0	|	
+
+
+//hacknet mobs	
+//leichte gegner lvl1-3. statisch	
+//corrupt TCP Packets	0	|	
+setentry	5150	"Corrupt TCP Packet v0.1.1"	435	0	-1	-1	-1	0	0	|	
+setentry	5151	"Corrupt TCP Packet v0.2.2"	436	0	-1	-1	-1	0	0	|	
+setentry	5152	"Corrupt TCP Packet v0.3.3"	437	0	-1	-1	-1	0	0	|	
+//leichte gegner lvl1-3. flug	
+//corrupt UDP Packets	0	|	
+setentry	5153	"Corrupt UDP Packet v1.1.1"	435	0	-1	-1	-1	0	0	|	
+setentry	5154	"Corrupt UDP Packet v1.2.2"	436	0	-1	-1	-1	0	0	|	
+setentry	5155	"Corrupt UDP Packet v1.3.3"	437	0	-1	-1	-1	0	0	|	
+
+//normale gegner lvl 1-3. statisch	
+//Corrupt ICMP Packets	
+setentry	5200	"Corrupt ICMP Ping Packet v2.1.1"	435	0	-1	-1	-1	0	0	|	
+setentry	5201	"Corrupt ICMP Ping Packet v2.2.2"	436	0	-1	-1	-1	0	0	|	
+setentry	5202	"Corrupt ICMP Ping Packet v2.3.3"	437	0	-1	-1	-1	0	0	|	
+
+//normale gegner lvl 1-3. flug	
+//Corrupt ICMP Packets	
+setentry	5203	"Corrupt ICMP Ping Packet v4.1.1"	435	0	-1	-1	-1	0	0	|	
+setentry	5204	"Corrupt ICMP Ping Packet v4.2.2"	436	0	-1	-1	-1	0	0	|	
+setentry	5205	"Corrupt ICMP Ping Packet v4.3.3"	437	0	-1	-1	-1	0	0	|	
+
+//big mobs. endbosse	
+//Ping of Death. flug	
+setentry	5300	"Ping of Death"	439	0	-1	-1	-1	0	0	|	
+
+
+
+//faction blueprint database faction only access	
+//ca	
+setentry	5700	"High Security Database\nCityAdmin"	430	0	-1	-1	-1	0	0	|	
+//der	
+setentry	5710	"High Security Database\nDiamond Real Estate"	430	0	-1	-1	-1	0	0	|	
+//nx	
+setentry	5720	"High Security Database\nNEXT Systems"	430	0	-1	-1	-1	0	0	|	
+//bt	
+setentry	5730	"High Security Database\nBioTech Industries"	430	0	-1	-1	-1	0	0	|	
+//tt	
+setentry	5740	"High Security Database\nTangent Technologies"	430	0	-1	-1	-1	0	0	|	
+//pp	
+setentry	5750	"High Security Database\nProtoPharm Inc."	430	0	-1	-1	-1	0	0	|	
+//ts	
+setentry	5760	"High Security Database\nTsunami Syndicate"	429	0	-1	-1	-1	0	0	|	
+//bd	
+setentry	5770	"High Security Database\nBlackDragon Clan"	429	0	-1	-1	-1	0	0	|	
+//cs	
+setentry	5780	"High Security Database\nBrotherhood of Crahn"	429	0	-1	-1	-1	0	0	|	
+//cm	
+setentry	5790	"High Security Database\nCityMercs"	431	0	-1	-1	-1	0	0	|	
+//fa	
+setentry	5800	"High Security Database\nFallen Angels"	429	0	-1	-1	-1	0	0	|	
+//tg	
+setentry	5810	"High Security Database\nTwilight Guardian"	429	0	-1	-1	-1	0	0	|	
+
+//information database all access	
+//ca	
+setentry	5820	"Information Database\nCityAdmin"	433	0	-1	-1	-1	0	0	|	
+//der	
+setentry	5830	"Information Database\nDiamond Real Estate"	433	0	-1	-1	-1	0	0	|	
+//nx	
+setentry	5840	"Information Database\nNEXT Systems"	433	0	-1	-1	-1	0	0	|	
+//bt	
+setentry	5850	"Information Database\nBioTech Industries"	433	0	-1	-1	-1	0	0	|	
+//tt	
+setentry	5860	"Information Database\nTangent Technologies"	433	0	-1	-1	-1	0	0	|	
+//pp	
+setentry	5870	"Information Database\nProtoPharm Inc."	433	0	-1	-1	-1	0	0	|	
+//ts	
+setentry	5880	"Information Database\nTsunami Syndicate"	432	0	-1	-1	-1	0	0	|	
+//bd	
+setentry	5890	"Information Database\nBlackDragon Clan"	432	0	-1	-1	-1	0	0	|	
+//cs	
+setentry	5900	"Information Database\nBrotherhood of Crahn"	432	0	-1	-1	-1	0	0	|	
+//cm	
+setentry	5910	"Information Database\nCityMercs"	434	0	-1	-1	-1	0	0	|	
+//fa	
+setentry	5920	"Information Database\nFallen Angels"	432	0	-1	-1	-1	0	0	|	
+//tg	
+setentry	5930	"Information Database\nTwilight Guardian"	432	0	-1	-1	-1	0	0	|	
+
+//task manager all access	
+//ca	
+setentry	5940	"Task Manager - Process Kills\nCityAdmin"	421	0	-1	-1	-1	0	0	|	
+setentry	5941	"Task Manager - Data Transfer\nCityAdmin"	421	0	-1	-1	-1	0	0	|	
+setentry	5942	"Task Manager - Compilation Processes\nCityAdmin"	421	0	-1	-1	-1	0	0	|	
+//der	
+setentry	5950	"Task Manager - Process Kills\nDiamond Real Estate"	421	0	-1	-1	-1	0	0	|	
+setentry	5951	"Task Manager - Data Transfer\nDiamond Real Estate"	421	0	-1	-1	-1	0	0	|	
+setentry	5952	"Task Manager - Compilation Processes\nDiamond Real Estate"	421	0	-1	-1	-1	0	0	|	
+//nx	
+setentry	5960	"Task Manager - Process Kills\nNEXT Systems"	421	0	-1	-1	-1	0	0	|	
+setentry	5961	"Task Manager - Data Transfer\nNEXT Systems"	421	0	-1	-1	-1	0	0	|	
+setentry	5962	"Task Manager - Compilation Processes\nNEXT Systems"	421	0	-1	-1	-1	0	0	|	
+//bt	
+setentry	5970	"Task Manager - Process Kills\nBioTech Industries"	421	0	-1	-1	-1	0	0	|	
+setentry	5971	"Task Manager - Data Transfer\nBioTech Industries"	421	0	-1	-1	-1	0	0	|	
+setentry	5972	"Task Manager - Compilation Processes\nBioTech Industries"	421	0	-1	-1	-1	0	0	|	
+//tt	
+setentry	5980	"Task Manager - Process Kills\nTangent Technologies"	421	0	-1	-1	-1	0	0	|	
+setentry	5981	"Task Manager - Data Transfer\nTangent Technologies"	421	0	-1	-1	-1	0	0	|	
+setentry	5982	"Task Manager - Compilation Processes\nTangent Technologies"	421	0	-1	-1	-1	0	0	|	
+//pp	
+setentry	5990	"Task Manager - Process Kills\nProtoPharm"	421	0	-1	-1	-1	0	0	|	
+setentry	5991	"Task Manager - Data Transfer\nProtoPharm"	421	0	-1	-1	-1	0	0	|	
+setentry	5992	"Task Manager - Compilation Processes\nProtoPharm"	421	0	-1	-1	-1	0	0	|	
+//ts	
+setentry	6000	"Task Manager - Process Kills\nTsunami Syndicate"	420	0	-1	-1	-1	0	0	|	
+setentry	6001	"Task Manager - Data Transfer\nTsunami Syndicate"	420	0	-1	-1	-1	0	0	|	
+setentry	6002	"Task Manager - Compilation Processes\nTsunami Syndicate"	420	0	-1	-1	-1	0	0	|	
+//bd	
+setentry	6010	"Task Manager - Process Kills\nBlackDragon Clan"	420	0	-1	-1	-1	0	0	|	
+setentry	6011	"Task Manager - Data Transfer\nBlackDragon Clan"	420	0	-1	-1	-1	0	0	|	
+setentry	6012	"Task Manager - Compilation Processes\nBlackDragon Clan"	420	0	-1	-1	-1	0	0	|	
+//cs	
+setentry	6020	"Task Manager - Process Kills\nBrotherhood of Crahn"	420	0	-1	-1	-1	0	0	|	
+setentry	6021	"Task Manager - Data Transfer\nBrotherhood of Crahn"	420	0	-1	-1	-1	0	0	|	
+setentry	6022	"Task Manager - Compilation Processes\nBrotherhood of Crahn"	420	0	-1	-1	-1	0	0	|	
+//cm	
+setentry	6030	"Task Manager - Process Kills\nCityMercs"	422	0	-1	-1	-1	0	0	|	
+setentry	6031	"Task Manager - Data Transfer\nCityMercs"	422	0	-1	-1	-1	0	0	|	
+setentry	6032	"Task Manager - Compilation Processes\nCityMercs"	422	0	-1	-1	-1	0	0	|	
+//fa	
+setentry	6040	"Task Manager - Process Kills\nFallenAngels"	420	0	-1	-1	-1	0	0	|	
+setentry	6041	"Task Manager - Data Transfer\nFallenAngels"	420	0	-1	-1	-1	0	0	|	
+setentry	6042	"Task Manager - Compilation Processes\nFallenAngels"	420	0	-1	-1	-1	0	0	|	
+//tg	
+setentry	6050	"Task Manager - Process Kills\nTwilight Guardian"	420	0	-1	-1	-1	0	0	|	
+setentry	6051	"Task Manager - Data Transfer\nTwilight Guardian"	420	0	-1	-1	-1	0	0	|	
+setentry	6052	"Task Manager - Compilation Processes\nTwilight Guardian"	420	0	-1	-1	-1	0	0	|	
+
+
+
+setentry	6100	"High Security Database\nPhoenixNC"	431	0	-1	-1	-1	0	0	|	
+
+
+setentry	6200	"Dome of York\nSecurity Guard"	4	0	2331	2340	2350	0	0	|	
+
+
+
+setentry	6250	"Experimental Ceres Infantry Trooper"	381	0	-1	-1	-1	0	0	|	
+setentry	6251	"Experimental Ceres Psionic Infantry Trooper"	157	0	2090	2100	2110	0	0	|	
+setentry	6252	"Experimental Ceres Hover Infantry Trooper"	160	0	-1	-1	-1	0	0	|	
+
+setentry	6253	"Prototype Ceres Infantry Trooper"	381	0	-1	-1	-1	0	0	|	
+setentry	6254	"Prototype Ceres Psionic Infantry Trooper"	157	0	2090	2100	2110	0	0	|	
+setentry	6255	"Prototype Ceres Hover Infantry Trooper"	160	0	-1	-1	-1	0	0	|	
+
+
+setentry	6500	"Beggar"	11	0	1007	1019	1025	0	0	|	
+setentry	6501	"Beggar"	27	0	1521	1532	1542	0	0	|	
+setentry	6502	"Beggar"	11	0	1006	1019	1025	0	0	|	
+setentry	6503	"Beggar"	26	0	1481	1493	1500	0	0	|	
+
+
+
+setentry	6510	"Wisdom of Ceres Savant - INT"	6	0	1252	1935	1940	0	0	|	
+
+setentry	6511	"Wisdom of Ceres Savant - PSI"	6	0	1252	1935	1940	0	0	|	
+
+setentry	6512	"Wisdom of Ceres Savant - STR"	6	0	1252	1935	1940	0	0	|	
+
+setentry	6513	"Wisdom of Ceres Savant - DEX"	6	0	1252	1935	1940	0	0	|	
+
+
+setentry	6520	"JUGGERNAUT F-TYPE"	260	0	-1	-1	-1	0	0	|	
+setentry	6521	"JUGGERNAUT L-TYPE"	260	0	-1	-1	-1	0	0	|	
+setentry	6522	"JUGGERNAUT R-TYPE"	260	0	-1	-1	-1	0	0	|	
+setentry	6523	"JUGGERNAUT FX-15"	261	0	-1	-1	-1	0	0	|	
+setentry	6524	"JUGGERNAUT LX-15"	261	0	-1	-1	-1	0	0	|	
+setentry	6525	"JUGGERNAUT RX-15"	261	0	-1	-1	-1	0	0	|	
+
+//pc games & pc action special npcs	
+
+//nc	
+setentry	6550	"Gary Wilkins"	0	0	1361	1017	1870	0	0	|	
+setentry	6551	"Susan Forsyte"	15	0	1641	1651	1661	0	0	|	
+setentry	6552	"Whizzler"	11	0	1009	1865	1870	0	0	|	
+setentry	6553	"Johnson"	11	0	1325	1810	1870	0	0	|	
+setentry	6554	"Rossi"	11	0	1323	1337	1341	0	0	|	
+
+//doy	
+setentry	6555	"Walter Harrison"	11	0	1320	1330	1340	0	0	|	
+setentry	6556	"Franky"	4	0	1875	1880	1885	0	0	|	
+setentry	6557	"Festus"	6	0	1256	1935	1940	0	0	|	
+setentry	6558	"Amber"	15	0	1640	1650	1660	0	0	|	
+setentry	6559	"Rossi"	11	0	1323	1337	1341	0	0	|	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

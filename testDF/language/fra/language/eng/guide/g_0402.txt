@@ -1,0 +1,27 @@
+L’intelligence gouverne les compétences nécessitant la mise en action des cellules grises. L’intelligence est très importante pour les Moines PSI, les hackers, les constructeurs et les professions similaires.
+
+Hacking 
+La compétence principale du hacker. Les systèmes de sécurité, les portes – avec une compétence élevée, ces systèmes ne sont plus un obstacle. Le niveau du hacking détermine le nombre de charges que vous pouvez utiliser pendant l’opération, ainsi que la difficulté du système.
+
+Marchandage (Barter) 
+Les runners possédant cette compétence obtiennent de meilleurs prix auprès des vendeurs PNJ de Neocron. Ceci affecte aussi bien l’achat que la vente, et dans tous les domaines. L’intelligence affecte également les prix dans une certaine mesure.
+
+Utilisation PSI (PSI Use) 
+Cette compétence montre votre capacité à vous servir des modules PSI. Elle influence l’efficacité (dommages, soins) des modules PSI, et exerce une influence sur la quantité d’énergie PSI.
+
+Armurerie (Weapon Lore) 
+Cette compétence détermine l’utilisation par le personnage des armes qu’il possède. Elle affecte la précision, la vitesse de visée, la portée et les dommages des armes à distance.
+
+Construction 
+C’est la compétence fondamentale pour les runners qui veulent créer des objets. Plus cette compétence est élevée, plus la qualité des objets produits l’est aussi (selon l’indice technologique de l’objet). Une compétence plus élevée accélère la construction de l’objet et réduit les chances d’échec. La dextérité et l’intelligence affectent également cette valeur.
+
+Recherche (Research) 
+Par cette compétence, le runner analyse les objets et crée des plans. Ensuite, il peut revendre ces plans à d’autres joueurs ou les conserver pour son propre usage. La difficulté du processus de recherche dépend de l’indice technologique de l’objet à rechercher. Un haut niveau dans cette compétence et une intelligence élevée réduisent la durée du processus et les chances d’échec.
+
+Implantation (Implant) 
+Les runners sachant effectuer des implantations sont très appréciés dans Neocron. Ils possèdent les compétences nécessaires pour implanter des appareils dans le corps humain. A un niveau élevé, cette compétence accélère le processus d’implantation.
+
+Volonté (Willpower) 
+La Volonté est importante pour les pilotes de drones, car elle influence leurs dégâts ainsi que leur portée.
+ 
+

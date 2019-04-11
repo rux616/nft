@@ -1,0 +1,162 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// gmtool: stockx - newcompany.tsc
+// access-level 50 (DEV)
+// content:
+// create a new company for stockx
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "15") );
+		
+		OnLoad( SetEnv("ENV_SXCAPITAL", "0" ) );
+		OnLoad( SetEnv("ENV_SXSTOCKS", "0" ) );
+		OnLoad( SetEnv("ENV_SXFACEVALUE", "0" ) );
+		OnLoad( SetEnv("ENV_BACK", ".\terminal\gmtool\stockx\newcompany.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBGMChecker"
+	{
+		OnLoad( TryAccess("DCBGMLinker", 350, GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBGMLinker"
+	{
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_DEV") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+	
+	DATACONTROLBOX "DCBGetAccess"
+	{
+		OnAccess( UpdateDB("", 710, GetEnv("SXFACTIONID"),
+					    GetControlText("Company"),
+					    GetControlText("Facevalue"),
+					    GetControlText("Stocks"),
+					    GetControlText("Facevalue"),
+					    GetControlText("Stocks"),
+					    GetControlText("Stocks"),
+					    GetEnv("G_CHARID") ) );
+					    
+		OnAccess( SetEnv("ENV_SXCOMPANYNAME", GetControlText("Company") ) );
+		OnAccess( SetEnv("ENV_SXCAPITAL", GetControlText("Capital") ) );
+		OnAccess( SetEnv("ENV_SXSTOCKS", GetControlText("Stocks") ) );
+		OnAccess( SetEnv("ENV_SXFACEVALUE", GetControlText("Facevalue") ) );
+		OnAccess( ChangePage("Page", ".\terminal\gmtool\stockx\createstatus.tsc") );
+		
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc") );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN GMTOOL"
+	{
+		LayOut(2);
+		Size(471, 40, 571, 120);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 19, 0, 225, 138);
+		"1";
+		FunctionText("%BITMAP(45, 1, 3)" );
+	}
+
+	FRAME "COMMANDS"
+	{
+		LayOut(2);
+		Size(471, 142, 571, 408);
+		
+		TEXTBUTTON "SUBMIT"
+		{
+			LayOut(5);
+			Size(0, 0, 100, 20);
+			OnMouse( TryAccess("DCBGetAccess", 350, GetEnv("G_CHARID") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+		TEXTBUTTON "PRECALCULATE"
+		{
+			LayOut(5);
+			Size(0, 20, 100, 40);
+			OnMouse( SetEnv( "ENV_SXCAPITAL", StringCalcMult( GetControlText("Stocks"), GetControlText("Facevalue") ) ) );
+			OnMouse( SetContent("Capital", GetEnv("SXCAPITAL") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+		TEXTBUTTON "BACK"
+		{
+			LayOut(5);
+			Size(0, 246, 100, 266);
+			OnMouse( ChangePage("Page", ".\terminal\gmtool\stockx\overview.tsc" ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	TEXT "Selected Faction"
+	{
+		LayOut(2);
+		Size(50, 40, 220, 52);
+		FunctionText("%FACTIONNAME");
+	}
+	
+	LISTBOX "Factions"
+	{
+		Layout (2);
+		Size (50, 74, 220, 408);
+		Settings(0, 0, 1, 0);
+		LineHeight(16);
+		SelectionColumn(1);
+		DataFunctionColumn(1, "faction", "%FACTIONNAME", 0, 170, LEFT);
+	
+		SetData("1", "2", "3", "4", "5", "6", "8", "9", "10", "11", "14", "15");
+	
+		OnMouse( SetEnv("ENV_SXFACTIONID", GetControlText("Factions") ) );
+		OnMouse( SetContent("Selected Faction", GetEnv("SXFACTIONID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	EDITBOX "Company"
+	{
+		LayOut(2);
+		Size(234, 40, 447, 52);
+	}
+	
+	TEXT "Capital"
+	{
+		LayOut(2);
+		Size(234, 74, 447, 86);
+	}
+	
+	EDITBOX "Stocks"
+	{
+		LayOut(2);
+		Size(234, 108, 447, 120);
+	}
+	
+	EDITBOX "Facevalue"
+	{
+		LayOut(2);
+		Size(234, 142, 447, 154);
+	}
+	
+	DATACONTROLBOX "DCBLoadInitialFaction"
+	{
+		OnLoad( SetContent("Selected Faction", GetEnv("SXFACTIONID") ) );
+		OnLoad( SetContent("Capital", GetEnv("SXCAPITAL") ) );
+		OnLoad( SetContent("Stocks", GetEnv("SXSTOCKS") ) );
+		OnLoad( SetContent("Facevalue", GetEnv("SXFACEVALUE") ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

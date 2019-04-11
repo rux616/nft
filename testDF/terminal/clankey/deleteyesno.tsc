@@ -1,0 +1,65 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// clankey: deleteyesno.tsc
+// content:
+// page follows if clan deletion is possible
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 448 x 224
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+	
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetContent("ENV_BACK", ".\terminal\clankey\message.tsc"));
+	}
+	
+	DATACONTROLBOX "DCBDeleteClan"
+	{
+		OnAccess( ServerMessage( "DELETECLAN", "", "205", GetEnv("G_CHARID"), GetEnv("G_CLANID"), GetEnv("CLANAPPID") ) );
+		OnAccess( SetFunctionContent("ENV_MSG", "%TEXTRSC(6, 2550)", "8") );
+		OnAccess( ChangePage("Page", ".\terminal\clankey\message.tsc") );
+		OnAccessError( SetFunctionContent("ENV_MSG", "%TEXTRSC(6, 2550)", "7") );
+		OnAccessError( ChangePage("Page", ".\terminal\clankey\message.tsc") );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+	
+	TEXT "Clan"
+	{
+		LayOut(2);
+		Size(40, 35, 389, 47);
+		"CLANNAME";
+		FunctionText("%ENV");
+	}
+	
+	TEXT "Clan"
+	{
+		Size(40, 69, 389, 115);
+		TextSize(1);
+		"5";
+		FunctionText("%TEXTRSC(6, 2550)");
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "YES, SURE"
+	{
+		LayOut(5);
+		Size(124, 152, 224, 172);
+		OnMouse( TryAccess("DCBDeleteClan", 218, GetEnv("G_CLANID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "HELL, NO"
+	{
+		LayOut(5);
+		Size(224, 152, 324, 172);
+		OnMouse( ChangePage("Page", ".\terminal\clankey\deleteclan.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	

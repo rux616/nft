@@ -1,0 +1,15 @@
+Cette compétence est particulièrement importante pour le combat et pour la capacité à transporter de lourdes charges.
+
+Mêlée (Melee Combat) 
+Cette compétence détermine vos capacités en mêlée et vos dommages en combat rapproché avec des armes telles que les couteaux et les épées. Une compétence élevée améliore les dommages et la fréquence de frappe.
+
+Armes lourdes (Heavy Combat) 
+Cette compétence sert à utiliser des armes telles que les canons et les lance-flammes. Une compétence élevée améliore les dommages et la fréquence de frappe.
+
+Transport 
+Cette compétence détermine la charge maximale d’un personnage. Cette valeur est affichée dans la fenêtre d’inventaire, ainsi que la capacité restante. Plus vous vous approchez de votre capacité maximale, plus vous vous déplacez lentement. La force a aussi une influence sur cette capacité.
+
+Résistance aux chocs (Resist Force) 
+Cette compétence influence votre résistance aux ondes de choc causées par les explosions.
+ 
+

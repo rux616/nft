@@ -1,0 +1,148 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// gmtool: gmmail_standard.tsc
+// content:
+// create a new mail with messages out of supportmails
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Specials: GM_COMMANDS: X: 471 - 571
+// Specials: GM_COMMANDS: Logo Size(471, 40, 571, 120)
+// Specials: GM_CONTENT: X: 50 - 447 (10 pixels extra space)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "5") );
+	}
+	
+	DATACONTROLBOX "DCBGetExistingStandardMails"
+	{
+		OnLoad( ReceiveDB("Standard Support Mails", 800, GetEnv("START"), GetEnv("LIMIT") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetStandardMailContent"
+	{
+		SetContent("Subject", 2);
+		SetContent("Description", 1);
+		SetContent("TXContent", 3);
+		SetContent("ENV_SMSUBJECT", 2);
+		SetContent("ENV_SMMESSAGE", 3);
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN GMTOOL"
+	{
+		LayOut(2);
+		Size(471, 40, 571, 120);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 19, 0, 225, 138);
+		"1";
+		FunctionText("%BITMAP(45, 1, 3)" );
+	}
+
+	FRAME "COMMANDS"
+	{
+		LayOut(2);
+		Size(471, 142, 571, 408);
+		
+		TEXTBUTTON "OK"
+		{
+			Layout(5);
+			Size(0, 0, 100, 20);
+			OnMouse( ChangePage("Page", ".\terminal\gmtool\gmmail.tsc" ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+
+		TEXTBUTTON "BACK"                                                                                                                  
+		{                                                                                                                                  
+			LayOut(5);                                                                                                                 
+			Size(0, 246, 100, 266);
+			OnMouse( ChangePage("Page", GetEnv("BACK") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );                                                                                    
+		}     
+
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	LISTBOX "Standard Support Mails"
+	{
+		LayOut(2);
+		Size(50, 40, 447, 120);
+		Settings(0, 1, 1, 1);
+		Background(0);
+		LineHeight(16);
+		ShowLineNumbers(0, 0);
+		RenderHeader(HEADER_BOX);
+		SelectionColumn(2);
+		DataColumn(1, "Subject", 1, 397, LEFT);
+		DataColumn(2, "ID",      0,   0, LEFT);
+		
+		OnMouse( SetEnv("ENV_SSMID", GetControlText("Standard Support Mails") ) );
+		OnMouse( ReceiveDB( "DCBSetStandardMailContent", 801, GetEnv("SSMID") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "prev"
+	{
+		LayOut(6);
+		Size(347, 124, 387, 131);
+		OnMouse( SetEnv("ENV_START", StringCalcSub( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("Standard Support Mails", 800, GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "next"
+	{
+		LayOut(7);
+		Size(399, 124, 439, 131);
+		OnMouse( SetEnv("ENV_START", StringCalcAdd( GetEnv("START"), GetEnv("LIMIT") ) ) );
+		OnMouse( ReceiveDB("Standard Support Mails", 800, GetEnv("START"), GetEnv("LIMIT") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXT "Subject"
+	{
+		LayOut(2);
+		Size( 50, 142, 447, 154);
+	}
+	
+	FRAME "Message"
+	{
+		Layout(4);
+		Size(50, 176, 431, 340); 
+		
+		FRAME "Client2"
+		{
+			Size(-1, -1, -1, -1);
+	
+			TEXT "TXContent"
+			{
+				Pos(0,0);
+				Width(380);
+			}
+		}
+	}
+	
+	SCROLLBAR "Scrollbar"
+	{
+		Size(433, 178, 447, 338);
+		Target("Message");
+	}
+	
+	TEXT "Description"
+	{
+		LayOut(2);
+		Size( 50, 362, 447, 408);
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,45 @@
+// Gamemastertool/Submenu: submenu_gmcreate.tsc
+// contents:
+// submenu
+
+	TEXTBUTTON "Items"
+	{
+		Size(32, 8, 82, 20);
+		Layout(10);
+	//	OnMouse( ChangePage("Page", ".\terminal\gmtool\create_items.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "NPC's"
+	{
+		Size(92, 8, 142, 20);
+		Layout(11);
+	//	OnMouse( ChangePage("Page", ".\terminal\gmtool\create_npcs.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "Actors"
+	{
+		Size(152, 8, 212, 20);
+		Layout(11);
+	//	OnMouse( ChangePage("Page", ".\terminal\gmtool\create_actors.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "Dialogs"
+	{
+		Size(222, 8, 282, 20);
+		Layout(11);
+		OnMouse( ChangePage("Page", ".\terminal\gmtool\create\dialog_edit.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "StdMails"
+	{
+		Layout(11);
+		Size(292, 8, 362, 20);
+		OnMouse( ChangePage("Page", ".\terminal\gmtool\create\stdmail_overview.tsc") );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+
+

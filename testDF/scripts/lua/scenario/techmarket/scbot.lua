@@ -1,0 +1,30 @@
+function DIALOG()
+
+	NODE(0)
+		SAY("Bzzzzzzzzzt. Gooot Daaaaaayyyyy. Brrrrzt")
+		ANSWER("You scared me!",1)
+		ANSWER("Hello. I,ve got a question there.",2)				
+		ANSWER("Oups, sorry...I`m leaving.",3)
+	NODE(1)
+		SAY("Krrrzzzzt SSccaarre? Unknown input. Search in databanks...*Whirrr* No input found ssccaarre. Carry on.")
+		ENDDIALOG()
+	NODE(2)
+		SAY("What can I do for youuuuuuuuuu?")
+		ANSWER("What are you?",4)
+		ANSWER("Where am I here?",5)
+		ANSWER("Okay. I`ve changed my mind...",3)			
+	NODE(3)
+		SAY("zzzzzzzzzzzT  Byyyyyyyye *cracle*")
+		ENDDIALOG()
+
+	NODE(4)
+		SAY("SSSSSSSSSaaafffty Version 2, 18917 Status: Online")
+		ANSWER("Oh. Thanks a lot for info. Ther`s something else that interests me...",2)
+		ANSWER("Okay! Then I`m leaving again.",3)
+		
+	NODE(5)
+		SAY("Testing Databaaaanks *whirrrr* Input found. Place: Techmarket. Dome of York")
+		ANSWER("Thanks for Info, but I`ve got another question!",2)
+		ANSWER("Okay. Thanks. I`ll leave then.",3)
+
+end

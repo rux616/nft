@@ -1,0 +1,24 @@
+Constituion is equally important for all Runners. The Subskills mostly affect the health and resistance of a character.
+
+Athletics 
+This subskill affects the running speed and jumping height of a Runner, as well as the stamina consumption.
+
+Body Health 
+The subskill Body Health determines the number of health points a character has. If his health drops to zero, he dies and has to be resurrected at a Gene Replicator, which temporarily reduces his efficiency (Synaptic Impairment). The number of health points is also affected by Constitution.
+
+Endurance 
+The number of stamina points is determined by this subskill. A Runner with a high level of Endurance is capable of running longer distance. If his stamina drops to 5 or below, he won't be able to run anymore and can only move slowly. As soon as his stamina regenerates to 20 and above, he can run again. The number of stamina points is also affected by Constitution.
+
+Resist Fire 
+This subskill adds to a characters resistance against fire attacks.
+
+Resist Energy 
+This subskill adds to a characters resistance against energy attacks.
+
+Resist X-Ray 
+This subskill adds to a characters resistance against X-Ray attacks.
+
+Resist Poison 
+This subskill adds to a characters resistance against poison attacks.
+ 
+

@@ -1,0 +1,138 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// terminal: claninfo - groupchecker.tsc
+// content:
+// check group of runner and the clan he likes to visit
+// access granted: runner\clan is neutral or in the same group
+// access denied: runner get's a message
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_info.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "DCBInitChecker"
+	{
+		OnLoad( SetEnv("ENV_BOOL", "0") );
+		OnLoad( SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 180)", "0") );
+		OnLoad( ReceiveDB("DCBCheckGroupID", 20, "factionid", GetEnv("CLANID") ) );
+	}
+	
+	DATACONTROLBOX "DCBCheckGroupID"
+	{
+		SetContent("ENV_TMPFACTIONID", 0);
+		OnData( ClientAction( "CHECKGROUPACCESS", "ENV_BOOL", GetEnv("G_GROUPID"), GetEnv("TMPFACTIONID") ) );
+		OnData( Condition( StrEqual( GetEnv("BOOL"), "1"),
+		                   SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 180)", "1"),
+		                   SetFunctionContent("ENV_MSG", "%TEXTRSC(4, 180)", "2") ) );
+		OnData( Condition( StrEqual( GetEnv("BOOL"), "1"),
+		                   ChangePage("Page", ".\terminal\claninfo\claninfo.tsc" ),
+		                   ChangePage("Page", ".\terminal\claninfo\message.tsc" ) ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	// CLAN HEAD - used for all claninfo-pages
+
+	BUTTON "AFF. Faction"
+	{
+		LayOut(2);
+		Size(50, 40, 220, 130);
+		Alpha(255);
+		Color( 140, 239, 181);
+		Image( Resource(50, 3) );
+		SubImage( 0, 125, 251, 250);
+		FunctionText("%BITMAP(50, 1, 3)" );
+		
+		OnMouse( ChangePage( "Page", ".\terminal\factioninfo\factioninfo.tsc") );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	DATACONTROLBOX "DCBGetFaction"
+	{
+		OnLoad( SetContent("AFF. Faction", GetEnv("FACTIONID") ) );
+	}
+	
+	TEXTBUTTON "DETAILS"
+	{
+		LayOut(7);
+		Size(162, 134, 212, 141);
+		OnMouse( ChangePage( "Page", ".\terminal\factioninfo\factioninfo.tsc") );
+		OnMouse( PlaySound( Resource(16, 1) ) );
+	}
+	
+	TEXT "Short"
+	{
+		LayOut(2);
+		Size(234, 40, 294, 52);
+		" ... receiving\n";
+		"CLANSHORT";
+		FunctionText("%ENV");
+	}
+	
+	TEXT "Clanname"
+	{
+		LayOut(2);
+		Size(308, 40, 571, 52);
+		" ... receiving\n";
+		"CLANNAME";
+		FunctionText("%ENV");
+	}
+	
+	FRAME "Description"
+	{
+		LayOut(4);
+		Size(234, 74, 555, 130);
+		
+		FRAME "Client"
+		{
+			Size(-1, -1, -1, -1);
+		
+			TEXT "TXDescription"
+			{
+				Pos(0, 0);
+				Width(321);
+				" ... receiving\n";
+				"CLANDESC";
+				FunctionText("%ENV");
+			}       								
+		
+		} // end client
+		
+	} // end main
+
+	SCROLLBAR "Scrollbar"
+	{
+		Size(557, 76, 571, 118);
+		Target("Description");
+	}
+	
+// END OF CLAN HEAD - go on
+
+	TEXT "Message"
+	{
+		LayOut(2);
+		Size(50, 180, 571, 192);
+		" ... receiving\n";
+		"MSG";
+		FunctionText("%ENV");
+	}
+	
+// BUTTONS //////////////////////////////////////////////////////////////////////////////
+
+	TEXTBUTTON "Back"
+	{
+		LayOut(5);
+		Size(474, 400, 574, 420);
+		OnMouse( ChangePage("Page", GetEnv("BACK") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}

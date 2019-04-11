@@ -1,0 +1,24 @@
+La constitution est importante pour tous les runners. Les compétences liées à la constitution influencent principalement la santé et la résistance d’un personnage.
+
+Athlétisme (Athletics) 
+Cette compétence affecte la vitesse de course et la hauteur de saut du runner, ainsi que la baisse de la jauge de résistance.
+
+Santé (Body Health) 
+Cette compétence détermine le nombre de vos points de vie. Si votre santé tombe à zéro, votre personnage meurt et doit être ressuscité à un GenRep. Si son endurance tombe à 5 ou moins, il ne peut plus courir et ne se déplace que lentement. Dès que son endurance remonte à 20 points, il peut à nouveau courir. Le nombre de points d’endurance est aussi affecté par la constitution.
+
+Endurance 
+Cette compétence détermine le nombre de vos points de vie. Si votre santé tombe à zéro, votre personnage meurt et doit être ressuscité à un GenRep. Si son endurance tombe à 5 ou moins, il ne peut plus courir et ne se déplace que lentement. Dès que son endurance remonte à 20 points, il peut à nouveau courir. Le nombre de points d’endurance est aussi affecté par la constitution.
+
+Résistance au feu (Resist Fire) 
+Cette compétence permet de résister aux attaques de feu.
+
+Résistance à l’énergie (Resist Energy) 
+Cette compétence permet de résister aux attaques énergétiques.
+
+Résistance aux rayons X (Resist X-Ray) 
+Cette compétence permet de résister aux attaques de rayons X.
+
+Résistance au poison (Resist Poison) 
+Cette compétence permet de résister aux attaques toxiques.
+
+ 

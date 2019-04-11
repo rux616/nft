@@ -1,0 +1,292 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// gmtool: stockx - detail.tsc
+// access-level 50 (DEV)
+// content:
+// view a specific company
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Typical ButtonRow: Y: 400 - 420
+// Specials: Content Y: 180 -
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_PAGE", ".\terminal\gmtool\stockx\editcompany.tsc") );
+		OnLoad( SetEnv("ENV_BACK", ".\terminal\gmtool\stockx\detail.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBGMChecker"
+	{
+		OnLoad( TryAccess("DCBGMLinker", 350, GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBGMLinker"
+	{
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_DEV") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+	
+	DATACONTROLBOX "DCBGetCompanyInfo"
+	{
+		OnLoad( ReceiveDB("DCBSetCompanyInfo", 721, GetEnv("SXCOMPANYID") ) );
+		OnLoad( ReceiveDB("DCBSetCompanyStatus", 722, GetEnv("SXCOMPANYID") ) );
+	}
+	
+	DATACONTROLBOX "DCBSetCompanyInfo"
+	{
+		SetFunctionContent( "Faction", "%FACTIONNAME", 0 );
+		SetContent( "ENV_SXFACTIONID", 0 );
+		SetContent( "Company", 1 );
+		SetContent( "ENV_SXCOMPANYNAME", 1 );
+		SetContent( "Capital", 2 );
+		SetContent( "ENV_SXCAPITAL", 2 );
+		SetContent( "Stocks", 3 );
+		SetContent( "ENV_SXSTOCKS", 3 );
+		SetContent( "Fixed", 4 );
+		SetContent( "ENV_SXFIXED", 4 );
+		SetContent( "Facevalue", 5 );
+		SetContent( "ENV_SXFACEVALUE", 5 );
+	}
+	
+	DATACONTROLBOX "DCBSetCompanyStatus"
+	{
+		SetContent( "Price", 0 );
+		SetContent( "ENV_SXPRICE", 0 );
+		SetContent( "Trend", 1 );
+		SetContent( "ENV_SXTREND", 1 );
+		SetContent( "Availability (%)", 2 );
+		SetContent( "ENV_SXAVAILABILITY", 2 );
+		SetFunctionContent( "Status", "%TEXTRSC(4, 505)", 3 );
+		SetContent( "ENV_SXSTATUS", 3 );
+		SetFunctionContent( "Enabled", "%TEXTRSC(4, 502)", 4 );
+		SetContent( "ENV_SXENABLED", 4 );
+	}
+	
+	DATACONTROLBOX "DCBGetGameMasterInfluence"
+	{
+		OnLoad( ReceiveDB("DCBSetGameMasterInfluence", 723, GetEnv("SXCOMPANYID") ) );
+	}
+
+	DATACONTROLBOX "DCBSetGameMasterInfluence"
+	{
+		SetContent( "MA FACTOR", 0 );
+		SetContent( "FA FACTOR", 1 );
+		SetContent( "Target: Price", 2 );
+		SetContent( "Target: Days", 3 );
+		SetContent( "Fluctuate (+/-)", 4 );
+	}
+	
+	DATACONTROLBOX "DCBGetStockxChart"
+	{
+		OnLoad( ReceiveDB("Chart", 770, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_TIMESTAMP"), GetEnv("SXCHARTMONTHS") ) );
+	}
+	
+	DATACONTROLBOX "DCBGetAccess"
+	{
+		OnAccess( ChangePage("Page", GetEnv("PAGE") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc") );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN GMTOOL"
+	{
+		LayOut(2);
+		Size(471, 40, 571, 120);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 19, 0, 225, 138);
+		"1";
+		FunctionText("%BITMAP(45, 1, 3)" );
+	}
+
+	FRAME "COMMANDS"
+	{
+		LayOut(2);
+		Size(471, 142, 571, 408);
+		
+		TEXTBUTTON "EDIT COMPANY"
+		{
+			LayOut(5);
+			Size(0, 0, 100, 20);
+			OnMouse( SetEnv( "ENV_PAGE", ".\terminal\gmtool\stockx\editcompany.tsc" ) );
+			OnMouse( TryAccess("DCBGetAccess", 350, GetEnv("G_CHARID") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+		TEXTBUTTON "EDIT INFLUENCE"
+		{
+			LayOut(5);
+			Size(0, 20, 100, 40);
+			OnMouse( SetEnv( "ENV_PAGE", ".\terminal\gmtool\stockx\editinfluence.tsc" ) );
+			OnMouse( TryAccess("DCBGetAccess", 350, GetEnv("G_CHARID") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+		TEXTBUTTON "EDIT STATUS"
+		{
+			LayOut(5);
+			Size(0, 40, 100, 60);
+			OnMouse( SetEnv( "ENV_PAGE", ".\terminal\gmtool\stockx\editstatus.tsc" ) );
+			OnMouse( TryAccess("DCBGetAccess", 350, GetEnv("G_CHARID") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+//		TEXTBUTTON "DELETE"
+//		{
+//			LayOut(5);
+//			Size(0, 20, 100, 40);
+//			OnMouse( SetEnv( "ENV_PAGE", ".\terminal\gmtool\stockx\deletecompany.tsc" ) );
+//			OnMouse( TryAccess("DCBGetAccess", 350, GetEnv("G_CHARID") ) );
+//			OnMouse( PlaySound(Resource(16, 1) ) );
+//		}
+		
+		TEXTBUTTON "FACTIONSTATS"
+		{
+			LayOut(5);
+			Size(0, 65, 100, 85);
+			OnMouse( ChangePage("Page", ".\terminal\gmtool\stockx\factionstats.tsc" ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+		TEXTBUTTON "BACK"
+		{
+			LayOut(5);
+			Size(0, 246, 100, 266);
+			OnMouse( ChangePage("Page", ".\terminal\gmtool\stockx\overview.tsc" ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+	
+	// first column: fix company data
+	TEXT "Company"
+	{
+		LayOut(2);
+		Size(50, 40, 200, 52);
+	}
+	
+	TEXT "Faction"
+	{
+		LayOut(2);
+		Size(50, 74, 200, 86);
+	}
+	
+	TEXT "Capital"
+	{
+		LayOut(2);
+		Size(50, 108, 200, 120);
+	}
+	
+	TEXT "Stocks"
+	{
+		LayOut(2);
+		Size(50, 142, 200, 154);
+	}
+	
+	TEXT "Fixed"
+	{
+		LayOut(2);
+		Size(50, 176, 200, 188);
+	}
+	
+	TEXT "Facevalue"
+	{
+		LayOut(2);
+		Size(50, 210, 200, 222);
+	}
+	
+	TEXT "Price"
+	{
+		LayOut(2);
+		Size(50, 244, 200, 256);
+	}
+	
+	TEXT "Trend"
+	{
+		LayOut(2);
+		Size(50, 278, 200, 290);
+	}
+	
+	TEXT "Availability (%)"
+	{
+		LayOut(2);
+		Size(50, 312, 200, 324);
+	}
+	
+	// second column: current company data
+	STOCKXBOX "Chart"
+	{
+		LayOut(2);
+		Size(214, 40, 447, 120);
+		ShowAvailability(1);
+		ShowStatus(1);
+	}
+	
+	TEXTBUTTON "TODAY"
+	{
+		LayOut(6);
+		Size(342, 124, 392, 131); // 50
+		OnMouse( ReceiveDB("Chart", 772, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_DATE"), GetEnv("G_DATE") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXTBUTTON "LAST"
+	{
+		LayOut(7);
+		Size(404, 124, 439, 131); // 35
+		OnMouse( ReceiveDB("Chart", 770, GetEnv("G_TIMESTAMP"), GetEnv("SXCOMPANYID"), GetEnv("G_TIMESTAMP"), GetEnv("SXCHARTMONTHS") ) );
+		OnMouse( PlaySound(Resource(16, 1) ) );
+	}
+	
+	TEXT "Status"
+	{
+		LayOut(2);
+		Size(214, 142, 353, 154);
+	}
+	
+	TEXT "Enabled"
+	{
+		LayOut(2);
+		Size(367, 142, 447, 154);
+	}
+	
+	TEXT "MA FACTOR"
+	{
+		LayOut(2);
+		Size(214, 176, 274, 188);
+	}
+	
+	TEXT "FA FACTOR"
+	{
+		LayOut(2);
+		Size(288, 176, 353, 188);
+	}
+	
+	TEXT "Fluctuate (+/-)"
+	{
+		LayOut(2);
+		Size(367, 176, 447, 188);
+	}
+	
+	TEXT "Target: Price"
+	{
+		LayOut(2);
+		Size(214, 210, 353, 222);
+	}
+	
+	TEXT "Target: Days"
+	{
+		LayOut(2);
+		Size(367, 210, 447, 222);
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

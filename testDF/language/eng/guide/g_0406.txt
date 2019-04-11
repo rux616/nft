@@ -1,0 +1,18 @@
+Psychic Power is the main attribute for PSI Monks. Without it, they wouldn't be able to use their mighty PSI modules. The PSI modules are separated into aggressive and passive modules.
+
+Passive PSI Use 
+A character training this subskill can use passive PSI modules. An example of the simplest modules is the Heal module, which allows Runners to heal wounds. With passive PSI modules, Runners can influence the abilities of other Runners, both in good and bad ways. A passive PSI Monk is a welcome addition to any team, as he can protect his team members and weaken their enemies. This subskill influences the efficiency of passive PSI modules.
+
+Aggressive PSI Use 
+Contrary to Passive PSI Use, this subskill is only used for attack modules. These range from simple fireballs and poison attacks to mighty energy lances. This subskill allows a runner to use aggressive PSI modules and influences their efficiency.
+
+Mental Steadiness 
+To be able to use a PSI module, one requires a certain amount of Mental Steadiness. Each module requires a certain level in this subskill, depending on the strength of the module.
+
+PSI Power 
+The subskill PSI Power determines the maximal amount of PSI energy a character has. The usage of modules requires a certain amount of PSI energy, based on the strength of the module. PSI energy replenishes over time, the amount of energy regenerated in a certain time depends on the maximal amount of energy.
+
+Resist PSI 
+This subskill adds to a character's resistance against PSI damage.
+ 
+

@@ -1,0 +1,13 @@
+The Neocron Skill System 
+The skill system in Neocron is easy to learn. There are five main attributes and several corresponding subskills. If you gain a level in an attribute, you receive 5 points you can distribute among the subskills that belong to the attribute. You can find a description of each attribute and subskill in the following pages.
+
+Intelligence
+Strength
+Constitution
+Dexterity
+Psychic Power
+
+Click on the attributes listed above to read a description of the corresponding subskills.
+ 
+
+

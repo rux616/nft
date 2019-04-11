@@ -1,0 +1,776 @@
+//item use restriction values	
+//	Index	NOR	skill/subskill minvalue (max 6)	
+
+//anfangswaffen ohne useres	
+//stiletto	
+setentry 	19	1	1001	1	|	
+
+
+//knife	
+setentry 	9	1	1001	1	|	
+//kuckles	
+setentry 	324	1	1001	1	|	
+
+//stealth	
+setentry 	330	3	2004	1	1004	65	12	80	|	
+setentry 	331	3	2004	1	1004	75	12	90	|	
+setentry 	332	3	2004	1	1004	85	12	95	|	
+setentry 	333	3	2004	1	1004	95	12	100	|	
+
+// Turrets	
+setentry	1300	1	34	60	|	
+setentry	1301	1	34	80	|	
+setentry	1302	1	34	100	|	
+setentry	1305	1	34	60	|	
+setentry	1306	1	34	80	|	
+setentry	1307	1	34	100	|	
+setentry	1310	1	34	60	|	
+setentry	1311	1	34	80	|	
+setentry	1312	1	34	100	|	
+setentry	1315	1	34	60	|	
+setentry	1316	1	34	80	|	
+setentry	1317	1	34	100	|	
+setentry	1320	1	34	60	|	
+setentry	1321	1	34	80	|	
+setentry	1322	1	34	100	|	
+setentry	1330	1	34	100	|	
+
+//observer drone	
+setentry	64	2	17	12	45	2	|	
+//laser drone	
+setentry	65	2	17	36	45	7	|	
+//kamikaze drone	
+setentry	66	2	17	49	45	13	|	
+
+//Hack Tool	
+//setentry	85	2	1004	3	30	5	|	
+
+//Cop Bot Plasma Rifle	
+setentry	90	2	1002	150	11	200	|	
+
+
+//psi float	
+setentry	109	1	2001	2	|	
+//psi charger	
+setentry	110	1	2001	2	|	
+//psi charger	
+setentry	119	1	2001	2	|	
+//psi charger	
+setentry	120	1	2001	2	|	
+
+// REVENGE	
+setentry	554	3	1002	93	17	111	45	80	|	
+
+
+//ZARGERUS BELT OF PROTECTION	
+//setentry	613	1	1004	15	|	
+//Hack Tool	
+//setentry	1509	2	1004	3	30	5	|	
+
+setentry	1799	1	1004	63	|	
+
+//energybelt	
+setentry	1837	1	1004	2	|	
+setentry	1838	1	1004	14	|	
+setentry	1839	1	1004	25	|	
+
+//deflectorbelt	
+setentry	1849	1	1004	36	|	
+setentry	1850	1	1004	51	|	
+setentry	1851	1	1004	66	|	
+setentry	1852	1	1004	36	|	
+setentry	1853	1	1004	66	|	
+setentry	1854	1	1004	98	|	
+setentry	1855	1	1004	33	|	
+setentry	1856	1	1004	63	|	
+setentry	1857	1	1004	95	|	
+setentry	1858	1	1004	39	|	
+setentry	1859	1	1004	99	|	
+
+
+//PSI Rüstung	
+setentry	1860	1	1005	4	|	
+setentry	1861	1	1005	6	|	
+setentry	1862	1	1005	8	|	
+setentry	1863	1	1005	10	|	
+setentry	1864	1	1005	12	|	
+
+setentry	1865	1	1005	26	|	
+setentry	1866	1	1005	28	|	
+setentry	1867	1	1005	30	|	
+setentry	1868	1	1005	32	|	
+setentry	1869	1	1005	34	|	
+
+setentry	1870	1	1005	50	|	
+setentry	1871	1	1005	52	|	
+setentry	1872	1	1005	54	|	
+setentry	1873	1	1005	56	|	
+setentry	1874	1	1005	58	|	
+
+setentry	1875	1	1005	76	|	
+setentry	1876	1	1005	78	|	
+setentry	1877	1	1005	80	|	
+setentry	1878	1	1005	82	|	
+setentry	1879	1	1005	84	|	
+
+//POWERARMORS	
+//Tank-HC	
+setentry	1900	2	1001	90	2004	2	|	
+setentry	1901	2	1001	100	2004	2	|	
+setentry	1902	2	1001	115	2004	2	|	
+setentry	1903	2	1001	135	2004	2	|	
+
+//Spy-RC	
+setentry	1907	2	1002	90	2004	1	|	
+setentry	1908	2	1002	100	2004	1	|	
+setentry	1909	2	1002	115	2004	1	|	
+setentry	1910	2	1002	135	2004	1	|	
+
+//Rad Suit	
+setentry	1911	1	1002	115	|	
+
+//Spy-RCL	
+setentry	1915	2	1002	90	2004	1	|	
+setentry	1916	2	1002	100	2004	1	|	
+setentry	1917	2	1002	115	2004	1	|	
+setentry	1918	2	1002	135	2004	1	|	
+
+//APU	
+setentry	1921	3	1005	90	41	110	2004	3	|	
+setentry	1922	3	1005	100	41	120	2004	3	|	
+setentry	1923	3	1005	115	41	130	2004	3	|	
+setentry	1924	3	1005	135	41	140	2004	3	|	
+
+//PPU	
+setentry	1925	3	1005	90	40	110	2004	3	|	
+setentry	1926	3	1005	100	40	120	2004	3	|	
+setentry	1927	3	1005	115	40	130	2004	3	|	
+setentry	1928	3	1005	135	40	140	2004	3	|	
+
+//PE-PC	
+setentry	2700	2	1002	75	2004	0	|	
+setentry	2701	2	1002	80	2004	0	|	
+setentry	2702	2	1002	90	2004	0	|	
+setentry	2703	2	1002	105	2004	0	|	
+
+//PE-RC	
+setentry	2705	2	1002	75	2004	0	|	
+setentry	2706	2	1002	80	2004	0	|	
+setentry	2707	2	1002	90	2004	0	|	
+setentry	2708	2	1002	105	2004	0	|	
+
+//Tank-MC	
+setentry	2710	2	1001	90	2004	2	|	
+setentry	2711	2	1001	100	2004	2	|	
+setentry	2712	2	1001	115	2004	2	|	
+setentry	2713	2	1001	135	2004	2	|	
+
+//GPW	
+setentry	2714	2	1001	200	1002	200	|	
+
+// CAMO PAS	
+setentry	2720	2	1001	115	2004	2	2002	11	|	
+setentry	2721	2	1001	115	2004	2	2002	11	|	
+
+setentry	2730	2	1002	90	2004	0	|	
+setentry	2731	2	1002	90	2004	0	|	
+
+//Holo PA	
+setentry	2780	2	1004	90	2004	1	|	
+setentry	2781	2	1004	90	2004	1	|	
+setentry	2782	2	1004	90	2004	1	|	
+setentry	2783	2	1004	90	2004	1	|	
+setentry	2784	2	1004	90	2004	1	|	
+setentry	2785	2	1004	90	2004	1	|	
+setentry	2786	2	1004	90	2004	1	|	
+setentry	2787	2	1004	90	2004	1	|	
+
+// DoY Kamikaze Chips	
+//setentry	2360	2	1002	60	10	90	|	
+//setentry	2361	2	1002	60	11	90	|	
+//setentry	2362	1	1001	60	|	
+//setentry	2363	2	1005	60	41	90	|	
+
+// Antigamma Imps	
+setentry	2370	1	1001	28	|	
+setentry	2371	1	1001	33	|	
+setentry	2372	1	1001	25	|	
+setentry	2373	1	1001	31	|	
+setentry	2374	1	1001	23	|	
+
+//loms	
+setentry	840	1	2003	0	|	
+setentry	841	1	2003	0	|	
+setentry	842	1	2003	0	|	
+setentry	843	1	2003	0	|	
+setentry	844	1	2003	0	|	
+setentry	845	1	2003	0	|	
+setentry	846	1	2003	0	|	
+setentry	847	1	2003	0	|	
+setentry	848	1	2003	0	|	
+setentry	849	1	2003	0	|	
+setentry	850	1	2003	0	|	
+setentry	851	1	2003	0	|	
+setentry	852	1	2003	0	|	
+setentry	853	1	2003	0	|	
+setentry	854	1	2003	0	|	
+setentry	855	1	2003	0	|	
+setentry	856	1	2003	0	|	
+setentry	857	1	2003	0	|	
+setentry	858	1	2003	0	|	
+setentry	859	1	2003	0	|	
+setentry	860	1	2003	0	|	
+setentry	861	1	2003	0	|	
+setentry	862	1	2003	0	|	
+setentry	863	1	2003	0	|	
+setentry	864	1	2003	0	|	
+setentry	865	1	2003	0	|	
+setentry	866	1	2003	0	|	
+setentry	867	1	2003	0	|	
+setentry	868	1	2003	0	|	
+setentry	869	1	2003	0	|	
+setentry	870	1	2003	0	|	
+setentry	871	1	2003	0	|	
+
+//Tools	
+//	Cryton HT- TL30 Hacktool	
+setentry	85	1	30	20	|	
+setentry	1509	1	30	20	|	
+//	Cryton HT- TL55 Hacktool	
+setentry	1975	1	30	55	|	
+//	Cryton HT- TL75 Hacktool	
+setentry	1976	1	30	75	|	
+//	Cryton HT- TL90 Hacktool	
+setentry	1977	1	30	85	|	
+//	Cryton HT- TL100 Hacktool	
+setentry	1978	1	30	95	|	
+//	Cryton HT- TL150 Hacktool	
+setentry	1979	1	30	120	|	
+
+
+//Eyeenforcment	
+// Cybereye 1-2	
+setentry	2030	1	1002	2	|	
+setentry	2031	1	1002	29	|	
+
+//Smart-Cybereye 1-4	
+setentry	2032	1	1002	24	|	
+setentry	2033	1	1002	51	|	
+setentry	2034	1	1002	67	|	
+setentry	2035	1	1002	76	|	
+
+// Meelee-Combateye 1-3	
+setentry	2036	1	1001	1	|	
+setentry	2037	1	1001	26	|	
+setentry	2038	1	1001	51	|	
+
+//Pistol-Combateye 1-3	
+setentry	2039	1	1002	6	|	
+setentry	2040	1	1002	39	|	
+setentry	2041	1	1002	69	|	
+
+// Rifle-Combateye 1-3	
+setentry	2042	1	1002	7	|	
+setentry	2043	1	1002	40	|	
+setentry	2044	1	1002	70	|	
+
+// Drone-Combateye 1-3	
+setentry	2045	1	1002	8	|	
+setentry	2046	1	1002	41	|	
+setentry	2047	1	1002	71	|	
+
+
+//Boneenforcements	
+//Head	
+setentry	2060	1	1001	9	|	
+setentry	2061	1	1001	30	|	
+setentry	2062	1	1001	50	|	
+
+//Chest	
+setentry	2063	1	1001	15	|	
+setentry	2064	1	1001	36	|	
+setentry	2065	1	1001	54	|	
+
+//Arm	
+setentry	2066	1	1001	6	|	
+setentry	2067	1	1001	27	|	
+setentry	2068	1	1001	48	|	
+
+//Leg	
+setentry	2069	1	1001	12	|	
+setentry	2070	1	1001	33	|	
+setentry	2071	1	1001	52	|	
+
+//Foot	
+setentry	2072	1	1001	3	|	
+setentry	2073	1	1001	24	|	
+setentry	2074	1	1001	46	|	
+
+//Backboneenforcements	
+// Reflexbooster 1-4	
+setentry	2100	1	1002	27	|	
+setentry	2101	1	1002	45	|	
+setentry	2102	1	1002	60	|	
+setentry	2103	1	1002	77	|	
+
+// Experimental-Reflexbooster 3-4	
+setentry	2104	1	1002	44	|	
+setentry	2105	1	1002	76	|	
+
+// Hardenbackbone 1-3	
+setentry	2106	1	1001	22	|	
+setentry	2107	1	1001	47	|	
+setentry	2108	1	1001	72	|	
+
+// Advanced Nerves 1-3	
+setentry	2109	1	1004	25	|	
+setentry	2110	1	1004	52	|	
+setentry	2111	1	1004	80	|	
+
+// Dexterity-Booster 1-3	
+setentry	2112	1	1002	3	|	
+setentry	2113	1	1002	35	|	
+setentry	2114	1	1002	64	|	
+
+//Strength-Booster 1-3	
+setentry	2115	1	1001	9	|	
+setentry	2116	1	1001	34	|	
+setentry	2117	1	1001	59	|	
+
+
+// Heartenforcments	
+// Advanced Heart 1-2	
+setentry	2140	1	1003	12	|	
+setentry	2141	1	1003	40	|	
+
+
+setentry	2142	1	1003	11	|	
+setentry	2143	1	1003	39	|	
+
+// Experimental-Heart 1-2	
+setentry	2144	1	1003	26	|	
+setentry	2145	1	1003	53	|	
+
+// Cyber-Heart 1-2	
+setentry	2146	1	1003	7	|	
+setentry	2147	1	1003	35	|	
+
+// Filter-Heart 1-2	
+setentry	2148	1	1003	16	|	
+setentry	2149	1	1003	43	|	
+
+//PSI Spells	
+// APU	
+setentry	100	4	1005	2	41	5	42	2	2001	1	|	
+setentry	102	4	1005	15	41	37	42	18	2001	1	|	
+setentry	104	4	1005	19	41	47	42	23	2001	1	|	
+setentry	113	4	1005	32	41	65	42	40	2001	1	|	
+setentry	114	4	1005	48	41	99	42	55	2001	1	|	
+setentry	116	4	1005	28	41	60	42	35	2001	1	|	
+setentry	117	4	1005	59	41	120	42	61	2001	1	|	
+setentry	121	4	1005	66	41	123	42	66	2001	1	|	
+setentry	135	4	1005	21	41	51	42	26	2001	1	|	
+setentry	137	4	1005	39	41	73	42	48	2001	1	|	
+setentry	139	4	1005	53	41	114	42	58	2001	1	|	
+setentry	148	4	1005	69	41	125	42	68	2001	1	|	
+setentry	149	4	1005	72	41	126	42	70	2001	1	|	
+setentry	151	4	1005	51	41	108	42	56	2001	1	|	
+setentry	152	4	1005	78	41	129	42	74	2001	1	|	
+setentry	156	4	1005	81	41	131	42	75	2001	1	|	
+setentry	157	4	1005	5	41	12	42	6	2001	1	|	
+setentry	158	4	1005	14	41	35	42	17	2001	1	|	
+setentry	159	4	1005	11	41	27	42	13	2001	1	|	
+setentry	160	4	1005	26	41	57	42	32	2001	1	|	
+setentry	161	4	1005	90	41	135	42	79	2001	1	|	
+setentry	162	4	1005	63	41	122	42	64	2001	1	|	
+setentry	163	4	1005	76	41	128	42	73	2001	1	|	
+setentry	164	4	1005	74	41	127	42	71	2001	1	|	
+setentry	170	4	1005	7	41	17	42	8	2001	1	|	
+setentry	171	4	1005	17	41	42	42	21	2001	1	|	
+setentry	172	4	1005	30	41	62	42	37	2001	1	|	
+setentry	173	4	1005	87	41	134	42	77	2001	1	|	
+setentry	174	4	1005	35	41	68	42	43	2001	1	|	
+setentry	175	4	1005	45	41	90	42	53	2001	1	|	
+setentry	176	4	1005	50	41	105	42	56	2001	1	|	
+setentry	177	4	1005	37	41	71	42	46	2001	1	|	
+setentry	178	4	1005	55	41	118	42	59	2001	1	|	
+setentry	179	4	1005	40	41	75	42	50	2001	1	|	
+setentry	190	4	1005	10	41	25	42	12	2001	1	|	
+setentry	191	4	1005	24	41	55	42	30	2001	1	|	
+setentry	192	4	1005	33	41	66	42	41	2001	1	|	
+setentry	193	4	1005	43	41	84	42	51	2001	1	|	
+setentry	194	4	1005	82	41	131	42	75	2001	1	|	
+setentry	195	4	1005	52	41	111	42	57	2001	1	|	
+setentry	196	4	1005	67	41	124	42	66	2001	1	|	
+setentry	197	4	1005	16	41	40	42	20	2001	1	|	
+setentry	198	4	1005	38	41	72	42	47	2001	1	|	
+setentry	590	4	1005	87	41	134	42	77	2001	1	|	
+setentry	591	4	1005	104	41	142	42	85	2001	1	|	
+setentry	592	4	1005	81	41	131	42	75	2001	1	|	
+setentry	593	4	1005	98	41	139	42	82	2001	1	|	
+setentry	594	4	1005	82	41	131	42	75	2001	1	|	
+setentry	595	4	1005	101	41	141	42	83	2001	1	|	
+setentry	596	4	1005	102	41	141	42	84	2001	1	|	
+setentry	597	4	1005	110	41	145	42	87	2001	1	|	
+setentry	1200	4	1005	103	41	142	42	84	2001	1	|	
+setentry	1201	4	1005	101	41	141	42	83	2001	1	|	
+setentry	1205	4	1005	107	41	144	42	86	2001	1	|	
+setentry	1206	4	1005	108	41	144	42	86	2001	1	|	
+setentry	1207	4	1005	110	41	145	42	87	2001	1	|	
+setentry	8350	4	1005	90	41	135	42	79	2001	1	|	
+
+// PPU	
+setentry	101	4	1005	3	40	7	42	3	2001	1	|	
+setentry	103	4	1005	1	40	2	42	1	2001	1	|	
+setentry	105	4	1005	25	40	56	42	31	2001	1	|	
+setentry	106	4	1005	52	40	111	42	57	2001	1	|	
+setentry	107	4	1005	104	40	142	42	85	2001	1	|	
+setentry	111	4	1005	15	40	37	42	18	2001	1	|	
+setentry	112	4	1005	28	40	60	42	35	2001	1	|	
+setentry	118	4	1005	54	40	116	42	58	2001	1	|	
+setentry	126	4	1005	58	40	119	42	61	2001	1	|	
+setentry	127	4	1005	78	40	129	42	73	2001	1	|	
+setentry	128	4	1005	29	40	61	42	36	2001	1	|	
+setentry	129	4	1005	41	40	78	42	50	2001	1	|	
+setentry	136	4	1005	55	40	118	42	59	2001	1	|	
+setentry	138	4	1005	8	40	20	42	10	2001	1	|	
+setentry	140	4	1005	67	40	124	42	66	2001	1	|	
+setentry	153	4	1005	75	40	128	42	71	2001	1	|	
+setentry	180	4	1005	3	40	7	42	3	2001	1	|	
+setentry	181	4	1005	13	40	32	42	16	2001	1	|	
+setentry	182	4	1005	84	40	132	42	76	2001	1	|	
+setentry	183	4	1005	56	40	118	42	60	2001	1	|	
+setentry	184	4	1005	70	40	125	42	68	2001	1	|	
+setentry	185	4	1005	12	40	30	42	15	2001	1	|	
+setentry	186	4	1005	29	40	61	42	36	2001	1	|	
+setentry	187	4	1005	27	40	58	42	33	2001	1	|	
+setentry	188	4	1005	46	40	93	42	53	2001	1	|	
+setentry	580	4	1005	60	40	120	42	62	2001	1	|	
+setentry	581	4	1005	80	40	130	42	75	2001	1	|	
+setentry	583	4	1005	83	40	132	42	76	2001	1	|	
+setentry	584	4	1005	94	40	137	42	80	2001	1	|	
+setentry	585	4	1005	103	40	142	42	84	2001	1	|	
+setentry	588	4	1005	76	40	128	42	72	2001	1	|	
+setentry	589	4	1005	95	40	138	42	81	2001	1	|	
+setentry	598	4	1005	103	40	142	42	84	2001	1	|	
+setentry	599	4	1005	110	40	145	42	87	2001	1	|	
+//setentry	650	4	1005	96	40	138	42	81	2001	1	|	
+//setentry	651	4	1005	113	40	146	42	88	2001	1	|	
+setentry	652	4	1005	106	40	143	42	85	2001	1	|	
+setentry	1202	4	1005	102	40	141	42	84	2001	1	|	
+setentry	1880	4	1005	85	40	133	42	77	2001	1	|	
+setentry	1881	4	1005	98	40	139	42	82	2001	1	|	
+setentry	1882	4	1005	9	40	22	42	11	2001	1	|	
+setentry	1883	4	1005	91	40	136	42	79	2001	1	|	
+setentry	1884	4	1005	3	40	7	42	3	2001	1	|	
+setentry	1885	4	1005	35	40	68	42	43	2001	1	|	
+setentry	1886	4	1005	64	40	122	42	63	2001	1	|	
+setentry	1887	4	1005	9	40	22	42	11	2001	1	|	
+setentry	1888	4	1005	45	40	90	42	53	2001	1	|	
+setentry	1889	4	1005	75	40	128	42	71	2001	1	|	
+setentry	1890	4	1005	7	40	17	42	8	2001	1	|	
+setentry	1891	4	1005	41	40	78	42	50	2001	1	|	
+setentry	1892	4	1005	69	40	125	42	68	2001	1	|	
+setentry	1893	4	1005	62	40	121	42	62	2001	1	|	
+setentry	1894	4	1005	95	40	138	42	81	2001	1	|	
+setentry	1895	4	1005	32	40	65	42	40	2001	1	|	
+setentry	1896	4	1005	79	40	130	42	74	2001	1	|	
+setentry	1897	4	1005	105	40	143	42	85	2001	1	|	
+setentry	1898	4	1005	102	40	141	42	84	2001	1	|	
+setentry	1990	4	1005	5	40	12	42	6	2001	1	|	
+setentry	1991	4	1005	55	40	118	42	59	2001	1	|	
+setentry	1992	4	1005	95	40	138	42	81	2001	1	|	
+setentry	1993	4	1005	5	40	12	42	6	2001	1	|	
+setentry	1994	4	1005	55	40	118	42	59	2001	1	|	
+setentry	1995	4	1005	95	40	138	42	81	2001	1	|	
+setentry	1996	4	1005	5	40	12	42	6	2001	1	|	
+setentry	1997	4	1005	55	40	118	42	59	2001	1	|	
+setentry	1998	4	1005	95	40	138	42	81	2001	1	|	
+setentry	1999	4	1005	5	40	12	42	6	2001	1	|	
+setentry	2000	4	1005	55	40	118	42	59	2001	1	|	
+setentry	2001	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2002	4	1005	5	40	12	42	6	2001	1	|	
+setentry	2003	4	1005	55	40	118	42	59	2001	1	|	
+setentry	2004	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2005	4	1005	5	40	12	42	6	2001	1	|	
+setentry	2006	4	1005	55	40	118	42	59	2001	1	|	
+setentry	2007	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2010	4	1005	5	40	12	42	6	2001	1	|	
+setentry	2011	4	1005	55	40	118	42	59	2001	1	|	
+setentry	2012	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2013	4	1005	5	40	12	42	6	2001	1	|	
+setentry	2014	4	1005	55	40	118	42	59	2001	1	|	
+setentry	2015	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2016	4	1005	3	40	7	42	3	2001	1	|	
+setentry	2017	4	1005	55	40	118	42	59	2001	1	|	
+setentry	2018	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2020	4	1005	3	40	7	42	3	2001	1	|	
+setentry	2021	4	1005	18	40	45	42	22	2001	1	|	
+setentry	2022	4	1005	39	40	74	42	48	2001	1	|	
+setentry	2023	4	1005	40	40	75	42	50	2001	1	|	
+setentry	2024	4	1005	75	40	128	42	71	2001	1	|	
+setentry	2025	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2026	4	1005	40	40	75	42	50	2001	1	|	
+setentry	2027	4	1005	75	40	128	42	71	2001	1	|	
+setentry	2028	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2500	4	1005	40	40	75	42	50	2001	1	|	
+setentry	2501	4	1005	75	40	128	42	71	2001	1	|	
+setentry	2502	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2503	4	1005	40	40	75	42	50	2001	1	|	
+setentry	2504	4	1005	75	40	128	42	71	2001	1	|	
+setentry	2505	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2506	4	1005	40	40	75	42	50	2001	1	|	
+setentry	2507	4	1005	75	40	128	42	71	2001	1	|	
+setentry	2508	4	1005	95	40	138	42	81	2001	1	|	
+setentry	2600	4	1005	4	40	10	42	5	2001	1	|	
+setentry	2601	4	1005	8	40	20	42	10	2001	1	|	
+setentry	2602	4	1005	16	40	40	42	20	2001	1	|	
+setentry	2603	4	1005	24	40	55	42	30	2001	1	|	
+setentry	2604	4	1005	35	40	68	42	43	2001	1	|	
+setentry	2605	4	1005	45	40	90	42	53	2001	1	|	
+setentry	2606	4	1005	60	40	120	42	62	2001	1	|	
+setentry	2607	4	1005	75	40	128	42	71	2001	1	|	
+setentry	2608	4	1005	88	40	134	42	78	2001	1	|	
+setentry	2609	4	1005	93	40	137	42	80	2001	1	|	
+
+//Brainimplants	
+
+// exp. MindControl CPU 1-3	
+setentry 	2170	1	1002	25	|	
+setentry 	2171	1	1002	61	|	
+setentry 	2172	1	1002	76	|	
+
+// Drone Distance Interface 1-3	
+setentry	2173	1	1002	10	|	
+setentry	2174	1	1002	37	|	
+setentry	2175	1	1002	65	|	
+
+// PSI-Controler 1-3	
+setentry	2200	1	1005	4	|	
+setentry	2201	1	1005	29	|	
+setentry	2202	1	1005	54	|	
+
+// PSI-Attack-Chip 1-3	
+setentry	2203	1	1005	16	|	
+setentry	2204	1	1005	41	|	
+setentry	2205	1	1005	66	|	
+
+// Defensiv-PSI-Processor 1-3	
+setentry	2206	1	1005	17	|	
+setentry	2207	1	1005	42	|	
+setentry	2208	1	1005	67	|	
+
+// Defensiv-PSI-Field 1-3	
+setentry	2209	1	1005	8	|	
+setentry	2210	1	1005	33	|	
+setentry	2211	1	1005	58	|	
+
+//PSI-Resistor 1-3	
+setentry	2212	1	1005	12	|	
+setentry	2213	1	1005	37	|	
+setentry	2214	1	1005	62	|	
+
+//Experimental-PSI-Controler 1-3	
+setentry	2215	1	1005	25	|	
+setentry	2216	1	1005	50	|	
+setentry	2217	1	1005	75	|	
+
+//Targetingcomputer 1-3	
+setentry	2218	1	1002	6	|	
+setentry	2219	1	1002	33	|	
+setentry	2220	1	1002	61	|	
+
+//Meelee-Experiencememorey 1-3	
+setentry	2221	1	1001	5	|	
+setentry	2222	1	1001	30	|	
+setentry	2223	1	1001	55	|	
+
+// Distance-Weapon-CPU 1-3	
+setentry	2224	1	1002	10	|	
+setentry	2225	1	1002	37	|	
+setentry	2226	1	1002	65	|	
+
+//Berserk-Chip 1-3	
+setentry	2227	1	1001	18	|	
+setentry	2228	1	1001	43	|	
+setentry	2229	1	1001	68	|	
+
+//Vehicleinterface 1-3	
+setentry	2230	1	1002	23	|	
+setentry	2231	1	1002	49	|	
+setentry	2232	1	1002	57	|	
+
+//Hackingcomputer 1-3	
+setentry	2233	1	1004	23	|	
+setentry	2234	1	1004	50	|	
+setentry	2235	1	1004	78	|	
+
+//Construction Chipp 1-3	
+setentry	2236	1	1004	19	|	
+setentry	2237	1	1004	46	|	
+setentry	2238	1	1004	74	|	
+
+//Advanced Movement Controler 1-3	
+setentry	2239	1	1003	21	|	
+setentry	2240	1	1003	47	|	
+setentry	2241	1	1003	70	|	
+
+//Balanceadvancer 1-3	
+setentry	2242	1	1002	19	|	
+setentry	2243	1	1002	32	|	
+setentry	2244	1	1002	52	|	
+
+//Experimental Balisticweaponchip 1-3	
+setentry	2245	1	1002	31	|	
+setentry	2246	1	1002	61	|	
+setentry	2247	1	1002	74	|	
+
+//Marine's Weaponchip	
+setentry	2248	1	1001	81	|	
+
+// Special Force's CPU	
+setentry	2249	1	1002	83	|	
+
+//PSI-Core Chip	
+setentry	2250	1	1005	82	|	
+
+//SuperSience Chip	
+setentry	2301	1	1004	84	|	
+
+//Neural-Advancement 1-3	
+setentry	2251	1	1004	10	|	
+setentry	2252	1	1004	41	|	
+setentry	2253	1	1004	69	|	
+
+//Motoric Chip 1-3	
+setentry	2254	1	1002	15	|	
+setentry	2255	1	1002	36	|	
+setentry	2256	1	1002	53	|	
+
+//PSI-Memory-Chip 1-3	
+setentry	2257	1	1005	21	|	
+setentry	2258	1	1005	46	|	
+setentry	2259	1	1005	71	|	
+
+//Hackingcomputer 1-3	
+setentry	2270	1	1002	23	|	
+setentry	2271	1	1002	50	|	
+setentry	2272	1	1002	78	|	
+
+//psi charger	
+setentry	2310	1	1005	1	|	
+
+//Special Rigger Interface	
+setentry	2311	1	1002	88	|	
+
+//AREA MC5	
+//Marine's Weaponchip	
+setentry	2324	1	1001	95	|	
+// Special Force's CPU	
+setentry	2325	1	1002	90	|	
+//PSI-Core Chip	
+setentry	2326	1	1005	95	|	
+//SuperSience Chip	
+setentry	2327	1	1004	95	|	
+//Riggers Dream	
+setentry	2328	1	1002	100	|	
+
+// MACHINA GLOVES	
+setentry	2350	1	1004	60	|	
+setentry	2351	1	1004	60	|	
+setentry	2352	1	1002	60	|	
+setentry	2353	1	1004	60	|	
+setentry	2354	1	1002	60	|	
+
+// specialdungeon Items	
+
+// Bat Queen Chestenforcement	
+setentry	8050	1	1001	50	|	
+// Bat Queen Armenforcement	
+setentry	8051	1	1001	45	|	
+
+//Viper King Armor	
+setentry	8150	1	1001	60	|	
+//Titan Armor	
+setentry	8250	1	1001	55	|	
+
+//Epicrunn	
+//psi charger	
+setentry	9014	1	1005	40	|	
+//copbot powarmor	
+setentry	9055	2	1001	40	2002	1	|	
+
+//Faction Specific Items	
+setentry	466	4	2002	1	1001	110	2	120	12	87	|	
+setentry	467	4	2002	15	1001	115	2	122	12	89	|	
+
+//Hacknet Items	
+//Energy Packs	
+setentry	11881	1	2030	1	|	
+setentry	11882	1	2030	1	|	
+setentry	11883	1	2030	1	|	
+
+//High Energy Packs	
+setentry	11886	1	2030	1	|	
+setentry	11887	1	2030	1	|	
+setentry	11888	1	2030	1	|	
+
+
+// codebreaker	
+setentry	11950	1	2030	1	|	
+setentry	11951	1	2030	1	|	
+
+
+
+//faction rewards	
+//ca	
+setentry	10600	3	2002	1	2	42	10	76	|	
+//next	
+setentry	10601	1	2002	3	|	
+//dre	
+setentry	10602	1	2002	2	|	
+//tangent	
+setentry	10603	1	2002	4	|	
+//bt	
+setentry	10604	2	2002	5	1004	69	|	
+//pp	
+setentry	10605	2	2002	6	1003	53	|	
+//cm	
+setentry	10606	3	2002	11	1002	61	11	92	|	
+//ts	
+setentry	10607	1	2002	8	|	
+//bd	
+setentry	10608	3	2002	9	1001	46	2	80	|	
+//crahn	
+setentry	10609	1	2002	10	|	
+//fa	
+setentry	10610	2	2002	14	30	120	|	
+//tg	
+setentry	10611	4	2002	15	1001	87	2	77	12	108	|	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

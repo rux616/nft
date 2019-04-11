@@ -1,0 +1,113 @@
+// PAGE INFO ////////////////////////////////////////////////////////////////////////////
+// gmtool: content - service\mail_allchars.tsc
+// access-level 40 (ISW)
+// content:
+// gm can create mails for all characters
+
+// COORD INFO ///////////////////////////////////////////////////////////////////////////
+// page: 640 x 448 (starting at y = 32)
+// content:
+// X: 50 - 571 (windows) -> 48/573 for buttons
+// Y: 40 - 408 (windows) -> 366 if you have a button row
+// Specials: GM_COMMANDS: X: 471 - 571
+// Specials: GM_COMMANDS: Logo Size(471, 40, 571, 120)
+// Specials: GM_CONTENT: X: 50 - 447 (10 pixels extra space)
+
+// SUBMENU //////////////////////////////////////////////////////////////////////////////
+
+#include ".\terminal\common\submenu_gmservice.tsc"
+
+// MAIN CONTROLS ////////////////////////////////////////////////////////////////////////
+
+	DATACONTROLBOX "ENV_CONTROL"
+	{
+		OnLoad( SetEnv("ENV_START", "0") );
+		OnLoad( SetEnv("ENV_LIMIT", "20") );
+		//OnLoad( SetEnv("ENV_BACK", ".\terminal\gmtool\service\mail_allchars.tsc") );
+	}
+	
+	DATACONTROLBOX "DCBGMChecker"
+	{
+		OnLoad( TryAccess("DCBGMLinker", 340, GetEnv("G_CHARID") ) );
+	}
+	
+	DATACONTROLBOX "DCBGMLinker"
+	{
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_040") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+	
+	DATACONTROLBOX "DCBGMMessenger"
+	{
+		OnAccess( ChangePage("Page", ".\terminal\gmtool\service\mail_root.tsc" );
+		
+		OnAccessError( SetEnv("ENV_MSG", GetEnv("MSG_040") ) );
+		OnAccessError( ChangePage("Page", ".\terminal\gmtool\message.tsc" ) );
+	}
+
+// HEADER ///////////////////////////////////////////////////////////////////////////////
+
+	BUTTON "NCN GMTOOL"
+	{
+		LayOut(2);
+		Size(471, 40, 571, 120);
+		Color( 140, 239, 181);
+		Alpha(255);
+		SubImage( 19, 0, 225, 138);
+		"1";
+		FunctionText("%BITMAP(45, 1, 3)" );
+	}
+
+	FRAME "COMMANDS"
+	{
+		LayOut(2);
+		Size(471, 142, 571, 408);
+		
+		TEXTBUTTON "SUBMIT"
+		{
+			Layout(5);
+			Size(0, 0, 100, 20);
+			OnMouse( UpdateDB("DCBGMMessenger", 427, GetEnv("G_CHARID"), GetEnv("G_TIMESTAMP"), GetControlText("Subject"), GetControlText("Message") ) );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+		
+		TEXTBUTTON "BACK"
+		{
+			LayOut(5);
+			Size(0, 246, 100, 266);
+			OnMouse( ChangePage("Page", ".\terminal\gmtool\service\mail_root.tsc") );
+			OnMouse( PlaySound(Resource(16, 1) ) );
+		}
+
+	}
+
+// CONTENT //////////////////////////////////////////////////////////////////////////////
+
+	TEXT "To"
+	{
+		Layout(2);
+		Size(50, 40, 447, 52);
+		"GM-Mail: To all";
+	}
+	
+	EDITBOX "Subject"
+	{
+		Layout(2);
+		Size(50, 74, 447, 86);
+		MaxBuffer(127);
+	}
+	
+	EDITBOX "Message"
+	{
+		Layout(2);
+		Size(50, 108, 447, 408);
+		Params(Multiline);
+		MaxBuffer(2048);
+	}
+	
+	DATACONTROLBOX "DCBSetSubjectInitString"
+	{
+		OnLoad( SetContent("Subject", "GM Message: " ) );
+	}
+
+// BUTTONS //////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,30 @@
+function DIALOG()
+
+	NODE(0)
+		SAY("Bzzzzzzzzzt. Boooonnnnnnn jouuuuuuuuuuuuuurrrrrrr. Brrrrzt")
+		ANSWER("J'ai eu peur!",1)
+		ANSWER("Bonjour, j'ai une question.",2)				
+		ANSWER("Euh... je m'en vais.",3)
+	NODE(1)
+		SAY("Krrrzzzzt peuuuuurrrr? Donnée inconnue, recherche dans la base de données en cours... *bzz* Aucune donnée relative à peuuuuurrrr. Veuillez poursuivre.")
+		ENDDIALOG()
+	NODE(2)
+		SAY("Que puis-je faire pour vouuuuuuuuuuuuuusss?")
+		ANSWER("Vous êtes... quoi?",4)
+		ANSWER("C'est quoi cet endroit?",5)
+		ANSWER("J'ai changé d'avis...",3)			
+	NODE(3)
+		SAY("zzzzzzzzzzzT  Au revoiiiiiiiir *crack*")
+		ENDDIALOG()
+
+	NODE(4)
+		SAY("SSSSSSSSSsssssssssssécuritééééééééé Version 2, 18917 Statut : Online")
+		ANSWER("Euh... super. J'ai une autre question...",2)
+		ANSWER("Silence!",3)
+		
+	NODE(5)
+		SAY("Test baaaaaaaaaaaseeee de donnééééées *bzzt* Donnée enregistrée. Endroit : Marché technologique. Dome d'York")
+		ANSWER("Merci. J'ai une autre question!",2)
+		ANSWER("Je... vais m'en aller.",3)
+
+end

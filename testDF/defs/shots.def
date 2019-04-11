@@ -1,0 +1,358 @@
+
+
+
+setentry	0	1	10	5	4000	0	-10	|	
+
+setentry	1	201	20	5	8000	0	-17	|	
+
+setentry	2	211	10	5	4000	0	-18	|	
+
+setentry	3	221	500	550	750	0	-15	|	
+
+setentry	4	231	200	5	10000	0	-16	|	
+
+setentry	5	251	200	400	1000	0	-9	|	
+
+setentry	6	241	30	150	3500	0	-30	|	
+
+setentry	7	261	200	350	2000	0	-34	|	
+
+setentry	8	271	10	5	99000	0	0	|	
+
+setentry	9	272	10	5	6000	0	1	"light_laser_shot"	"laser_hit"	|	
+
+setentry	10	11	300	400	1000	0	0	|	
+
+setentry	11	2025	0	150	1500	0	0	|	
+
+setentry	12	13	1000	400	6000	0	-213	|	
+
+setentry	13	282	20	150	250	0	0	|	
+
+setentry	14	291	10	5	700	0	0	|	
+
+setentry	15	16	10	400	99000	0	0	|	
+
+
+
+
+setentry	16	1800	1	150	0	0	0	|	
+
+setentry	17	1810	1	150	0	0	0	|	
+
+setentry	18	1805	1	150	0	0	0	|	
+
+setentry	19	1805	1	150	0	0	0	|	
+
+setentry	20	1805	1	100	0	0	0	|	
+
+
+
+setentry	21	200	1	100	0	0	-519	|	
+
+setentry	22	201	1	200	1800	0	-520	|	
+
+setentry	23	221	100	200	800	0	-521	|	
+
+setentry	24	2030	2	5	3000	0	-523	|	
+
+setentry	25	221	1000	600	600	0	-524	|	
+
+setentry	26	221	1	300	1000	0	-525	|	
+
+setentry	27	267	30	50	3500	0	-220	|	
+
+setentry	28	226	100	200	800	0	-528	|	
+
+setentry	29	227	100	5	800	0	-529	|	
+
+setentry	30	241	30	60	1800	0	-526	|	
+
+setentry	31	241	30	5	2800	0	-527	|	
+
+setentry	32	241	30	500	1500	0	-219	|	
+
+setentry	33	11	300	400	1000	0	0	|	
+
+setentry	34	11	300	400	1000	0	0	|	
+
+setentry	35	225	500	150	750	0	-521	|	
+
+setentry	36	267	10	5	99000	0	0	|	
+
+setentry	37	47	10	5	700	0	0	|	
+
+setentry	38	228	100	150	600	0	-530	|	
+
+setentry	39	229	100	180	1000	0	-531	|	
+
+
+setentry	56	261	400	800	200	0	7	"v_bomber_shot"	"v_bomber_hit"	|	
+
+setentry	57	261	200	350	3000	0	7	"v_bomber_shot"	"v_bomber_hit"	|	
+
+setentry	58	1700	500	250	750	3	1	"atest_1_shot"	"atest_1_hit"	|	
+setentry	59	1701	500	250	750	3	1	"atest_2_shot"	"atest_2_hit"	|	
+
+
+
+
+setentry	40	1820	120	60	750	5	1	"energy_ball_1_shot"	"energy_ball_1_hit"	|	
+setentry	41	1820	150	90	750	5	1	"energy_ball_2_shot"	"energy_ball_2_hit"	|	
+setentry	42	1820	180	120	500	5	3	"energy_ballgranade_1_shot"	"energy_ballgranade_1_hit"	|	
+setentry	43	1820	240	150	500	5	3	"energy_ballgranade_2_shot"	"energy_ballgranade_2_hit"	|	
+setentry	44	1820	120	120	8000	5	5	"energy_lance_1_shot"	"energy_lance_1_hit"	|	
+setentry	45	1820	150	180	8000	5	5	"energy_lance_2_shot"	"energy_lance_2_hit"	|	
+setentry	46	1820	150	210	1000	5	6	""	"energy_beam"	|	
+setentry	47	1820	90	220	1000	5	4	"energy_field_1"	""	|	
+setentry	48	1820	120	320	1000	5	4	"energy_field_2"	""	|	
+setentry	49	1820	60	300	1000	5	6	""	"energy_ring_1"	|	
+setentry	50	1820	90	360	1000	5	6	""	"energy_ring_2"	|	
+
+
+setentry	60	1805	90	60	750	14	1	"fire_ball_1_shot"	"fire_ball_1_hit"	|	
+setentry	61	1805	120	90	750	14	1	"fire_ball_2_shot"	"fire_ball_2_hit"	|	
+setentry	62	1805	150	120	500	14	3	"fire_ballgrandade_1_shot"	"fire_ballgrandade_1_hit"	|	
+setentry	63	1805	210	150	500	14	3	"fire_ballgrandade_2_shot"	"fire_ballgrandade_2_hit"	|	
+setentry	64	1805	90	120	8000	14	5	"fire_lance_1_shot"	"fire_lance_1_hit"	|	
+setentry	65	1805	120	180	8000	14	5	"fire_lance_2_shot"	"fire_lance_2_hit"	|	
+setentry	66	1805	120	210	1000	14	6	""	"fire_beam"	|	
+setentry	67	1805	60	220	1000	14	4	"fire_field_1"	""	|	
+setentry	68	1805	90	320	1000	14	4	"fire_field_2"	""	|	
+setentry	69	1805	30	300	1000	14	6	""	"fire_ring_1"	|	
+setentry	70	1805	60	360	1000	14	6	""	"fire_ring_2"	|	
+
+setentry	71	1805	120	90	750	14	1	"fire_ball_2_shot"	"fire_beam"	|	
+
+
+setentry	80	1810	150	60	750	5	1	"ice_ball_1_shot"	"ice_ball_1_hit"	|	
+setentry	81	1810	180	90	750	5	1	"ice_ball_2_shot"	"ice_ball_2_hit"	|	
+setentry	82	1810	210	120	500	5	3	"ice_ballgranade_1_shot"	"ice_ballgranade_1_hit"	|	
+setentry	83	1810	270	150	500	5	3	"ice_ballgranade_2_shot"	"ice_ballgranade_2_hit"	|	
+setentry	84	1810	150	120	8000	5	5	"ice_lance_1_shot"	"ice_lance_1_hit"	|	
+setentry	85	1810	180	180	8000	5	5	"ice_lance_2_shot"	"ice_lance_2_hit"	|	
+setentry	86	1810	180	210	1000	5	6	""	"ice_beam"	|	
+setentry	87	1810	120	220	1000	5	4	"ice_field_1"	""	|	
+setentry	88	1810	150	320	1000	5	4	"ice_field_2"	""	|	
+setentry	89	1810	90	300	1000	5	6	""	"ice_ring_1"	|	
+setentry	90	1810	120	360	1000	5	6	""	"ice_ring_2"	|	
+
+
+setentry	100	1800	90	60	750	5	1	"poison_ball_1_shot"	"poison_ball_1_hit"	|	
+setentry	101	1800	120	90	750	5	1	"poison_ball_2_shot"	"poison_ball_2_hit"	|	
+setentry	102	1800	150	120	500	5	3	"poison_ballgranade_1_shot"	"poison_ballgranade_1_hit"	|	
+setentry	103	1800	210	150	500	5	3	"poison_ballgranade_2_shot"	"poison_ballgranade_2_hit"	|	
+setentry	104	1800	90	120	8000	5	5	"poison_lance_1_shot"	"poison_lance_1_hit"	|	
+setentry	105	1800	120	180	8000	5	5	"poison_lance_2_shot"	"poison_lance_2_hit"	|	
+setentry	106	1800	120	210	1000	5	6	""	"poison_beam"	|	
+setentry	107	1800	60	220	1000	5	4	"poison_field_1"	""	|	
+setentry	108	1800	90	320	1000	5	4	"poison_field_2"	""	|	
+setentry	109	1800	30	300	1000	5	6	""	"poison_ring_1"	|	
+setentry	110	1800	60	360	1000	5	6	""	"poison_ring_2"	|	
+
+
+
+setentry	118	1533	500	240	800	0	3	"turretari_shot"	"hoverbomber_hit"	|	
+
+setentry	119	1	10	60	4000	0	1	"sbullet_shot"	"sbullet_hit"	|	
+
+setentry	120	1	10	60	5000	0	1	"bullet_shot"	"bullet_hit"	|	
+
+setentry	121	271	1	90	99000	0	5	"laser_shot"	"laser_hit"	|	
+
+setentry	122	241	20	120	3000	0	1	"plasma_shot"	"plasma_hit"	|	
+
+setentry	123	272	1	90	99000	0	5	"fast_laser_shot"	"laser_hit"	|	
+
+setentry	155	2200	90	10	10000	3	1	"TH_Turret_1_shot"	"TH_Turret_1_hit"	|	
+
+
+
+
+
+setentry	124	1587	1	180	99000	0	5	"ip_beam_shot"	"ip_beam_hit"	|	
+
+
+setentry	125	1533	500	120	800	0	3	"hoverbomber_shot"	"hoverbomber_hit"	|	
+
+
+setentry	126	2025	50	20	300	0	3	"lizard_shot"	"lizard_hit"	|	
+
+
+setentry	127	12	20	60	800	0	1	"scorpion_bg_shot"	"scorpion_bg_hit"	|	
+
+
+setentry	128	12	1	120	700	0	3	"spider_big_shot"	"spider_big_hit"	|	
+
+
+setentry	129	12	1	160	700	0	3	"cavespider_big_shot"	"cavespider_big_hit"	|	
+
+
+setentry	130	12	1	180	700	0	3	"poisonspider_big_shot"	"poisonspider_big_hit"	|	
+
+
+setentry	131	12	1	180	700	0	3	"brownspider_big_shot"	"brownspider_big_hit"	|	
+
+
+setentry	132	2045	200	180	600	0	1	"dragon_shot"	"dragon_hit"	|	
+
+
+setentry	133	2030	20	60	300	0	1	"dragonfly_shot"	"dragonfly_hit"	|	
+
+
+setentry	134	2012	1	20	300	0	1	"mbot_fly_shot"	"mbot_fly_hit"	|	
+
+
+setentry	135	2045	1	180	300	0	1	""	"dustring"	|	
+
+
+setentry	136	2042	1	20	300	0	1	"mbot_fly_shot"	"mbot_shockwave_bg"	|	
+
+
+setentry	137	1588	20	140	12000	0	5	"laser_blue_bg_shot"	"laser_blue_bg_hit"	|	
+
+
+
+setentry	138	1643	50	140	99000	0	5	"ip_beam_shot"	"ice_ball_1_hit"	|	
+
+
+setentry	139	1634	500	120	2000	0	1	"hoverbot_shot"	"hoverbot_hit"	|	
+
+
+setentry	140	2030	20	20	2000	0	1	"dragonfly_shot"	"dragonfly_hit"	|	
+
+
+setentry	141	2025	20	20	600	0	1	"plant_shot"	"plant_hit"	|	
+
+
+setentry	142	1805	10	10	800	0	1	"scorpions_shot"	"scorpions_hit"	|	
+
+
+setentry	143	1806	20	20	800	0	1	"scorpionm_shot"	"scorpionm_hit"	|	
+
+
+setentry	144	1806	30	60	800	0	1	"scorpionx_shot"	"scorpionx_hit"	|	
+
+
+setentry	145	1806	30	120	800	0	3	"scorpionxa_shot"	"scorpionxa_hit"	|	
+
+
+setentry	146	1807	40	180	800	0	3	"scorpionxl_shot"	"scorpionxl_hit"	|	
+
+
+setentry	147	1800	150	120	2000	5	1	"poison_ballgranade_1_shot"	"poison_ballgranade_1_hit"	|	
+
+
+setentry	148	1800	210	150	3000	5	1	"poison_ballgranade_2_shot"	"poison_ballgranade_2_hit"	|	
+
+
+setentry	149	1800	90	120	8000	5	1	"poison_lance_1_shot"	"poison_lance_1_hit"	|	
+
+
+setentry	150	1650	60	10	1000	5	6	""	"cobotshot_hit"	|	
+
+
+setentry	151	2030	20	20	600	0	1	"plant_shot"	"plant_hit"	|	
+
+
+
+setentry	160	1588	1	80	12000	5	5	"v_laser_tank_shot"	"v_laser_tank_hit"	|	
+
+setentry	161	1820	200	100	750	0	1	"v_trackjeep_shot"	"v_trackjeep_hit"	|	
+
+
+setentry	171	2100	30	200	1500	3	1	"DoY_gatlin_1_shot"	"DoY_gatlin_1_hit"	|	
+setentry	172	2101	60	200	1350	3	1	"DoY_gatlin_2_shot"	"DoY_gatlin_2_hit"	|	
+
+setentry	173	2101	40	200	700	3	1	"neutron_1_shot"	"neutron_1_hit"	|	
+setentry	174	2101	60	200	700	3	1	"neutron_2_shot"	"neutron_2_hit"	|	
+
+
+setentry	175	2200	90	10	1500	3	1	"TH_Turret_1_shot"	"TH_Turret_1_hit"	|	
+
+
+
+
+setentry	177	1770	10	5	10000	0	-18	""	""	|	
+setentry	181	2305	10	5	700	3	1	"neutron_1_shot"	"neutron_1_hit"	|	
+
+setentry	200	1771	10	5	4000	0	-18	|	
+
+setentry	201	1772	10	5	10000	0	-18	""	""	|	
+
+setentry	202	1773	1	90	99000	0	5	"laser_shot"	"laser_hit"	|	
+
+setentry	203	1774	30	150	3500	0	-30	""	""	|	
+
+setentry	204	1774	30	60	1800	0	-526	""	""	|	
+
+setentry	205	1775	200	400	1000	0	-9	|	
+
+setentry	206	1776	1	80	12000	5	5	"v_laser_tank_shot"	"v_laser_tank_hit"	|	
+
+setentry	207	1777	1	80	12000	5	5	"v_laser_tank_shot"	"v_laser_tank_hit"	|	
+
+setentry	208	1774	30	500	1500	0	-219	|	
+
+setentry	209	1778	30	500	1500	0	-219	|	
+
+
+
+
+setentry	180	2300	120	180	8000	5	6	"poison_lance_2_shot"	"poison_lance_2_hit"	|	
+
+setentry	181	2305	10	5	99000	0	1	"neutron_1_shot"	"neutron_1_hit"	|	
+
+
+
+setentry	210	2310	1	5	4000	3531	5	"hn_blue_1_shot"	"hn_blue_1_hit"	|	
+setentry	211	2311	1	10	4000	3530	5	"hn_blue_2_shot"	"hn_blue_2_hit"	|	
+setentry	212	2312	1	15	4000	3534	5	"hn_blue_3_shot"	"hn_blue_3_hit"	|	
+setentry	213	2313	1	20	4000	3535	5	"hn_blue_4_shot"	"hn_blue_4_hit"	|	
+
+setentry	215	2310	1	5	4000	3531	5	"hn_green_1_shot"	"hn_green_1_hit"	|	
+setentry	216	2311	1	10	4000	3530	5	"hn_green_2_shot"	"hn_green_2_hit"	|	
+setentry	217	2312	1	15	4000	3534	5	"hn_green_3_shot"	"hn_green_3_hit"	|	
+setentry	218	2313	1	20	4000	3535	5	"hn_green_4_shot"	"hn_green_4_hit"	|	
+
+setentry	220	2310	1	5	4000	3531	5	"hn_orange_1_shot"	"hn_orange_1_hit"	|	
+setentry	221	2311	1	10	4000	3530	5	"hn_orange_2_shot"	"hn_orange_2_hit"	|	
+setentry	222	2312	1	15	4000	3534	5	"hn_orange_3_shot"	"hn_orange_3_hit"	|	
+setentry	223	2313	1	20	4000	3535	5	"hn_orange_4_shot"	"hn_orange_4_hit"	|	
+
+setentry	225	2310	1	5	4000	3531	5	"hn_white_1_shot"	"hn_white_1_hit"	|	
+setentry	226	2311	1	10	4000	3530	5	"hn_white_2_shot"	"hn_white_2_hit"	|	
+setentry	227	2312	1	15	4000	3534	5	"hn_white_3_shot"	"hn_white_3_hit"	|	
+setentry	228	2313	1	20	4000	3535	5	"hn_white_4_shot"	"hn_white_4_hit"	|	
+
+setentry	230	2102	40	60	700	0	4	"DoY_tesla_load.fx"	"DoY_nuke_1.fx"	|	
+setentry	231	2103	60	200	99000	0	1	"neutron_3_shot"	"neutron_3_hit"	|	
+setentry	232	2104	100	400	650	0	1	"neutron_rocket_1a_shot"	"neutron_rocket_1_hit"	|	
+
+setentry	233	2315	150	15	800	0	-521	|	
+/*	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
